@@ -547,7 +547,40 @@
                 display: block;
             }
         }
+
+.announcement-list {
+    margin: 20px 0;
+}
+
+
+.announcement-card {
+    background-color: #ffffff;
+    border: 1px solid #b8daff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 4px rgba(0,64,128,0.1);
+}
+
+.announcement-card:last-child {
+    margin-bottom: 0;
+}
+
+
+.announcement-header {
+    color: #004085;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.announcement-header i {
+    margin-right: 8px;
+}
     </style>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -821,14 +854,17 @@
             <div style="text-align: center; margin: 50px 0;">
                 <h3 style="font-size: 2.5rem; color: #4a6ee0;" class="home-title"><span>探索未来，</span><span>未来已来。</span></h3>
             </div>
-            <div class="announcement">
-                <h3><i class="fab fa-tencent-weibo"></i> 公告</h3>
-                <div id="announcement-content">
-                    <p>XCUBING网站正式上线运行，网站目前提供WCA赛事的赛季、现役、省市、综合排名及省市纪录功能，对具体页面的功能若有疑问可点击问号图标，诚挚欢迎广大魔友积极体验并对网站在页面显示、功能使用等方面存在的问题和不足提出宝贵意见和建议。如您在访问网站过程中发现任何错误、故障，请及时通过以下方式反馈：</p>
-                    <p>作者邮箱：xcubing@qq.com。</p>
-                </div>
 
-            </div>
+ </div>
+        <div class="announcement-list">
+<div class="announcement">
+<h3>关于省市信息</h3>
+            <div class="announcement-card"><p>2018年5月粗饼网取消选手所在城市显示，由于现在已无法从粗饼网获取选手城市，故而此后的选手在本站被作者归入了不存在的神手谷。<p>目前使用的选手省市信息源自魔友赵吉波在取消前爬取的数据，非常感谢前辈留下的数据。<p></div>
+<h3>网站上线</h3>
+            <div class="announcement-card"><p>XCUBING网站正式上线运行，网站目前提供WCA赛事的赛季、现役、省市、综合排名及省市纪录功能，对具体页面的功能若有疑问可点击问号图标，诚挚欢迎广大魔友积极体验并对网站在页面显示、功能使用等方面存在的问题和不足提出宝贵意见和建议。如您在访问网站过程中发现任何错误、故障，请及时通过以下方式反馈：</p>
+                    <p>作者邮箱：xcubing@qq.com。</p></div>
+            <!-- 如需添加新公告，只需在此处新增一个 announcement-card 即可 -->
+        </div>
         `;
     }
 
