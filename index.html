@@ -717,8 +717,24 @@
         return formatResultForSort(timeStr);
     }
 
+
+    function parseMBF(resultStr) {
+        if (!resultStr || resultStr === 'DNF' || resultStr === '暂无') return null;
+        const match = String(resultStr).match(/^(\d+)\/(\d+)\s+(\d+):(\d+(?:\.\d+)?)$/);
+        if (!match) return null;
+        const success = parseInt(match[1], 10);
+        const attempts = parseInt(match[2], 10);
+        const minutes = parseInt(match[3], 10);
+        const seconds = parseFloat(match[4]);
+        const timeSeconds = minutes * 60 + seconds;
+        const fail = attempts - success;
+        return { success, attempts, fail, timeSeconds };
+    }
+
     function formatResult(resultStr) {
         if (!resultStr || resultStr === 'DNF' || resultStr === '暂无') return '暂无';
+
+        if (typeof resultStr === 'string' && resultStr.includes('/') && resultStr.includes(':')) return resultStr;
         if (/^\d+$/.test(String(resultStr).trim())) {
             return resultStr;
         }
@@ -759,27 +775,67 @@
         return name;
     }
 
-    function recomputeRanks(data) {
+    function recomputeRanks(data, project) {
         data = data.filter(item => item && item.result !== undefined);
-        console.log(`recomputeRanks: 过滤后数据 ${data.length} 条`);
-        data.sort((a,b) => parseTime(a.result) - parseTime(b.result));
-        let rank = 1, lastResult = null, sameCount = 0;
-        return data.map((item, idx) => {
-            const res = item.result;
-            if (idx === 0) {
-                lastResult = res;
-                return { ...item, rank: rank };
+        
+        if (project === '333mbf') {
+
+            data.sort((a, b) => {
+                const aParsed = parseMBF(a.result);
+                const bParsed = parseMBF(b.result);
+                const aValid = aParsed !== null;
+                const bValid = bParsed !== null;
+                if (!aValid && !bValid) return 0;
+                if (!aValid) return 1;      
+                if (!bValid) return -1;
+                const aScore = aParsed.success - aParsed.fail;
+                const bScore = bParsed.success - bParsed.fail;
+                if (aScore !== bScore) return bScore - aScore;   
+                if (aParsed.timeSeconds !== bParsed.timeSeconds) return aParsed.timeSeconds - bParsed.timeSeconds;
+                return aParsed.fail - bParsed.fail;
+            });
+        } else {
+            data.sort((a, b) => parseTime(a.result) - parseTime(b.result));
+        }
+
+
+        let rank = 1;
+        let sameCount = 0;
+        for (let i = 0; i < data.length; i++) {
+            const item = data[i];
+            if (i === 0) {
+                item.rank = rank;
+                continue;
             }
-            if (res === lastResult) {
+            let isSame = false;
+            if (project === '333mbf') {
+                const prevParsed = parseMBF(data[i-1].result);
+                const currParsed = parseMBF(item.result);
+                if (prevParsed && currParsed) {
+                    const prevScore = prevParsed.success - prevParsed.fail;
+                    const currScore = currParsed.success - currParsed.fail;
+                    isSame = (prevScore === currScore) &&
+                             (prevParsed.timeSeconds === currParsed.timeSeconds) &&
+                             (prevParsed.fail === currParsed.fail);
+                } else if (!prevParsed && !currParsed) {
+                    isSame = true;   
+                } else {
+                    isSame = false;
+                }
+            } else {
+                isSame = (item.result === data[i-1].result);
+            }
+
+            if (isSame) {
                 sameCount++;
-                return { ...item, rank: rank };
+                item.rank = rank;
             } else {
                 rank += 1 + sameCount;
                 sameCount = 0;
-                lastResult = res;
-                return { ...item, rank: rank };
+                item.rank = rank;
             }
-        });
+        }
+        return data;
     }
 
     function paginate(data, page, pageSize = 100) {
@@ -925,7 +981,7 @@
             console.log(`赛季数据性别筛选后: ${data.length}`);
             data = applyScopeFilter(data, continent, country);
             console.log(`赛季数据范围筛选后: ${data.length}`);
-            renderTable('season', data);
+            renderTable('season', data, project);
         } catch (e) {
             console.error(e);
             const tbody = document.getElementById('season-tbody');
@@ -990,7 +1046,7 @@
             console.log(`现役数据性别筛选后: ${data.length}`);
             data = applyScopeFilter(data, continent, country);
             console.log(`现役数据范围筛选后: ${data.length}`);
-            renderTable('active', data);
+            renderTable('active', data, project);
         } catch (e) {
             console.error(e);
             const tbody = document.getElementById('active-tbody');
@@ -1188,7 +1244,7 @@
                 data = data.filter(d => d.city === city);
                 console.log(`省市数据城市筛选后 (${city}): ${data.length}`);
             }
-            renderTable('region', data);
+            renderTable('region', data, project);
         } catch (e) {
             console.error(e);
             const tbody = document.getElementById('region-tbody');
@@ -1486,7 +1542,7 @@
                     }
                 });
 
-                const ranked = recomputeRanks(data);
+                const ranked = recomputeRanks(data, proj);
                 const rankMap = {};
                 ranked.forEach(item => {
                     rankMap[item.wcaid] = item.rank;
@@ -1759,54 +1815,89 @@
         for (let proj of PROJECT_LIST) {
             const singleBest = { value: Infinity, record: null };
             const avgBest = { value: Infinity, record: null };
+            const projCode = proj.code;
 
-            const singleList = state.record.rawDataByProject[proj.code]?.single || [];
-            singleList.forEach(item => {
-                if (item.province !== province) return;
-                if (city !== '全部城市' && item.city !== city) return;
-                if (gender !== 'all' && item.gender !== gender) return;
+            const singleList = state.record.rawDataByProject[projCode]?.single || [];
+            const avgList = state.record.rawDataByProject[projCode]?.average || [];
 
-                const val = parseTime(item.result);
-                if (val < singleBest.value) {
-                    singleBest.value = val;
-                    singleBest.record = {
-                        result: item.result,
-                        name: item.name,
-                        competition: item.competition,
-                        date: item.date,
-                        wcaid: item.wcaid
-                    };
-                } else if (val === singleBest.value && singleBest.record) {
-                    if (item.date && singleBest.record.date && item.date < singleBest.record.date) {
+            if (projCode === '333mbf') {
+                let bestScore = -Infinity, bestTime = Infinity, bestFail = Infinity;
+                singleList.forEach(item => {
+                    if (item.province !== province) return;
+                    if (city !== '全部城市' && item.city !== city) return;
+                    if (gender !== 'all' && item.gender !== gender) return;
+                    const parsed = parseMBF(item.result);
+                    if (!parsed) return;
+                    const score = parsed.success - parsed.fail;
+                    if (score > bestScore) {
+                        bestScore = score;
+                        bestTime = parsed.timeSeconds;
+                        bestFail = parsed.fail;
                         singleBest.record = { ...item };
+                    } else if (score === bestScore) {
+                        if (parsed.timeSeconds < bestTime) {
+                            bestTime = parsed.timeSeconds;
+                            bestFail = parsed.fail;
+                            singleBest.record = { ...item };
+                        } else if (parsed.timeSeconds === bestTime) {
+                            if (parsed.fail < bestFail) {
+                                bestFail = parsed.fail;
+                                singleBest.record = { ...item };
+                            } else if (parsed.fail === bestFail) {
+                                if (item.date && singleBest.record?.date && item.date < singleBest.record.date) {
+                                    singleBest.record = { ...item };
+                                }
+                            }
+                        }
                     }
-                }
-            });
-
-            const avgList = state.record.rawDataByProject[proj.code]?.average || [];
-            avgList.forEach(item => {
-                if (item.province !== province) return;
-                if (city !== '全部城市' && item.city !== city) return;
-                if (gender !== 'all' && item.gender !== gender) return;
-
-                const val = parseTime(item.result);
-                if (val < avgBest.value) {
-                    avgBest.value = val;
-                    avgBest.record = {
-                        result: item.result,
-                        name: item.name,
-                        competition: item.competition,
-                        date: item.date,
-                        wcaid: item.wcaid
-                    };
-                } else if (val === avgBest.value && avgBest.record) {
-                    if (item.date && avgBest.record.date && item.date < avgBest.record.date) {
-                        avgBest.record = { ...item };
+                });
+            } else {
+                singleList.forEach(item => {
+                    if (item.province !== province) return;
+                    if (city !== '全部城市' && item.city !== city) return;
+                    if (gender !== 'all' && item.gender !== gender) return;
+                    const val = parseTime(item.result);
+                    if (val < singleBest.value) {
+                        singleBest.value = val;
+                        singleBest.record = {
+                            result: item.result,
+                            name: item.name,
+                            competition: item.competition,
+                            date: item.date,
+                            wcaid: item.wcaid
+                        };
+                    } else if (val === singleBest.value && singleBest.record) {
+                        if (item.date && singleBest.record.date && item.date < singleBest.record.date) {
+                            singleBest.record = { ...item };
+                        }
                     }
-                }
-            });
+                });
+            }
+            if (projCode === '333mbf') {
+            } else {
+                avgList.forEach(item => {
+                    if (item.province !== province) return;
+                    if (city !== '全部城市' && item.city !== city) return;
+                    if (gender !== 'all' && item.gender !== gender) return;
+                    const val = parseTime(item.result);
+                    if (val < avgBest.value) {
+                        avgBest.value = val;
+                        avgBest.record = {
+                            result: item.result,
+                            name: item.name,
+                            competition: item.competition,
+                            date: item.date,
+                            wcaid: item.wcaid
+                        };
+                    } else if (val === avgBest.value && avgBest.record) {
+                        if (item.date && avgBest.record.date && item.date < avgBest.record.date) {
+                            avgBest.record = { ...item };
+                        }
+                    }
+                });
+            }
 
-            result[proj.code] = {
+            result[projCode] = {
                 single: singleBest.record,
                 average: avgBest.record
             };
@@ -2065,14 +2156,15 @@
         return data;
     }
 
-    function renderTable(page, data) {
+    // 修改 renderTable，增加 project 参数
+    function renderTable(page, data, project) {
         const tbody = document.getElementById(`${page}-tbody`);
         if (!tbody) {
             console.warn(`表格体 ${page}-tbody 不存在，无法渲染`);
             return;
         }
 
-        const ranked = recomputeRanks(data);
+        const ranked = recomputeRanks(data, project);
         console.log(`渲染表格 ${page}, 排名后数据条数: ${ranked.length}`);
 
         state.pagination.data = ranked;
