@@ -7,7 +7,6 @@
     <link rel="icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-
         * {
             margin: 0;
             padding: 0;
@@ -96,40 +95,40 @@
             .mobile-nav.show { display: flex; }
         }
 
-@media (max-width: 640px) {
-    .header {
-        padding: 12px 20px;
-    }
-    .logo-area {
-        gap: 6px;
-    }
-    .logo-area h1 {
-        font-size: 1.4rem;
-        white-space: nowrap;
-    }
-    .logo-area span {
-        font-size: 0.85rem;
-        white-space: nowrap;
-    }
-}
+        @media (max-width: 640px) {
+            .header {
+                padding: 12px 20px;
+            }
+            .logo-area {
+                gap: 6px;
+            }
+            .logo-area h1 {
+                font-size: 1.4rem;
+                white-space: nowrap;
+            }
+            .logo-area span {
+                font-size: 0.85rem;
+                white-space: nowrap;
+            }
+        }
 
-@media (max-width: 480px) {
-    .logo-area h1 {
-        font-size: 1.2rem;
-    }
-    .logo-area span {
-        font-size: 0.75rem;
-    }
-}
+        @media (max-width: 480px) {
+            .logo-area h1 {
+                font-size: 1.2rem;
+            }
+            .logo-area span {
+                font-size: 0.75rem;
+            }
+        }
 
-@media (max-width: 360px) {
-    .logo-area h1 {
-        font-size: 1rem;
-    }
-    .logo-area span {
-        font-size: 0.65rem;
-    }
-}
+        @media (max-width: 360px) {
+            .logo-area h1 {
+                font-size: 1rem;
+            }
+            .logo-area span {
+                font-size: 0.65rem;
+            }
+        }
         .content {
             padding: 30px;
         }
@@ -137,7 +136,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             border-bottom: 1px solid #e9ecef;
             padding-bottom: 12px;
         }
@@ -149,44 +148,16 @@
             align-items: center;
             gap: 10px;
         }
-        .tooltip-icon {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            background-color: #6c757d;
-            color: white;
-            font-size: 1rem;
-            cursor: pointer;
-            position: relative;
-        }
-        .tooltip-icon.active::after {
-            content: attr(data-tooltip);
-            position: absolute;
-            top: 30px;
-            left: 0;
-            background-color: #333;
-            color: #fff;
-            padding: 8px 12px;
-            border-radius: 4px;
-            white-space: nowrap;
-            font-size: 0.85rem;
-            z-index: 10;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-            animation: fadeOut 8s forwards;
-        }
-        @keyframes fadeOut {
-            0% { opacity: 1; }
-            80% { opacity: 1; }
-            100% { opacity: 0; display: none; }
-        }
-        @media (max-width: 768px) {
-            .tooltip-icon.active::after {
-                white-space: normal;
-                width: 200px;
-            }
+        /* 页面小字描述 */
+        .page-subtitle {
+            font-size: 0.9rem;
+            color: #4a6e80;
+            margin-bottom: 20px;
+            padding: 8px 15px;
+            line-height: 1.5;
+            background-color: #f0f7ff;
+            border-left: 4px solid #4a6ee0;
+            border-radius: 0 4px 4px 0;
         }
         .filter-section {
             display: flex;
@@ -439,7 +410,6 @@
         .footer a { color: #4a6ee0; text-decoration: none; }
         .hidden { display: none !important; }
 
-
         .loading-cell {
             text-align: center;
             padding: 40px 0;
@@ -468,7 +438,6 @@
             80%, 100% { content: '...'; }
         }
 
-
         .loading-indicator {
             text-align: center;
             padding: 30px;
@@ -482,7 +451,6 @@
         .loading-indicator i {
             margin-right: 10px;
         }
-
 
         .region-cell {
             background-color: #f0f7ff !important;
@@ -506,19 +474,16 @@
             text-align: left;
         }
 
-
         @media (max-width: 640px) {
             .table-container th,
             .table-container td {
                 padding: 8px 6px;
                 font-size: 0.8rem;
-  
                 white-space: nowrap;
                 max-width: none;
                 overflow: visible;
                 text-overflow: clip;
             }
-
 
             #season-table th,
             #season-table td,
@@ -534,14 +499,11 @@
                 text-overflow: clip !important;
             }
 
-
             #record-table th,
             #record-table td {
                 white-space: nowrap;
             }
         }
-
-
 
         .home-title {
             font-size: 2.5rem;
@@ -563,34 +525,32 @@
             }
         }
 
-.announcement-list {
-    margin: 20px 0;
-}
+        .announcement-list {
+            margin: 20px 0;
+        }
 
+        .announcement-card {
+            background-color: #ffffff;
+            border: 1px solid #b8daff;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 4px rgba(0,64,128,0.1);
+        }
 
-.announcement-card {
-    background-color: #ffffff;
-    border: 1px solid #b8daff;
-    border-radius: 8px;
-    padding: 12px 16px;
-    margin-bottom: 12px;
-    box-shadow: 0 2px 4px rgba(0,64,128,0.1);
-}
+        .announcement-card:last-child {
+            margin-bottom: 0;
+        }
 
-.announcement-card:last-child {
-    margin-bottom: 0;
-}
-
-
-.announcement-header {
-    color: #004085;
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-.announcement-header i {
-    margin-right: 8px;
-}
+        .announcement-header {
+            color: #004085;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .announcement-header i {
+            margin-right: 8px;
+        }
     </style>
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -626,7 +586,6 @@
 </div>
 
 <script>
-
     const state = {
         currentPage: 'home',
         meta: null,
@@ -660,13 +619,11 @@
             dataLoaded: false,
             loading: false
         },
-        pagination: { currentPage: 1, totalPages: 1, data: [] },
-        tooltipTimer: null
+        pagination: { currentPage: 1, totalPages: 1, data: [] }
     };
 
     const MUNICIPALITIES = ['北京', '上海', '重庆', '天津', '台湾', '香港', '澳门', '神手谷'];
 
- 
     const PROJECT_LIST = [
         {code:'333', name:'三阶'},{code:'222', name:'二阶'},{code:'444', name:'四阶'},{code:'555', name:'五阶'},
         {code:'666', name:'六阶'},{code:'777', name:'七阶'},{code:'333bf', name:'三盲'},{code:'333fm', name:'最少步'},
@@ -704,7 +661,7 @@
     function showPageLoading(page) {
         const tbody = document.getElementById(`${page}-tbody`);
         if (!tbody) return;
-        let colspan = 6; 
+        let colspan = 6; // 默认
         if (page === 'region') {
             colspan = 7;
         } else if (page === 'season' || page === 'active') {
@@ -747,6 +704,7 @@
 
     function formatResult(resultStr) {
         if (!resultStr || resultStr === 'DNF' || resultStr === '暂无') return '暂无';
+
         if (typeof resultStr === 'string' && resultStr.includes('/') && resultStr.includes(':')) return resultStr;
         if (/^\d+$/.test(String(resultStr).trim())) {
             return resultStr;
@@ -798,11 +756,11 @@
                 const aValid = aParsed !== null;
                 const bValid = bParsed !== null;
                 if (!aValid && !bValid) return 0;
-                if (!aValid) return 1;      // 无效（DNF）排在后面
+                if (!aValid) return 1;      
                 if (!bValid) return -1;
                 const aScore = aParsed.success - aParsed.fail;
                 const bScore = bParsed.success - bParsed.fail;
-                if (aScore !== bScore) return bScore - aScore;  
+                if (aScore !== bScore) return bScore - aScore;   
                 if (aParsed.timeSeconds !== bParsed.timeSeconds) return aParsed.timeSeconds - bParsed.timeSeconds;
                 return aParsed.fail - bParsed.fail;
             });
@@ -829,7 +787,7 @@
                              (prevParsed.timeSeconds === currParsed.timeSeconds) &&
                              (prevParsed.fail === currParsed.fail);
                 } else if (!prevParsed && !currParsed) {
-                    isSame = true; 
+                    isSame = true;   
                 } else {
                     isSame = false;
                 }
@@ -921,29 +879,29 @@
             <div style="text-align: center; margin: 50px 0;">
                 <h3 class="home-title"><span>探索未来，</span><span>未来已来。</span></h3>
             </div>
-        <div class="announcement-list">
-<div class="announcement">
-<h3>关于省市信息</h3>
-            <div class="announcement-card">
-<p>2018年5月粗饼网取消选手所在城市显示，由于现在已无法从粗饼网获取选手城市，故而此后的选手在本站被作者归入了不存在的神手谷。<p>目前使用的选手省市信息源自魔友赵吉波在取消前爬取的数据，非常感谢前辈留下的数据！<p>
-</div>
-</div>
-<div class="announcement">
-<h3>网站上线</h3>
-            <div class="announcement-card">
-<p>XCUBING网站正式上线运行，网站目前提供WCA赛事的赛季、现役、省市、综合排名及省市纪录功能，对具体页面的功能若有疑问可点击问号图标，诚挚欢迎广大魔友积极体验并对网站在页面显示、功能使用等方面存在的问题和不足提出宝贵意见和建议。如您在访问网站过程中发现任何错误、故障，请及时通过以下方式反馈：</p>
-                    <p>作者邮箱：xcubing@qq.com。</p>
-</div>
-</div>
-        </div>
+            <div class="announcement-list">
+                <div class="announcement">
+                    <h3>关于省市信息</h3>
+                    <div class="announcement-card"><p>2018年5月粗饼网取消选手所在城市显示，由于现在已无法从粗饼网获取选手城市，故而此后的选手在本站被作者归入了不存在的神手谷。<p>目前使用的选手省市信息源自魔友赵吉波在取消前爬取的数据，非常感谢前辈留下的数据！<p>
+                    </div>
+                </div>
+                <div class="announcement">
+                    <h3>网站上线</h3>
+                    <div class="announcement-card">
+                        <p>XCUBING网站正式上线运行，网站目前提供WCA赛事的赛季、现役、省市、综合排名及省市纪录功能，对具体页面的功能若有疑问可点击问号图标，诚挚欢迎广大魔友积极体验并对网站在页面显示、功能使用等方面存在的问题和不足提出宝贵意见和建议。如您在访问网站过程中发现任何错误、故障，请及时通过以下方式反馈：</p>
+                        <p>作者邮箱：xcubing@qq.com。</p>
+                    </div>
+                </div>
+            </div>
         `;
     }
 
     function renderSeason() {
         return `
             <div class="page-heading">
-                <h2>赛季排名 <span class="tooltip-icon" id="season-tooltip" data-tooltip="本页面为赛季排名，以一年为一个赛季（如2026年即为2026赛季），将参赛选手在这个赛季的最佳成绩进行排名，反应选手在当前赛季的最高竞技水平，所有的排名成绩源自WCA赛事的官方排名。">?</span></h2>
+                <h2>赛季排名</h2>
             </div>
+            <div class="page-subtitle">本页面为赛季排名，以一年为一个周期（如2026年即为2026赛季），将参赛选手在这个赛季的最佳成绩进行排名，反应选手在当前赛季的最高竞技水平，所有的排名成绩源自WCA赛事的官方排名。</div>
             <div class="filter-section">
                 <div class="filter-item">
                     <label>地区</label>
@@ -980,7 +938,6 @@
         const genderSelect = document.getElementById('season-gender');
         if (genderSelect) genderSelect.value = state.season.gender;
         bindEvents('season', false);
-        document.getElementById('season-tooltip')?.addEventListener('click', showTooltip);
         await loadPageData('season');
     }
 
@@ -1007,8 +964,9 @@
     function renderActive() {
         return `
             <div class="page-heading">
-                <h2>现役排名 <span class="tooltip-icon" id="active-tooltip" data-tooltip="本页面为现役排名，以三年为期，将参赛选手在此期间的最佳成绩进行排名，反应选手在最近三年的最高竞技水平，超过三年无参赛记录的选手不被列入排名，所有的排名成绩源自WCA赛事的官方排名。">?</span></h2>
+                <h2>现役排名</h2>
             </div>
+            <div class="page-subtitle">本页面为现役排名，以三年为期，将参赛选手在此期间的最佳成绩进行排名，反应选手在最近三年的最高竞技水平，超过三年无参赛记录的选手不被列入排名，所有的排名成绩源自WCA赛事的官方排名。</div>
             <div class="filter-section">
                 <div class="filter-item">
                     <label>地区</label>
@@ -1045,7 +1003,6 @@
         const genderSelect = document.getElementById('active-gender');
         if (genderSelect) genderSelect.value = state.active.gender;
         bindEvents('active', false);
-        document.getElementById('active-tooltip')?.addEventListener('click', showTooltip);
         await loadPageData('active');
     }
 
@@ -1072,8 +1029,9 @@
     function renderRegion() {
         return `
             <div class="page-heading">
-                <h2>省市排名 <span class="tooltip-icon" id="region-tooltip" data-tooltip="本页面为省市排名，可以查看中国选手在其归属地的排名，2018年5月前没有在粗饼网选择归属地的选手将自动加入作者虚构的秘境——神手谷，所有的排名成绩源自WCA赛事的官方排名。">?</span></h2>
+                <h2>省市排名</h2>
             </div>
+            <div class="page-subtitle">本页面为省市排名，可以查看中国选手在其归属地的排名，2018年5月前没有在粗饼网选择归属地的选手将自动加入作者虚构的秘境——神手谷，具体缘由可见首页公告，所有的排名成绩源自WCA赛事的官方排名。</div>
             <div class="filter-section">
                 <div class="filter-item">
                     <label>时期</label>
@@ -1174,7 +1132,6 @@
         if (genderSelect) genderSelect.value = state.region.gender;
 
         bindEvents('region', false);
-        document.getElementById('region-tooltip')?.addEventListener('click', showTooltip);
 
         if (provinceSelect) {
             provinceSelect.addEventListener('change', (e) => {
@@ -1270,8 +1227,9 @@
     function renderComprehensive() {
         return `
             <div class="page-heading">
-                <h2>综合排名 <span class="tooltip-icon" id="comp-tooltip" data-tooltip="本页面为综合排名，可计算选手在多个项目的排名总和并进行排名。">?</span></h2>
+                <h2>综合排名</h2>
             </div>
+            <div class="page-subtitle">本页面为综合排名，可计算选手在多个项目的排名总和并进行排名。</div>
             <div style="margin-bottom: 15px;">
                 <label style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; color: #6c757d; margin-bottom: 5px; display: block;">项目(点击选择)</label>
                 <div class="project-tag-group" id="comp-project-tags"></div>
@@ -1410,8 +1368,6 @@
             setType('comprehensive', 'average');
             calculateComprehensive();
         });
-
-        document.getElementById('comp-tooltip')?.addEventListener('click', showTooltip);
 
         await calculateComprehensive();
     }
@@ -1697,8 +1653,9 @@
     function renderRecord() {
         return `
             <div class="page-heading">
-                <h2>省市纪录 <span class="tooltip-icon" id="record-tooltip" data-tooltip="本页面为省市纪录，可以查看中国有参赛选手的省份及城市在WCA所有项目的纪录，所有的成绩源自WCA官方排名。">?</span></h2>
+                <h2>省市纪录</h2>
             </div>
+            <div class="page-subtitle">本页面为省市纪录，可以查看中国有参赛选手的省份及城市在WCA所有项目的纪录，所有的成绩源自WCA官方排名。</div>
             <div class="filter-section">
                 <div class="filter-item">
                     <label>省份</label>
@@ -1984,8 +1941,6 @@
     }
 
     async function initRecord() {
-        document.getElementById('record-tooltip')?.addEventListener('click', showTooltip);
-
         if (!state.record.dataLoaded) {
             await loadAllRecordsData();
         }
@@ -2228,16 +2183,6 @@
                 </tr>
             `}).join('');
         }
-    }
-
-    function showTooltip(e) {
-        e.preventDefault();
-        const icon = e.currentTarget;
-        icon.classList.add('active');
-        if (state.tooltipTimer) clearTimeout(state.tooltipTimer);
-        state.tooltipTimer = setTimeout(() => {
-            icon.classList.remove('active');
-        }, 8000);
     }
 
     window.addEventListener('load', async () => {
