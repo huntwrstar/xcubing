@@ -25,7 +25,7 @@ async function fetchJSON(url) {
     } else {
         console.log(`加载成功: ${url} (对象)`);
     }
-    state.cache[url] = data; // 存入缓存
+    state.cache[url] = data; 
     return data;
 }
 
