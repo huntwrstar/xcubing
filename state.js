@@ -1,5 +1,5 @@
 window.state = {
-    cache: {}, // 新增缓存对象
+    cache: {}, 
     currentPage: 'home',
     meta: null,
     season: { project: '333', type: 'single', scope: 'country:China', gender: 'all', continent: '', country: 'China' },
