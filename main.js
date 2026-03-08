@@ -129,6 +129,7 @@ async function initRegion() {
 
 async function initComprehensive() {
     await loadMeta();
+    await loadCompProvinceList();
     populateScopeSelect('comp-scope', state.comprehensive.scope);
 
     const sourceSelect = document.getElementById('comp-source');
@@ -219,7 +220,7 @@ async function initRecord() {
         state.record.gender = e.target.value;
     });
 
-    document.getElementById('record-refresh')?.addEventListener('change', () => {
+    document.getElementById('record-refresh')?.addEventListener('click', () => {
         loadRecordData();
     });
 
