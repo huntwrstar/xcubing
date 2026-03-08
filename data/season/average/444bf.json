@@ -127,6 +127,15 @@
   },
   {
     "rank": 15,
+    "name": "Dylan Himmelfarb",
+    "gender": "男",
+    "result": "4:18.56",
+    "competition": "NZ North Island Championship 2026",
+    "wcaid": "2023HIMM02",
+    "country": "New Zealand"
+  },
+  {
+    "rank": 16,
     "name": "James Ballantine",
     "gender": "男",
     "result": "4:33.78",
@@ -135,7 +144,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "name": "Gabriele Bacchieri",
     "gender": "男",
     "result": "4:59.73",
@@ -144,7 +153,7 @@
     "country": "Italy"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "name": "Jáchym Střelec",
     "gender": "男",
     "result": "5:02.91",
@@ -153,7 +162,7 @@
     "country": "Czech Republic"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "name": "Adam Black",
     "gender": "男",
     "result": "5:07.69",
@@ -162,7 +171,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "name": "Samuel Hernandez Castro",
     "gender": "男",
     "result": "5:26.18",
@@ -171,7 +180,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "name": "Flurin König",
     "gender": "男",
     "result": "5:36.89",
@@ -180,7 +189,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 21,
+    "rank": 22,
     "name": "Luis Gabriel Magadia",
     "gender": "男",
     "result": "5:48.75",
@@ -189,7 +198,7 @@
     "country": "Philippines"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "name": "Étienne Aubry",
     "gender": "男",
     "result": "6:21.30",
@@ -198,7 +207,7 @@
     "country": "France"
   },
   {
-    "rank": 23,
+    "rank": 24,
     "name": "Wilfrid Py",
     "gender": "男",
     "result": "6:22.03",
@@ -207,7 +216,7 @@
     "country": "France"
   },
   {
-    "rank": 24,
+    "rank": 25,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "6:34.01",
@@ -216,7 +225,7 @@
     "country": "China"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "name": "Romain Velcin",
     "gender": "男",
     "result": "7:00.41",
@@ -225,7 +234,7 @@
     "country": "France"
   },
   {
-    "rank": 26,
+    "rank": 27,
     "name": "Kacper Paweł Dworak",
     "gender": "男",
     "result": "7:06.04",
@@ -234,7 +243,7 @@
     "country": "Poland"
   },
   {
-    "rank": 27,
+    "rank": 28,
     "name": "Serhii Mormul (Сергій Мормуль)",
     "gender": "男",
     "result": "7:10.90",
@@ -243,7 +252,7 @@
     "country": "Ukraine"
   },
   {
-    "rank": 28,
+    "rank": 29,
     "name": "Timo Günthardt",
     "gender": "男",
     "result": "7:16.85",
@@ -252,7 +261,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 29,
+    "rank": 30,
     "name": "Joon Cha (차준혁)",
     "gender": "男",
     "result": "7:38.18",
@@ -261,7 +270,7 @@
     "country": "Korea"
   },
   {
-    "rank": 30,
+    "rank": 31,
     "name": "Alec Cheng",
     "gender": "男",
     "result": "7:39.75",
@@ -270,7 +279,7 @@
     "country": "USA"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "name": "Emmet Hobbs",
     "gender": "男",
     "result": "7:43.42",
@@ -279,7 +288,7 @@
     "country": "Australia"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "name": "Currin Wilson",
     "gender": "男",
     "result": "8:33.38",
@@ -288,12 +297,39 @@
     "country": "USA"
   },
   {
-    "rank": 33,
+    "rank": 34,
+    "name": "Vasco Vasconcelos",
+    "gender": "男",
+    "result": "9:15.06",
+    "competition": "Please Be Quiet Odivelas 2026",
+    "wcaid": "2008VASC01",
+    "country": "Portugal"
+  },
+  {
+    "rank": 35,
     "name": "Harry Forbes",
     "gender": "男",
     "result": "9:32.35",
     "competition": "Don't Inverloch Up 2026",
     "wcaid": "2021FORB01",
     "country": "Australia"
+  },
+  {
+    "rank": 36,
+    "name": "Igor Amaral Correa",
+    "gender": "男",
+    "result": "12:07.00",
+    "competition": "Zoioff Campinas 2026",
+    "wcaid": "2022CORR02",
+    "country": "Brazil"
+  },
+  {
+    "rank": 37,
+    "name": "Robinson Semolini",
+    "gender": "男",
+    "result": "13:44.00",
+    "competition": "Zoioff Campinas 2026",
+    "wcaid": "2018SEMO01",
+    "country": "Brazil"
   }
 ]

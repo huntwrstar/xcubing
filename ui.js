@@ -5,6 +5,20 @@ function renderHome() {
         </div>
         <div class="announcement-list">
             <div class="announcement">
+                <h3>更新公告</h3>
+                <div class="announcement-card"><p>根据最近几天大家的反馈，本次更新内容如下：<p>
+<p>1.更改部分排名的定义<p>
+<p>2.修复部分已知bug<p>
+<p>3.开放选手省份城市更改<p>
+<p>4.添加反馈页<p>
+<p>-通过该页面可直接提交对网站的意见反馈或选手省市信息更改申请。<p>
+<p>（反馈入口可在页面右下角找到）<p>
+欢迎大家积极反馈，一起完善小破站。
+<p>2026-03-08<p>
+                </div>
+            </div>
+        <div class="announcement-list">
+            <div class="announcement">
                 <h3>关于省市信息</h3>
                 <div class="announcement-card"><p>2018年5月粗饼网取消选手所在城市显示，由于现在已无法从粗饼网获取选手城市，故而此后的选手在本站被作者归入了不存在的神手谷。<p>目前使用的选手省市信息源自魔友赵吉波在取消前爬取的数据，非常感谢前辈留下的数据！<p>
                 </div>
@@ -93,7 +107,7 @@ function renderRegion() {
         <div class="page-heading">
             <h2>省市排名</h2>
         </div>
-        <div class="page-subtitle">本页面为省市排名，可以查看中国选手在其归属地的排名，对于截至2018年5月前没有在粗饼网选择归属地的选手，系统将自动将其归入本站虚构的秘境——神手谷（具体缘由详见首页公告）。所有的排名成绩源自WCA赛事的官方排名。</div>
+        <div class="page-subtitle">本页面为省市排名，可以查看中国选手在其所属城市的排名，对于截至2018年5月前没有在粗饼网选择归属地的选手，系统将自动将其归入本站虚构的秘境——神手谷（具体缘由详见首页公告）。温馨提示：选手现可进入反馈页提交信息更改申请。所有的排名成绩源自WCA赛事的官方排名。</div>
         <div class="filter-section">
             <div class="filter-item">
                 <label>时期</label>

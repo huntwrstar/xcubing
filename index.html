@@ -20,8 +20,8 @@
     <nav class="main-nav">
         <div class="nav-container" id="desktop-nav">
             <a href="#home" class="nav-item" data-page="home">首页</a>
-            <a href="#season" class="nav-item" data-page="season">年度排名</a>
-            <a href="#active" class="nav-item" data-page="active">近三年度排名</a>
+            <a href="#annual" class="nav-item" data-page="season">年度排名</a>
+            <a href="#three-year" class="nav-item" data-page="active">近三年度排名</a>
             <a href="#region" class="nav-item" data-page="region">省市排名</a>
             <a href="#comprehensive" class="nav-item" data-page="comprehensive">综合排名</a>
             <a href="#record" class="nav-item" data-page="record">省市纪录</a>
@@ -45,5 +45,210 @@
 <script src="api.js"></script>
 <script src="ui.js"></script>
 <script src="main.js"></script>
+
+<div id="feedbackFloat" class="feedback-float expanded">
+    <span class="feedback-text">反馈</span>
+</div>
+
+<style>
+.feedback-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #4a6ee0; 
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    user-select: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.feedback-float.collapsed {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #4a6ee0; 
+}
+.feedback-float.collapsed .feedback-text {
+    display: none;
+}
+.feedback-float.collapsed::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+}
+.feedback-float.expanded::after {
+    display: none;
+}
+</style>
+
+<script>
+(function() {
+    const floatBtn = document.getElementById('feedbackFloat');
+    let timer = null;
+    let isDragging = false;        
+    let dragStarted = false;      
+    let startX, startY;             
+    let startLeft, startTop;       
+    const DRAG_THRESHOLD = 5; 
+    let clickFromDrag = false; 
+
+    function setExpanded(expanded) {
+        if (expanded) {
+            floatBtn.classList.remove('collapsed');
+            floatBtn.classList.add('expanded');
+        } else {
+            floatBtn.classList.remove('expanded');
+            floatBtn.classList.add('collapsed');
+        }
+    }
+
+    function startTimer() {
+        if (timer) clearTimeout(timer);
+        timer = setTimeout(() => {
+            setExpanded(false);
+            timer = null;
+        }, 10000); // 10秒
+    }
+
+    function clearTimer() {
+        if (timer) {
+            clearTimeout(timer);
+            timer = null;
+        }
+    }
+
+    function onDragStart(e) {
+        e.preventDefault();  
+        e.stopPropagation();
+
+        const rect = floatBtn.getBoundingClientRect();
+        startLeft = rect.left;
+        startTop = rect.top;
+
+        floatBtn.style.left = startLeft + 'px';
+        floatBtn.style.top = startTop + 'px';
+        floatBtn.style.right = 'auto';
+        floatBtn.style.bottom = 'auto';
+
+        if (e.type === 'mousedown') {
+            startX = e.clientX;
+            startY = e.clientY;
+            document.addEventListener('mousemove', onDragMove);
+            document.addEventListener('mouseup', onDragEnd);
+        } else if (e.type === 'touchstart') {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+            document.addEventListener('touchmove', onDragMove, { passive: false });
+            document.addEventListener('touchend', onDragEnd);
+            document.addEventListener('touchcancel', onDragEnd);
+        }
+
+        dragStarted = true;
+        isDragging = false;
+    }
+
+    function onDragMove(e) {
+        if (!dragStarted) return;
+        e.preventDefault();
+
+        let clientX, clientY;
+        if (e.type === 'mousemove') {
+            clientX = e.clientX;
+            clientY = e.clientY;
+        } else if (e.type === 'touchmove') {
+            clientX = e.touches[0].clientX;
+            clientY = e.touches[0].clientY;
+        }
+
+        const deltaX = clientX - startX;
+        const deltaY = clientY - startY;
+        const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+
+        if (!isDragging && distance > DRAG_THRESHOLD) {
+            isDragging = true;  
+        }
+
+        if (isDragging) {
+            let newLeft = startLeft + deltaX;
+            let newTop = startTop + deltaY;
+
+            const winWidth = window.innerWidth;
+            const winHeight = window.innerHeight;
+            const btnWidth = floatBtn.offsetWidth;
+            const btnHeight = floatBtn.offsetHeight;
+
+            newLeft = Math.max(0, Math.min(newLeft, winWidth - btnWidth));
+            newTop = Math.max(0, Math.min(newTop, winHeight - btnHeight));
+
+            floatBtn.style.left = newLeft + 'px';
+            floatBtn.style.top = newTop + 'px';
+
+            startX = clientX;
+            startY = clientY;
+            startLeft = newLeft;
+            startTop = newTop;
+        }
+    }
+
+    function onDragEnd(e) {
+        if (!dragStarted) return;
+
+        document.removeEventListener('mousemove', onDragMove);
+        document.removeEventListener('mouseup', onDragEnd);
+        document.removeEventListener('touchmove', onDragMove);
+        document.removeEventListener('touchend', onDragEnd);
+        document.removeEventListener('touchcancel', onDragEnd);
+
+        if (!isDragging) {
+            clickFromDrag = true;
+            handleClick();
+        }
+
+        dragStarted = false;
+        isDragging = false;
+    }
+
+    function handleClick() {
+        if (floatBtn.classList.contains('collapsed')) {
+            setExpanded(true);
+            startTimer();
+        } else {
+            clearTimer();
+            window.location.href = 'feedback.html';
+        }
+    }
+
+    floatBtn.addEventListener('mousedown', onDragStart);
+    floatBtn.addEventListener('touchstart', onDragStart, { passive: false });
+
+    floatBtn.addEventListener('click', function(e) {
+        if (clickFromDrag) {
+            clickFromDrag = false; 
+            return;
+        }
+        handleClick();
+    });
+
+    setExpanded(true);
+    startTimer();
+})();
+</script>
 </body>
 </html>

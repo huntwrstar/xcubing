@@ -17,8 +17,11 @@ async function loadPage(page) {
 }
 
 function handleHash() {
-    const hash = window.location.hash.slice(1) || 'home';
-    loadPage(hash);
+    let hash = window.location.hash.slice(1) || 'home';
+    let page = hash;
+    if (hash === 'annual') page = 'season';
+    else if (hash === 'three-year') page = 'active';
+    loadPage(page);
 }
 
 async function initSeason() {
@@ -902,8 +905,8 @@ window.addEventListener('load', async () => {
     menuIcon.addEventListener('click', () => mobileNav.classList.toggle('show'));
     mobileNav.innerHTML = `
         <a href="#home" class="nav-item">首页</a>
-        <a href="#season" class="nav-item">年度排名</a>
-        <a href="#active" class="nav-item">近三年度排名</a>
+        <a href="#annual" class="nav-item">年度排名</a>
+        <a href="#three-year" class="nav-item">近三年度排名</a>
         <a href="#region" class="nav-item">省市排名</a>
         <a href="#comprehensive" class="nav-item">综合排名</a>
         <a href="#record" class="nav-item">省市纪录</a>

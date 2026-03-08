@@ -19,6 +19,15 @@
   },
   {
     "rank": 3,
+    "name": "Jack McDougall",
+    "gender": "男",
+    "result": "6:34.84",
+    "competition": "NZ North Island Championship 2026",
+    "wcaid": "2020MCDO01",
+    "country": "New Zealand"
+  },
+  {
+    "rank": 4,
     "name": "Marcos Ferreira Semolini",
     "gender": "男",
     "result": "7:10.97",
@@ -27,7 +36,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "name": "Ivo Stoutjesdijk",
     "gender": "男",
     "result": "9:31.20",
@@ -36,7 +45,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "name": "Rodolphe Rouyrre",
     "gender": "男",
     "result": "13:29.00",
@@ -45,7 +54,7 @@
     "country": "France"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "name": "Mikus Lembergs",
     "gender": "男",
     "result": "15:17.00",
@@ -54,7 +63,7 @@
     "country": "Latvia"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "name": "Daniel Goodman",
     "gender": "男",
     "result": "15:35.00",
@@ -63,7 +72,7 @@
     "country": "USA"
   },
   {
-    "rank": 8,
+    "rank": 9,
     "name": "James Moore",
     "gender": "男",
     "result": "16:42.00",
@@ -72,7 +81,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "17:08.00",
@@ -81,7 +90,7 @@
     "country": "China"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "name": "Kacper Paweł Dworak",
     "gender": "男",
     "result": "20:30.00",
@@ -90,7 +99,7 @@
     "country": "Poland"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "name": "Carson Claud",
     "gender": "男",
     "result": "28:19.00",
@@ -99,7 +108,7 @@
     "country": "USA"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "name": "Eli Rogers",
     "gender": "男",
     "result": "28:57.00",
@@ -108,12 +117,21 @@
     "country": "USA"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "29:36.00",
     "competition": "PBQ in Almaty 2026",
     "wcaid": "2024QIAO03",
     "country": "China"
+  },
+  {
+    "rank": 15,
+    "name": "Robinson Semolini",
+    "gender": "男",
+    "result": "30:43.00",
+    "competition": "Zoioff Campinas 2026",
+    "wcaid": "2018SEMO01",
+    "country": "Brazil"
   }
 ]

@@ -100,6 +100,15 @@
   },
   {
     "rank": 12,
+    "name": "Jack McDougall",
+    "gender": "男",
+    "result": "4:50.41",
+    "competition": "NZ North Island Championship 2026",
+    "wcaid": "2020MCDO01",
+    "country": "New Zealand"
+  },
+  {
+    "rank": 13,
     "name": "Lorenzo Mauro",
     "gender": "男",
     "result": "4:55.23",
@@ -108,7 +117,7 @@
     "country": "Italy"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "name": "Victor Tang Yao Jun (湯曜駿)",
     "gender": "男",
     "result": "5:03.35",
@@ -117,7 +126,7 @@
     "country": "China"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "name": "Zhe Wang (王哲)",
     "gender": "男",
     "result": "5:14.61",
@@ -126,7 +135,7 @@
     "country": "China"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "name": "Rowe Hessler",
     "gender": "男",
     "result": "5:17.88",
@@ -135,7 +144,7 @@
     "country": "USA"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "name": "Julian Alejandro Forero Gonzalez",
     "gender": "男",
     "result": "5:32.92",
@@ -144,7 +153,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "name": "Kamil Przybylski",
     "gender": "男",
     "result": "5:35.79",
@@ -153,7 +162,7 @@
     "country": "Poland"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "name": "Sora Wenjie Xu (徐文杰)",
     "gender": "男",
     "result": "5:36.96",
@@ -162,7 +171,7 @@
     "country": "China"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "name": "Zicong Liu (刘子聪)",
     "gender": "男",
     "result": "5:50.87",
@@ -171,7 +180,7 @@
     "country": "China"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "name": "Theodore Chan",
     "gender": "男",
     "result": "5:52.16",
@@ -180,7 +189,16 @@
     "country": "Singapore"
   },
   {
-    "rank": 21,
+    "rank": 22,
+    "name": "Marcos Ferreira Semolini",
+    "gender": "男",
+    "result": "5:56.68",
+    "competition": "Zoioff Campinas 2026",
+    "wcaid": "2017SEMO02",
+    "country": "Brazil"
+  },
+  {
+    "rank": 23,
     "name": "Arthur Garcin",
     "gender": "男",
     "result": "5:59.56",
@@ -189,7 +207,7 @@
     "country": "France"
   },
   {
-    "rank": 22,
+    "rank": 24,
     "name": "Michael Ngan (顏律言)",
     "gender": "男",
     "result": "5:59.61",
@@ -198,7 +216,7 @@
     "country": "China"
   },
   {
-    "rank": 23,
+    "rank": 25,
     "name": "Andrew Tao",
     "gender": "男",
     "result": "6:01.04",
@@ -207,7 +225,7 @@
     "country": "USA"
   },
   {
-    "rank": 24,
+    "rank": 26,
     "name": "Noah Swor",
     "gender": "男",
     "result": "6:10.69",
@@ -216,7 +234,7 @@
     "country": "USA"
   },
   {
-    "rank": 25,
+    "rank": 27,
     "name": "Mikołaj Morawski",
     "gender": "男",
     "result": "6:16.08",
@@ -225,7 +243,7 @@
     "country": "Poland"
   },
   {
-    "rank": 26,
+    "rank": 28,
     "name": "Ben Baron",
     "gender": "男",
     "result": "6:37.49",
@@ -234,7 +252,7 @@
     "country": "Israel"
   },
   {
-    "rank": 27,
+    "rank": 29,
     "name": "Sukant Koul",
     "gender": "男",
     "result": "6:51.68",
@@ -243,7 +261,7 @@
     "country": "India"
   },
   {
-    "rank": 28,
+    "rank": 30,
     "name": "Liam Chen",
     "gender": "男",
     "result": "6:54.79",
@@ -252,16 +270,7 @@
     "country": "USA"
   },
   {
-    "rank": 29,
-    "name": "Marcos Ferreira Semolini",
-    "gender": "男",
-    "result": "7:00.68",
-    "competition": "Itapeva 2026",
-    "wcaid": "2017SEMO02",
-    "country": "Brazil"
-  },
-  {
-    "rank": 30,
+    "rank": 31,
     "name": "Yonghao Xu (徐永浩)",
     "gender": "男",
     "result": "7:08.27",
@@ -270,7 +279,7 @@
     "country": "China"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "name": "Firstian Fushada (符逢城)",
     "gender": "男",
     "result": "7:08.55",
@@ -279,7 +288,7 @@
     "country": "Indonesia"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "name": "Matthew Hollinger",
     "gender": "男",
     "result": "7:11.04",
@@ -288,7 +297,7 @@
     "country": "USA"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "name": "Lingxiao Li (李凌霄)",
     "gender": "男",
     "result": "7:19.57",
@@ -297,7 +306,7 @@
     "country": "China"
   },
   {
-    "rank": 34,
+    "rank": 35,
     "name": "Jonathan Dammann",
     "gender": "男",
     "result": "7:21.06",
@@ -306,7 +315,7 @@
     "country": "France"
   },
   {
-    "rank": 35,
+    "rank": 36,
     "name": "Ryan Pilat",
     "gender": "男",
     "result": "7:26.37",
@@ -315,7 +324,7 @@
     "country": "USA"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "name": "Willem Klose",
     "gender": "男",
     "result": "7:27.27",
@@ -324,7 +333,7 @@
     "country": "Germany"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "name": "Angel David Alvarado Sandoval",
     "gender": "男",
     "result": "7:32.00",
@@ -333,7 +342,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "name": "Rodrigo Ángeles Montes de Oca",
     "gender": "男",
     "result": "7:52.04",
@@ -342,7 +351,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "name": "Gabriele Bacchieri",
     "gender": "男",
     "result": "7:52.21",
@@ -351,7 +360,7 @@
     "country": "Italy"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Hans Lin",
     "gender": "男",
     "result": "8:18.91",
@@ -360,7 +369,7 @@
     "country": "Australia"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "name": "Carter Kucala",
     "gender": "未知",
     "result": "8:43.65",
@@ -369,7 +378,7 @@
     "country": "USA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "name": "Jacob Keh Zheng Xing (郭正兴)",
     "gender": "男",
     "result": "8:47.54",
@@ -378,7 +387,7 @@
     "country": "Singapore"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "name": "Ivo Stoutjesdijk",
     "gender": "男",
     "result": "8:58.97",
@@ -387,7 +396,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "name": "Cary Huang",
     "gender": "男",
     "result": "9:02.55",
@@ -396,7 +405,7 @@
     "country": "USA"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "name": "Niklas Aasen Eliasson",
     "gender": "男",
     "result": "9:03.17",
@@ -405,7 +414,7 @@
     "country": "Norway"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "name": "Wenxuan Yue (岳文轩)",
     "gender": "男",
     "result": "9:26.41",
@@ -414,7 +423,7 @@
     "country": "China"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "name": "Mattheo de Wit",
     "gender": "男",
     "result": "9:33.40",
@@ -423,7 +432,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "name": "Adam Devere",
     "gender": "男",
     "result": "9:44.53",
@@ -432,7 +441,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "name": "Rodolphe Rouyrre",
     "gender": "男",
     "result": "9:49.56",
@@ -441,7 +450,7 @@
     "country": "France"
   },
   {
-    "rank": 50,
+    "rank": 51,
     "name": "Bálint Csengő",
     "gender": "男",
     "result": "9:56.33",
@@ -450,7 +459,7 @@
     "country": "Hungary"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Andrei Ilin (Андрей Ильин)",
     "gender": "男",
     "result": "10:05.00",
@@ -459,7 +468,16 @@
     "country": "Russia"
   },
   {
-    "rank": 52,
+    "rank": 53,
+    "name": "James Moore",
+    "gender": "男",
+    "result": "10:15.00",
+    "competition": "NZ North Island Championship 2026",
+    "wcaid": "2016MOOR07",
+    "country": "New Zealand"
+  },
+  {
+    "rank": 54,
     "name": "Rui Yang (杨睿)",
     "gender": "男",
     "result": "10:20.00",
@@ -468,7 +486,7 @@
     "country": "China"
   },
   {
-    "rank": 53,
+    "rank": 55,
     "name": "Cyrill Speiser",
     "gender": "男",
     "result": "10:55.00",
@@ -477,7 +495,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 54,
+    "rank": 56,
     "name": "Sebastiano Tronto",
     "gender": "男",
     "result": "10:56.00",
@@ -486,7 +504,7 @@
     "country": "Italy"
   },
   {
-    "rank": 55,
+    "rank": 57,
     "name": "Vincent Hartanto Utomo",
     "gender": "男",
     "result": "11:06.00",
@@ -495,7 +513,7 @@
     "country": "Indonesia"
   },
   {
-    "rank": 56,
+    "rank": 58,
     "name": "Victor Valentin Glyrskov",
     "gender": "男",
     "result": "11:14.00",
@@ -504,7 +522,7 @@
     "country": "Denmark"
   },
   {
-    "rank": 57,
+    "rank": 59,
     "name": "Jason Hammerman",
     "gender": "男",
     "result": "11:17.00",
@@ -513,7 +531,7 @@
     "country": "USA"
   },
   {
-    "rank": 58,
+    "rank": 60,
     "name": "Lennon Hughes",
     "gender": "男",
     "result": "11:21.00",
@@ -522,7 +540,7 @@
     "country": "Australia"
   },
   {
-    "rank": 59,
+    "rank": 61,
     "name": "Adam Marcellus Kelly",
     "gender": "男",
     "result": "11:29.00",
@@ -531,7 +549,7 @@
     "country": "Denmark"
   },
   {
-    "rank": 60,
+    "rank": 62,
     "name": "Jan Bentlage",
     "gender": "男",
     "result": "12:09.00",
@@ -540,7 +558,7 @@
     "country": "Germany"
   },
   {
-    "rank": 61,
+    "rank": 63,
     "name": "Fabian Settelen",
     "gender": "男",
     "result": "12:16.00",
@@ -549,7 +567,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 62,
+    "rank": 64,
     "name": "Adam Black",
     "gender": "男",
     "result": "12:24.00",
@@ -558,7 +576,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 63,
+    "rank": 65,
     "name": "Daniel Goodman",
     "gender": "男",
     "result": "12:57.00",
@@ -567,7 +585,7 @@
     "country": "USA"
   },
   {
-    "rank": 64,
+    "rank": 66,
     "name": "Tien Tran",
     "gender": "男",
     "result": "12:58.00",
@@ -576,7 +594,7 @@
     "country": "USA"
   },
   {
-    "rank": 65,
+    "rank": 67,
     "name": "Dominik Kobinski",
     "gender": "男",
     "result": "13:05.00",
@@ -585,7 +603,7 @@
     "country": "Poland"
   },
   {
-    "rank": 66,
+    "rank": 68,
     "name": "Mikus Lembergs",
     "gender": "男",
     "result": "13:21.00",
@@ -594,7 +612,7 @@
     "country": "Latvia"
   },
   {
-    "rank": 67,
+    "rank": 69,
     "name": "Alessio Pandin",
     "gender": "男",
     "result": "13:31.00",
@@ -603,7 +621,7 @@
     "country": "Italy"
   },
   {
-    "rank": 68,
+    "rank": 70,
     "name": "Igor Aipkin",
     "gender": "男",
     "result": "13:42.00",
@@ -612,7 +630,7 @@
     "country": "Uzbekistan"
   },
   {
-    "rank": 69,
+    "rank": 71,
     "name": "Swami Srinivasan",
     "gender": "男",
     "result": "13:43.00",
@@ -621,7 +639,7 @@
     "country": "Australia"
   },
   {
-    "rank": 70,
+    "rank": 72,
     "name": "Elian Beguec",
     "gender": "男",
     "result": "13:59.00",
@@ -630,7 +648,7 @@
     "country": "France"
   },
   {
-    "rank": 71,
+    "rank": 73,
     "name": "Josete Sánchez",
     "gender": "男",
     "result": "14:21.00",
@@ -639,7 +657,7 @@
     "country": "Spain"
   },
   {
-    "rank": 72,
+    "rank": 74,
     "name": "Hannah Minas",
     "gender": "女",
     "result": "14:25.00",
@@ -648,7 +666,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 73,
+    "rank": 75,
     "name": "Kevin Arturo Huamán Ruiz",
     "gender": "男",
     "result": "14:30.00",
@@ -657,7 +675,7 @@
     "country": "Peru"
   },
   {
-    "rank": 74,
+    "rank": 76,
     "name": "Leia Jiang",
     "gender": "女",
     "result": "14:33.00",
@@ -666,7 +684,7 @@
     "country": "USA"
   },
   {
-    "rank": 75,
+    "rank": 77,
     "name": "Ethan Zorger",
     "gender": "男",
     "result": "14:57.00",
@@ -675,7 +693,7 @@
     "country": "USA"
   },
   {
-    "rank": 76,
+    "rank": 78,
     "name": "Kate Grahame",
     "gender": "女",
     "result": "15:03.00",
@@ -684,7 +702,7 @@
     "country": "USA"
   },
   {
-    "rank": 77,
+    "rank": 79,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "15:23.00",
@@ -693,16 +711,7 @@
     "country": "China"
   },
   {
-    "rank": 77,
-    "name": "James Moore",
-    "gender": "男",
-    "result": "15:23.00",
-    "competition": "Wellington Mind Games 2026",
-    "wcaid": "2016MOOR07",
-    "country": "New Zealand"
-  },
-  {
-    "rank": 79,
+    "rank": 80,
     "name": "Timo Günthardt",
     "gender": "男",
     "result": "15:25.00",
@@ -711,7 +720,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 80,
+    "rank": 81,
     "name": "Wilfrid Py",
     "gender": "男",
     "result": "15:39.00",
@@ -720,7 +729,7 @@
     "country": "France"
   },
   {
-    "rank": 81,
+    "rank": 82,
     "name": "Luke Satko",
     "gender": "男",
     "result": "15:41.00",
@@ -729,7 +738,7 @@
     "country": "USA"
   },
   {
-    "rank": 82,
+    "rank": 83,
     "name": "Anuar Miguel Abib Onofre",
     "gender": "男",
     "result": "16:18.00",
@@ -738,7 +747,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Earl Bien D. Celestino",
     "gender": "男",
     "result": "16:28.00",
@@ -747,7 +756,7 @@
     "country": "Philippines"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Tomasz Cepil",
     "gender": "男",
     "result": "16:28.00",
@@ -756,7 +765,7 @@
     "country": "Poland"
   },
   {
-    "rank": 85,
+    "rank": 86,
     "name": "Serhii Mormul (Сергій Мормуль)",
     "gender": "男",
     "result": "16:32.00",
@@ -765,7 +774,7 @@
     "country": "Ukraine"
   },
   {
-    "rank": 86,
+    "rank": 87,
     "name": "Harry Forbes",
     "gender": "男",
     "result": "16:33.00",
@@ -774,7 +783,7 @@
     "country": "Australia"
   },
   {
-    "rank": 87,
+    "rank": 88,
     "name": "Romain Velcin",
     "gender": "男",
     "result": "16:43.00",
@@ -783,7 +792,7 @@
     "country": "France"
   },
   {
-    "rank": 88,
+    "rank": 89,
     "name": "Ananthan Rajiv",
     "gender": "男",
     "result": "16:51.00",
@@ -792,7 +801,7 @@
     "country": "India"
   },
   {
-    "rank": 89,
+    "rank": 90,
     "name": "Ryan Morrison",
     "gender": "男",
     "result": "16:59.00",
@@ -801,7 +810,7 @@
     "country": "USA"
   },
   {
-    "rank": 90,
+    "rank": 91,
     "name": "Wong Chong Wen (黄崇文)",
     "gender": "男",
     "result": "17:16.00",
@@ -810,7 +819,7 @@
     "country": "Singapore"
   },
   {
-    "rank": 91,
+    "rank": 92,
     "name": "Jiayu Wang (王佳宇)",
     "gender": "男",
     "result": "17:25.00",
@@ -819,7 +828,7 @@
     "country": "China"
   },
   {
-    "rank": 92,
+    "rank": 93,
     "name": "Simone Bentlage",
     "gender": "女",
     "result": "18:01.00",
@@ -828,7 +837,7 @@
     "country": "Germany"
   },
   {
-    "rank": 93,
+    "rank": 94,
     "name": "Kacper Paweł Dworak",
     "gender": "男",
     "result": "18:06.00",
@@ -837,7 +846,7 @@
     "country": "Poland"
   },
   {
-    "rank": 94,
+    "rank": 95,
     "name": "Azael Toysehua",
     "gender": "男",
     "result": "18:15.00",
@@ -846,7 +855,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 95,
+    "rank": 96,
     "name": "Étienne Aubry",
     "gender": "男",
     "result": "18:32.00",
@@ -855,7 +864,7 @@
     "country": "France"
   },
   {
-    "rank": 96,
+    "rank": 97,
     "name": "Meng Chon Kuok (郭明臻)",
     "gender": "女",
     "result": "18:33.00",
@@ -864,7 +873,7 @@
     "country": "China"
   },
   {
-    "rank": 97,
+    "rank": 98,
     "name": "Erik Tjong Kim Sang",
     "gender": "男",
     "result": "18:37.00",
@@ -873,7 +882,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Håvard Elias Helland",
     "gender": "男",
     "result": "19:22.00",
@@ -882,7 +891,7 @@
     "country": "Norway"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Remo Decio",
     "gender": "男",
     "result": "19:22.00",
@@ -891,7 +900,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 100,
+    "rank": 101,
     "name": "Daniel Hicklin",
     "gender": "男",
     "result": "19:24.00",
@@ -900,7 +909,7 @@
     "country": "USA"
   },
   {
-    "rank": 101,
+    "rank": 102,
     "name": "Alistair Robequin",
     "gender": "男",
     "result": "19:41.00",
@@ -909,7 +918,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 102,
+    "rank": 103,
     "name": "Achim Spies",
     "gender": "男",
     "result": "19:43.00",
@@ -918,7 +927,7 @@
     "country": "Germany"
   },
   {
-    "rank": 103,
+    "rank": 104,
     "name": "Abhimanyu Singhal (अभिमन्यु सिंघल)",
     "gender": "男",
     "result": "20:05.00",
@@ -927,7 +936,7 @@
     "country": "USA"
   },
   {
-    "rank": 104,
+    "rank": 105,
     "name": "Gerardo Ornelas Sifuentes",
     "gender": "男",
     "result": "20:13.00",
@@ -937,6 +946,15 @@
   },
   {
     "rank": 105,
+    "name": "Pedro Azevedo",
+    "gender": "男",
+    "result": "20:13.00",
+    "competition": "Please Be Quiet Odivelas 2026",
+    "wcaid": "2018AZEV03",
+    "country": "Portugal"
+  },
+  {
+    "rank": 107,
     "name": "Ryan Fong",
     "gender": "男",
     "result": "20:17.00",
@@ -945,7 +963,7 @@
     "country": "USA"
   },
   {
-    "rank": 106,
+    "rank": 108,
     "name": "Matthew Low",
     "gender": "男",
     "result": "20:19.00",
@@ -954,7 +972,7 @@
     "country": "USA"
   },
   {
-    "rank": 107,
+    "rank": 109,
     "name": "Currin Wilson",
     "gender": "男",
     "result": "20:33.00",
@@ -963,7 +981,7 @@
     "country": "USA"
   },
   {
-    "rank": 108,
+    "rank": 110,
     "name": "Joon Cha (차준혁)",
     "gender": "男",
     "result": "21:16.00",
@@ -972,7 +990,7 @@
     "country": "Korea"
   },
   {
-    "rank": 109,
+    "rank": 111,
     "name": "Walker Welch",
     "gender": "男",
     "result": "21:35.00",
@@ -981,7 +999,7 @@
     "country": "USA"
   },
   {
-    "rank": 110,
+    "rank": 112,
     "name": "Luis Armando Guerra Garcia",
     "gender": "男",
     "result": "22:13.00",
@@ -990,7 +1008,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 111,
+    "rank": 113,
     "name": "Emmett O'Leary-Liu",
     "gender": "男",
     "result": "22:35.00",
@@ -999,7 +1017,7 @@
     "country": "USA"
   },
   {
-    "rank": 112,
+    "rank": 114,
     "name": "Vincent Chan",
     "gender": "男",
     "result": "22:45.00",
@@ -1008,7 +1026,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Saiyam Jain",
     "gender": "男",
     "result": "22:49.00",
@@ -1017,7 +1035,7 @@
     "country": "India"
   },
   {
-    "rank": 114,
+    "rank": 116,
     "name": "Ethan George Hayes",
     "gender": "男",
     "result": "23:31.00",
@@ -1026,7 +1044,7 @@
     "country": "USA"
   },
   {
-    "rank": 115,
+    "rank": 117,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "24:16.00",
@@ -1035,7 +1053,7 @@
     "country": "China"
   },
   {
-    "rank": 116,
+    "rank": 118,
     "name": "Eli Rogers",
     "gender": "男",
     "result": "25:50.00",
@@ -1044,7 +1062,7 @@
     "country": "USA"
   },
   {
-    "rank": 117,
+    "rank": 119,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "26:04.00",
@@ -1053,7 +1071,7 @@
     "country": "China"
   },
   {
-    "rank": 118,
+    "rank": 120,
     "name": "Carson Claud",
     "gender": "男",
     "result": "26:05.00",
@@ -1062,7 +1080,7 @@
     "country": "USA"
   },
   {
-    "rank": 119,
+    "rank": 121,
     "name": "Bella Campbell",
     "gender": "女",
     "result": "26:13.00",
@@ -1071,7 +1089,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 120,
+    "rank": 122,
     "name": "Nolan Wayman",
     "gender": "男",
     "result": "29:20.00",
@@ -1080,7 +1098,16 @@
     "country": "USA"
   },
   {
-    "rank": 121,
+    "rank": 123,
+    "name": "Robinson Semolini",
+    "gender": "男",
+    "result": "29:36.00",
+    "competition": "Zoioff Campinas 2026",
+    "wcaid": "2018SEMO01",
+    "country": "Brazil"
+  },
+  {
+    "rank": 124,
     "name": "Hayden Wallace",
     "gender": "男",
     "result": "30:09.00",
@@ -1089,7 +1116,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 122,
+    "rank": 125,
     "name": "Mano Tellegen",
     "gender": "男",
     "result": "30:35.00",
@@ -1098,7 +1125,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Oleh Toporovych",
     "gender": "男",
     "result": "35:02.00",
@@ -1107,7 +1134,7 @@
     "country": "Ukraine"
   },
   {
-    "rank": 124,
+    "rank": 127,
     "name": "Tommy Kiprillis",
     "gender": "男",
     "result": "35:09.00",
@@ -1116,7 +1143,16 @@
     "country": "Australia"
   },
   {
-    "rank": 125,
+    "rank": 128,
+    "name": "Rodrigo Queiroz Teixeira",
+    "gender": "男",
+    "result": "36:10.00",
+    "competition": "Please Be Quiet Odivelas 2026",
+    "wcaid": "2023TEIX03",
+    "country": "Portugal"
+  },
+  {
+    "rank": 129,
     "name": "Pedro Giuseppe Garcia Milla",
     "gender": "男",
     "result": "36:21.00",
@@ -1125,7 +1161,7 @@
     "country": "Peru"
   },
   {
-    "rank": 126,
+    "rank": 130,
     "name": "Clay Moore",
     "gender": "男",
     "result": "37:59.00",
@@ -1134,7 +1170,7 @@
     "country": "USA"
   },
   {
-    "rank": 127,
+    "rank": 131,
     "name": "Isai Alejandro Rivera Torres",
     "gender": "男",
     "result": "41:35.00",
@@ -1143,7 +1179,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 128,
+    "rank": 132,
     "name": "Arkadiusz Żynel",
     "gender": "男",
     "result": "48:53.00",
@@ -1152,7 +1188,7 @@
     "country": "Poland"
   },
   {
-    "rank": 129,
+    "rank": 133,
     "name": "Michał Denkiewicz",
     "gender": "男",
     "result": "91:16.00",
@@ -1161,7 +1197,7 @@
     "country": "Poland"
   },
   {
-    "rank": 130,
+    "rank": 134,
     "name": "Jakub Hanuszkiewicz",
     "gender": "男",
     "result": "195:03.00",
