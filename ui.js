@@ -40,8 +40,8 @@ function renderSeason() {
                 <select id="season-gender">${genderOptions()}</select>
             </div>
             <div class="btn-group">
-                <button id="season-single" class="btn btn-warning"><i class="fas fa-stopwatch"></i> 单次</button>
-                <button id="season-average" class="btn btn-primary"><i class="fas fa-chart-line"></i> 平均</button>
+<button id="season-single" class="btn btn-warning">单次</button>
+<button id="season-average" class="btn btn-primary">平均</button>
             </div>
         </div>
         <div class="current-info">
@@ -74,8 +74,8 @@ function renderActive() {
                 <select id="active-gender">${genderOptions()}</select>
             </div>
             <div class="btn-group">
-                <button id="active-single" class="btn btn-warning"><i class="fas fa-stopwatch"></i> 单次</button>
-                <button id="active-average" class="btn btn-primary"><i class="fas fa-chart-line"></i> 平均</button>
+<button id="active-single" class="btn btn-warning">单次</button>
+<button id="active-average" class="btn btn-primary">平均</button>
             </div>
         </div>
         <div class="current-info">
@@ -120,8 +120,8 @@ function renderRegion() {
                 <select id="region-gender">${genderOptions()}</select>
             </div>
             <div class="btn-group">
-                <button id="region-single" class="btn btn-warning"><i class="fas fa-stopwatch"></i> 单次</button>
-                <button id="region-average" class="btn btn-primary"><i class="fas fa-chart-line"></i> 平均</button>
+<button id="region-single" class="btn btn-warning">单次</button>
+<button id="region-average" class="btn btn-primary">平均</button>
             </div>
         </div>
         <div class="current-info">
@@ -181,8 +181,8 @@ function renderComprehensive() {
                 <select id="comp-city"></select>
             </div>
             <div class="btn-group">
-                <button id="comp-single" class="btn btn-warning"><i class="fas fa-stopwatch"></i> 单次</button>
-                <button id="comp-average" class="btn btn-primary"><i class="fas fa-chart-line"></i> 平均</button>
+<button id="comp-single" class="btn btn-warning">单次</button>
+<button id="comp-average" class="btn btn-primary">平均</button>
             </div>
         </div>
         <div class="current-info">
@@ -226,7 +226,7 @@ function renderRecord() {
                 </select>
             </div>
             <div class="btn-group">
-                <button id="record-refresh" class="btn btn-primary"><i class="fas fa-sync-alt"></i> 刷新</button>
+                <button id="record-refresh" class="btn btn-primary"> 刷新</button>
             </div>
         </div>
         <div class="current-info">

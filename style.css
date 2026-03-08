@@ -139,7 +139,6 @@ body {
     align-items: center;
     gap: 10px;
 }
-/* 页面小字描述 */
 .page-subtitle {
     font-size: 0.9rem;
     color: #4a6e80;
@@ -147,8 +146,7 @@ body {
     padding: 8px 15px;
     line-height: 1.5;
     background-color: #f0f7ff;
-    border-left: 4px solid #4a6ee0;
-    border-radius: 0 4px 4px 0;
+    border-radius:  4px;
 }
 .filter-section {
     display: flex;
