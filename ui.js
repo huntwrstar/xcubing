@@ -230,7 +230,7 @@ function renderRecord() {
             </div>
         </div>
         <div class="current-info">
-            <h3><i class="fa fa-map-marker-alt"></i> 当前：<span id="record-current-province">北京</span> · <span id="record-current-city">全省</span> · <span id="record-current-gender">所有</span></h3>
+            <h3><i class="fa fa-map-marker-alt"></i> 当前：<span id="record-current">省市纪录</span> - <span id="record-current-province">北京</span> · <span id="record-current-city">全省</span> · <span id="record-current-gender">所有</span></h3>
         </div>
         <div class="table-container">
             <table id="record-table">
