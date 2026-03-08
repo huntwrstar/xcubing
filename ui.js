@@ -7,7 +7,7 @@ function renderHome() {
             <div class="announcement">
                 <h3>更新公告</h3>
                 <div class="announcement-card"><p>根据最近几天大家的反馈，本次更新内容如下：<p>
-<p>1.更改部分排名的定义<p>
+<p>1.更改部分排名榜单的定义<p>
 <p>2.修复部分已知bug<p>
 <p>3.开放选手省份城市更改<p>
 <p>4.添加反馈页<p>
