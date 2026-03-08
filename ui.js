@@ -12,7 +12,7 @@ function renderHome() {
             <div class="announcement">
                 <h3>网站上线</h3>
                 <div class="announcement-card">
-                    <p>XCUBING网站正式上线运行，网站目前提供WCA赛事的赛季、现役、省市、综合排名及省市纪录功能，诚挚欢迎广大魔友积极体验并对网站在页面显示、功能使用等方面存在的问题和不足提出宝贵意见和建议。如您在访问网站过程中发现任何错误、故障，请及时通过以下方式反馈：</p>
+                    <p>XCUBING网站正式上线运行，网站目前提供WCA赛事的年度、近三年度、省市、综合排名及省市纪录功能，诚挚欢迎广大魔友积极体验并对网站在页面显示、功能使用等方面存在的问题和不足提出宝贵意见和建议。如您在访问网站过程中发现任何错误、故障，请及时通过以下方式反馈：</p>
                     <p>作者邮箱：xcubing@qq.com。</p>
                 </div>
             </div>
@@ -23,9 +23,9 @@ function renderHome() {
 function renderSeason() {
     return `
         <div class="page-heading">
-            <h2>赛季排名</h2>
+            <h2>年度排名</h2>
         </div>
-        <div class="page-subtitle">本页面为赛季排名，以一年为一个周期（如2026年即为2026赛季），将参赛选手在这个赛季的最佳成绩进行排名，以反映他们在当前赛季的最高竞技水平。所有的排名成绩源自WCA赛事的官方排名。</div>
+        <div class="page-subtitle">本页面为年度排名，以一个自然年为一个年度（如2026年即为2026年度），将参赛选手在这个年度内取得的最佳成绩进行排名。所有的排名成绩源自WCA赛事的官方排名。</div>
         <div class="filter-section">
             <div class="filter-item">
                 <label>地区</label>
@@ -45,7 +45,7 @@ function renderSeason() {
             </div>
         </div>
         <div class="current-info">
-            <h3><i class="fa fa-info-circle"></i> 当前：<span id="season-current-project">三阶</span> - <span id="season-current-type">单次</span></h3>
+            <h3><i class="fa fa-info-circle"></i> 当前：<span id="active-current-gender">年度</span> - <span id="season-current-project">三阶</span> - <span id="season-current-type">单次</span></h3>
         </div>
         <div class="table-container">
             <table id="season-table"><thead><tr><th>排名</th><th>姓名</th><th>国家</th><th>成绩</th><th>比赛</th><th>WCA ID</th></tr></thead><tbody id="season-tbody"></tbody></table>
@@ -57,9 +57,9 @@ function renderSeason() {
 function renderActive() {
     return `
         <div class="page-heading">
-            <h2>现役排名</h2>
+            <h2>近三年度排名</h2>
         </div>
-        <div class="page-subtitle">本页面为现役排名，以三年为期，将参赛选手在此期间的最佳成绩进行排名，以反映他们在最近三年的最高竞技水平，超过三年无参赛记录的选手不被列入排名。所有的排名成绩源自WCA赛事的官方排名。</div>
+        <div class="page-subtitle">本页面为近三年度排名，将参赛选手在最近三年内取得的最佳成绩进行排名，超过三年无参赛记录的选手不被列入排名。所有的排名成绩源自WCA赛事的官方排名。</div>
         <div class="filter-section">
             <div class="filter-item">
                 <label>地区</label>
@@ -79,7 +79,7 @@ function renderActive() {
             </div>
         </div>
         <div class="current-info">
-            <h3><i class="fa fa-info-circle"></i> 当前：<span id="active-current-project">三阶</span> - <span id="active-current-type">单次</span></h3>
+            <h3><i class="fa fa-info-circle"></i> 当前：<span id="active-current-gender">近三年度</span> - <span id="active-current-project">三阶</span> - <span id="active-current-type">单次</span></h3>
         </div>
         <div class="table-container">
             <table id="active-table"><thead><tr><th>排名</th><th>姓名</th><th>国家</th><th>成绩</th><th>比赛</th><th>WCA ID</th></tr></thead><tbody id="active-tbody"></tbody></table>
@@ -98,9 +98,9 @@ function renderRegion() {
             <div class="filter-item">
                 <label>时期</label>
                 <div class="radio-group" id="region-period-group">
-                    <label><input type="radio" name="region-period" value="historical" checked> 历史</label>
-                    <label><input type="radio" name="region-period" value="season"> 赛季</label>
-                    <label><input type="radio" name="region-period" value="active"> 现役</label>
+                    <label><input type="radio" name="region-period" value="historical" checked> 所有</label>
+                    <label><input type="radio" name="region-period" value="season"> 年度</label>
+                    <label><input type="radio" name="region-period" value="active"> 近三年度</label>
                 </div>
             </div>
             <div class="filter-item">
@@ -125,7 +125,7 @@ function renderRegion() {
             </div>
         </div>
         <div class="current-info">
-            <h3><i class="fa fa-info-circle"></i> 当前：<span id="region-current-project">三阶</span> - <span id="region-current-type">单次</span> <span id="region-current-period">历史</span></h3>
+            <h3><i class="fa fa-info-circle"></i> 当前：<span id="region-current">省市排名</span> - <span id="region-current-project">三阶</span> - <span id="region-current-type">单次</span> <span id="region-current-period">所有</span></h3>
         </div>
         <div class="table-container">
             <table id="region-table">
@@ -151,8 +151,8 @@ function renderComprehensive() {
             <div class="filter-item">
                 <label>排名类型</label>
                 <select id="comp-source">
-                    <option value="season">赛季排名</option>
-                    <option value="active">现役排名</option>
+                    <option value="season">年度排名</option>
+                    <option value="active">近三年度排名</option>
                     <option value="province">省市排名</option>
                 </select>
             </div>
@@ -163,9 +163,9 @@ function renderComprehensive() {
             <div class="filter-item hidden" id="comp-dataset-item">
                 <label>时期</label>
                 <select id="comp-dataset">
-                    <option value="historical">历史</option>
-                    <option value="season">赛季 (2026)</option>
-                    <option value="active">现役 (2024-2026)</option>
+                    <option value="historical">所有</option>
+                    <option value="season">年度 (2026)</option>
+                    <option value="active">近三年度 (2024-2026)</option>
                 </select>
             </div>
             <div class="filter-item">
@@ -186,7 +186,7 @@ function renderComprehensive() {
             </div>
         </div>
         <div class="current-info">
-            <h3><i class="fa fa-info-circle"></i> 当前：<span id="comp-current">赛季排名 - 已选1个项目 (单次)</span></h3>
+            <h3><i class="fa fa-info-circle"></i> 当前：<span id="comp-current">年度排名 - 已选1个项目 (单次)</span></h3>
         </div>
         <div id="comp-loading" class="loading-indicator" style="display: none;">
             <i class="fas fa-spinner fa-spin"></i> 正在计算综合排名，请稍候...
@@ -267,7 +267,7 @@ function getProjectName(code) {
 function showPageLoading(page) {
     const tbody = document.getElementById(`${page}-tbody`);
     if (!tbody) return;
-    let colspan = 6; // 默认
+    let colspan = 6; 
     if (page === 'region') {
         colspan = 7;
     } else if (page === 'season' || page === 'active') {
@@ -451,7 +451,7 @@ function toggleCompFilters(source) {
 
 function updateCompCurrentLabel() {
     const comp = state.comprehensive;
-    const sourceName = comp.source === 'season' ? '赛季' : (comp.source === 'active' ? '现役' : '省市');
+    const sourceName = comp.source === 'season' ? '年度' : (comp.source === 'active' ? '近三年度' : '省市');
     const typeName = comp.type === 'single' ? '单次' : '平均';
     const eventCount = comp.selectedEvents.length;
     document.getElementById('comp-current').innerText = `${sourceName} - 已选${eventCount}个项目 (${typeName})`;

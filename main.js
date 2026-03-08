@@ -281,7 +281,7 @@ async function loadRegionData() {
     document.getElementById('region-current-project').textContent = getProjectName(project);
     document.getElementById('region-current-type').textContent = type === 'single' ? '单次' : '平均';
     document.getElementById('region-current-period').textContent = 
-        period === 'historical' ? '历史' : (period === 'season' ? '赛季' : '现役');
+        period === 'historical' ? '所有' : (period === 'season' ? '年度' : '近三⁮年度');
 
     const thead = document.querySelector('#region-table thead');
     if (thead) {
@@ -902,8 +902,8 @@ window.addEventListener('load', async () => {
     menuIcon.addEventListener('click', () => mobileNav.classList.toggle('show'));
     mobileNav.innerHTML = `
         <a href="#home" class="nav-item">首页</a>
-        <a href="#season" class="nav-item">赛季排名</a>
-        <a href="#active" class="nav-item">现役排名</a>
+        <a href="#season" class="nav-item">年度排名</a>
+        <a href="#active" class="nav-item">近三年度排名</a>
         <a href="#region" class="nav-item">省市排名</a>
         <a href="#comprehensive" class="nav-item">综合排名</a>
         <a href="#record" class="nav-item">省市纪录</a>
