@@ -1,6 +1,7 @@
 window.state = {
     cache: {}, 
     currentPage: 'home',
+    currentLang: 'en',  
     meta: null,
     season: { project: '333', type: 'single', scope: 'country:China', gender: 'all', continent: '', country: 'China' },
     active: { project: '333', type: 'single', scope: 'country:China', gender: 'all', continent: '', country: 'China' },

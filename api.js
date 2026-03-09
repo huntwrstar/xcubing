@@ -108,6 +108,9 @@ function extractChineseName(name) {
 
 function getDisplayName(item) {
     const name = item.name || '';
+    if (!state.currentLang.startsWith('zh')) {
+        return name;
+    }
     const isChinese = (item.country === 'China') || (item.province);
     if (isChinese) {
         return extractChineseName(name);

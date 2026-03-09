@@ -15,16 +15,16 @@
         <div class="logo-area">
             <h1>XCUBING · 魔方排名网</h1>
         </div>
+        <div class="language-selector">
+            <select id="lang-select" aria-label="Language">
+                <!-- 选项由JS动态生成 -->
+            </select>
+        </div>
     </header>
 
     <nav class="main-nav">
         <div class="nav-container" id="desktop-nav">
-            <a href="#home" class="nav-item" data-page="home">首页</a>
-            <a href="#annual" class="nav-item" data-page="season">年度排名</a>
-            <a href="#three-year" class="nav-item" data-page="active">近三年度排名</a>
-            <a href="#region" class="nav-item" data-page="region">省市排名</a>
-            <a href="#comprehensive" class="nav-item" data-page="comprehensive">综合排名</a>
-            <a href="#record" class="nav-item" data-page="record">省市纪录</a>
+            <!-- 桌面导航由JS动态生成 -->
         </div>
         <div class="mobile-menu-icon" id="mobile-menu-icon">☰</div>
         <div class="mobile-nav" id="mobile-nav"></div>
@@ -42,6 +42,7 @@
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 <script src="state.js"></script>
+<script src="langs.js"></script>
 <script src="api.js"></script>
 <script src="ui.js"></script>
 <script src="main.js"></script>

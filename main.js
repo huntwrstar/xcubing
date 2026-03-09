@@ -1,3 +1,67 @@
+async function detectLanguageFromIP() {
+    try {
+        const response = await fetch('https://ipapi.co/json/');
+        const data = await response.json();
+        const country = data.country_code;
+        if (country === 'CN') return 'zh-CN';
+        if (['TW', 'HK', 'MO'].includes(country)) return 'zh-TW';
+        return 'en'; 
+    } catch (e) {
+        const navLang = navigator.language || 'en';
+        if (navLang.startsWith('zh')) {
+            if (navLang === 'zh-TW' || navLang === 'zh-HK') return 'zh-TW';
+            return 'zh-CN';
+        }
+        return 'en';
+    }
+}
+
+async function initLanguage() {
+    const detected = await detectLanguageFromIP();
+    state.currentLang = detected;
+    const select = document.getElementById('lang-select');
+    if (select) {
+        select.value = state.currentLang;
+    }
+}
+
+function updateDesktopNav() {
+    const desktopNav = document.getElementById('desktop-nav');
+    if (!desktopNav) return;
+    desktopNav.innerHTML = `
+        <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
+        <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
+        <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
+        <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
+        <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
+        <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
+    `;
+}
+
+function bindLanguageSwitch() {
+    const select = document.getElementById('lang-select');
+    if (!select) return;
+    select.innerHTML = LANG_LIST.map(l => `<option value="${l.code}">${l.name}</option>`).join('');
+    select.value = state.currentLang;
+    select.addEventListener('change', (e) => {
+        state.currentLang = e.target.value;
+        updateDesktopNav(); 
+        const mobileNav = document.getElementById('mobile-nav');
+        if (mobileNav) {
+            mobileNav.innerHTML = `
+                <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
+                <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
+                <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
+                <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
+                <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
+                <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
+            `;
+        }
+        if (state.currentPage) {
+            loadPage(state.currentPage);
+        }
+    });
+}
 async function loadPage(page) {
     console.log(`切换到页面: ${page}`);
     state.currentPage = page;
@@ -755,12 +819,23 @@ async function loadRecordData() {
 function populateScopeSelect(selectId, currentVal) {
     const select = document.getElementById(selectId);
     if (!select) return;
-    let html = '<option value="world">世界</option>';
-    const continents = ['亚洲','欧洲','北美洲','南美洲','非洲','大洋洲'];
-    continents.forEach(c => html += `<option value="continent:${c}">${c}</option>`);
-    html += '<option value="country:China">中国</option>';
+    let html = `<option value="world">${__('world')}</option>`;
+    const continents = [
+        { code: 'asia', name: __('continent.asia') },
+        { code: 'europe', name: __('continent.europe') },
+        { code: 'north_america', name: __('continent.north_america') },
+        { code: 'south_america', name: __('continent.south_america') },
+        { code: 'africa', name: __('continent.africa') },
+        { code: 'oceania', name: __('continent.oceania') }
+    ];
+    continents.forEach(c => {
+        html += `<option value="continent:${c.code}">${c.name}</option>`;
+    });
+    html += '<option value="country:China">中国</option>'; 
     if (state.meta && state.meta.countries) {
-        state.meta.countries.filter(c => c !== 'China').forEach(c => html += `<option value="country:${c}">${c}</option>`);
+        state.meta.countries.filter(c => c !== 'China').forEach(c => {
+            html += `<option value="country:${c}">${c}</option>`;
+        });
     }
     select.innerHTML = html;
     if (currentVal) select.value = currentVal;
@@ -900,16 +975,20 @@ function setType(page, type) {
 }
 
 window.addEventListener('load', async () => {
+    await initLanguage();   
+    bindLanguageSwitch();   
+    updateDesktopNav();   
+
     const menuIcon = document.getElementById('mobile-menu-icon');
     const mobileNav = document.getElementById('mobile-nav');
     menuIcon.addEventListener('click', () => mobileNav.classList.toggle('show'));
     mobileNav.innerHTML = `
-        <a href="#home" class="nav-item">首页</a>
-        <a href="#annual" class="nav-item">年度排名</a>
-        <a href="#three-year" class="nav-item">近三年度排名</a>
-        <a href="#region" class="nav-item">省市排名</a>
-        <a href="#comprehensive" class="nav-item">综合排名</a>
-        <a href="#record" class="nav-item">省市纪录</a>
+        <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
+        <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
+        <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
+        <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
+        <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
+        <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
     `;
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('show')));
 
