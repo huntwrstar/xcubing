@@ -941,6 +941,16 @@
   },
   {
     "rank": 95,
+    "name": "Yuxuan Huang (黄宇轩)",
+    "gender": "男",
+    "result": "10.27",
+    "competition": "Cubing in Ružinov: March 2026",
+    "wcaid": "2015HUAN32",
+    "province": "安徽",
+    "city": "滁州"
+  },
+  {
+    "rank": 96,
     "name": "Haohan Zheng (郑皓涵)",
     "gender": "男",
     "result": "10.38",
@@ -950,7 +960,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 96,
+    "rank": 97,
     "name": "Zhongcheng Shen (谌重丞)",
     "gender": "男",
     "result": "10.47",
@@ -960,7 +970,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 97,
+    "rank": 98,
     "name": "Zitao Ye (叶子滔)",
     "gender": "男",
     "result": "10.51",
@@ -970,7 +980,7 @@
     "city": "厦门"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Sutong Wang (王苏桐)",
     "gender": "男",
     "result": "10.53",
@@ -980,7 +990,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 99,
+    "rank": 100,
     "name": "Congxi Liu (刘淙溪)",
     "gender": "男",
     "result": "10.54",
@@ -990,7 +1000,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 100,
+    "rank": 101,
     "name": "Junxi Jian (简隽希)",
     "gender": "男",
     "result": "10.63",
@@ -1000,7 +1010,7 @@
     "city": "深圳"
   },
   {
-    "rank": 101,
+    "rank": 102,
     "name": "Junyi Zhong (钟浚意)",
     "gender": "男",
     "result": "10.66",
@@ -1010,7 +1020,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 102,
+    "rank": 103,
     "name": "Loïc Zhang",
     "gender": "男",
     "result": "10.67",
@@ -1018,16 +1028,6 @@
     "wcaid": "2022ZHAN31",
     "province": "",
     "city": ""
-  },
-  {
-    "rank": 103,
-    "name": "Yuxuan Huang (黄宇轩)",
-    "gender": "男",
-    "result": "10.69",
-    "competition": "Schwerin Open 2026",
-    "wcaid": "2015HUAN32",
-    "province": "安徽",
-    "city": "滁州"
   },
   {
     "rank": 104,
@@ -1778,5 +1778,15 @@
     "wcaid": "2008CHIN01",
     "province": "香港",
     "city": "香港"
+  },
+  {
+    "rank": 179,
+    "name": "Mattias Wang",
+    "gender": "男",
+    "result": "45.72",
+    "competition": "Riverlake 2026",
+    "wcaid": "2022WANG59",
+    "province": "神手谷",
+    "city": "神手谷"
   }
 ]

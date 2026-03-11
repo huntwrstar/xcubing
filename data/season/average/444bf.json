@@ -3,8 +3,8 @@
     "rank": 1,
     "name": "Ryan Eckersley",
     "gender": "男",
-    "result": "1:41.17",
-    "competition": "BL&D BLD Binningen 2026",
+    "result": "1:25.99",
+    "competition": "Glasgow Blind Evening Spring 2026",
     "wcaid": "2019ECKE02",
     "country": "United Kingdom"
   },
@@ -316,6 +316,15 @@
   },
   {
     "rank": 36,
+    "name": "Alistair Miller",
+    "gender": "男",
+    "result": "10:20.00",
+    "competition": "Glasgow Blind Evening Spring 2026",
+    "wcaid": "2017MILL12",
+    "country": "United Kingdom"
+  },
+  {
+    "rank": 37,
     "name": "Igor Amaral Correa",
     "gender": "男",
     "result": "12:07.00",
@@ -324,12 +333,21 @@
     "country": "Brazil"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "name": "Robinson Semolini",
     "gender": "男",
     "result": "13:44.00",
     "competition": "Zoioff Campinas 2026",
     "wcaid": "2018SEMO01",
     "country": "Brazil"
+  },
+  {
+    "rank": 39,
+    "name": "Jack Belloni Sahlin",
+    "gender": "男",
+    "result": "19:52.00",
+    "competition": "Riverlake 2026",
+    "wcaid": "2022SAHL02",
+    "country": "Sweden"
   }
 ]
