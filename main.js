@@ -124,22 +124,28 @@ async function initRegion() {
         const historicalData = await fetchJSON(`data/region/historical/single/333.json`);
         console.log(`构建省份列表，数据条数: ${historicalData.length}`);
         const allRecords = historicalData;
-        const provinceSet = new Set();
-        const cityMap = {};
-        allRecords.forEach(r => {
-            if (r.province) {
-                provinceSet.add(r.province);
-                if (r.city) {
-                    if (!cityMap[r.province]) cityMap[r.province] = new Set();
-                    cityMap[r.province].add(r.city);
-                }
-            }
-        });
-        state.region.allProvinces = Array.from(provinceSet).sort();
-        state.region.provinceCities = {};
-        for (let p in cityMap) {
-            state.region.provinceCities[p] = Array.from(cityMap[p]).sort();
+const provinceSet = new Set();
+const cityMap = {};
+allRecords.forEach(r => {
+    if (r.province) {
+        provinceSet.add(r.province);
+        if (r.city) {
+            if (!cityMap[r.province]) cityMap[r.province] = new Set();
+            cityMap[r.province].add(r.city);
         }
+    }
+});
+let provinces = Array.from(provinceSet).sort((a, b) => a.localeCompare(b, 'zh'));
+const shenshouIndex = provinces.indexOf('神手谷');
+if (shenshouIndex > -1) {
+    provinces.splice(shenshouIndex, 1);
+    provinces.unshift('神手谷');
+}
+state.region.allProvinces = provinces;
+state.region.provinceCities = {};
+for (let p in cityMap) {
+    state.region.provinceCities[p] = Array.from(cityMap[p]).sort((a, b) => a.localeCompare(b, 'zh'));
+}
         console.log('省份列表:', state.region.allProvinces);
     } catch (e) {
         console.warn('无法构建省份城市列表', e);
@@ -603,16 +609,22 @@ async function loadAllRecordsData() {
 
         state.record.rawDataByProject = rawDataByProject;
 
-        const provinceSet = new Set();
-        for (let proj in rawDataByProject) {
-            ['single', 'average'].forEach(type => {
-                rawDataByProject[proj][type].forEach(item => {
-                    if (item.province) provinceSet.add(item.province);
-                });
-            });
-        }
-        state.record.allProvinces = Array.from(provinceSet).sort((a,b) => a.localeCompare(b, 'zh'));
-        state.record.dataLoaded = true;
+const provinceSet = new Set();
+for (let proj in rawDataByProject) {
+    ['single', 'average'].forEach(type => {
+        rawDataByProject[proj][type].forEach(item => {
+            if (item.province) provinceSet.add(item.province);
+        });
+    });
+}
+let provinces = Array.from(provinceSet).sort((a,b) => a.localeCompare(b, 'zh'));
+const shenshouIndex = provinces.indexOf('神手谷');
+if (shenshouIndex > -1) {
+    provinces.splice(shenshouIndex, 1);
+    provinces.unshift('神手谷');
+}
+state.record.allProvinces = provinces;
+state.record.dataLoaded = true;
         console.log('省市纪录原始数据加载完成，省份列表：', state.record.allProvinces);
     } catch (e) {
         console.error('加载省市纪录原始数据失败', e);
@@ -889,7 +901,12 @@ async function updateCompCitySelect(province) {
 async function loadCompProvinceList() {
     try {
         const data = await fetchJSON(`data/region/historical/single/333.json`);
-        const provinces = [...new Set(data.map(d => d.province).filter(p => p))].sort();
+        let provinces = [...new Set(data.map(d => d.province).filter(p => p))].sort((a, b) => a.localeCompare(b, 'zh'));
+        const shenshouIndex = provinces.indexOf('神手谷');
+        if (shenshouIndex > -1) {
+            provinces.splice(shenshouIndex, 1);
+            provinces.unshift('神手谷');
+        }
         const provinceSelect = document.getElementById('comp-province');
         if (provinceSelect) {
             provinceSelect.innerHTML = provinces.map(p => `<option value="${p}">${p}</option>`).join('');
