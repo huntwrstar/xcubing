@@ -37,6 +37,15 @@
   },
   {
     "rank": 5,
+    "name": "William Phommaha",
+    "gender": "男",
+    "result": "7:29.51",
+    "competition": "Nanterre 2 Folie 2026",
+    "wcaid": "2015PHOM01",
+    "country": "France"
+  },
+  {
+    "rank": 6,
     "name": "Ivo Stoutjesdijk",
     "gender": "男",
     "result": "9:31.20",
@@ -45,7 +54,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "name": "Rodolphe Rouyrre",
     "gender": "男",
     "result": "13:29.00",
@@ -54,7 +63,7 @@
     "country": "France"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "name": "Mikus Lembergs",
     "gender": "男",
     "result": "15:17.00",
@@ -63,7 +72,7 @@
     "country": "Latvia"
   },
   {
-    "rank": 8,
+    "rank": 9,
     "name": "Daniel Goodman",
     "gender": "男",
     "result": "15:35.00",
@@ -72,7 +81,7 @@
     "country": "USA"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "name": "James Moore",
     "gender": "男",
     "result": "16:42.00",
@@ -81,7 +90,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "17:08.00",
@@ -90,7 +99,7 @@
     "country": "China"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "name": "Brandon Villadolid",
     "gender": "男",
     "result": "18:32.00",
@@ -99,7 +108,16 @@
     "country": "USA"
   },
   {
-    "rank": 12,
+    "rank": 13,
+    "name": "Pedro Azevedo",
+    "gender": "男",
+    "result": "18:56.00",
+    "competition": "Blind in Aveiro 2026",
+    "wcaid": "2018AZEV03",
+    "country": "Portugal"
+  },
+  {
+    "rank": 14,
     "name": "Kacper Paweł Dworak",
     "gender": "男",
     "result": "20:30.00",
@@ -108,7 +126,7 @@
     "country": "Poland"
   },
   {
-    "rank": 13,
+    "rank": 15,
     "name": "Carson Claud",
     "gender": "男",
     "result": "28:19.00",
@@ -117,7 +135,7 @@
     "country": "USA"
   },
   {
-    "rank": 14,
+    "rank": 16,
     "name": "Eli Rogers",
     "gender": "男",
     "result": "28:57.00",
@@ -126,7 +144,7 @@
     "country": "USA"
   },
   {
-    "rank": 15,
+    "rank": 17,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "29:36.00",
@@ -135,7 +153,7 @@
     "country": "China"
   },
   {
-    "rank": 16,
+    "rank": 18,
     "name": "Robinson Semolini",
     "gender": "男",
     "result": "30:43.00",

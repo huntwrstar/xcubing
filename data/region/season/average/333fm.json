@@ -1,6 +1,16 @@
 [
   {
     "rank": 1,
+    "name": "Dewei Tan (譚得唯)",
+    "gender": "男",
+    "result": "21.33",
+    "competition": "SCU III: FMC Triple-Scoop 2026",
+    "wcaid": "2024TAND01",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 2,
     "name": "Dorian Chan",
     "gender": "男",
     "result": "21.67",
@@ -10,7 +20,7 @@
     "city": "香港"
   },
   {
-    "rank": 2,
+    "rank": 3,
     "name": "Yiwei Liu (刘伊玮)",
     "gender": "女",
     "result": "22.67",
@@ -20,7 +30,7 @@
     "city": "温州"
   },
   {
-    "rank": 2,
+    "rank": 3,
     "name": "Tianze Xu (徐天泽)",
     "gender": "男",
     "result": "22.67",
@@ -28,16 +38,6 @@
     "wcaid": "2015XUTI01",
     "province": "广东",
     "city": "广州"
-  },
-  {
-    "rank": 4,
-    "name": "Dewei Tan (譚得唯)",
-    "gender": "男",
-    "result": "23.33",
-    "competition": "SacQuiet Winter 2026",
-    "wcaid": "2024TAND01",
-    "province": "香港",
-    "city": "香港"
   },
   {
     "rank": 5,
@@ -180,7 +180,17 @@
     "city": "龙岩"
   },
   {
-    "rank": 19,
+    "rank": 18,
+    "name": "Matt Mao",
+    "gender": "男",
+    "result": "31.67",
+    "competition": "SCU III: FMC Triple-Scoop 2026",
+    "wcaid": "2023MAOS01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 20,
     "name": "Min Wu (吴民)",
     "gender": "男",
     "result": "32.33",
@@ -190,7 +200,7 @@
     "city": "北京"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "name": "Michael Ngan (顏律言)",
     "gender": "男",
     "result": "33.33",
@@ -200,7 +210,7 @@
     "city": "香港"
   },
   {
-    "rank": 21,
+    "rank": 22,
     "name": "Weikang Zheng (郑炜康)",
     "gender": "男",
     "result": "38.67",
@@ -210,7 +220,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "name": "Minxing Zhang (张敏行)",
     "gender": "女",
     "result": "39.00",
@@ -220,7 +230,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 23,
+    "rank": 24,
     "name": "Ruixuan Dong (董睿轩)",
     "gender": "男",
     "result": "40.67",
@@ -230,7 +240,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 23,
+    "rank": 24,
     "name": "Zeyuan Guo (郭泽原)",
     "gender": "男",
     "result": "40.67",
@@ -240,7 +250,7 @@
     "city": "宁波"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "name": "Yuki Gao",
     "gender": "女",
     "result": "41.00",
@@ -250,7 +260,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "41.00",
@@ -260,7 +270,7 @@
     "city": "澳门"
   },
   {
-    "rank": 27,
+    "rank": 28,
     "name": "Lui Chi Fung (雷智鋒)",
     "gender": "男",
     "result": "41.33",
@@ -270,7 +280,7 @@
     "city": "香港"
   },
   {
-    "rank": 28,
+    "rank": 29,
     "name": "Xin Shi (石欣)",
     "gender": "男",
     "result": "44.00",
@@ -280,7 +290,7 @@
     "city": "武汉"
   },
   {
-    "rank": 29,
+    "rank": 30,
     "name": "Zicong Weng (翁子聪)",
     "gender": "男",
     "result": "44.33",
@@ -290,7 +300,7 @@
     "city": "广州"
   },
   {
-    "rank": 30,
+    "rank": 31,
     "name": "Zirui Wang (王子睿)",
     "gender": "男",
     "result": "47.67",
@@ -300,7 +310,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "name": "You Wu (吴悠)",
     "gender": "男",
     "result": "48.00",
@@ -310,7 +320,7 @@
     "city": "深圳"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "name": "Jingbin Li (李晶斌)",
     "gender": "男",
     "result": "48.33",
@@ -320,7 +330,7 @@
     "city": "莆田"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "name": "Zijia Feng (冯子甲)",
     "gender": "男",
     "result": "52.33",

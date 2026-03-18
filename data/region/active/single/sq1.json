@@ -156,8 +156,8 @@
     "result": "5.84",
     "competition": "Xianju Special 2026",
     "wcaid": "2023LIUY04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "上海",
+    "city": "上海"
   },
   {
     "rank": 17,
@@ -1046,8 +1046,8 @@
     "result": "11.08",
     "competition": "Xianju Special 2026",
     "wcaid": "2024FENG08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "金华"
   },
   {
     "rank": 106,
@@ -3010,7 +3010,17 @@
     "city": "杭州"
   },
   {
-    "rank": 302,
+    "rank": 301,
+    "name": "Yuxuan Huang (黄宇轩)",
+    "gender": "男",
+    "result": "19.37",
+    "competition": "Braunschweig Open 2026",
+    "wcaid": "2015HUAN32",
+    "province": "安徽",
+    "city": "滁州"
+  },
+  {
+    "rank": 303,
     "name": "Yiyu Chen (陈奕瑜)",
     "gender": "女",
     "result": "19.38",
@@ -3020,7 +3030,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 303,
+    "rank": 304,
     "name": "Yiqun Lin (林逸群)",
     "gender": "男",
     "result": "19.46",
@@ -3030,7 +3040,7 @@
     "city": "福州"
   },
   {
-    "rank": 303,
+    "rank": 304,
     "name": "Chongjian Zhao (赵崇健)",
     "gender": "男",
     "result": "19.46",
@@ -3040,7 +3050,7 @@
     "city": "江门"
   },
   {
-    "rank": 305,
+    "rank": 306,
     "name": "Yang Li (李扬)",
     "gender": "男",
     "result": "19.54",
@@ -3050,7 +3060,7 @@
     "city": "石家庄"
   },
   {
-    "rank": 306,
+    "rank": 307,
     "name": "Jun Cao (曹骏)",
     "gender": "男",
     "result": "19.57",
@@ -3060,7 +3070,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 306,
+    "rank": 307,
     "name": "Xinrui Zhang (张昕瑞)",
     "gender": "男",
     "result": "19.57",
@@ -3070,7 +3080,7 @@
     "city": "南昌"
   },
   {
-    "rank": 308,
+    "rank": 309,
     "name": "Jiyuan Wang (王际源)",
     "gender": "男",
     "result": "19.60",
@@ -3080,7 +3090,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 309,
+    "rank": 310,
     "name": "Ng Tsz Hei (吳紫熙)",
     "gender": "男",
     "result": "19.62",
@@ -3090,7 +3100,7 @@
     "city": "香港"
   },
   {
-    "rank": 310,
+    "rank": 311,
     "name": "Xiang Meng (孟响)",
     "gender": "男",
     "result": "19.68",
@@ -3100,7 +3110,7 @@
     "city": "北京"
   },
   {
-    "rank": 311,
+    "rank": 312,
     "name": "Yi Qu (曲熠)",
     "gender": "女",
     "result": "19.73",
@@ -3110,7 +3120,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 312,
+    "rank": 313,
     "name": "Yiyang Ma (马熠阳)",
     "gender": "男",
     "result": "19.78",
@@ -3120,7 +3130,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 313,
+    "rank": 314,
     "name": "Chun-Pao Ni (倪君寶)",
     "gender": "男",
     "result": "19.79",
@@ -3130,7 +3140,7 @@
     "city": "台湾"
   },
   {
-    "rank": 313,
+    "rank": 314,
     "name": "Lin Hong Dong Yang",
     "gender": "男",
     "result": "19.79",
@@ -3140,7 +3150,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 315,
+    "rank": 316,
     "name": "Chen Kang (亢晨)",
     "gender": "男",
     "result": "19.81",
@@ -3150,7 +3160,7 @@
     "city": "西宁"
   },
   {
-    "rank": 316,
+    "rank": 317,
     "name": "Zicong Liu (刘子聪)",
     "gender": "男",
     "result": "19.82",
@@ -3160,7 +3170,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 317,
+    "rank": 318,
     "name": "Zhen-Qi Fan (范振祈)",
     "gender": "男",
     "result": "19.88",
@@ -3170,7 +3180,7 @@
     "city": "台湾"
   },
   {
-    "rank": 318,
+    "rank": 319,
     "name": "Moxuan Sun (孙墨轩)",
     "gender": "男",
     "result": "19.89",
@@ -3180,7 +3190,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 319,
+    "rank": 320,
     "name": "Chengshuo Zhu (朱成硕)",
     "gender": "男",
     "result": "19.98",
@@ -3190,7 +3200,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 320,
+    "rank": 321,
     "name": "Wei-Zhong Wang (王為中)",
     "gender": "男",
     "result": "20.07",
@@ -3198,16 +3208,6 @@
     "wcaid": "2024WANW03",
     "province": "台湾",
     "city": "台湾"
-  },
-  {
-    "rank": 321,
-    "name": "Yuxuan Huang (黄宇轩)",
-    "gender": "男",
-    "result": "20.13",
-    "competition": "SzczeciNxN 2026",
-    "wcaid": "2015HUAN32",
-    "province": "安徽",
-    "city": "滁州"
   },
   {
     "rank": 322,
@@ -3456,8 +3456,8 @@
     "result": "21.35",
     "competition": "Canton Countdown 2025",
     "wcaid": "2025LIUK05",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "吉安"
   },
   {
     "rank": 347,
