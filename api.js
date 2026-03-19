@@ -118,6 +118,68 @@ function getDisplayName(item) {
     return name;
 }
 
+function deduplicateByBestAndDate(data, project) {
+    const map = new Map(); // wcaid -> best item
+    data.forEach(item => {
+        const id = item.wcaid;
+        if (!id) return;
+        const existing = map.get(id);
+        if (!existing) {
+            map.set(id, item);
+            return;
+        }
+
+        let isBetter = false;
+        if (project === '333mbf') {
+            const currParsed = parseMBF(item.result);
+            const existParsed = parseMBF(existing.result);
+            if (!currParsed && !existParsed) return; 
+            if (!currParsed) return; 
+            if (!existParsed) { 
+                map.set(id, item);
+                return;
+            }
+            const currScore = currParsed.success - currParsed.fail;
+            const existScore = existParsed.success - existParsed.fail;
+            if (currScore > existScore) {
+                isBetter = true;
+            } else if (currScore === existScore) {
+                if (currParsed.timeSeconds < existParsed.timeSeconds) {
+                    isBetter = true;
+                } else if (currParsed.timeSeconds === existParsed.timeSeconds) {
+                    if (currParsed.fail < existParsed.fail) {
+                        isBetter = true;
+                    } else if (currParsed.fail === existParsed.fail) {
+
+                        if (item.date && existing.date && item.date < existing.date) {
+                            isBetter = true;
+                        } else if (!existing.date && item.date) {
+                            isBetter = true;
+                        }
+                    }
+                }
+            }
+        } else {
+            const currVal = parseTime(item.result);
+            const existVal = parseTime(existing.result);
+            if (currVal < existVal) {
+                isBetter = true;
+            } else if (currVal === existVal) {
+
+                if (item.date && existing.date && item.date < existing.date) {
+                    isBetter = true;
+                } else if (!existing.date && item.date) {
+                    isBetter = true;
+                }
+            }
+        }
+        if (isBetter) {
+            map.set(id, item);
+        }
+    });
+    return Array.from(map.values());
+}
+
 function recomputeRanks(data, project) {
     data = data.filter(item => item && item.result !== undefined);
     

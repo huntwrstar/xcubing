@@ -11,6 +11,23 @@ window.state = {
         allProvinces: [],
         provinceCities: {}
     },
+    regionTop: {
+        dimension: 'province',    // 'province' 或 'city'
+        project: '333',
+        type: 'single',
+        gender: 'all',
+        period: 'historical',     
+        data: [],
+        currentPage: 1
+    },
+    regionComp: {
+        dimension: 'province',
+        selectedEvents: ['333', '222', '444'],
+        type: 'single',
+        period: 'historical',     
+        data: [],
+        currentPage: 1
+    },
     comprehensive: { 
         source: 'season',
         subDataset: 'historical',

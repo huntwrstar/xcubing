@@ -32,8 +32,10 @@ function updateDesktopNav() {
         <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
         <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
         <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
-        <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
         <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
+        <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
+        <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
+        <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
         <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
     `;
 }
@@ -52,8 +54,10 @@ function bindLanguageSwitch() {
                 <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
                 <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
                 <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
-                <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
                 <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
+                <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
+                <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
+                <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
                 <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
             `;
         }
@@ -62,6 +66,7 @@ function bindLanguageSwitch() {
         }
     });
 }
+
 async function loadPage(page) {
     console.log(`切换到页面: ${page}`);
     state.currentPage = page;
@@ -73,8 +78,10 @@ async function loadPage(page) {
         case 'home': app.innerHTML = renderHome(); break;
         case 'season': app.innerHTML = renderSeason(); await initSeason(); break;
         case 'active': app.innerHTML = renderActive(); await initActive(); break;
-        case 'region': app.innerHTML = renderRegion(); await initRegion(); break;
         case 'comprehensive': app.innerHTML = renderComprehensive(); await initComprehensive(); break;
+        case 'region': app.innerHTML = renderRegion(); await initRegion(); break;
+        case 'regionTop': app.innerHTML = renderRegionTop(); await initRegionTop(); break;
+        case 'regionComp': app.innerHTML = renderRegionComp(); await initRegionComp(); break;
         case 'record': app.innerHTML = renderRecord(); await initRecord(); break;
         default: window.location.hash = '#home';
     }
@@ -124,28 +131,28 @@ async function initRegion() {
         const historicalData = await fetchJSON(`data/region/historical/single/333.json`);
         console.log(`构建省份列表，数据条数: ${historicalData.length}`);
         const allRecords = historicalData;
-const provinceSet = new Set();
-const cityMap = {};
-allRecords.forEach(r => {
-    if (r.province) {
-        provinceSet.add(r.province);
-        if (r.city) {
-            if (!cityMap[r.province]) cityMap[r.province] = new Set();
-            cityMap[r.province].add(r.city);
+        const provinceSet = new Set();
+        const cityMap = {};
+        allRecords.forEach(r => {
+            if (r.province) {
+                provinceSet.add(r.province);
+                if (r.city) {
+                    if (!cityMap[r.province]) cityMap[r.province] = new Set();
+                    cityMap[r.province].add(r.city);
+                }
+            }
+        });
+        let provinces = Array.from(provinceSet).sort((a, b) => a.localeCompare(b, 'zh'));
+        const shenshouIndex = provinces.indexOf('神手谷');
+        if (shenshouIndex > -1) {
+            provinces.splice(shenshouIndex, 1);
+            provinces.unshift('神手谷');
         }
-    }
-});
-let provinces = Array.from(provinceSet).sort((a, b) => a.localeCompare(b, 'zh'));
-const shenshouIndex = provinces.indexOf('神手谷');
-if (shenshouIndex > -1) {
-    provinces.splice(shenshouIndex, 1);
-    provinces.unshift('神手谷');
-}
-state.region.allProvinces = provinces;
-state.region.provinceCities = {};
-for (let p in cityMap) {
-    state.region.provinceCities[p] = Array.from(cityMap[p]).sort((a, b) => a.localeCompare(b, 'zh'));
-}
+        state.region.allProvinces = provinces;
+        state.region.provinceCities = {};
+        for (let p in cityMap) {
+            state.region.provinceCities[p] = Array.from(cityMap[p]).sort((a, b) => a.localeCompare(b, 'zh'));
+        }
         console.log('省份列表:', state.region.allProvinces);
     } catch (e) {
         console.warn('无法构建省份城市列表', e);
@@ -198,6 +205,303 @@ for (let p in cityMap) {
     });
 
     await loadRegionData();
+}
+
+async function initRegionTop() {
+    await loadMeta();
+    const dimSelect = document.getElementById('regionTop-dimension');
+    if (dimSelect) {
+        dimSelect.value = state.regionTop.dimension;
+        dimSelect.addEventListener('change', (e) => {
+            state.regionTop.dimension = e.target.value;
+            updateRegionTopCurrentLabel(); 
+        });
+    }
+
+    const periodRadios = document.querySelectorAll('input[name="regionTop-period"]');
+    periodRadios.forEach(r => {
+        if (r.value === state.regionTop.period) r.checked = true;
+        r.addEventListener('change', (e) => {
+            state.regionTop.period = e.target.value;
+            updateRegionTopCurrentLabel(); 
+        });
+    });
+
+    const projSelect = document.getElementById('regionTop-project');
+    if (projSelect) {
+        projSelect.value = state.regionTop.project;
+        projSelect.addEventListener('change', (e) => {
+            state.regionTop.project = e.target.value;
+            updateRegionTopCurrentLabel(); 
+        });
+    }
+
+    const genderSelect = document.getElementById('regionTop-gender');
+    if (genderSelect) {
+        genderSelect.value = state.regionTop.gender;
+        genderSelect.addEventListener('change', (e) => {
+            state.regionTop.gender = e.target.value;
+            updateRegionTopCurrentLabel(); 
+        });
+    }
+
+    document.getElementById('regionTop-single').addEventListener('click', () => {
+        setType('regionTop', 'single');
+        loadRegionTopData(); 
+    });
+    document.getElementById('regionTop-average').addEventListener('click', () => {
+        setType('regionTop', 'average');
+        loadRegionTopData(); 
+    });
+
+
+    await loadRegionTopData();
+}
+
+
+function updateRegionTopCurrentLabel() {
+    const { dimension, project, type, period } = state.regionTop;
+    let periodText = '';
+    if (period === 'historical') periodText = __('current.historical');
+    else if (period === 'season') periodText = __('current.season');
+    else periodText = __('current.active');
+
+    document.getElementById('regionTop-current').innerText = 
+        `${dimension === 'province' ? __('dimension.province') : __('dimension.city')} · ${periodText} · ${getProjectName(project)} · ${type === 'single' ? __('btn.single') : __('btn.average')}`;
+}
+
+async function loadRegionTopData() {
+    if (state.currentPage !== 'regionTop') return;
+    showPageLoading('regionTop');
+    const { dimension, project, type, gender, period } = state.regionTop;
+    let periodText = '';
+    if (period === 'historical') periodText = __('current.historical');
+    else if (period === 'season') periodText = __('current.season');
+    else periodText = __('current.active');
+    document.getElementById('regionTop-current').innerText = 
+        `${dimension === 'province' ? __('dimension.province') : __('dimension.city')} · ${periodText} · ${getProjectName(project)} · ${type === 'single' ? __('btn.single') : __('btn.average')}`;
+
+    try {
+        let data = await fetchJSON(`data/region/${period}/${type}/${project}.json`);
+        data = applyGenderFilter(data, gender);
+
+ 
+        data = deduplicateByBestAndDate(data, project);
+
+
+        data = data.filter(item => {
+            if (!item.province) return false; 
+            if (dimension === 'city' && !item.city) return false; 
+            return true;
+        });
+
+        const groups = {};
+        data.forEach(item => {
+            const key = dimension === 'province' ? item.province : `${item.province}|${item.city}`;
+            if (!key) return;
+            if (!groups[key]) groups[key] = [];
+            groups[key].push(item);
+        });
+
+        let topList = [];
+        for (let key in groups) {
+            const items = groups[key];
+            const sorted = recomputeRanks(items, project);
+            const bestRank = sorted[0].rank;
+            const bestItems = sorted.filter(item => item.rank === bestRank);
+            bestItems.forEach(item => {
+                topList.push({
+                    ...item,
+                    groupKey: key,
+                    province: item.province,
+                    city: item.city || ''
+                });
+            });
+        }
+
+        if (project === '333mbf') {
+            topList.sort((a, b) => {
+                const aParsed = parseMBF(a.result);
+                const bParsed = parseMBF(b.result);
+                if (!aParsed && !bParsed) return 0;
+                if (!aParsed) return 1;
+                if (!bParsed) return -1;
+                const aScore = aParsed.success - aParsed.fail;
+                const bScore = bParsed.success - bParsed.fail;
+                if (aScore !== bScore) return bScore - aScore;
+                if (aParsed.timeSeconds !== bParsed.timeSeconds) return aParsed.timeSeconds - bParsed.timeSeconds;
+                return aParsed.fail - bParsed.fail;
+            });
+        } else {
+            topList.sort((a, b) => parseTime(a.result) - parseTime(b.result));
+        }
+
+        let rank = 1, sameCount = 0;
+        for (let i = 0; i < topList.length; i++) {
+            if (i === 0) {
+                topList[i].displayRank = rank;
+                continue;
+            }
+            let isSame = false;
+            if (project === '333mbf') {
+                const prev = parseMBF(topList[i-1].result);
+                const curr = parseMBF(topList[i].result);
+                if (prev && curr) {
+                    isSame = (prev.success - prev.fail === curr.success - curr.fail) &&
+                             (prev.timeSeconds === curr.timeSeconds) &&
+                             (prev.fail === curr.fail);
+                } else if (!prev && !curr) isSame = true;
+            } else {
+                isSame = topList[i].result === topList[i-1].result;
+            }
+            if (isSame) {
+                sameCount++;
+                topList[i].displayRank = rank;
+            } else {
+                rank += 1 + sameCount;
+                sameCount = 0;
+                topList[i].displayRank = rank;
+            }
+        }
+
+        renderTable('regionTop', topList, project);
+    } catch (e) {
+        console.error(e);
+        document.getElementById('regionTop-tbody').innerHTML = '<tr><td colspan="7">' + __('loading_failed') + '</td></tr>';
+    }
+}
+
+async function initRegionComp() {
+    await loadMeta();
+    const dimSelect = document.getElementById('regionComp-dimension');
+    if (dimSelect) {
+        dimSelect.value = state.regionComp.dimension;
+        dimSelect.addEventListener('change', (e) => {
+            state.regionComp.dimension = e.target.value;
+            updateRegionCompCurrentLabel(); 
+        });
+    }
+
+    const periodRadios = document.querySelectorAll('input[name="regionComp-period"]');
+    periodRadios.forEach(r => {
+        if (r.value === state.regionComp.period) r.checked = true;
+        r.addEventListener('change', (e) => {
+            state.regionComp.period = e.target.value;
+            updateRegionCompCurrentLabel(); 
+        });
+    });
+
+    renderRegionCompProjectTags();
+
+    document.getElementById('regionComp-single').addEventListener('click', () => {
+        setType('regionComp', 'single');
+        calculateRegionComp(); 
+    });
+    document.getElementById('regionComp-average').addEventListener('click', () => {
+        setType('regionComp', 'average');
+        calculateRegionComp(); 
+    });
+
+    await calculateRegionComp(); 
+}
+
+async function calculateRegionComp() {
+    if (state.currentPage !== 'regionComp') return;
+    const tbody = document.getElementById('regionComp-tbody');
+    const paginationDiv = document.getElementById('regionComp-pagination');
+    if (tbody) tbody.innerHTML = '<tr><td colspan="5" class="loading-cell"><i class="fas fa-spinner"></i> ' + __('comp.calculating') + '</td></tr>';
+    if (paginationDiv) paginationDiv.innerHTML = '';
+
+    await new Promise(resolve => setTimeout(resolve, 20));
+
+    updateRegionCompCurrentLabel();
+
+    const { dimension, selectedEvents, type, period } = state.regionComp;
+    if (selectedEvents.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5">' + __('no_data') + '</td></tr>';
+        return;
+    }
+
+    const projectDataMap = {};
+    const groupInfoMap = new Map();
+
+    for (let proj of selectedEvents) {
+        try {
+            const url = `data/region/${period}/${type}/${proj}.json`;
+            let data = await fetchJSON(url);
+            const ranked = recomputeRanks(data, proj);
+            const maxRank = ranked.length;
+
+            const groupRank = {};
+            ranked.forEach(item => {
+                const key = dimension === 'province' ? item.province : `${item.province}|${item.city}`;
+                if (!key) return;
+                const rank = item.rank;
+                if (!groupRank[key] || rank < groupRank[key]) {
+                    groupRank[key] = rank;
+                }
+                if (!groupInfoMap.has(key)) {
+                    groupInfoMap.set(key, {
+                        province: item.province || '',
+                        city: dimension === 'city' ? item.city || '' : ''
+                    });
+                }
+            });
+
+            projectDataMap[proj] = {
+                rankMap: groupRank,
+                maxRank: maxRank
+            };
+        } catch (e) {
+            console.warn(`加载项目 ${proj} 失败`, e);
+            projectDataMap[proj] = { rankMap: {}, maxRank: 0 };
+        }
+    }
+
+    const results = [];
+    for (let [key, info] of groupInfoMap.entries()) {
+        let totalRank = 0;
+        let count = 0;
+        for (let proj of selectedEvents) {
+            const projData = projectDataMap[proj];
+            const rank = projData.rankMap[key];
+            if (rank !== undefined) {
+                totalRank += rank;
+                count++;
+            } else {
+                totalRank += (projData.maxRank + 1);
+            }
+        }
+        results.push({
+            groupKey: key,
+            province: info.province,
+            city: info.city,
+            totalRank: totalRank,
+            eventCount: count
+        });
+    }
+
+    results.sort((a, b) => a.totalRank - b.totalRank);
+
+    let rank = 1, sameCount = 0;
+    const rankedResults = results.map((item, idx) => {
+        if (idx === 0) {
+            item.displayRank = rank;
+        } else {
+            if (item.totalRank === results[idx-1].totalRank) {
+                sameCount++;
+                item.displayRank = rank;
+            } else {
+                rank += 1 + sameCount;
+                sameCount = 0;
+                item.displayRank = rank;
+            }
+        }
+        return item;
+    });
+
+
+    renderRegionCompTable(rankedResults);
 }
 
 async function initComprehensive() {
@@ -354,7 +658,7 @@ async function loadRegionData() {
     document.getElementById('region-current-project').textContent = getProjectName(project);
     document.getElementById('region-current-type').textContent = type === 'single' ? '单次' : '平均';
     document.getElementById('region-current-period').textContent = 
-        period === 'historical' ? '所有' : (period === 'season' ? '年度' : '近三⁮年度');
+        period === 'historical' ? '所有' : (period === 'season' ? '年度' : '近三年度');
 
     const thead = document.querySelector('#region-table thead');
     if (thead) {
@@ -383,6 +687,10 @@ async function loadRegionData() {
             data = data.filter(d => d.city === city);
             console.log(`省市数据城市筛选后 (${city}): ${data.length}`);
         }
+        
+        data = deduplicateByBestAndDate(data, project);
+        console.log(`去重后数据条数: ${data.length}`);
+
         renderTable('region', data, project);
     } catch (e) {
         console.error(e);
@@ -609,22 +917,22 @@ async function loadAllRecordsData() {
 
         state.record.rawDataByProject = rawDataByProject;
 
-const provinceSet = new Set();
-for (let proj in rawDataByProject) {
-    ['single', 'average'].forEach(type => {
-        rawDataByProject[proj][type].forEach(item => {
-            if (item.province) provinceSet.add(item.province);
-        });
-    });
-}
-let provinces = Array.from(provinceSet).sort((a,b) => a.localeCompare(b, 'zh'));
-const shenshouIndex = provinces.indexOf('神手谷');
-if (shenshouIndex > -1) {
-    provinces.splice(shenshouIndex, 1);
-    provinces.unshift('神手谷');
-}
-state.record.allProvinces = provinces;
-state.record.dataLoaded = true;
+        const provinceSet = new Set();
+        for (let proj in rawDataByProject) {
+            ['single', 'average'].forEach(type => {
+                rawDataByProject[proj][type].forEach(item => {
+                    if (item.province) provinceSet.add(item.province);
+                });
+            });
+        }
+        let provinces = Array.from(provinceSet).sort((a,b) => a.localeCompare(b, 'zh'));
+        const shenshouIndex = provinces.indexOf('神手谷');
+        if (shenshouIndex > -1) {
+            provinces.splice(shenshouIndex, 1);
+            provinces.unshift('神手谷');
+        }
+        state.record.allProvinces = provinces;
+        state.record.dataLoaded = true;
         console.log('省市纪录原始数据加载完成，省份列表：', state.record.allProvinces);
     } catch (e) {
         console.error('加载省市纪录原始数据失败', e);
@@ -670,97 +978,64 @@ function updateRecordCitySelect(province) {
     }
 }
 
-function computeBestForFilters(province, city, gender) {
+function computeAllBestRecords(province, city, gender) {
     const result = {};
     for (let proj of PROJECT_LIST) {
-        const singleBest = { value: Infinity, record: null };
-        const avgBest = { value: Infinity, record: null };
         const projCode = proj.code;
-
         const singleList = state.record.rawDataByProject[projCode]?.single || [];
         const avgList = state.record.rawDataByProject[projCode]?.average || [];
 
+        const filterFn = (item) => {
+            if (item.province !== province) return false;
+            if (city !== '全部城市' && item.city !== city) return false;
+            if (gender !== 'all' && item.gender !== gender) return false;
+            return true;
+        };
+
+        const filteredSingle = singleList.filter(filterFn);
+        const filteredAvg = avgList.filter(filterFn);
+
+        let bestSingleVal = Infinity, bestAvgVal = Infinity;
         if (projCode === '333mbf') {
-            let bestScore = -Infinity, bestTime = Infinity, bestFail = Infinity;
-            singleList.forEach(item => {
-                if (item.province !== province) return;
-                if (city !== '全部城市' && item.city !== city) return;
-                if (gender !== 'all' && item.gender !== gender) return;
+            filteredSingle.forEach(item => {
                 const parsed = parseMBF(item.result);
                 if (!parsed) return;
                 const score = parsed.success - parsed.fail;
-                if (score > bestScore) {
-                    bestScore = score;
-                    bestTime = parsed.timeSeconds;
-                    bestFail = parsed.fail;
-                    singleBest.record = { ...item };
-                } else if (score === bestScore) {
-                    if (parsed.timeSeconds < bestTime) {
-                        bestTime = parsed.timeSeconds;
-                        bestFail = parsed.fail;
-                        singleBest.record = { ...item };
-                    } else if (parsed.timeSeconds === bestTime) {
-                        if (parsed.fail < bestFail) {
-                            bestFail = parsed.fail;
-                            singleBest.record = { ...item };
-                        } else if (parsed.fail === bestFail) {
-                            if (item.date && singleBest.record?.date && item.date < singleBest.record.date) {
-                                singleBest.record = { ...item };
-                            }
-                        }
-                    }
-                }
+                if (score > bestSingleVal) bestSingleVal = score;
             });
         } else {
-            singleList.forEach(item => {
-                if (item.province !== province) return;
-                if (city !== '全部城市' && item.city !== city) return;
-                if (gender !== 'all' && item.gender !== gender) return;
+            filteredSingle.forEach(item => {
                 const val = parseTime(item.result);
-                if (val < singleBest.value) {
-                    singleBest.value = val;
-                    singleBest.record = {
-                        result: item.result,
-                        name: item.name,
-                        competition: item.competition,
-                        date: item.date,
-                        wcaid: item.wcaid
-                    };
-                } else if (val === singleBest.value && singleBest.record) {
-                    if (item.date && singleBest.record.date && item.date < singleBest.record.date) {
-                        singleBest.record = { ...item };
-                    }
-                }
+                if (val < bestSingleVal) bestSingleVal = val;
+            });
+            filteredAvg.forEach(item => {
+                const val = parseTime(item.result);
+                if (val < bestAvgVal) bestAvgVal = val;
             });
         }
 
+        const bestSingles = [];
+        const bestAvgs = [];
+
         if (projCode === '333mbf') {
-        } else {
-            avgList.forEach(item => {
-                if (item.province !== province) return;
-                if (city !== '全部城市' && item.city !== city) return;
-                if (gender !== 'all' && item.gender !== gender) return;
-                const val = parseTime(item.result);
-                if (val < avgBest.value) {
-                    avgBest.value = val;
-                    avgBest.record = {
-                        result: item.result,
-                        name: item.name,
-                        competition: item.competition,
-                        date: item.date,
-                        wcaid: item.wcaid
-                    };
-                } else if (val === avgBest.value && avgBest.record) {
-                    if (item.date && avgBest.record.date && item.date < avgBest.record.date) {
-                        avgBest.record = { ...item };
-                    }
+            filteredSingle.forEach(item => {
+                const parsed = parseMBF(item.result);
+                if (parsed && (parsed.success - parsed.fail) === bestSingleVal) {
+                    bestSingles.push(item);
                 }
+            });
+        } else {
+            filteredSingle.forEach(item => {
+                if (parseTime(item.result) === bestSingleVal) bestSingles.push(item);
+            });
+            filteredAvg.forEach(item => {
+                if (parseTime(item.result) === bestAvgVal) bestAvgs.push(item);
             });
         }
 
         result[projCode] = {
-            single: singleBest.record,
-            average: avgBest.record
+            single: bestSingles,
+            average: bestAvgs
         };
     }
     return result;
@@ -770,7 +1045,7 @@ async function loadRecordData() {
     const tbody = document.getElementById('record-tbody');
     if (!tbody) return;
     if (!state.record.dataLoaded) {
-        tbody.innerHTML = '<tr><td colspan="5" class="loading-cell"><i class="fas fa-spinner"></i> 数据未就绪</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="6" class="loading-cell"><i class="fas fa-spinner"></i> 数据未就绪</td></tr>';
         return;
     }
 
@@ -787,45 +1062,47 @@ async function loadRecordData() {
     else if (gender === '未知') genderText = '未知';
     document.getElementById('record-current-gender').textContent = genderText;
 
-    tbody.innerHTML = '<tr><td colspan="5" class="loading-cell"><i class="fas fa-spinner"></i> 加载纪录表<span class="loading-dots"></span></td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6" class="loading-cell"><i class="fas fa-spinner"></i> 加载纪录表<span class="loading-dots"></span></td></tr>';
     await new Promise(resolve => setTimeout(resolve, 20));
 
-    const bestMap = computeBestForFilters(province, city, gender);
+    const bestMap = computeAllBestRecords(province, city, gender);
     let html = '';
 
     for (let proj of PROJECT_LIST) {
-        const projBest = bestMap[proj.code] || { single: null, average: null };
-        const singleRec = projBest.single;
-        const avgRec = projBest.average;
+        const projBest = bestMap[proj.code] || { single: [], average: [] };
+        const singleList = projBest.single;
+        const avgList = projBest.average;
 
-        html += `<tr class="region-cell"><td colspan="5">${proj.name}</td></tr>`;
+        html += `<tr class="region-cell"><td colspan="6">${proj.name}</td></tr>`;
 
-        if (!singleRec && !avgRec) {
-            html += `<tr><td colspan="5" class="empty-cell">暂无纪录</td></tr>`;
+        if (singleList.length === 0 && avgList.length === 0) {
+            html += `<tr><td colspan="6" class="empty-cell">${__('record.no_record')}</td></tr>`;
         } else {
-            if (singleRec) {
-                const displayName = extractChineseName(singleRec.name);
+            singleList.forEach(rec => {
+                const displayName = extractChineseName(rec.name);
                 html += `<tr>
                     <td></td>
-                    <td>${formatResult(singleRec.result)}</td>
+                    <td>${formatResult(rec.result)}</td>
                     <td></td>
                     <td>${displayName}</td>
-                    <td>${singleRec.competition || ''}</td>
+                    <td>${rec.competition || ''}</td>
+                    <td>${rec.date || ''}</td>
                 </tr>`;
-            }
-            if (avgRec) {
-                const displayName = extractChineseName(avgRec.name);
+            });
+            avgList.forEach(rec => {
+                const displayName = extractChineseName(rec.name);
                 html += `<tr>
                     <td></td>
                     <td></td>
-                    <td>${formatResult(avgRec.result)}</td>
+                    <td>${formatResult(rec.result)}</td>
                     <td>${displayName}</td>
-                    <td>${avgRec.competition || ''}</td>
+                    <td>${rec.competition || ''}</td>
+                    <td>${rec.date || ''}</td>
                 </tr>`;
-            }
+            });
         }
     }
-    tbody.innerHTML = html || '<tr><td colspan="5">暂无数据</td></tr>';
+    tbody.innerHTML = html || '<tr><td colspan="6">暂无数据</td></tr>';
 }
 
 function populateScopeSelect(selectId, currentVal) {
@@ -923,7 +1200,7 @@ async function loadCompProvinceList() {
 
 function bindEvents(page, autoLoad = true) {
     const prefix = page === 'comprehensive' ? 'comp' : page;
-    if (page !== 'comprehensive') {
+    if (page !== 'comprehensive' && page !== 'regionTop' && page !== 'regionComp') {
         const projSelect = document.getElementById(`${prefix}-project`);
         if (projSelect) {
             projSelect.addEventListener('change', (e) => {
@@ -932,12 +1209,12 @@ function bindEvents(page, autoLoad = true) {
         }
     }
     const genderSelect = document.getElementById(`${prefix}-gender`);
-    if (genderSelect) {
+    if (genderSelect && page !== 'regionComp') {
         genderSelect.addEventListener('change', (e) => {
             state[page].gender = e.target.value;
         });
     }
-    if (prefix !== 'region' && page !== 'comprehensive') {
+    if (prefix !== 'region' && page !== 'comprehensive' && page !== 'regionTop' && page !== 'regionComp') {
         const scopeSelect = document.getElementById(`${prefix}-scope`);
         if (scopeSelect) {
             scopeSelect.addEventListener('change', (e) => {
@@ -955,7 +1232,7 @@ function bindEvents(page, autoLoad = true) {
             });
         }
     }
-    if (page !== 'comprehensive') {
+    if (page !== 'comprehensive' && page !== 'regionComp') {
         const singleBtn = document.getElementById(`${prefix}-single`);
         const avgBtn = document.getElementById(`${prefix}-average`);
         if (singleBtn) {
@@ -1003,8 +1280,10 @@ window.addEventListener('load', async () => {
         <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
         <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
         <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
-        <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
         <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
+        <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
+        <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
+        <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
         <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
     `;
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('show')));
