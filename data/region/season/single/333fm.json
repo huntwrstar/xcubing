@@ -11,7 +11,18 @@
     "city": "广州"
   },
   {
-    "rank": 2,
+    "rank": 1,
+    "name": "Qinghong Zeng (曾庆鸿)",
+    "gender": "男",
+    "result": "18",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2019ZENG04",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 3,
     "name": "Dewei Tan (譚得唯)",
     "gender": "男",
     "result": "19",
@@ -22,7 +33,7 @@
     "city": "香港"
   },
   {
-    "rank": 3,
+    "rank": 4,
     "name": "Yunhao Lou (娄云皓)",
     "gender": "男",
     "result": "20",
@@ -33,7 +44,7 @@
     "city": "深圳"
   },
   {
-    "rank": 3,
+    "rank": 4,
     "name": "Dorian Chan",
     "gender": "男",
     "result": "20",
@@ -44,7 +55,62 @@
     "city": "香港"
   },
   {
-    "rank": 5,
+    "rank": 4,
+    "name": "Weijie Jian (简维杰)",
+    "gender": "男",
+    "result": "20",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2011JIAN07",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "深圳"
+  },
+  {
+    "rank": 4,
+    "name": "Qijun Miao (缪其隽)",
+    "gender": "男",
+    "result": "20",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2014MIAO02",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "佛山"
+  },
+  {
+    "rank": 8,
+    "name": "Yiwei Liu (刘伊玮)",
+    "gender": "女",
+    "result": "21",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2012LIUY03",
+    "date": "2026-03-21",
+    "province": "浙江",
+    "city": "温州"
+  },
+  {
+    "rank": 8,
+    "name": "Nachuan Sun (孙纳川)",
+    "gender": "男",
+    "result": "21",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2017SUNN02",
+    "date": "2026-03-21",
+    "province": "辽宁",
+    "city": "大连"
+  },
+  {
+    "rank": 8,
+    "name": "Jibo Zhao (赵吉波)",
+    "gender": "男",
+    "result": "21",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2010ZHAO11",
+    "date": "2026-03-22",
+    "province": "四川",
+    "city": "绵阳"
+  },
+  {
+    "rank": 11,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "22",
@@ -55,18 +121,73 @@
     "city": "神手谷"
   },
   {
-    "rank": 5,
-    "name": "Yiwei Liu (刘伊玮)",
-    "gender": "女",
+    "rank": 11,
+    "name": "Maosheng Chen (陈茂盛)",
+    "gender": "男",
     "result": "22",
-    "competition": "Tokyo FMC Winter 2026",
-    "wcaid": "2012LIUY03",
-    "date": "2026-01-17",
-    "province": "浙江",
-    "city": "温州"
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2012CHEN44",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "深圳"
   },
   {
-    "rank": 7,
+    "rank": 11,
+    "name": "Kun Zhu (朱坤)",
+    "gender": "男",
+    "result": "22",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2011ZHUK01",
+    "date": "2026-03-21",
+    "province": "四川",
+    "city": "成都"
+  },
+  {
+    "rank": 11,
+    "name": "Jiashun Wu (吴嘉顺)",
+    "gender": "男",
+    "result": "22",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2016WUJI01",
+    "date": "2026-03-22",
+    "province": "福建",
+    "city": "厦门"
+  },
+  {
+    "rank": 11,
+    "name": "Xiwen Ruan (阮熙文)",
+    "gender": "男",
+    "result": "22",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2018RUAN04",
+    "date": "2026-03-21",
+    "province": "湖南",
+    "city": "邵阳"
+  },
+  {
+    "rank": 16,
+    "name": "Baiqiang Dong (董百强)",
+    "gender": "男",
+    "result": "23",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2008DONG06",
+    "date": "2026-03-21",
+    "province": "福建",
+    "city": "泉州"
+  },
+  {
+    "rank": 16,
+    "name": "Guangtong Quan (全广通)",
+    "gender": "男",
+    "result": "23",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2017QUAN22",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "湛江"
+  },
+  {
+    "rank": 16,
     "name": "Dunhui Xiao (肖敦慧)",
     "gender": "男",
     "result": "23",
@@ -77,29 +198,73 @@
     "city": ""
   },
   {
-    "rank": 8,
-    "name": "Weijie Jian (简维杰)",
+    "rank": 16,
+    "name": "Andy Mok Man Cheuk (莫文卓)",
+    "gender": "男",
+    "result": "23",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2016CHEU04",
+    "date": "2026-03-21",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 16,
+    "name": "Yanghong Zhang (张扬红)",
+    "gender": "男",
+    "result": "23",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2024ZHAN75",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 16,
+    "name": "Yongqiang Peng (彭永强)",
+    "gender": "男",
+    "result": "23",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2013PENG02",
+    "date": "2026-03-22",
+    "province": "河南",
+    "city": "商丘"
+  },
+  {
+    "rank": 22,
+    "name": "Haohan Zheng (郑皓涵)",
     "gender": "男",
     "result": "24",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2011JIAN07",
-    "date": "2026-02-06",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2019ZHEN38",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 22,
+    "name": "Mingzhi Da (达明志)",
+    "gender": "男",
+    "result": "24",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2014DAMI01",
+    "date": "2026-03-22",
+    "province": "江苏",
+    "city": "南京"
+  },
+  {
+    "rank": 22,
+    "name": "Zejia Guo (郭泽嘉)",
+    "gender": "男",
+    "result": "24",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2018GUOZ01",
+    "date": "2026-03-22",
     "province": "广东",
-    "city": "深圳"
+    "city": "汕尾"
   },
   {
-    "rank": 8,
-    "name": "Baiqiang Dong (董百强)",
-    "gender": "男",
-    "result": "24",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2008DONG06",
-    "date": "2026-02-06",
-    "province": "福建",
-    "city": "泉州"
-  },
-  {
-    "rank": 10,
+    "rank": 25,
     "name": "Junhao Jin (金俊昊)",
     "gender": "男",
     "result": "25",
@@ -110,7 +275,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 10,
+    "rank": 25,
     "name": "Zicong Liu (刘子聪)",
     "gender": "男",
     "result": "25",
@@ -121,7 +286,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 12,
+    "rank": 25,
+    "name": "Min Wu (吴民)",
+    "gender": "男",
+    "result": "25",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2009WUMI01",
+    "date": "2026-03-21",
+    "province": "北京",
+    "city": "北京"
+  },
+  {
+    "rank": 25,
+    "name": "Xuyang Zhang (张煦阳)",
+    "gender": "男",
+    "result": "25",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2014ZHAN43",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "广州"
+  },
+  {
+    "rank": 29,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "26",
@@ -132,7 +319,29 @@
     "city": "常德"
   },
   {
-    "rank": 12,
+    "rank": 29,
+    "name": "Xingyu Chen (陈星宇)",
+    "gender": "男",
+    "result": "26",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2012CHEN54",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "茂名"
+  },
+  {
+    "rank": 29,
+    "name": "Lui Chi Fung (雷智鋒)",
+    "gender": "男",
+    "result": "26",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2014LUIC01",
+    "date": "2026-03-22",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 29,
     "name": "Matt Mao",
     "gender": "男",
     "result": "26",
@@ -143,18 +352,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 14,
-    "name": "Haohan Zheng (郑皓涵)",
+    "rank": 29,
+    "name": "Zijian Cai (蔡子健)",
     "gender": "男",
-    "result": "27",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2019ZHEN38",
-    "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "result": "26",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2017CAIZ03",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "深圳"
   },
   {
-    "rank": 14,
+    "rank": 29,
+    "name": "Mok Man Kit (莫文傑)",
+    "gender": "男",
+    "result": "26",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2009KITM01",
+    "date": "2026-03-22",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 35,
     "name": "Ziheng Feng (冯梓恒)",
     "gender": "男",
     "result": "27",
@@ -165,7 +385,18 @@
     "city": "上海"
   },
   {
-    "rank": 16,
+    "rank": 35,
+    "name": "Qihan Chen (陈启晗)",
+    "gender": "男",
+    "result": "27",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2019CHEQ05",
+    "date": "2026-03-22",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 37,
     "name": "Lichao Liu (刘立超)",
     "gender": "男",
     "result": "28",
@@ -176,7 +407,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 16,
+    "rank": 37,
     "name": "Yifan Wang (王逸帆)",
     "gender": "男",
     "result": "28",
@@ -187,7 +418,7 @@
     "city": "三明"
   },
   {
-    "rank": 16,
+    "rank": 37,
     "name": "Yuheng Wu (吴雨衡)",
     "gender": "男",
     "result": "28",
@@ -198,18 +429,18 @@
     "city": "沈阳"
   },
   {
-    "rank": 16,
-    "name": "Mingzhi Da (达明志)",
+    "rank": 37,
+    "name": "Zhuocheng Guo (郭卓成)",
     "gender": "男",
     "result": "28",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2014DAMI01",
-    "date": "2026-02-06",
-    "province": "江苏",
-    "city": "南京"
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2024GUOZ04",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
   },
   {
-    "rank": 20,
+    "rank": 41,
     "name": "Haoxiang Ying (应浩祥)",
     "gender": "男",
     "result": "29",
@@ -220,7 +451,40 @@
     "city": "龙岩"
   },
   {
-    "rank": 21,
+    "rank": 41,
+    "name": "Yiyun Chen (陈毅昀)",
+    "gender": "男",
+    "result": "29",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2017CHEN28",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "广州"
+  },
+  {
+    "rank": 41,
+    "name": "Jiahao Han (韩嘉豪)",
+    "gender": "男",
+    "result": "29",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2025HANJ03",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "广州"
+  },
+  {
+    "rank": 41,
+    "name": "Wenhao Xiang (向文昊)",
+    "gender": "男",
+    "result": "29",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2025XIAN12",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 45,
     "name": "Young He (何嘉炀)",
     "gender": "男",
     "result": "30",
@@ -231,7 +495,7 @@
     "city": "南京"
   },
   {
-    "rank": 21,
+    "rank": 45,
     "name": "Michael Ngan (顏律言)",
     "gender": "男",
     "result": "30",
@@ -242,18 +506,7 @@
     "city": "香港"
   },
   {
-    "rank": 21,
-    "name": "Guangtong Quan (全广通)",
-    "gender": "男",
-    "result": "30",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2017QUAN22",
-    "date": "2026-02-06",
-    "province": "广东",
-    "city": "湛江"
-  },
-  {
-    "rank": 21,
+    "rank": 45,
     "name": "Taiji Yi (易泰基)",
     "gender": "男",
     "result": "30",
@@ -264,7 +517,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 21,
+    "rank": 45,
     "name": "Yuhang Sun (孙煜航)",
     "gender": "男",
     "result": "30",
@@ -275,7 +528,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 26,
+    "rank": 45,
+    "name": "Yibo Wang (王奕博)",
+    "gender": "男",
+    "result": "30",
+    "competition": "Please Be Finished Brisbane 2026",
+    "wcaid": "2018WANG39",
+    "date": "2026-03-14",
+    "province": "山东",
+    "city": "青岛"
+  },
+  {
+    "rank": 45,
+    "name": "Jerry Chung (鍾養浩)",
+    "gender": "男",
+    "result": "30",
+    "competition": "Please Be Finished Brisbane 2026",
+    "wcaid": "2017HOJE01",
+    "date": "2026-03-14",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 51,
     "name": "Ziyu Liang (梁梓煜)",
     "gender": "男",
     "result": "31",
@@ -286,7 +561,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 26,
+    "rank": 51,
     "name": "Haoxuan Zhang (张浩轩)",
     "gender": "男",
     "result": "31",
@@ -297,7 +572,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 26,
+    "rank": 51,
     "name": "Ziyi Xu (徐梓翼)",
     "gender": "男",
     "result": "31",
@@ -308,29 +583,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 26,
-    "name": "Min Wu (吴民)",
-    "gender": "男",
-    "result": "31",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2009WUMI01",
-    "date": "2026-02-06",
-    "province": "北京",
-    "city": "北京"
-  },
-  {
-    "rank": 26,
+    "rank": 51,
     "name": "Weikang Zheng (郑炜康)",
     "gender": "男",
     "result": "31",
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2018ZHEN42",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "杭州"
   },
   {
-    "rank": 26,
+    "rank": 51,
     "name": "Minxing Zhang (张敏行)",
     "gender": "女",
     "result": "31",
@@ -341,7 +605,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 32,
+    "rank": 51,
+    "name": "Yexin Weng (翁业心)",
+    "gender": "男",
+    "result": "31",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2019WENG03",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 51,
+    "name": "Jici Liu (刘纪赐)",
+    "gender": "男",
+    "result": "31",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2009LIUJ04",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "深圳"
+  },
+  {
+    "rank": 58,
     "name": "Jinge Li (李金戈)",
     "gender": "男",
     "result": "32",
@@ -352,7 +638,40 @@
     "city": "济南"
   },
   {
-    "rank": 33,
+    "rank": 58,
+    "name": "Xiang Xiao (肖翔)",
+    "gender": "男",
+    "result": "32",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2025XIAO11",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "惠州"
+  },
+  {
+    "rank": 58,
+    "name": "Chuntian Long (龙椿天)",
+    "gender": "男",
+    "result": "32",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2017LONG15",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "茂名"
+  },
+  {
+    "rank": 61,
+    "name": "Ming Zheng (郑鸣)",
+    "gender": "男",
+    "result": "33",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2009ZHEN11",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "广州"
+  },
+  {
+    "rank": 62,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "34",
@@ -363,7 +682,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 33,
+    "rank": 62,
+    "name": "Jingbin Li (李晶斌)",
+    "gender": "男",
+    "result": "34",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2016LIJI01",
+    "date": "2026-03-22",
+    "province": "福建",
+    "city": "莆田"
+  },
+  {
+    "rank": 62,
     "name": "Yanrui Xie (谢延睿)",
     "gender": "男",
     "result": "34",
@@ -374,7 +704,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 33,
+    "rank": 62,
     "name": "Yueshan Yang (杨悦山)",
     "gender": "男",
     "result": "34",
@@ -385,7 +715,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 33,
+    "rank": 62,
     "name": "Yuzhe Gan (甘宇喆)",
     "gender": "男",
     "result": "34",
@@ -396,7 +726,51 @@
     "city": "厦门"
   },
   {
-    "rank": 37,
+    "rank": 62,
+    "name": "Junhe Liao (廖俊和)",
+    "gender": "男",
+    "result": "34",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2018LIAO12",
+    "date": "2026-03-22",
+    "province": "广东",
+    "city": "深圳"
+  },
+  {
+    "rank": 62,
+    "name": "Weicheng Luo (罗炜城)",
+    "gender": "男",
+    "result": "34",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2018LUOW01",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 62,
+    "name": "Boxi Deng (邓柏禧)",
+    "gender": "男",
+    "result": "34",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2025DENG15",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 62,
+    "name": "Wenqiang Yan (严文强)",
+    "gender": "男",
+    "result": "34",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2016YANW01",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "阳江"
+  },
+  {
+    "rank": 71,
     "name": "Zhibo Xuan (禤志博)",
     "gender": "男",
     "result": "35",
@@ -407,7 +781,7 @@
     "city": "深圳"
   },
   {
-    "rank": 37,
+    "rank": 71,
     "name": "Xin Shi (石欣)",
     "gender": "男",
     "result": "35",
@@ -418,7 +792,7 @@
     "city": "武汉"
   },
   {
-    "rank": 39,
+    "rank": 73,
     "name": "Sirun Wu (吴思润)",
     "gender": "女",
     "result": "36",
@@ -429,7 +803,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 39,
+    "rank": 73,
     "name": "Ruohan Qiu (邱若寒)",
     "gender": "男",
     "result": "36",
@@ -440,7 +814,51 @@
     "city": "广州"
   },
   {
-    "rank": 41,
+    "rank": 73,
+    "name": "Ruixuan Dong (董睿轩)",
+    "gender": "男",
+    "result": "36",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2024DONG19",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 73,
+    "name": "Hangxu Liu (刘航旭)",
+    "gender": "男",
+    "result": "36",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2026LIUH02",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 73,
+    "name": "Wenjun Luo (罗文俊)",
+    "gender": "男",
+    "result": "36",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2024LUOW02",
+    "date": "2026-03-22",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 73,
+    "name": "Yonglin Zhong (钟永麟)",
+    "gender": "男",
+    "result": "36",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2019ZHON08",
+    "date": "2026-03-22",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 79,
     "name": "Zirui Zhang (张梓瑞)",
     "gender": "男",
     "result": "37",
@@ -451,18 +869,40 @@
     "city": "神手谷"
   },
   {
-    "rank": 41,
-    "name": "Lui Chi Fung (雷智鋒)",
+    "rank": 79,
+    "name": "Deying Ou (欧德颖)",
     "gender": "男",
     "result": "37",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2014LUIC01",
-    "date": "2026-02-06",
-    "province": "香港",
-    "city": "香港"
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2017OUDE01",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "湛江"
   },
   {
-    "rank": 43,
+    "rank": 79,
+    "name": "Lianghai Sui (眭亮海)",
+    "gender": "男",
+    "result": "37",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2015SUIL01",
+    "date": "2026-03-21",
+    "province": "江西",
+    "city": "吉安"
+  },
+  {
+    "rank": 79,
+    "name": "Taiqi Li (李泰祺)",
+    "gender": "男",
+    "result": "37",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2021LITA01",
+    "date": "2026-03-22",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 83,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "38",
@@ -473,7 +913,7 @@
     "city": "澳门"
   },
   {
-    "rank": 43,
+    "rank": 83,
     "name": "Wenxin Huang (黄文信)",
     "gender": "男",
     "result": "38",
@@ -484,7 +924,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 45,
+    "rank": 85,
     "name": "Yuki Gao",
     "gender": "女",
     "result": "39",
@@ -495,18 +935,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 45,
-    "name": "Ruixuan Dong (董睿轩)",
-    "gender": "男",
-    "result": "39",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2024DONG19",
-    "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
-    "rank": 45,
+    "rank": 85,
     "name": "Zeyuan Guo (郭泽原)",
     "gender": "男",
     "result": "39",
@@ -517,7 +946,18 @@
     "city": "宁波"
   },
   {
-    "rank": 48,
+    "rank": 85,
+    "name": "Zhengyu Zhu (朱政宇)",
+    "gender": "男",
+    "result": "39",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2026ZHUZ01",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 88,
     "name": "Zirui Wang (王子睿)",
     "gender": "男",
     "result": "40",
@@ -528,7 +968,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 48,
+    "rank": 88,
     "name": "Andy Wu",
     "gender": "男",
     "result": "40",
@@ -539,7 +979,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 48,
+    "rank": 88,
     "name": "Zicong Weng (翁子聪)",
     "gender": "男",
     "result": "40",
@@ -550,7 +990,29 @@
     "city": "广州"
   },
   {
-    "rank": 51,
+    "rank": 88,
+    "name": "Jiayi Li (李嘉忆)",
+    "gender": "男",
+    "result": "40",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2017LIJI24",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "广州"
+  },
+  {
+    "rank": 88,
+    "name": "Mocheng Liu (刘默成)",
+    "gender": "男",
+    "result": "40",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2026LIUM02",
+    "date": "2026-03-22",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 93,
     "name": "Yuan Gao (高原)",
     "gender": "男",
     "result": "41",
@@ -561,18 +1023,18 @@
     "city": "铁岭"
   },
   {
-    "rank": 51,
-    "name": "Xingyu Chen (陈星宇)",
+    "rank": 93,
+    "name": "Sora Wenjie Xu (徐文杰)",
     "gender": "男",
     "result": "41",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2012CHEN54",
-    "date": "2026-02-06",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2016XUWE02",
+    "date": "2026-03-22",
     "province": "广东",
-    "city": "茂名"
+    "city": "广州"
   },
   {
-    "rank": 53,
+    "rank": 95,
     "name": "Shuxiu Jiang (蒋束修)",
     "gender": "男",
     "result": "42",
@@ -583,7 +1045,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 53,
+    "rank": 95,
     "name": "Zhedong Wang (王哲栋)",
     "gender": "男",
     "result": "42",
@@ -594,18 +1056,29 @@
     "city": "湖州"
   },
   {
-    "rank": 55,
-    "name": "Junhe Liao (廖俊和)",
+    "rank": 95,
+    "name": "Baocheng Wu (吴宝城)",
     "gender": "男",
-    "result": "43",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2018LIAO12",
-    "date": "2026-02-06",
-    "province": "广东",
-    "city": "深圳"
+    "result": "42",
+    "competition": "FMCanton Haizhu 2026",
+    "wcaid": "2014WUBA01",
+    "date": "2026-03-22",
+    "province": "湖北",
+    "city": "武汉"
   },
   {
-    "rank": 56,
+    "rank": 98,
+    "name": "Jie Liu (刘捷)",
+    "gender": "男",
+    "result": "43",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2025LIUJ18",
+    "date": "2026-03-21",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 99,
     "name": "Zijia Feng (冯子甲)",
     "gender": "男",
     "result": "44",
@@ -616,18 +1089,18 @@
     "city": "南京"
   },
   {
-    "rank": 56,
-    "name": "Jingbin Li (李晶斌)",
+    "rank": 100,
+    "name": "Chongjian Zhao (赵崇健)",
     "gender": "男",
-    "result": "44",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2016LIJI01",
-    "date": "2026-02-06",
-    "province": "福建",
-    "city": "莆田"
+    "result": "45",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2025ZHAO21",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "江门"
   },
   {
-    "rank": 58,
+    "rank": 101,
     "name": "You Wu (吴悠)",
     "gender": "男",
     "result": "46",
@@ -638,7 +1111,7 @@
     "city": "深圳"
   },
   {
-    "rank": 59,
+    "rank": 102,
     "name": "Qiuchi Sang (桑秋驰)",
     "gender": "男",
     "result": "48",
@@ -649,7 +1122,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 60,
+    "rank": 103,
     "name": "Jin Wu (武进)",
     "gender": "男",
     "result": "49",
@@ -658,5 +1131,16 @@
     "date": "2026-03-14",
     "province": "北京",
     "city": "北京"
+  },
+  {
+    "rank": 104,
+    "name": "Minjie Huang (黄敏杰)",
+    "gender": "男",
+    "result": "54",
+    "competition": "FMCanton Nansha 2026",
+    "wcaid": "2011HUAN08",
+    "date": "2026-03-21",
+    "province": "广东",
+    "city": "广州"
   }
 ]
