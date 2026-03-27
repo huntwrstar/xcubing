@@ -75,7 +75,7 @@ async function loadPage(page) {
 
     const app = document.getElementById('app');
     switch(page) {
-        case 'home': app.innerHTML = renderHome(); break;
+        case 'home': app.innerHTML = renderHome(); initCarousel(); break;// 轮播初始化
         case 'season': app.innerHTML = renderSeason(); await initSeason(); break;
         case 'active': app.innerHTML = renderActive(); await initActive(); break;
         case 'comprehensive': app.innerHTML = renderComprehensive(); await initComprehensive(); break;
@@ -1267,6 +1267,41 @@ function setType(page, type) {
         singleBtn?.classList.add('btn-primary');
         singleBtn?.classList.remove('btn-warning');
     }
+}
+
+function initCarousel() {
+    const slidesContainer = document.querySelector('.banner-slides');
+    const prevBtn = document.querySelector('.banner-prev');
+    const nextBtn = document.querySelector('.banner-next');
+    if (!slidesContainer) return;
+
+    const slides = slidesContainer.children;
+    const totalSlides = slides.length;
+    if (totalSlides === 0) return;
+
+    let currentIndex = 0;
+    let autoTimer;
+
+    function goToSlide(index) {
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        currentIndex = index;
+        slidesContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+        resetAutoPlay();
+    }
+
+    function resetAutoPlay() {
+        if (autoTimer) clearInterval(autoTimer);
+        autoTimer = setInterval(() => {
+            goToSlide(currentIndex + 1);
+        }, 4000);
+    }
+
+    if (prevBtn) prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+    if (nextBtn) nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+
+    resetAutoPlay();
+    goToSlide(0);
 }
 
 window.addEventListener('load', async () => {
