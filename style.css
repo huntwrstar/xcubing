@@ -549,10 +549,10 @@ tbody tr:hover { background-color: #f1f5ff; }
     margin: 20px auto;
 }
 
-/* 边框容器：固定尺寸，边框，溢出隐藏 */
+/* 边框容器：宽度自适应，高度由内容撑开，边框保留 */
 .banner-container {
-    width: 600px;
-    height: 100px;
+    flex: 1;
+    max-width: 600px;          /* 桌面最大宽度，移动端自动收缩 */
     border: 2px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -560,27 +560,24 @@ tbody tr:hover { background-color: #f1f5ff; }
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* 轮播滑动容器 */
+/* 轮播滑动容器：高度由图片撑开 */
 .banner-slides {
     display: flex;
     width: 100%;
-    height: 100%;
     transition: transform 0.5s ease;
 }
 
 .banner-slides a {
     flex: 0 0 100%;
-    height: 100%;
 }
 
 .banner-slides img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;           /* 高度自动，保持原始比例 */
     display: block;
 }
 
-/* 左右按钮样式：在边框外部 */
+/* 左右按钮样式：在边框外部，垂直居中 */
 .banner-prev, .banner-next {
     width: 36px;
     height: 36px;
@@ -609,10 +606,6 @@ tbody tr:hover { background-color: #f1f5ff; }
         gap: 8px;
         margin: 15px auto;
     }
-    .banner-container {
-        width: calc(100% - 70px);
-        height: 80px;
-    }
     .banner-prev, .banner-next {
         width: 30px;
         height: 30px;
@@ -621,9 +614,6 @@ tbody tr:hover { background-color: #f1f5ff; }
 }
 
 @media (max-width: 480px) {
-    .banner-container {
-        height: 70px;
-    }
     .banner-prev, .banner-next {
         width: 28px;
         height: 28px;
