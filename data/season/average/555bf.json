@@ -21,6 +21,16 @@
   },
   {
     "rank": 3,
+    "name": "William Phommaha",
+    "gender": "男",
+    "result": "6:02.73",
+    "competition": "French Championship 2026",
+    "wcaid": "2015PHOM01",
+    "date": "2026-04-04",
+    "country": "France"
+  },
+  {
+    "rank": 4,
     "name": "Jack McDougall",
     "gender": "男",
     "result": "6:34.84",
@@ -30,7 +40,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "name": "Marcos Ferreira Semolini",
     "gender": "男",
     "result": "7:10.97",
@@ -38,16 +48,6 @@
     "wcaid": "2017SEMO02",
     "date": "2026-01-24",
     "country": "Brazil"
-  },
-  {
-    "rank": 5,
-    "name": "William Phommaha",
-    "gender": "男",
-    "result": "7:29.51",
-    "competition": "Nanterre 2 Folie 2026",
-    "wcaid": "2015PHOM01",
-    "date": "2026-03-14",
-    "country": "France"
   },
   {
     "rank": 6,
@@ -181,16 +181,6 @@
   },
   {
     "rank": 19,
-    "name": "Zaya Qiaolong (俏龙扎雅)",
-    "gender": "女",
-    "result": "29:36.00",
-    "competition": "PBQ in Almaty 2026",
-    "wcaid": "2024QIAO03",
-    "date": "2026-01-17",
-    "country": "China"
-  },
-  {
-    "rank": 20,
     "name": "Robinson Semolini",
     "gender": "男",
     "result": "30:43.00",
