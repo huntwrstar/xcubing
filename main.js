@@ -37,6 +37,13 @@ function updateDesktopNav() {
         <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
         <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
         <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
+        <div class="nav-dropdown">
+            <span class="nav-item dropdown-toggle">天赋测试</span>
+            <div class="dropdown-menu">
+                <a href="test1.html" class="dropdown-item">反应速度</a>
+                <a href="test2.html" class="dropdown-item">手眼协调</a>
+            </div>
+        </div>
     `;
 }
 
@@ -50,16 +57,32 @@ function bindLanguageSwitch() {
         updateDesktopNav(); 
         const mobileNav = document.getElementById('mobile-nav');
         if (mobileNav) {
-            mobileNav.innerHTML = `
-                <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
-                <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
-                <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
-                <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
-                <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
-                <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
-                <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
-                <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
-            `;
+mobileNav.innerHTML = `
+    <a href="#home" class="nav-item" data-page="home">${__('nav.home')}</a>
+    <a href="#annual" class="nav-item" data-page="season">${__('nav.season')}</a>
+    <a href="#three-year" class="nav-item" data-page="active">${__('nav.active')}</a>
+    <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
+    <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
+    <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
+    <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
+    <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
+    <div class="nav-dropdown">
+        <span class="nav-item dropdown-toggle">天赋测试</span>
+        <div class="dropdown-menu">
+            <a href="test1.html" class="dropdown-item">反应速度</a>
+            <a href="test2.html" class="dropdown-item">手眼协调</a>
+        </div>
+    </div>
+`;
+
+const dropdowns = mobileNav.querySelectorAll('.nav-dropdown');
+dropdowns.forEach(drop => {
+    const toggle = drop.querySelector('.dropdown-toggle');
+    toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        drop.classList.toggle('active');
+    });
+});
         }
         if (state.currentPage) {
             loadPage(state.currentPage);
