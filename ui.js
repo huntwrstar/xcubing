@@ -3,19 +3,6 @@ function renderHome() {
         <div style="text-align: center; margin: 50px 0;">
             <h3 class="home-title"><span>探索未来，</span><span>未来已来。</span></h3>
         </div>
-        <!-- 横幅轮播：按钮在边框外部 -->
-        <div class="banner-wrapper">
-            <button class="banner-prev">❮</button>
-            <div class="banner-container">
-                <div class="banner-slides">
-                    <a href="https://cubing.pro/welcome" target="_blank"><img src="images/banner1.jpg" alt="banner1"></a>
-                    <a href="https://rktimer.com" target="_blank"><img src="images/banner2.jpg" alt="banner2"></a>
-                    <a href="https://xcubing.cn" target="_blank"><img src="images/banner3.jpg" alt="banner3"></a>
-                </div>
-            </div>
-            <button class="banner-next">❯</button>
-        </div>
-        <div class="announcement-list">
         <div class="announcement-list">
             <div class="announcement">
                 <h3>更新公告</h3>

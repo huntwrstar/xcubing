@@ -31,6 +31,16 @@
   },
   {
     "rank": 4,
+    "name": "Noah Swor",
+    "gender": "男",
+    "result": "16.85",
+    "competition": "CubingUSA Southeast Championship 2026",
+    "wcaid": "2017SWOR01",
+    "date": "2026-04-25",
+    "country": "USA"
+  },
+  {
+    "rank": 5,
     "name": "Yifan Wang (王逸帆)",
     "gender": "男",
     "result": "16.94",
@@ -40,7 +50,7 @@
     "country": "China"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "name": "Keita Hayakawa (早川慶太)",
     "gender": "男",
     "result": "16.94",
@@ -50,7 +60,7 @@
     "country": "Japan"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "name": "Simon Praschl",
     "gender": "男",
     "result": "17.12",
@@ -60,7 +70,7 @@
     "country": "Austria"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "name": "Jens Haber",
     "gender": "男",
     "result": "17.99",
@@ -70,7 +80,7 @@
     "country": "Germany"
   },
   {
-    "rank": 8,
+    "rank": 9,
     "name": "Ben Baron",
     "gender": "男",
     "result": "18.05",
@@ -80,7 +90,7 @@
     "country": "Israel"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "name": "Andy Wong",
     "gender": "男",
     "result": "18.24",
@@ -90,7 +100,7 @@
     "country": "USA"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "name": "Krzysztof Bober",
     "gender": "男",
     "result": "18.81",
@@ -100,7 +110,7 @@
     "country": "Poland"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "name": "Stanley Chapel",
     "gender": "男",
     "result": "18.97",
@@ -110,7 +120,7 @@
     "country": "USA"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "name": "Brayden Thompson",
     "gender": "男",
     "result": "19.06",
@@ -120,7 +130,7 @@
     "country": "USA"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "name": "Stanisław Szyszka",
     "gender": "男",
     "result": "19.25",
@@ -130,7 +140,7 @@
     "country": "Poland"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "name": "Phillip Maxwell",
     "gender": "男",
     "result": "19.45",
@@ -140,7 +150,17 @@
     "country": "Indonesia"
   },
   {
-    "rank": 15,
+    "rank": 16,
+    "name": "Calix Tang",
+    "gender": "男",
+    "result": "19.47",
+    "competition": "Berkeley Spring 2026",
+    "wcaid": "2015TANG04",
+    "date": "2026-04-26",
+    "country": "USA"
+  },
+  {
+    "rank": 17,
     "name": "Jianing Luo (罗佳宁)",
     "gender": "女",
     "result": "19.49",
@@ -150,7 +170,7 @@
     "country": "China"
   },
   {
-    "rank": 16,
+    "rank": 18,
     "name": "Graham Siggins",
     "gender": "男",
     "result": "19.56",
@@ -160,7 +180,7 @@
     "country": "USA"
   },
   {
-    "rank": 17,
+    "rank": 19,
     "name": "Theodore Chan",
     "gender": "男",
     "result": "19.71",
@@ -170,7 +190,7 @@
     "country": "Singapore"
   },
   {
-    "rank": 18,
+    "rank": 20,
     "name": "Olivier Vos",
     "gender": "男",
     "result": "19.81",
@@ -180,7 +200,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 19,
+    "rank": 21,
     "name": "Dhruv Ambastha",
     "gender": "男",
     "result": "19.92",
@@ -190,7 +210,17 @@
     "country": "India"
   },
   {
-    "rank": 20,
+    "rank": 22,
+    "name": "Dominik Kobinski",
+    "gender": "男",
+    "result": "20.03",
+    "competition": "Brizzon Side Open III 2026",
+    "wcaid": "2019KOBI01",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 23,
     "name": "Chih-Chuan Yang (楊智全)",
     "gender": "男",
     "result": "20.11",
@@ -200,7 +230,7 @@
     "country": "China"
   },
   {
-    "rank": 21,
+    "rank": 24,
     "name": "Firstian Fushada (符逢城)",
     "gender": "男",
     "result": "20.18",
@@ -210,7 +240,7 @@
     "country": "Indonesia"
   },
   {
-    "rank": 22,
+    "rank": 25,
     "name": "Kaijun Lin (林恺俊)",
     "gender": "男",
     "result": "20.22",
@@ -220,7 +250,27 @@
     "country": "China"
   },
   {
-    "rank": 23,
+    "rank": 26,
+    "name": "Martin Vædele Egdal",
+    "gender": "男",
+    "result": "20.30",
+    "competition": "Nordic & Swedish Championship 2026",
+    "wcaid": "2013EGDA02",
+    "date": "2026-05-01",
+    "country": "Denmark"
+  },
+  {
+    "rank": 27,
+    "name": "Kamil Przybylski",
+    "gender": "男",
+    "result": "20.35",
+    "competition": "Blind League Dobřejovice II: Crownrise 2026",
+    "wcaid": "2016PRZY01",
+    "date": "2026-04-25",
+    "country": "Poland"
+  },
+  {
+    "rank": 28,
     "name": "Daniel Wallin",
     "gender": "男",
     "result": "20.50",
@@ -230,7 +280,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 24,
+    "rank": 29,
     "name": "Ryan Pilat",
     "gender": "男",
     "result": "20.54",
@@ -240,7 +290,17 @@
     "country": "USA"
   },
   {
-    "rank": 25,
+    "rank": 30,
+    "name": "Israel Fraga da Silva",
+    "gender": "男",
+    "result": "20.64",
+    "competition": "Campeonato Mineiro 2026",
+    "wcaid": "2012SILV22",
+    "date": "2026-05-01",
+    "country": "Brazil"
+  },
+  {
+    "rank": 31,
     "name": "Ivo Stoutjesdijk",
     "gender": "男",
     "result": "20.74",
@@ -250,7 +310,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 26,
+    "rank": 32,
     "name": "Joshua Gao",
     "gender": "男",
     "result": "20.79",
@@ -260,7 +320,7 @@
     "country": "USA"
   },
   {
-    "rank": 27,
+    "rank": 33,
     "name": "Noah Kraft",
     "gender": "男",
     "result": "20.83",
@@ -270,17 +330,7 @@
     "country": "Germany"
   },
   {
-    "rank": 28,
-    "name": "Martin Vædele Egdal",
-    "gender": "男",
-    "result": "20.89",
-    "competition": "Hvidovre for Alle 2026",
-    "wcaid": "2013EGDA02",
-    "date": "2026-01-10",
-    "country": "Denmark"
-  },
-  {
-    "rank": 29,
+    "rank": 34,
     "name": "Rowe Hessler",
     "gender": "男",
     "result": "21.00",
@@ -290,7 +340,7 @@
     "country": "USA"
   },
   {
-    "rank": 30,
+    "rank": 35,
     "name": "Nicolas Campanario",
     "gender": "男",
     "result": "21.31",
@@ -300,7 +350,7 @@
     "country": "Argentina"
   },
   {
-    "rank": 31,
+    "rank": 36,
     "name": "Tien Tran",
     "gender": "男",
     "result": "21.58",
@@ -310,7 +360,7 @@
     "country": "USA"
   },
   {
-    "rank": 32,
+    "rank": 37,
     "name": "Michael Tripodi",
     "gender": "男",
     "result": "21.61",
@@ -320,7 +370,7 @@
     "country": "Australia"
   },
   {
-    "rank": 33,
+    "rank": 38,
     "name": "Arthur Garcin",
     "gender": "男",
     "result": "21.68",
@@ -330,17 +380,7 @@
     "country": "France"
   },
   {
-    "rank": 34,
-    "name": "Israel Fraga da Silva",
-    "gender": "男",
-    "result": "21.72",
-    "competition": "Zoioff Campinas 2026",
-    "wcaid": "2012SILV22",
-    "date": "2026-03-07",
-    "country": "Brazil"
-  },
-  {
-    "rank": 35,
+    "rank": 39,
     "name": "James Macdiarmid",
     "gender": "男",
     "result": "21.75",
@@ -350,7 +390,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 36,
+    "rank": 40,
     "name": "Heejun Kim (김희준)",
     "gender": "男",
     "result": "21.90",
@@ -360,17 +400,7 @@
     "country": "Korea"
   },
   {
-    "rank": 37,
-    "name": "Dominik Kobinski",
-    "gender": "男",
-    "result": "21.94",
-    "competition": "BrizZon Side Open II 2026",
-    "wcaid": "2019KOBI01",
-    "date": "2026-03-07",
-    "country": "Poland"
-  },
-  {
-    "rank": 38,
+    "rank": 41,
     "name": "Will Cerne",
     "gender": "男",
     "result": "22.13",
@@ -380,7 +410,7 @@
     "country": "USA"
   },
   {
-    "rank": 39,
+    "rank": 42,
     "name": "Mikołaj Morawski",
     "gender": "男",
     "result": "22.29",
@@ -390,7 +420,7 @@
     "country": "Poland"
   },
   {
-    "rank": 40,
+    "rank": 43,
     "name": "Ryan Eckersley",
     "gender": "男",
     "result": "22.33",
@@ -400,7 +430,17 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 41,
+    "rank": 44,
+    "name": "Ezra Hirschi",
+    "gender": "男",
+    "result": "22.36",
+    "competition": "Lonay Euro Qualifier 2026",
+    "wcaid": "2019HIRS01",
+    "date": "2026-05-02",
+    "country": "Switzerland"
+  },
+  {
+    "rank": 45,
     "name": "Ben Stokes",
     "gender": "男",
     "result": "22.41",
@@ -410,7 +450,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 42,
+    "rank": 46,
     "name": "Yeon Kyun Park (박연균)",
     "gender": "男",
     "result": "22.46",
@@ -420,7 +460,7 @@
     "country": "Korea"
   },
   {
-    "rank": 43,
+    "rank": 47,
     "name": "JiHun Yim (임지훈)",
     "gender": "男",
     "result": "22.47",
@@ -430,7 +470,7 @@
     "country": "Korea"
   },
   {
-    "rank": 44,
+    "rank": 48,
     "name": "Wojciech Rogoziński",
     "gender": "男",
     "result": "22.49",
@@ -440,7 +480,7 @@
     "country": "Poland"
   },
   {
-    "rank": 45,
+    "rank": 49,
     "name": "Sukant Koul",
     "gender": "男",
     "result": "22.50",
@@ -450,7 +490,7 @@
     "country": "India"
   },
   {
-    "rank": 46,
+    "rank": 50,
     "name": "Maxime Madrzyk",
     "gender": "男",
     "result": "22.58",
@@ -460,17 +500,7 @@
     "country": "France"
   },
   {
-    "rank": 47,
-    "name": "Kamil Przybylski",
-    "gender": "男",
-    "result": "22.60",
-    "competition": "Gorzów Cubing Days 2026",
-    "wcaid": "2016PRZY01",
-    "date": "2026-03-28",
-    "country": "Poland"
-  },
-  {
-    "rank": 48,
+    "rank": 51,
     "name": "Yuki Tsuneyoshi (恒吉優紀)",
     "gender": "男",
     "result": "22.62",
@@ -480,7 +510,7 @@
     "country": "Japan"
   },
   {
-    "rank": 49,
+    "rank": 52,
     "name": "Quentin Rivault",
     "gender": "男",
     "result": "22.63",
@@ -490,7 +520,7 @@
     "country": "France"
   },
   {
-    "rank": 50,
+    "rank": 53,
     "name": "Hans Lin",
     "gender": "男",
     "result": "22.71",
@@ -500,7 +530,7 @@
     "country": "Australia"
   },
   {
-    "rank": 51,
+    "rank": 54,
     "name": "Elias Chong",
     "gender": "男",
     "result": "22.76",
@@ -510,7 +540,7 @@
     "country": "Australia"
   },
   {
-    "rank": 52,
+    "rank": 55,
     "name": "Daniel Wang",
     "gender": "男",
     "result": "22.87",
@@ -520,7 +550,17 @@
     "country": "Australia"
   },
   {
-    "rank": 53,
+    "rank": 56,
+    "name": "Anto Kam (甘浩東)",
+    "gender": "男",
+    "result": "23.14",
+    "competition": "Berkeley Spring 2026",
+    "wcaid": "2017TUNG13",
+    "date": "2026-04-26",
+    "country": "China"
+  },
+  {
+    "rank": 57,
     "name": "Jack McDougall",
     "gender": "男",
     "result": "23.48",
@@ -530,7 +570,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 54,
+    "rank": 58,
     "name": "Mengfei Shen (沈梦非)",
     "gender": "女",
     "result": "23.49",
@@ -540,7 +580,7 @@
     "country": "China"
   },
   {
-    "rank": 55,
+    "rank": 59,
     "name": "Radomił Baran",
     "gender": "男",
     "result": "23.60",
@@ -550,7 +590,7 @@
     "country": "Poland"
   },
   {
-    "rank": 56,
+    "rank": 60,
     "name": "Mattia Rigo",
     "gender": "男",
     "result": "24.07",
@@ -560,7 +600,7 @@
     "country": "Italy"
   },
   {
-    "rank": 57,
+    "rank": 61,
     "name": "Tobias Peter",
     "gender": "男",
     "result": "24.22",
@@ -570,7 +610,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 58,
+    "rank": 62,
     "name": "Victor Valentin Glyrskov",
     "gender": "男",
     "result": "24.46",
@@ -580,7 +620,17 @@
     "country": "Denmark"
   },
   {
-    "rank": 59,
+    "rank": 63,
+    "name": "Oliver Fritz",
+    "gender": "男",
+    "result": "24.62",
+    "competition": "All Rounders Katowice I 2026",
+    "wcaid": "2014FRIT02",
+    "date": "2026-05-01",
+    "country": "Germany"
+  },
+  {
+    "rank": 64,
     "name": "Jonathan Blöcher",
     "gender": "男",
     "result": "24.72",
@@ -590,7 +640,7 @@
     "country": "Germany"
   },
   {
-    "rank": 60,
+    "rank": 65,
     "name": "Marcos Ferreira Semolini",
     "gender": "男",
     "result": "24.90",
@@ -600,7 +650,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 61,
+    "rank": 66,
     "name": "Tomoaki Sakuma (佐久間智章)",
     "gender": "男",
     "result": "24.92",
@@ -610,17 +660,17 @@
     "country": "Japan"
   },
   {
-    "rank": 62,
-    "name": "Anto Kam (甘浩東)",
+    "rank": 67,
+    "name": "Mattheo de Wit",
     "gender": "男",
-    "result": "25.06",
-    "competition": "Berkeley February Weekday 2026",
-    "wcaid": "2017TUNG13",
-    "date": "2026-02-06",
-    "country": "China"
+    "result": "24.99",
+    "competition": "Brizzon Side Open III 2026",
+    "wcaid": "2015WITM01",
+    "date": "2026-05-01",
+    "country": "Netherlands"
   },
   {
-    "rank": 62,
+    "rank": 68,
     "name": "Krystian Węgrzyn",
     "gender": "男",
     "result": "25.06",
@@ -630,7 +680,7 @@
     "country": "Poland"
   },
   {
-    "rank": 64,
+    "rank": 69,
     "name": "Lorenzo Mauro",
     "gender": "男",
     "result": "25.13",
@@ -640,7 +690,7 @@
     "country": "Italy"
   },
   {
-    "rank": 65,
+    "rank": 70,
     "name": "Jonathan Dammann",
     "gender": "男",
     "result": "25.16",
@@ -650,7 +700,7 @@
     "country": "France"
   },
   {
-    "rank": 66,
+    "rank": 71,
     "name": "Ping-Yueh Huang (黃品越)",
     "gender": "男",
     "result": "25.17",
@@ -660,7 +710,7 @@
     "country": "China"
   },
   {
-    "rank": 67,
+    "rank": 72,
     "name": "Li-Chen Lin (林立宸)",
     "gender": "男",
     "result": "25.19",
@@ -670,7 +720,7 @@
     "country": "China"
   },
   {
-    "rank": 68,
+    "rank": 73,
     "name": "Aidan Chiari",
     "gender": "男",
     "result": "25.35",
@@ -680,7 +730,7 @@
     "country": "Italy"
   },
   {
-    "rank": 69,
+    "rank": 74,
     "name": "Marcin Chmielewski",
     "gender": "男",
     "result": "25.37",
@@ -690,7 +740,7 @@
     "country": "Poland"
   },
   {
-    "rank": 70,
+    "rank": 75,
     "name": "Mason Langenderfer",
     "gender": "男",
     "result": "25.42",
@@ -700,17 +750,17 @@
     "country": "USA"
   },
   {
-    "rank": 71,
-    "name": "Mattheo de Wit",
+    "rank": 76,
+    "name": "Thiago Han",
     "gender": "男",
-    "result": "25.43",
-    "competition": "Rhein-Sieg Open 2026",
-    "wcaid": "2015WITM01",
-    "date": "2026-01-16",
-    "country": "Netherlands"
+    "result": "25.51",
+    "competition": "Cubing in Ružinov: April 2026",
+    "wcaid": "2022HANT01",
+    "date": "2026-04-25",
+    "country": "Brazil"
   },
   {
-    "rank": 72,
+    "rank": 77,
     "name": "Amy Smith",
     "gender": "女",
     "result": "25.55",
@@ -720,17 +770,7 @@
     "country": "Australia"
   },
   {
-    "rank": 73,
-    "name": "Thiago Han",
-    "gender": "男",
-    "result": "25.75",
-    "competition": "Budapest Open 2026",
-    "wcaid": "2022HANT01",
-    "date": "2026-03-28",
-    "country": "Brazil"
-  },
-  {
-    "rank": 74,
+    "rank": 78,
     "name": "Matthew Hollinger",
     "gender": "男",
     "result": "25.79",
@@ -740,7 +780,7 @@
     "country": "USA"
   },
   {
-    "rank": 75,
+    "rank": 79,
     "name": "Sebastiano Tronto",
     "gender": "男",
     "result": "26.19",
@@ -750,7 +790,7 @@
     "country": "Italy"
   },
   {
-    "rank": 76,
+    "rank": 80,
     "name": "Josh Weimer",
     "gender": "男",
     "result": "26.59",
@@ -760,7 +800,7 @@
     "country": "USA"
   },
   {
-    "rank": 77,
+    "rank": 81,
     "name": "Yucheng Chen (陈裕铖)",
     "gender": "男",
     "result": "26.87",
@@ -770,7 +810,7 @@
     "country": "China"
   },
   {
-    "rank": 78,
+    "rank": 82,
     "name": "Ko Youngjin (고영진)",
     "gender": "男",
     "result": "26.95",
@@ -780,7 +820,7 @@
     "country": "Korea"
   },
   {
-    "rank": 79,
+    "rank": 83,
     "name": "Brandon Lin (林博浩)",
     "gender": "男",
     "result": "27.23",
@@ -790,7 +830,7 @@
     "country": "USA"
   },
   {
-    "rank": 80,
+    "rank": 84,
     "name": "Guido Dipietro",
     "gender": "男",
     "result": "27.51",
@@ -800,7 +840,7 @@
     "country": "Argentina"
   },
   {
-    "rank": 81,
+    "rank": 85,
     "name": "Naomi Solnick",
     "gender": "女",
     "result": "27.76",
@@ -810,7 +850,7 @@
     "country": "USA"
   },
   {
-    "rank": 82,
+    "rank": 86,
     "name": "Fletcher Berry",
     "gender": "男",
     "result": "27.84",
@@ -820,7 +860,7 @@
     "country": "USA"
   },
   {
-    "rank": 83,
+    "rank": 87,
     "name": "Zakarya Otair",
     "gender": "男",
     "result": "27.92",
@@ -830,7 +870,7 @@
     "country": "Jordan"
   },
   {
-    "rank": 84,
+    "rank": 88,
     "name": "Andrew Tao",
     "gender": "男",
     "result": "28.12",
@@ -840,7 +880,7 @@
     "country": "USA"
   },
   {
-    "rank": 85,
+    "rank": 89,
     "name": "Manu Dutheil",
     "gender": "男",
     "result": "28.42",
@@ -850,7 +890,7 @@
     "country": "France"
   },
   {
-    "rank": 86,
+    "rank": 90,
     "name": "Adam Devere",
     "gender": "男",
     "result": "28.43",
@@ -860,7 +900,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 86,
+    "rank": 90,
     "name": "Hongjie Zhang (张鸿杰)",
     "gender": "男",
     "result": "28.43",
@@ -870,7 +910,17 @@
     "country": "China"
   },
   {
-    "rank": 88,
+    "rank": 92,
+    "name": "Andrés Rodríguez Galán",
+    "gender": "男",
+    "result": "28.97",
+    "competition": "Granada Open 2026",
+    "wcaid": "2016GALA04",
+    "date": "2026-04-25",
+    "country": "Spain"
+  },
+  {
+    "rank": 93,
     "name": "Eskil Munthe",
     "gender": "男",
     "result": "29.03",
@@ -880,7 +930,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 89,
+    "rank": 94,
     "name": "Anawin Chaichana (อนาวิล ชัยชนะ)",
     "gender": "男",
     "result": "29.23",
@@ -890,7 +940,7 @@
     "country": "Thailand"
   },
   {
-    "rank": 90,
+    "rank": 95,
     "name": "Ilona Ansel",
     "gender": "女",
     "result": "29.33",
@@ -900,7 +950,7 @@
     "country": "France"
   },
   {
-    "rank": 91,
+    "rank": 96,
     "name": "Lim Zhe Hsien (林哲贤)",
     "gender": "男",
     "result": "29.37",
@@ -910,7 +960,17 @@
     "country": "Singapore"
   },
   {
-    "rank": 92,
+    "rank": 97,
+    "name": "Willem Klose",
+    "gender": "男",
+    "result": "29.94",
+    "competition": "Nordic & Swedish Championship 2026",
+    "wcaid": "2017KLOS01",
+    "date": "2026-05-01",
+    "country": "Germany"
+  },
+  {
+    "rank": 98,
     "name": "William Jensen",
     "gender": "男",
     "result": "29.96",
@@ -920,7 +980,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 93,
+    "rank": 99,
     "name": "Juan Diego Soria Velez",
     "gender": "男",
     "result": "30.01",
@@ -930,17 +990,7 @@
     "country": "Bolivia"
   },
   {
-    "rank": 94,
-    "name": "Andrés Rodríguez Galán",
-    "gender": "男",
-    "result": "30.14",
-    "competition": "Mairena Open 2026",
-    "wcaid": "2016GALA04",
-    "date": "2026-04-11",
-    "country": "Spain"
-  },
-  {
-    "rank": 95,
+    "rank": 100,
     "name": "Michel D'Antoni",
     "gender": "男",
     "result": "30.23",
@@ -950,7 +1000,17 @@
     "country": "Italy"
   },
   {
-    "rank": 96,
+    "rank": 101,
+    "name": "Niklas Aasen Eliasson",
+    "gender": "男",
+    "result": "30.25",
+    "competition": "Nordic & Swedish Championship 2026",
+    "wcaid": "2021ELIA01",
+    "date": "2026-05-01",
+    "country": "Norway"
+  },
+  {
+    "rank": 102,
     "name": "Ethan Jan",
     "gender": "男",
     "result": "30.35",
@@ -960,7 +1020,7 @@
     "country": "USA"
   },
   {
-    "rank": 97,
+    "rank": 103,
     "name": "Liren Sun (孙立仁)",
     "gender": "男",
     "result": "30.47",
@@ -970,7 +1030,7 @@
     "country": "China"
   },
   {
-    "rank": 98,
+    "rank": 104,
     "name": "Jacob Keh Zheng Xing (郭正兴)",
     "gender": "男",
     "result": "30.51",
@@ -980,7 +1040,7 @@
     "country": "Singapore"
   },
   {
-    "rank": 99,
+    "rank": 105,
     "name": "Zheyu Liao (廖喆宇)",
     "gender": "男",
     "result": "30.78",
@@ -990,27 +1050,17 @@
     "country": "China"
   },
   {
-    "rank": 100,
-    "name": "Niklas Aasen Eliasson",
+    "rank": 106,
+    "name": "Jan Fonš",
     "gender": "男",
-    "result": "31.09",
-    "competition": "Porfyrkuben 2026",
-    "wcaid": "2021ELIA01",
-    "date": "2026-01-23",
-    "country": "Norway"
+    "result": "30.93",
+    "competition": "Blind League Dobřejovice II: Crownrise 2026",
+    "wcaid": "2017FONS04",
+    "date": "2026-04-25",
+    "country": "Czech Republic"
   },
   {
-    "rank": 101,
-    "name": "Oliver Fritz",
-    "gender": "男",
-    "result": "31.21",
-    "competition": "Quick Q.bing Q.lisse 2026",
-    "wcaid": "2014FRIT02",
-    "date": "2026-03-14",
-    "country": "Germany"
-  },
-  {
-    "rank": 102,
+    "rank": 107,
     "name": "Rodolphe Rouyrre",
     "gender": "男",
     "result": "31.37",
@@ -1020,7 +1070,17 @@
     "country": "France"
   },
   {
-    "rank": 103,
+    "rank": 108,
+    "name": "Dong Zhu (朱栋)",
+    "gender": "男",
+    "result": "31.56",
+    "competition": "Deqing Big & Blind 2026",
+    "wcaid": "2019ZHUD02",
+    "date": "2026-04-25",
+    "country": "China"
+  },
+  {
+    "rank": 109,
     "name": "Bhargav Narasimhan",
     "gender": "男",
     "result": "31.67",
@@ -1030,7 +1090,7 @@
     "country": "India"
   },
   {
-    "rank": 104,
+    "rank": 110,
     "name": "Elijah Mok",
     "gender": "男",
     "result": "31.81",
@@ -1040,7 +1100,7 @@
     "country": "Canada"
   },
   {
-    "rank": 105,
+    "rank": 111,
     "name": "Ralph Justine Villarico",
     "gender": "男",
     "result": "31.83",
@@ -1050,7 +1110,7 @@
     "country": "Philippines"
   },
   {
-    "rank": 106,
+    "rank": 112,
     "name": "Levin Houghton",
     "gender": "男",
     "result": "31.85",
@@ -1060,7 +1120,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 107,
+    "rank": 113,
     "name": "Yuhang Sun (孙煜航)",
     "gender": "男",
     "result": "32.08",
@@ -1070,7 +1130,7 @@
     "country": "China"
   },
   {
-    "rank": 108,
+    "rank": 114,
     "name": "Angel David Alvarado Sandoval",
     "gender": "男",
     "result": "32.15",
@@ -1080,7 +1140,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 109,
+    "rank": 115,
     "name": "Jack Maddigan",
     "gender": "男",
     "result": "32.53",
@@ -1090,7 +1150,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 110,
+    "rank": 116,
     "name": "Alan Żeromski",
     "gender": "男",
     "result": "32.59",
@@ -1100,7 +1160,7 @@
     "country": "Poland"
   },
   {
-    "rank": 111,
+    "rank": 117,
     "name": "Yuki Yamamoto (山本祐輝)",
     "gender": "男",
     "result": "33.09",
@@ -1110,7 +1170,7 @@
     "country": "Japan"
   },
   {
-    "rank": 112,
+    "rank": 118,
     "name": "Adrien Neveu",
     "gender": "男",
     "result": "33.50",
@@ -1120,7 +1180,7 @@
     "country": "France"
   },
   {
-    "rank": 113,
+    "rank": 119,
     "name": "Shiori Yanai",
     "gender": "女",
     "result": "33.94",
@@ -1130,7 +1190,7 @@
     "country": "Japan"
   },
   {
-    "rank": 114,
+    "rank": 120,
     "name": "Elvin Thorsen",
     "gender": "男",
     "result": "34.06",
@@ -1140,7 +1200,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 115,
+    "rank": 121,
     "name": "Corentin Thomée",
     "gender": "男",
     "result": "34.18",
@@ -1150,7 +1210,7 @@
     "country": "Belgium"
   },
   {
-    "rank": 116,
+    "rank": 122,
     "name": "Tom Nelson",
     "gender": "男",
     "result": "34.19",
@@ -1160,17 +1220,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 117,
-    "name": "Willem Klose",
-    "gender": "男",
-    "result": "34.60",
-    "competition": "BLD Open Fürth 2026",
-    "wcaid": "2017KLOS01",
-    "date": "2026-04-11",
-    "country": "Germany"
-  },
-  {
-    "rank": 118,
+    "rank": 123,
     "name": "Bálint Csengő",
     "gender": "男",
     "result": "34.66",
@@ -1180,7 +1230,7 @@
     "country": "Hungary"
   },
   {
-    "rank": 119,
+    "rank": 124,
     "name": "Michael Ngan (顏律言)",
     "gender": "男",
     "result": "34.83",
@@ -1190,7 +1240,17 @@
     "country": "China"
   },
   {
-    "rank": 120,
+    "rank": 125,
+    "name": "Thomas Strasser",
+    "gender": "男",
+    "result": "35.21",
+    "competition": "Langenstein City Blind Open 2026",
+    "wcaid": "2022STRA10",
+    "date": "2026-04-18",
+    "country": "Austria"
+  },
+  {
+    "rank": 126,
     "name": "Andrew Tan Jing Bang",
     "gender": "男",
     "result": "35.28",
@@ -1200,7 +1260,7 @@
     "country": "Singapore"
   },
   {
-    "rank": 121,
+    "rank": 127,
     "name": "Connor Johnson",
     "gender": "男",
     "result": "35.43",
@@ -1210,7 +1270,17 @@
     "country": "New Zealand"
   },
   {
-    "rank": 122,
+    "rank": 128,
+    "name": "Zhe Wang (王哲)",
+    "gender": "男",
+    "result": "35.48",
+    "competition": "Deqing Big & Blind 2026",
+    "wcaid": "2019WANZ21",
+    "date": "2026-04-25",
+    "country": "China"
+  },
+  {
+    "rank": 129,
     "name": "Simon Kelly",
     "gender": "男",
     "result": "35.94",
@@ -1220,7 +1290,7 @@
     "country": "Ireland"
   },
   {
-    "rank": 123,
+    "rank": 130,
     "name": "Shuto Ueno (上野柊斗)",
     "gender": "男",
     "result": "36.01",
@@ -1230,7 +1300,17 @@
     "country": "Japan"
   },
   {
-    "rank": 124,
+    "rank": 131,
+    "name": "Kamil Michalak",
+    "gender": "男",
+    "result": "36.50",
+    "competition": "Brizzon Side Open III 2026",
+    "wcaid": "2016MICH01",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 132,
     "name": "Nahyun Jung (정나현)",
     "gender": "女",
     "result": "36.55",
@@ -1240,7 +1320,17 @@
     "country": "Korea"
   },
   {
-    "rank": 125,
+    "rank": 133,
+    "name": "Oskar Feed Jakobsen",
+    "gender": "男",
+    "result": "36.84",
+    "competition": "Nordic & Swedish Championship 2026",
+    "wcaid": "2017JAKO02",
+    "date": "2026-05-01",
+    "country": "Norway"
+  },
+  {
+    "rank": 134,
     "name": "Ella Jelenská",
     "gender": "女",
     "result": "37.15",
@@ -1250,7 +1340,7 @@
     "country": "Slovakia"
   },
   {
-    "rank": 126,
+    "rank": 135,
     "name": "Adam Marcellus Kelly",
     "gender": "男",
     "result": "37.75",
@@ -1260,7 +1350,7 @@
     "country": "Denmark"
   },
   {
-    "rank": 127,
+    "rank": 136,
     "name": "Etan Huang",
     "gender": "男",
     "result": "37.80",
@@ -1270,7 +1360,7 @@
     "country": "Canada"
   },
   {
-    "rank": 128,
+    "rank": 137,
     "name": "Adamo Sabbadin",
     "gender": "男",
     "result": "38.20",
@@ -1280,7 +1370,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 129,
+    "rank": 138,
     "name": "William Phommaha",
     "gender": "男",
     "result": "38.44",
@@ -1290,7 +1380,7 @@
     "country": "France"
   },
   {
-    "rank": 130,
+    "rank": 139,
     "name": "Hongyu Jiang (姜宏禹)",
     "gender": "男",
     "result": "38.64",
@@ -1300,7 +1390,7 @@
     "country": "China"
   },
   {
-    "rank": 131,
+    "rank": 140,
     "name": "Haruka Kitamura (北村晴香)",
     "gender": "女",
     "result": "38.83",
@@ -1310,7 +1400,7 @@
     "country": "Japan"
   },
   {
-    "rank": 132,
+    "rank": 141,
     "name": "Naoto Kobayashi (小林直登)",
     "gender": "男",
     "result": "38.95",
@@ -1320,7 +1410,7 @@
     "country": "Japan"
   },
   {
-    "rank": 133,
+    "rank": 142,
     "name": "Nam Anh Dang",
     "gender": "男",
     "result": "39.23",
@@ -1330,7 +1420,27 @@
     "country": "Australia"
   },
   {
-    "rank": 134,
+    "rank": 143,
+    "name": "Dominika Warchoł",
+    "gender": "女",
+    "result": "39.38",
+    "competition": "Blind League Dobřejovice II: Crownrise 2026",
+    "wcaid": "2021WARC01",
+    "date": "2026-04-25",
+    "country": "Poland"
+  },
+  {
+    "rank": 144,
+    "name": "Martin Fröhlich",
+    "gender": "男",
+    "result": "39.44",
+    "competition": "Langenstein City Blind Open 2026",
+    "wcaid": "2023FROH01",
+    "date": "2026-04-18",
+    "country": "Austria"
+  },
+  {
+    "rank": 145,
     "name": "Sora Wenjie Xu (徐文杰)",
     "gender": "男",
     "result": "39.69",
@@ -1340,17 +1450,17 @@
     "country": "China"
   },
   {
-    "rank": 135,
-    "name": "Zhe Wang (王哲)",
+    "rank": 146,
+    "name": "Arkadiusz Żynel",
     "gender": "男",
-    "result": "40.13",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2019WANZ21",
-    "date": "2026-02-06",
-    "country": "China"
+    "result": "40.42",
+    "competition": "Brizzon Side Open III 2026",
+    "wcaid": "2018ZYNE01",
+    "date": "2026-05-01",
+    "country": "Poland"
   },
   {
-    "rank": 136,
+    "rank": 147,
     "name": "Jimmy Kingston",
     "gender": "男",
     "result": "40.52",
@@ -1360,7 +1470,7 @@
     "country": "USA"
   },
   {
-    "rank": 137,
+    "rank": 148,
     "name": "Jérôme Carlier",
     "gender": "男",
     "result": "40.59",
@@ -1370,7 +1480,7 @@
     "country": "Belgium"
   },
   {
-    "rank": 138,
+    "rank": 149,
     "name": "Thai Bui",
     "gender": "男",
     "result": "40.66",
@@ -1380,7 +1490,7 @@
     "country": "USA"
   },
   {
-    "rank": 139,
+    "rank": 150,
     "name": "Matteo Dummar",
     "gender": "男",
     "result": "40.84",
@@ -1390,7 +1500,7 @@
     "country": "Italy"
   },
   {
-    "rank": 140,
+    "rank": 151,
     "name": "Francisco Guesser Humenhuk",
     "gender": "男",
     "result": "41.17",
@@ -1400,7 +1510,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 141,
+    "rank": 152,
     "name": "Jungwoo Kim (김정우)",
     "gender": "男",
     "result": "41.42",
@@ -1410,7 +1520,7 @@
     "country": "Korea"
   },
   {
-    "rank": 142,
+    "rank": 153,
     "name": "Ziyi Xu (徐梓翼)",
     "gender": "男",
     "result": "41.83",
@@ -1420,7 +1530,7 @@
     "country": "China"
   },
   {
-    "rank": 143,
+    "rank": 154,
     "name": "Kacper Paweł Dworak",
     "gender": "男",
     "result": "41.92",
@@ -1430,7 +1540,7 @@
     "country": "Poland"
   },
   {
-    "rank": 144,
+    "rank": 155,
     "name": "Nguyen Dao Quoc Anh",
     "gender": "男",
     "result": "42.01",
@@ -1440,7 +1550,7 @@
     "country": "Vietnam"
   },
   {
-    "rank": 145,
+    "rank": 156,
     "name": "Adam Śmigaj",
     "gender": "男",
     "result": "42.31",
@@ -1450,7 +1560,7 @@
     "country": "Poland"
   },
   {
-    "rank": 146,
+    "rank": 157,
     "name": "Konstantin Jaehne",
     "gender": "男",
     "result": "42.69",
@@ -1460,27 +1570,27 @@
     "country": "Germany"
   },
   {
-    "rank": 147,
+    "rank": 158,
     "name": "Kalin Doherty",
     "gender": "男",
-    "result": "43.06",
-    "competition": "Solving Ferry Fast Rosslare 2026",
+    "result": "43.03",
+    "competition": "Nordic & Swedish Championship 2026",
     "wcaid": "2021DOHE02",
-    "date": "2026-03-28",
+    "date": "2026-05-01",
     "country": "Ireland"
   },
   {
-    "rank": 148,
-    "name": "Jan Fonš",
+    "rank": 159,
+    "name": "Alexis Tremellat",
     "gender": "男",
-    "result": "43.57",
-    "competition": "Třinec Open 2026",
-    "wcaid": "2017FONS04",
-    "date": "2026-02-21",
-    "country": "Czech Republic"
+    "result": "43.88",
+    "competition": "Tigery Open 2026",
+    "wcaid": "2022TREM02",
+    "date": "2026-04-25",
+    "country": "France"
   },
   {
-    "rank": 149,
+    "rank": 160,
     "name": "Kevin Matthews",
     "gender": "男",
     "result": "43.89",
@@ -1490,7 +1600,7 @@
     "country": "Canada"
   },
   {
-    "rank": 150,
+    "rank": 161,
     "name": "Rodrigo Zarate",
     "gender": "男",
     "result": "44.19",
@@ -1500,7 +1610,7 @@
     "country": "Peru"
   },
   {
-    "rank": 151,
+    "rank": 162,
     "name": "Aris Raksamani (อริศม์ รักษมณี)",
     "gender": "男",
     "result": "44.32",
@@ -1510,7 +1620,7 @@
     "country": "Thailand"
   },
   {
-    "rank": 152,
+    "rank": 163,
     "name": "Caleb Lalik",
     "gender": "男",
     "result": "45.23",
@@ -1520,7 +1630,7 @@
     "country": "USA"
   },
   {
-    "rank": 153,
+    "rank": 164,
     "name": "Leia Jiang",
     "gender": "女",
     "result": "45.24",
@@ -1530,7 +1640,7 @@
     "country": "USA"
   },
   {
-    "rank": 154,
+    "rank": 165,
     "name": "Henri Gerber",
     "gender": "男",
     "result": "45.35",
@@ -1540,7 +1650,7 @@
     "country": "Germany"
   },
   {
-    "rank": 155,
+    "rank": 166,
     "name": "Rui Yang (杨睿)",
     "gender": "男",
     "result": "45.72",
@@ -1550,7 +1660,7 @@
     "country": "China"
   },
   {
-    "rank": 156,
+    "rank": 167,
     "name": "Jason Panagiotidis",
     "gender": "男",
     "result": "45.96",
@@ -1560,7 +1670,7 @@
     "country": "Australia"
   },
   {
-    "rank": 157,
+    "rank": 168,
     "name": "Thodoris Iatrou",
     "gender": "男",
     "result": "46.16",
@@ -1570,7 +1680,17 @@
     "country": "Greece"
   },
   {
-    "rank": 158,
+    "rank": 169,
+    "name": "Daniel Baeza",
+    "gender": "男",
+    "result": "47.32",
+    "competition": "Q'umarkaj 2026",
+    "wcaid": "2023BAEZ06",
+    "date": "2026-04-25",
+    "country": "Guatemala"
+  },
+  {
+    "rank": 170,
     "name": "Marc de Joussineau",
     "gender": "男",
     "result": "47.52",
@@ -1580,7 +1700,7 @@
     "country": "France"
   },
   {
-    "rank": 159,
+    "rank": 171,
     "name": "Kirill Mishchenko",
     "gender": "男",
     "result": "47.77",
@@ -1590,7 +1710,7 @@
     "country": "Ukraine"
   },
   {
-    "rank": 160,
+    "rank": 172,
     "name": "Josete Sánchez",
     "gender": "男",
     "result": "47.89",
@@ -1600,7 +1720,7 @@
     "country": "Spain"
   },
   {
-    "rank": 161,
+    "rank": 173,
     "name": "Pedro Giuseppe Garcia Milla",
     "gender": "男",
     "result": "47.91",
@@ -1610,17 +1730,7 @@
     "country": "Peru"
   },
   {
-    "rank": 162,
-    "name": "Daniel Baeza",
-    "gender": "男",
-    "result": "48.21",
-    "competition": "San Cristóbal 2026",
-    "wcaid": "2023BAEZ06",
-    "date": "2026-01-31",
-    "country": "Guatemala"
-  },
-  {
-    "rank": 163,
+    "rank": 174,
     "name": "Wayne Pi",
     "gender": "男",
     "result": "48.24",
@@ -1630,7 +1740,7 @@
     "country": "China"
   },
   {
-    "rank": 164,
+    "rank": 175,
     "name": "Yang Li (李扬)",
     "gender": "男",
     "result": "48.30",
@@ -1640,27 +1750,17 @@
     "country": "China"
   },
   {
-    "rank": 165,
-    "name": "Arkadiusz Żynel",
+    "rank": 176,
+    "name": "Matt Mao",
     "gender": "男",
-    "result": "48.31",
-    "competition": "Cube Factory League Rogów 2026",
-    "wcaid": "2018ZYNE01",
-    "date": "2026-03-14",
-    "country": "Poland"
+    "result": "49.14",
+    "competition": "Berkeley Spring 2026",
+    "wcaid": "2023MAOS01",
+    "date": "2026-04-26",
+    "country": "China"
   },
   {
-    "rank": 166,
-    "name": "Alexis Tremellat",
-    "gender": "男",
-    "result": "48.36",
-    "competition": "Hayange Open 2026",
-    "wcaid": "2022TREM02",
-    "date": "2026-03-28",
-    "country": "France"
-  },
-  {
-    "rank": 167,
+    "rank": 177,
     "name": "Carlos Augusto Gianesi Seller",
     "gender": "男",
     "result": "49.47",
@@ -1670,7 +1770,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 168,
+    "rank": 178,
     "name": "Hugo Laginha",
     "gender": "男",
     "result": "50.09",
@@ -1680,7 +1780,17 @@
     "country": "Portugal"
   },
   {
-    "rank": 169,
+    "rank": 179,
+    "name": "Ben Timmons",
+    "gender": "男",
+    "result": "50.10",
+    "competition": "Nordic & Swedish Championship 2026",
+    "wcaid": "2017TIMM01",
+    "date": "2026-05-01",
+    "country": "Ireland"
+  },
+  {
+    "rank": 180,
     "name": "Abhijeet Ghodgaonkar (अभिजीत घोडगावकर)",
     "gender": "男",
     "result": "50.23",
@@ -1690,7 +1800,17 @@
     "country": "India"
   },
   {
-    "rank": 170,
+    "rank": 181,
+    "name": "Étienne Aubry",
+    "gender": "男",
+    "result": "50.39",
+    "competition": "Tigery Open 2026",
+    "wcaid": "2018AUBR01",
+    "date": "2026-04-25",
+    "country": "France"
+  },
+  {
+    "rank": 182,
     "name": "Vincent Chan",
     "gender": "男",
     "result": "50.49",
@@ -1700,17 +1820,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 171,
-    "name": "Étienne Aubry",
-    "gender": "男",
-    "result": "50.65",
-    "competition": "French Championship 2026",
-    "wcaid": "2018AUBR01",
-    "date": "2026-04-04",
-    "country": "France"
-  },
-  {
-    "rank": 172,
+    "rank": 183,
     "name": "Romain Velcin",
     "gender": "男",
     "result": "51.09",
@@ -1720,7 +1830,7 @@
     "country": "France"
   },
   {
-    "rank": 173,
+    "rank": 184,
     "name": "Marike Faught",
     "gender": "女",
     "result": "51.30",
@@ -1730,7 +1840,7 @@
     "country": "South Africa"
   },
   {
-    "rank": 174,
+    "rank": 185,
     "name": "Brandon Wong",
     "gender": "男",
     "result": "51.76",
@@ -1740,7 +1850,7 @@
     "country": "Canada"
   },
   {
-    "rank": 175,
+    "rank": 186,
     "name": "Ng Jia Quan (黄佳铨)",
     "gender": "男",
     "result": "51.84",
@@ -1750,7 +1860,7 @@
     "country": "Malaysia"
   },
   {
-    "rank": 176,
+    "rank": 187,
     "name": "Timo Günthardt",
     "gender": "男",
     "result": "51.92",
@@ -1760,7 +1870,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 177,
+    "rank": 188,
     "name": "Braden McDonough",
     "gender": "男",
     "result": "52.04",
@@ -1770,7 +1880,7 @@
     "country": "USA"
   },
   {
-    "rank": 178,
+    "rank": 189,
     "name": "Caleb Andersen",
     "gender": "男",
     "result": "52.24",
@@ -1780,7 +1890,7 @@
     "country": "USA"
   },
   {
-    "rank": 179,
+    "rank": 190,
     "name": "Mikus Lembergs",
     "gender": "男",
     "result": "52.36",
@@ -1790,7 +1900,7 @@
     "country": "Latvia"
   },
   {
-    "rank": 180,
+    "rank": 191,
     "name": "James McCambridge",
     "gender": "男",
     "result": "52.55",
@@ -1800,7 +1910,7 @@
     "country": "Ireland"
   },
   {
-    "rank": 181,
+    "rank": 192,
     "name": "Zhibao Zhang (张智宝)",
     "gender": "男",
     "result": "53.25",
@@ -1810,7 +1920,7 @@
     "country": "China"
   },
   {
-    "rank": 182,
+    "rank": 193,
     "name": "Saul Emmanuel Ramirez Gonzalez",
     "gender": "男",
     "result": "53.30",
@@ -1820,7 +1930,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 183,
+    "rank": 194,
     "name": "James Ballantine",
     "gender": "男",
     "result": "53.36",
@@ -1830,7 +1940,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 184,
+    "rank": 195,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "53.54",
@@ -1840,17 +1950,7 @@
     "country": "China"
   },
   {
-    "rank": 185,
-    "name": "Ben Timmons",
-    "gender": "男",
-    "result": "53.77",
-    "competition": "Solving Ferry Fast Rosslare 2026",
-    "wcaid": "2017TIMM01",
-    "date": "2026-03-28",
-    "country": "Ireland"
-  },
-  {
-    "rank": 186,
+    "rank": 196,
     "name": "Alexia Plantivaux",
     "gender": "女",
     "result": "53.87",
@@ -1860,7 +1960,17 @@
     "country": "France"
   },
   {
-    "rank": 187,
+    "rank": 197,
+    "name": "Lucas Ichiro Yunomae",
+    "gender": "男",
+    "result": "54.30",
+    "competition": "Campeonato Mineiro 2026",
+    "wcaid": "2014YUNO01",
+    "date": "2026-05-01",
+    "country": "Brazil"
+  },
+  {
+    "rank": 198,
     "name": "Jim Zhu",
     "gender": "男",
     "result": "54.42",
@@ -1870,7 +1980,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 188,
+    "rank": 199,
     "name": "Lennon Hughes",
     "gender": "男",
     "result": "54.49",
@@ -1880,7 +1990,17 @@
     "country": "Australia"
   },
   {
-    "rank": 189,
+    "rank": 200,
+    "name": "Flurin König",
+    "gender": "男",
+    "result": "54.66",
+    "competition": "Lonay Euro Qualifier 2026",
+    "wcaid": "2019KONI03",
+    "date": "2026-05-02",
+    "country": "Switzerland"
+  },
+  {
+    "rank": 201,
     "name": "Gerardo Ornelas Sifuentes",
     "gender": "男",
     "result": "54.83",
@@ -1890,7 +2010,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 190,
+    "rank": 202,
     "name": "Jake Brown",
     "gender": "未知",
     "result": "54.91",
@@ -1900,7 +2020,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 191,
+    "rank": 203,
     "name": "Anton Schröder",
     "gender": "男",
     "result": "55.29",
@@ -1910,7 +2030,7 @@
     "country": "Germany"
   },
   {
-    "rank": 192,
+    "rank": 204,
     "name": "Jason Hammerman",
     "gender": "男",
     "result": "55.46",
@@ -1920,7 +2040,7 @@
     "country": "USA"
   },
   {
-    "rank": 193,
+    "rank": 205,
     "name": "Raiyan Abdulrub",
     "gender": "男",
     "result": "55.65",
@@ -1930,7 +2050,7 @@
     "country": "Canada"
   },
   {
-    "rank": 194,
+    "rank": 206,
     "name": "Po-Ling Lin (林柏伶)",
     "gender": "女",
     "result": "56.01",
@@ -1940,7 +2060,17 @@
     "country": "China"
   },
   {
-    "rank": 195,
+    "rank": 207,
+    "name": "Majk Tomas",
+    "gender": "男",
+    "result": "56.20",
+    "competition": "Brizzon Side Open III 2026",
+    "wcaid": "2022TOMA05",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 208,
     "name": "Elliott Perkins",
     "gender": "未知",
     "result": "56.24",
@@ -1950,7 +2080,7 @@
     "country": "USA"
   },
   {
-    "rank": 196,
+    "rank": 209,
     "name": "Sidhan Keswani",
     "gender": "男",
     "result": "57.03",
@@ -1960,7 +2090,7 @@
     "country": "India"
   },
   {
-    "rank": 197,
+    "rank": 210,
     "name": "Swami Srinivasan",
     "gender": "男",
     "result": "57.13",
@@ -1970,7 +2100,7 @@
     "country": "Australia"
   },
   {
-    "rank": 198,
+    "rank": 211,
     "name": "Carlos Eduardo de Oliveira Souza Barcelos",
     "gender": "男",
     "result": "57.29",
@@ -1980,7 +2110,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 198,
+    "rank": 211,
     "name": "Léane Parent",
     "gender": "女",
     "result": "57.29",
@@ -1990,7 +2120,7 @@
     "country": "France"
   },
   {
-    "rank": 200,
+    "rank": 213,
     "name": "Korakot Inkaew (กรกฎ อิ่นแก้ว)",
     "gender": "男",
     "result": "57.51",
@@ -2000,7 +2130,7 @@
     "country": "Thailand"
   },
   {
-    "rank": 201,
+    "rank": 214,
     "name": "Omar Ornelas Sifuentes",
     "gender": "男",
     "result": "58.04",
@@ -2010,7 +2140,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 202,
+    "rank": 215,
     "name": "Felix Hincks",
     "gender": "男",
     "result": "58.37",
@@ -2020,7 +2150,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 203,
+    "rank": 216,
     "name": "Hamza Zaidi",
     "gender": "男",
     "result": "59.24",
@@ -2030,7 +2160,7 @@
     "country": "India"
   },
   {
-    "rank": 204,
+    "rank": 217,
     "name": "Wilfrid Py",
     "gender": "男",
     "result": "59.80",
@@ -2040,7 +2170,7 @@
     "country": "France"
   },
   {
-    "rank": 205,
+    "rank": 218,
     "name": "Victor Chenu",
     "gender": "男",
     "result": "1:00.34",
@@ -2050,7 +2180,7 @@
     "country": "France"
   },
   {
-    "rank": 206,
+    "rank": 219,
     "name": "Marcel Ručigaj",
     "gender": "男",
     "result": "1:00.41",
@@ -2060,7 +2190,7 @@
     "country": "Slovenia"
   },
   {
-    "rank": 207,
+    "rank": 220,
     "name": "Olli Vikstedt",
     "gender": "男",
     "result": "1:00.79",
@@ -2070,7 +2200,7 @@
     "country": "Finland"
   },
   {
-    "rank": 208,
+    "rank": 221,
     "name": "Yoad Yahalom Weiss",
     "gender": "男",
     "result": "1:00.88",
@@ -2080,7 +2210,7 @@
     "country": "Israel"
   },
   {
-    "rank": 209,
+    "rank": 222,
     "name": "Marc Jason L. Laresma",
     "gender": "男",
     "result": "1:00.93",
@@ -2090,7 +2220,17 @@
     "country": "Philippines"
   },
   {
-    "rank": 210,
+    "rank": 223,
+    "name": "István Kocza",
+    "gender": "男",
+    "result": "1:01.08",
+    "competition": "All Rounders Katowice I 2026",
+    "wcaid": "2005KOCZ01",
+    "date": "2026-05-01",
+    "country": "Hungary"
+  },
+  {
+    "rank": 224,
     "name": "Vincent Hartanto Utomo",
     "gender": "男",
     "result": "1:01.13",
@@ -2100,7 +2240,7 @@
     "country": "Indonesia"
   },
   {
-    "rank": 211,
+    "rank": 225,
     "name": "Carlo Malagar",
     "gender": "男",
     "result": "1:01.45",
@@ -2110,7 +2250,7 @@
     "country": "Australia"
   },
   {
-    "rank": 212,
+    "rank": 226,
     "name": "Jakub Majchrzak",
     "gender": "男",
     "result": "1:01.80",
@@ -2120,7 +2260,7 @@
     "country": "Poland"
   },
   {
-    "rank": 213,
+    "rank": 227,
     "name": "Ethan Zorger",
     "gender": "男",
     "result": "1:02.18",
@@ -2130,7 +2270,7 @@
     "country": "USA"
   },
   {
-    "rank": 214,
+    "rank": 228,
     "name": "Ben Ridley",
     "gender": "男",
     "result": "1:02.37",
@@ -2140,7 +2280,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 215,
+    "rank": 229,
     "name": "Finn Molloy",
     "gender": "男",
     "result": "1:03.82",
@@ -2150,7 +2290,7 @@
     "country": "Ireland"
   },
   {
-    "rank": 216,
+    "rank": 230,
     "name": "Luchen Zhang (张录辰)",
     "gender": "男",
     "result": "1:03.90",
@@ -2160,7 +2300,7 @@
     "country": "China"
   },
   {
-    "rank": 217,
+    "rank": 231,
     "name": "Harini Gunasekaran",
     "gender": "女",
     "result": "1:03.96",
@@ -2170,7 +2310,7 @@
     "country": "India"
   },
   {
-    "rank": 218,
+    "rank": 232,
     "name": "Elias Lampert",
     "gender": "男",
     "result": "1:04.48",
@@ -2180,7 +2320,7 @@
     "country": "Austria"
   },
   {
-    "rank": 219,
+    "rank": 233,
     "name": "Pedro Azevedo",
     "gender": "男",
     "result": "1:04.91",
@@ -2190,7 +2330,7 @@
     "country": "Portugal"
   },
   {
-    "rank": 220,
+    "rank": 234,
     "name": "Eli Rogers",
     "gender": "男",
     "result": "1:05.00",
@@ -2200,7 +2340,7 @@
     "country": "USA"
   },
   {
-    "rank": 221,
+    "rank": 235,
     "name": "Vilius Ribinskas",
     "gender": "男",
     "result": "1:05.18",
@@ -2210,7 +2350,7 @@
     "country": "Lithuania"
   },
   {
-    "rank": 222,
+    "rank": 236,
     "name": "Cyril Teichmann",
     "gender": "男",
     "result": "1:05.60",
@@ -2220,7 +2360,7 @@
     "country": "Czech Republic"
   },
   {
-    "rank": 223,
+    "rank": 237,
     "name": "Raúl Cuevas Castillo",
     "gender": "男",
     "result": "1:05.76",
@@ -2230,7 +2370,17 @@
     "country": "Spain"
   },
   {
-    "rank": 224,
+    "rank": 238,
+    "name": "Akshaansh Chilakapati",
+    "gender": "男",
+    "result": "1:05.93",
+    "competition": "Only 3x3s in Hyderabad May 2026",
+    "wcaid": "2016CHIL02",
+    "date": "2026-05-02",
+    "country": "India"
+  },
+  {
+    "rank": 239,
     "name": "Cary Huang",
     "gender": "男",
     "result": "1:06.47",
@@ -2240,7 +2390,7 @@
     "country": "USA"
   },
   {
-    "rank": 225,
+    "rank": 240,
     "name": "Evan Liu",
     "gender": "男",
     "result": "1:06.53",
@@ -2250,7 +2400,7 @@
     "country": "USA"
   },
   {
-    "rank": 226,
+    "rank": 241,
     "name": "Igor Aipkin",
     "gender": "男",
     "result": "1:06.66",
@@ -2260,7 +2410,7 @@
     "country": "Uzbekistan"
   },
   {
-    "rank": 227,
+    "rank": 242,
     "name": "Jose Sánchez García",
     "gender": "男",
     "result": "1:07.18",
@@ -2270,7 +2420,7 @@
     "country": "Spain"
   },
   {
-    "rank": 228,
+    "rank": 243,
     "name": "Isac Lindqvist",
     "gender": "男",
     "result": "1:07.19",
@@ -2280,7 +2430,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 229,
+    "rank": 244,
     "name": "Hong-An Lai (賴泓安)",
     "gender": "男",
     "result": "1:07.27",
@@ -2290,7 +2440,7 @@
     "country": "China"
   },
   {
-    "rank": 230,
+    "rank": 245,
     "name": "Daniel Vædele Egdal",
     "gender": "男",
     "result": "1:07.60",
@@ -2300,7 +2450,17 @@
     "country": "Denmark"
   },
   {
-    "rank": 231,
+    "rank": 246,
+    "name": "Szymon Ruksza",
+    "gender": "男",
+    "result": "1:07.77",
+    "competition": "All Rounders Katowice I 2026",
+    "wcaid": "2013RUKS01",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 247,
     "name": "Vasco Vasconcelos",
     "gender": "男",
     "result": "1:07.86",
@@ -2310,7 +2470,7 @@
     "country": "Portugal"
   },
   {
-    "rank": 232,
+    "rank": 248,
     "name": "Emmet Hobbs",
     "gender": "男",
     "result": "1:07.96",
@@ -2320,7 +2480,7 @@
     "country": "Australia"
   },
   {
-    "rank": 233,
+    "rank": 249,
     "name": "Ruohan Qiu (邱若寒)",
     "gender": "男",
     "result": "1:08.34",
@@ -2330,7 +2490,7 @@
     "country": "China"
   },
   {
-    "rank": 234,
+    "rank": 250,
     "name": "Austin Reed",
     "gender": "男",
     "result": "1:08.82",
@@ -2340,7 +2500,7 @@
     "country": "USA"
   },
   {
-    "rank": 235,
+    "rank": 251,
     "name": "Cham J. Chambers",
     "gender": "未知",
     "result": "1:08.99",
@@ -2350,7 +2510,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 236,
+    "rank": 252,
     "name": "Gilberto Martinez Perales",
     "gender": "男",
     "result": "1:09.30",
@@ -2360,7 +2520,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 237,
+    "rank": 253,
     "name": "Niklas Thomßen",
     "gender": "男",
     "result": "1:09.37",
@@ -2370,7 +2530,7 @@
     "country": "Germany"
   },
   {
-    "rank": 238,
+    "rank": 254,
     "name": "Yi Qu (曲熠)",
     "gender": "女",
     "result": "1:09.39",
@@ -2380,7 +2540,17 @@
     "country": "China"
   },
   {
-    "rank": 239,
+    "rank": 255,
+    "name": "Matthew Bidwell",
+    "gender": "男",
+    "result": "1:09.42",
+    "competition": "DFW Quiet Qualifier 2026",
+    "wcaid": "2018BIDW02",
+    "date": "2026-05-03",
+    "country": "USA"
+  },
+  {
+    "rank": 256,
     "name": "Álvaro Aguilar Salobreña",
     "gender": "男",
     "result": "1:09.54",
@@ -2390,7 +2560,7 @@
     "country": "Spain"
   },
   {
-    "rank": 240,
+    "rank": 257,
     "name": "Samuel Moliver",
     "gender": "男",
     "result": "1:09.80",
@@ -2400,7 +2570,17 @@
     "country": "Australia"
   },
   {
-    "rank": 241,
+    "rank": 258,
+    "name": "Thor Muto Asmund",
+    "gender": "男",
+    "result": "1:09.83",
+    "competition": "Bornholm Open 2026",
+    "wcaid": "2017ASMU01",
+    "date": "2026-05-03",
+    "country": "Denmark"
+  },
+  {
+    "rank": 259,
     "name": "James Moore",
     "gender": "男",
     "result": "1:09.99",
@@ -2410,17 +2590,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 242,
-    "name": "Flurin König",
-    "gender": "男",
-    "result": "1:10.27",
-    "competition": "Your Average Sonvico 2026",
-    "wcaid": "2019KONI03",
-    "date": "2026-01-02",
-    "country": "Switzerland"
-  },
-  {
-    "rank": 243,
+    "rank": 260,
     "name": "Kai Yamamoto (山本快)",
     "gender": "男",
     "result": "1:10.33",
@@ -2430,7 +2600,7 @@
     "country": "Japan"
   },
   {
-    "rank": 244,
+    "rank": 261,
     "name": "Valérie Le Gall",
     "gender": "女",
     "result": "1:10.46",
@@ -2440,7 +2610,7 @@
     "country": "France"
   },
   {
-    "rank": 245,
+    "rank": 262,
     "name": "AJ Nicholls",
     "gender": "男",
     "result": "1:10.54",
@@ -2450,17 +2620,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 246,
-    "name": "Szymon Ruksza",
-    "gender": "男",
-    "result": "1:10.62",
-    "competition": "Gorzów Cubing Days 2026",
-    "wcaid": "2013RUKS01",
-    "date": "2026-03-28",
-    "country": "Poland"
-  },
-  {
-    "rank": 247,
+    "rank": 263,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "1:10.67",
@@ -2470,7 +2630,7 @@
     "country": "China"
   },
   {
-    "rank": 248,
+    "rank": 264,
     "name": "Andrew Feng",
     "gender": "男",
     "result": "1:11.10",
@@ -2480,7 +2640,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 249,
+    "rank": 265,
     "name": "Akito Koike",
     "gender": "男",
     "result": "1:11.12",
@@ -2490,7 +2650,7 @@
     "country": "Australia"
   },
   {
-    "rank": 250,
+    "rank": 266,
     "name": "Astro Willmoth",
     "gender": "未知",
     "result": "1:11.46",
@@ -2500,17 +2660,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 251,
-    "name": "Thor Muto Asmund",
-    "gender": "男",
-    "result": "1:11.98",
-    "competition": "Pi Cubing Hvidovre 2026",
-    "wcaid": "2017ASMU01",
-    "date": "2026-03-14",
-    "country": "Denmark"
-  },
-  {
-    "rank": 252,
+    "rank": 267,
     "name": "Xingyu Zhu (朱星宇)",
     "gender": "男",
     "result": "1:12.21",
@@ -2520,7 +2670,7 @@
     "country": "China"
   },
   {
-    "rank": 253,
+    "rank": 268,
     "name": "Flavio Tranquilli",
     "gender": "男",
     "result": "1:12.24",
@@ -2530,7 +2680,7 @@
     "country": "Italy"
   },
   {
-    "rank": 254,
+    "rank": 269,
     "name": "Kacper Jędrzejuk",
     "gender": "男",
     "result": "1:12.65",
@@ -2540,7 +2690,7 @@
     "country": "Poland"
   },
   {
-    "rank": 255,
+    "rank": 270,
     "name": "Zeke Mackay",
     "gender": "男",
     "result": "1:12.80",
@@ -2550,7 +2700,7 @@
     "country": "USA"
   },
   {
-    "rank": 256,
+    "rank": 271,
     "name": "Diasbek Zhuraev (Диасбек Жураев)",
     "gender": "男",
     "result": "1:12.92",
@@ -2560,7 +2710,7 @@
     "country": "Kazakhstan"
   },
   {
-    "rank": 257,
+    "rank": 272,
     "name": "Beatriz Hernandes Bernardes",
     "gender": "女",
     "result": "1:13.25",
@@ -2570,7 +2720,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 258,
+    "rank": 273,
     "name": "Alisher Kurmash",
     "gender": "男",
     "result": "1:13.42",
@@ -2580,7 +2730,7 @@
     "country": "Kazakhstan"
   },
   {
-    "rank": 259,
+    "rank": 274,
     "name": "Azaro Gorloo",
     "gender": "男",
     "result": "1:13.54",
@@ -2590,7 +2740,7 @@
     "country": "Canada"
   },
   {
-    "rank": 260,
+    "rank": 275,
     "name": "Nikhil Soares",
     "gender": "男",
     "result": "1:13.55",
@@ -2600,7 +2750,17 @@
     "country": "India"
   },
   {
-    "rank": 261,
+    "rank": 276,
+    "name": "Orion Leavitt-Lytle",
+    "gender": "男",
+    "result": "1:13.70",
+    "competition": "CubingUSA Southeast Championship 2026",
+    "wcaid": "2022LEAV01",
+    "date": "2026-04-25",
+    "country": "USA"
+  },
+  {
+    "rank": 277,
     "name": "Katharina Schlomberg",
     "gender": "女",
     "result": "1:13.74",
@@ -2610,7 +2770,17 @@
     "country": "Germany"
   },
   {
-    "rank": 262,
+    "rank": 278,
+    "name": "Sergio Chaparro Díaz-Cano",
+    "gender": "男",
+    "result": "1:13.95",
+    "competition": "Granada Open 2026",
+    "wcaid": "2023DIAZ45",
+    "date": "2026-04-25",
+    "country": "Spain"
+  },
+  {
+    "rank": 279,
     "name": "Elian Beguec",
     "gender": "男",
     "result": "1:13.98",
@@ -2620,7 +2790,7 @@
     "country": "France"
   },
   {
-    "rank": 263,
+    "rank": 280,
     "name": "Won Jae Choi (최원재)",
     "gender": "男",
     "result": "1:14.16",
@@ -2630,7 +2800,7 @@
     "country": "Korea"
   },
   {
-    "rank": 264,
+    "rank": 281,
     "name": "Juan Pablo Bustos",
     "gender": "男",
     "result": "1:14.43",
@@ -2640,7 +2810,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 265,
+    "rank": 282,
     "name": "Dean Angert",
     "gender": "男",
     "result": "1:14.44",
@@ -2650,7 +2820,7 @@
     "country": "USA"
   },
   {
-    "rank": 266,
+    "rank": 283,
     "name": "Carlos Miguel Pérez",
     "gender": "男",
     "result": "1:14.87",
@@ -2660,7 +2830,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 267,
+    "rank": 284,
     "name": "Nathan Benson",
     "gender": "男",
     "result": "1:15.35",
@@ -2670,7 +2840,7 @@
     "country": "USA"
   },
   {
-    "rank": 268,
+    "rank": 285,
     "name": "Kyra Joiner",
     "gender": "女",
     "result": "1:15.53",
@@ -2680,7 +2850,7 @@
     "country": "USA"
   },
   {
-    "rank": 269,
+    "rank": 286,
     "name": "Modest Podzolkin",
     "gender": "男",
     "result": "1:16.22",
@@ -2690,7 +2860,7 @@
     "country": "Ukraine"
   },
   {
-    "rank": 270,
+    "rank": 287,
     "name": "Fabian Settelen",
     "gender": "男",
     "result": "1:16.33",
@@ -2700,7 +2870,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 271,
+    "rank": 288,
     "name": "Gaurav Bachani",
     "gender": "男",
     "result": "1:16.62",
@@ -2710,7 +2880,7 @@
     "country": "India"
   },
   {
-    "rank": 272,
+    "rank": 289,
     "name": "Damir Zhanataev",
     "gender": "男",
     "result": "1:16.80",
@@ -2720,17 +2890,7 @@
     "country": "Kazakhstan"
   },
   {
-    "rank": 273,
-    "name": "Matthew Bidwell",
-    "gender": "男",
-    "result": "1:16.95",
-    "competition": "Richardshhhon 2026",
-    "wcaid": "2018BIDW02",
-    "date": "2026-02-28",
-    "country": "USA"
-  },
-  {
-    "rank": 274,
+    "rank": 290,
     "name": "Adam Black",
     "gender": "男",
     "result": "1:17.03",
@@ -2740,7 +2900,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 275,
+    "rank": 291,
     "name": "Takayuki Tanaka (田中隆喜)",
     "gender": "男",
     "result": "1:17.07",
@@ -2750,7 +2910,7 @@
     "country": "Japan"
   },
   {
-    "rank": 276,
+    "rank": 292,
     "name": "Raymos Castillo",
     "gender": "男",
     "result": "1:17.09",
@@ -2760,7 +2920,7 @@
     "country": "USA"
   },
   {
-    "rank": 277,
+    "rank": 293,
     "name": "Emil Alpsten",
     "gender": "男",
     "result": "1:17.18",
@@ -2770,7 +2930,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 278,
+    "rank": 294,
     "name": "Matthew Low",
     "gender": "男",
     "result": "1:17.43",
@@ -2780,7 +2940,7 @@
     "country": "USA"
   },
   {
-    "rank": 279,
+    "rank": 295,
     "name": "Nathan Agan",
     "gender": "男",
     "result": "1:17.80",
@@ -2790,7 +2950,7 @@
     "country": "USA"
   },
   {
-    "rank": 280,
+    "rank": 296,
     "name": "Lê Nguyễn Nhật Minh",
     "gender": "男",
     "result": "1:18.32",
@@ -2800,7 +2960,7 @@
     "country": "Vietnam"
   },
   {
-    "rank": 281,
+    "rank": 297,
     "name": "Alex Butera",
     "gender": "男",
     "result": "1:18.61",
@@ -2810,7 +2970,17 @@
     "country": "Australia"
   },
   {
-    "rank": 282,
+    "rank": 298,
+    "name": "Daniel Hamilton",
+    "gender": "男",
+    "result": "1:18.68",
+    "competition": "UCD Cube Days 2026",
+    "wcaid": "2023HAMI12",
+    "date": "2026-04-25",
+    "country": "Ireland"
+  },
+  {
+    "rank": 299,
     "name": "José Edmundo Balderas Castro",
     "gender": "男",
     "result": "1:18.90",
@@ -2820,7 +2990,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 283,
+    "rank": 300,
     "name": "Putian Ye (叶溥天)",
     "gender": "男",
     "result": "1:19.16",
@@ -2830,7 +3000,7 @@
     "country": "China"
   },
   {
-    "rank": 284,
+    "rank": 301,
     "name": "Meng Chon Kuok (郭明臻)",
     "gender": "女",
     "result": "1:19.68",
@@ -2840,7 +3010,7 @@
     "country": "China"
   },
   {
-    "rank": 285,
+    "rank": 302,
     "name": "Oleh Toporovych",
     "gender": "男",
     "result": "1:20.32",
@@ -2850,7 +3020,7 @@
     "country": "Ukraine"
   },
   {
-    "rank": 286,
+    "rank": 303,
     "name": "Lev Golub (Лев Голуб)",
     "gender": "男",
     "result": "1:20.85",
@@ -2860,7 +3030,7 @@
     "country": "Ukraine"
   },
   {
-    "rank": 287,
+    "rank": 304,
     "name": "Michał Wachowiak",
     "gender": "男",
     "result": "1:21.05",
@@ -2870,7 +3040,7 @@
     "country": "Poland"
   },
   {
-    "rank": 288,
+    "rank": 305,
     "name": "Lucas Lippman-Bruno",
     "gender": "男",
     "result": "1:21.18",
@@ -2880,7 +3050,7 @@
     "country": "USA"
   },
   {
-    "rank": 289,
+    "rank": 306,
     "name": "Harry Forbes",
     "gender": "男",
     "result": "1:21.32",
@@ -2890,7 +3060,7 @@
     "country": "Australia"
   },
   {
-    "rank": 290,
+    "rank": 307,
     "name": "Jack Valduga",
     "gender": "男",
     "result": "1:21.55",
@@ -2900,7 +3070,7 @@
     "country": "Italy"
   },
   {
-    "rank": 291,
+    "rank": 308,
     "name": "Glen Goh Wee Zhuan (吴洧全)",
     "gender": "男",
     "result": "1:21.71",
@@ -2910,7 +3080,7 @@
     "country": "Singapore"
   },
   {
-    "rank": 292,
+    "rank": 309,
     "name": "Abhinav Agarwal",
     "gender": "男",
     "result": "1:21.80",
@@ -2920,7 +3090,7 @@
     "country": "USA"
   },
   {
-    "rank": 293,
+    "rank": 310,
     "name": "Viktor Zenk",
     "gender": "男",
     "result": "1:22.17",
@@ -2930,7 +3100,17 @@
     "country": "Sweden"
   },
   {
-    "rank": 294,
+    "rank": 311,
+    "name": "Michael Gufler",
+    "gender": "男",
+    "result": "1:22.88",
+    "competition": "Munich Open 2026",
+    "wcaid": "2022GUFL01",
+    "date": "2026-04-25",
+    "country": "Germany"
+  },
+  {
+    "rank": 312,
     "name": "Gabriele Bacchieri",
     "gender": "男",
     "result": "1:22.89",
@@ -2940,7 +3120,7 @@
     "country": "Italy"
   },
   {
-    "rank": 295,
+    "rank": 313,
     "name": "Abhimanyu Singhal (अभिमन्यु सिंघल)",
     "gender": "男",
     "result": "1:23.26",
@@ -2950,7 +3130,7 @@
     "country": "USA"
   },
   {
-    "rank": 296,
+    "rank": 314,
     "name": "Kaius Young",
     "gender": "未知",
     "result": "1:23.39",
@@ -2960,7 +3140,7 @@
     "country": "USA"
   },
   {
-    "rank": 297,
+    "rank": 315,
     "name": "Shun-Hsin Chang (張舜欣)",
     "gender": "女",
     "result": "1:23.70",
@@ -2970,7 +3150,7 @@
     "country": "China"
   },
   {
-    "rank": 298,
+    "rank": 316,
     "name": "Leo Johansson",
     "gender": "男",
     "result": "1:23.88",
@@ -2980,7 +3160,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 299,
+    "rank": 317,
     "name": "Joseph Guzman",
     "gender": "男",
     "result": "1:24.04",
@@ -2990,7 +3170,7 @@
     "country": "USA"
   },
   {
-    "rank": 300,
+    "rank": 318,
     "name": "Jan Riedl",
     "gender": "男",
     "result": "1:24.10",
@@ -3000,7 +3180,7 @@
     "country": "Czech Republic"
   },
   {
-    "rank": 301,
+    "rank": 319,
     "name": "Luokun Chen (陈洛琨)",
     "gender": "男",
     "result": "1:24.11",
@@ -3010,7 +3190,7 @@
     "country": "China"
   },
   {
-    "rank": 302,
+    "rank": 320,
     "name": "Lorenzo Lionel Diaz",
     "gender": "男",
     "result": "1:24.35",
@@ -3020,7 +3200,7 @@
     "country": "Argentina"
   },
   {
-    "rank": 303,
+    "rank": 321,
     "name": "Joel Müller",
     "gender": "男",
     "result": "1:24.49",
@@ -3030,7 +3210,7 @@
     "country": "Germany"
   },
   {
-    "rank": 304,
+    "rank": 322,
     "name": "Elvin Xu",
     "gender": "男",
     "result": "1:24.60",
@@ -3040,7 +3220,7 @@
     "country": "USA"
   },
   {
-    "rank": 305,
+    "rank": 323,
     "name": "Lucas Déglise",
     "gender": "男",
     "result": "1:24.77",
@@ -3050,7 +3230,7 @@
     "country": "France"
   },
   {
-    "rank": 306,
+    "rank": 324,
     "name": "Carson Claud",
     "gender": "男",
     "result": "1:24.82",
@@ -3060,7 +3240,7 @@
     "country": "USA"
   },
   {
-    "rank": 307,
+    "rank": 325,
     "name": "Kevin Arturo Huamán Ruiz",
     "gender": "男",
     "result": "1:25.41",
@@ -3070,7 +3250,7 @@
     "country": "Peru"
   },
   {
-    "rank": 308,
+    "rank": 326,
     "name": "Krish Shah-Nathwani",
     "gender": "男",
     "result": "1:25.42",
@@ -3080,7 +3260,7 @@
     "country": "USA"
   },
   {
-    "rank": 309,
+    "rank": 327,
     "name": "Valentin Hoffmann",
     "gender": "男",
     "result": "1:25.72",
@@ -3090,7 +3270,7 @@
     "country": "France"
   },
   {
-    "rank": 309,
+    "rank": 327,
     "name": "Yanpin Li (李妍玭)",
     "gender": "女",
     "result": "1:25.72",
@@ -3100,7 +3280,7 @@
     "country": "China"
   },
   {
-    "rank": 311,
+    "rank": 329,
     "name": "Tommy Kiprillis",
     "gender": "男",
     "result": "1:25.77",
@@ -3110,7 +3290,7 @@
     "country": "Australia"
   },
   {
-    "rank": 312,
+    "rank": 330,
     "name": "Ricardo Pulido Renteria",
     "gender": "男",
     "result": "1:26.12",
@@ -3120,7 +3300,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 313,
+    "rank": 331,
     "name": "Isaac Corker",
     "gender": "男",
     "result": "1:26.13",
@@ -3130,7 +3310,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 314,
+    "rank": 332,
     "name": "Jānis Zirnis",
     "gender": "男",
     "result": "1:26.21",
@@ -3140,7 +3320,7 @@
     "country": "Latvia"
   },
   {
-    "rank": 315,
+    "rank": 333,
     "name": "Bradley Razeng",
     "gender": "男",
     "result": "1:26.78",
@@ -3150,7 +3330,7 @@
     "country": "Australia"
   },
   {
-    "rank": 316,
+    "rank": 334,
     "name": "Joon Cha (차준혁)",
     "gender": "男",
     "result": "1:27.16",
@@ -3160,7 +3340,7 @@
     "country": "Korea"
   },
   {
-    "rank": 317,
+    "rank": 335,
     "name": "Jan Bentlage",
     "gender": "男",
     "result": "1:27.19",
@@ -3170,7 +3350,7 @@
     "country": "Germany"
   },
   {
-    "rank": 318,
+    "rank": 336,
     "name": "Aiki Yaginuma (柳沼愛輝)",
     "gender": "男",
     "result": "1:27.79",
@@ -3180,7 +3360,7 @@
     "country": "Japan"
   },
   {
-    "rank": 319,
+    "rank": 337,
     "name": "Luke Burns",
     "gender": "男",
     "result": "1:28.04",
@@ -3190,17 +3370,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 320,
-    "name": "Akshaansh Chilakapati",
-    "gender": "男",
-    "result": "1:28.37",
-    "competition": "Big N Blind Bangalore March 2026",
-    "wcaid": "2016CHIL02",
-    "date": "2026-03-15",
-    "country": "India"
-  },
-  {
-    "rank": 321,
+    "rank": 338,
     "name": "Angelo Sarinas",
     "gender": "男",
     "result": "1:28.82",
@@ -3210,7 +3380,7 @@
     "country": "Philippines"
   },
   {
-    "rank": 322,
+    "rank": 339,
     "name": "David Akerboom",
     "gender": "男",
     "result": "1:28.84",
@@ -3220,7 +3390,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 323,
+    "rank": 340,
     "name": "Joshua Allen Mangalapallil",
     "gender": "男",
     "result": "1:29.43",
@@ -3230,7 +3400,7 @@
     "country": "India"
   },
   {
-    "rank": 324,
+    "rank": 341,
     "name": "Blue James",
     "gender": "男",
     "result": "1:30.36",
@@ -3240,17 +3410,27 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 325,
+    "rank": 342,
     "name": "Rémi Esturoune",
     "gender": "男",
-    "result": "1:30.59",
-    "competition": "Nanterre 2 Folie 2026",
+    "result": "1:30.40",
+    "competition": "Tigery Open 2026",
     "wcaid": "2010ESTU01",
-    "date": "2026-03-14",
+    "date": "2026-04-25",
     "country": "France"
   },
   {
-    "rank": 326,
+    "rank": 343,
+    "name": "Namuun Natsagdorj",
+    "gender": "女",
+    "result": "1:30.70",
+    "competition": "UCD Cube Days 2026",
+    "wcaid": "2019NATS02",
+    "date": "2026-04-25",
+    "country": "Mongolia"
+  },
+  {
+    "rank": 344,
     "name": "André Raunehaug",
     "gender": "男",
     "result": "1:30.81",
@@ -3260,17 +3440,17 @@
     "country": "Norway"
   },
   {
-    "rank": 327,
-    "name": "Majk Tomas",
+    "rank": 345,
+    "name": "Nikolai Masson (Николай Массон)",
     "gender": "男",
-    "result": "1:30.95",
-    "competition": "Olsztyn Spring Open 2026",
-    "wcaid": "2022TOMA05",
-    "date": "2026-04-11",
-    "country": "Poland"
+    "result": "1:30.83",
+    "competition": "Munich Open 2026",
+    "wcaid": "2011MASS01",
+    "date": "2026-04-25",
+    "country": "Russia"
   },
   {
-    "rank": 328,
+    "rank": 346,
     "name": "Oscar Niizeki",
     "gender": "男",
     "result": "1:30.96",
@@ -3280,7 +3460,7 @@
     "country": "Australia"
   },
   {
-    "rank": 329,
+    "rank": 347,
     "name": "Matthew Sheerin",
     "gender": "男",
     "result": "1:31.24",
@@ -3290,7 +3470,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 330,
+    "rank": 348,
     "name": "Clotilde Gauthier",
     "gender": "女",
     "result": "1:31.70",
@@ -3300,7 +3480,7 @@
     "country": "France"
   },
   {
-    "rank": 331,
+    "rank": 349,
     "name": "Oliver Wheat",
     "gender": "男",
     "result": "1:31.88",
@@ -3310,7 +3490,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 332,
+    "rank": 350,
     "name": "Kalvin Lum",
     "gender": "男",
     "result": "1:31.90",
@@ -3320,7 +3500,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 333,
+    "rank": 351,
     "name": "Bertie Longden",
     "gender": "男",
     "result": "1:33.08",
@@ -3330,7 +3510,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 334,
+    "rank": 352,
     "name": "Earl Bien D. Celestino",
     "gender": "男",
     "result": "1:33.67",
@@ -3340,7 +3520,7 @@
     "country": "Philippines"
   },
   {
-    "rank": 334,
+    "rank": 352,
     "name": "Jaxon Sensabaugh",
     "gender": "男",
     "result": "1:33.67",
@@ -3350,7 +3530,7 @@
     "country": "USA"
   },
   {
-    "rank": 336,
+    "rank": 354,
     "name": "Emmett O'Leary-Liu",
     "gender": "男",
     "result": "1:33.74",
@@ -3360,7 +3540,7 @@
     "country": "USA"
   },
   {
-    "rank": 337,
+    "rank": 355,
     "name": "Tadeáš Faldus",
     "gender": "男",
     "result": "1:34.61",
@@ -3370,7 +3550,17 @@
     "country": "Czech Republic"
   },
   {
-    "rank": 338,
+    "rank": 356,
+    "name": "Noémie Delaby",
+    "gender": "女",
+    "result": "1:34.97",
+    "competition": "Tigery Open 2026",
+    "wcaid": "2017THIO01",
+    "date": "2026-04-25",
+    "country": "France"
+  },
+  {
+    "rank": 357,
     "name": "Manu Vereecken",
     "gender": "男",
     "result": "1:35.08",
@@ -3380,7 +3570,7 @@
     "country": "Belgium"
   },
   {
-    "rank": 339,
+    "rank": 358,
     "name": "Jesús Lindo García",
     "gender": "男",
     "result": "1:35.15",
@@ -3390,7 +3580,17 @@
     "country": "Spain"
   },
   {
-    "rank": 340,
+    "rank": 359,
+    "name": "Shrijan Pal",
+    "gender": "男",
+    "result": "1:35.22",
+    "competition": "Mumbai Cubing Sprint 2026",
+    "wcaid": "2011PALS01",
+    "date": "2026-04-25",
+    "country": "India"
+  },
+  {
+    "rank": 360,
     "name": "Hannes Müller",
     "gender": "男",
     "result": "1:35.33",
@@ -3400,7 +3600,7 @@
     "country": "Germany"
   },
   {
-    "rank": 341,
+    "rank": 361,
     "name": "Marin Brun Boubel",
     "gender": "男",
     "result": "1:35.73",
@@ -3410,7 +3610,7 @@
     "country": "France"
   },
   {
-    "rank": 342,
+    "rank": 362,
     "name": "Juan Miguel C. Manalo",
     "gender": "男",
     "result": "1:36.06",
@@ -3420,7 +3620,17 @@
     "country": "Philippines"
   },
   {
-    "rank": 343,
+    "rank": 363,
+    "name": "Arvid Ahlstrand",
+    "gender": "男",
+    "result": "1:36.36",
+    "competition": "Nordic & Swedish Championship 2026",
+    "wcaid": "2022AHLS01",
+    "date": "2026-05-01",
+    "country": "Sweden"
+  },
+  {
+    "rank": 364,
     "name": "Asset Agabekov",
     "gender": "男",
     "result": "1:36.61",
@@ -3430,7 +3640,7 @@
     "country": "Kazakhstan"
   },
   {
-    "rank": 344,
+    "rank": 365,
     "name": "Ryan Morrison",
     "gender": "男",
     "result": "1:36.62",
@@ -3440,7 +3650,7 @@
     "country": "USA"
   },
   {
-    "rank": 345,
+    "rank": 366,
     "name": "Ben Becker",
     "gender": "男",
     "result": "1:36.70",
@@ -3450,7 +3660,7 @@
     "country": "USA"
   },
   {
-    "rank": 346,
+    "rank": 367,
     "name": "Zyrus Santos",
     "gender": "男",
     "result": "1:36.81",
@@ -3460,7 +3670,7 @@
     "country": "Australia"
   },
   {
-    "rank": 347,
+    "rank": 368,
     "name": "Wesley Barwinski",
     "gender": "男",
     "result": "1:36.88",
@@ -3470,7 +3680,17 @@
     "country": "USA"
   },
   {
-    "rank": 348,
+    "rank": 369,
+    "name": "Samuel Barbosa Pinheiro",
+    "gender": "男",
+    "result": "1:37.30",
+    "competition": "Passo Fundo Cubing 2026",
+    "wcaid": "2023PINH03",
+    "date": "2026-05-02",
+    "country": "Brazil"
+  },
+  {
+    "rank": 370,
     "name": "Hayden Wallace",
     "gender": "男",
     "result": "1:38.18",
@@ -3480,7 +3700,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 349,
+    "rank": 371,
     "name": "Jiayu Wang (王佳宇)",
     "gender": "男",
     "result": "1:38.32",
@@ -3490,7 +3710,7 @@
     "country": "China"
   },
   {
-    "rank": 350,
+    "rank": 372,
     "name": "Maverick Pearson",
     "gender": "男",
     "result": "1:38.56",
@@ -3500,7 +3720,7 @@
     "country": "South Africa"
   },
   {
-    "rank": 351,
+    "rank": 373,
     "name": "Daniel Mullen",
     "gender": "男",
     "result": "1:39.66",
@@ -3510,7 +3730,7 @@
     "country": "USA"
   },
   {
-    "rank": 352,
+    "rank": 374,
     "name": "Joel Cetra",
     "gender": "男",
     "result": "1:39.77",
@@ -3520,7 +3740,7 @@
     "country": "Germany"
   },
   {
-    "rank": 353,
+    "rank": 375,
     "name": "Anish Venkataraman",
     "gender": "男",
     "result": "1:40.78",
@@ -3530,7 +3750,7 @@
     "country": "USA"
   },
   {
-    "rank": 354,
+    "rank": 376,
     "name": "Steven Morrise",
     "gender": "男",
     "result": "1:40.85",
@@ -3540,7 +3760,7 @@
     "country": "USA"
   },
   {
-    "rank": 355,
+    "rank": 377,
     "name": "Nox Clémenceau",
     "gender": "未知",
     "result": "1:40.96",
@@ -3550,7 +3770,7 @@
     "country": "France"
   },
   {
-    "rank": 356,
+    "rank": 378,
     "name": "Kévin Ky",
     "gender": "男",
     "result": "1:41.40",
@@ -3560,7 +3780,7 @@
     "country": "France"
   },
   {
-    "rank": 357,
+    "rank": 379,
     "name": "Nevins Chan Pak Hoong (陈百鸿)",
     "gender": "男",
     "result": "1:41.49",
@@ -3570,7 +3790,7 @@
     "country": "Malaysia"
   },
   {
-    "rank": 358,
+    "rank": 380,
     "name": "Patryk Milewczyk",
     "gender": "男",
     "result": "1:41.65",
@@ -3580,7 +3800,7 @@
     "country": "Poland"
   },
   {
-    "rank": 359,
+    "rank": 381,
     "name": "Dorian Chan",
     "gender": "男",
     "result": "1:42.04",
@@ -3590,7 +3810,17 @@
     "country": "China"
   },
   {
-    "rank": 360,
+    "rank": 382,
+    "name": "Bartłomiej Owczarek",
+    "gender": "男",
+    "result": "1:42.58",
+    "competition": "All Rounders Katowice I 2026",
+    "wcaid": "2013OWCZ01",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 383,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "1:42.70",
@@ -3600,7 +3830,17 @@
     "country": "China"
   },
   {
-    "rank": 361,
+    "rank": 384,
+    "name": "Dawid Wójcik",
+    "gender": "未知",
+    "result": "1:42.73",
+    "competition": "All Rounders Katowice I 2026",
+    "wcaid": "2016WOJC04",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 385,
     "name": "Oana-Simona Vrabie",
     "gender": "女",
     "result": "1:43.20",
@@ -3610,7 +3850,7 @@
     "country": "Romania"
   },
   {
-    "rank": 362,
+    "rank": 386,
     "name": "Karol Zakrzewski",
     "gender": "男",
     "result": "1:43.76",
@@ -3620,17 +3860,7 @@
     "country": "Poland"
   },
   {
-    "rank": 363,
-    "name": "Nikolai Masson (Николай Массон)",
-    "gender": "男",
-    "result": "1:44.14",
-    "competition": "Erlangen Open III 2026",
-    "wcaid": "2011MASS01",
-    "date": "2026-02-15",
-    "country": "Russia"
-  },
-  {
-    "rank": 364,
+    "rank": 387,
     "name": "Achim Spies",
     "gender": "男",
     "result": "1:44.46",
@@ -3640,7 +3870,7 @@
     "country": "Germany"
   },
   {
-    "rank": 365,
+    "rank": 388,
     "name": "Paolo Marino",
     "gender": "男",
     "result": "1:45.06",
@@ -3650,7 +3880,7 @@
     "country": "Italy"
   },
   {
-    "rank": 366,
+    "rank": 389,
     "name": "Jakub Hanuszkiewicz",
     "gender": "男",
     "result": "1:45.17",
@@ -3660,7 +3890,7 @@
     "country": "Poland"
   },
   {
-    "rank": 367,
+    "rank": 390,
     "name": "Callum James Goodyear-Jørgensen",
     "gender": "未知",
     "result": "1:45.39",
@@ -3670,7 +3900,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 368,
+    "rank": 391,
     "name": "Michael Young",
     "gender": "男",
     "result": "1:45.59",
@@ -3680,7 +3910,7 @@
     "country": "USA"
   },
   {
-    "rank": 369,
+    "rank": 392,
     "name": "Remo Decio",
     "gender": "男",
     "result": "1:46.12",
@@ -3690,7 +3920,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 370,
+    "rank": 393,
     "name": "Jack Belloni Sahlin",
     "gender": "男",
     "result": "1:46.19",
@@ -3700,7 +3930,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 371,
+    "rank": 394,
     "name": "Billie Hammill",
     "gender": "未知",
     "result": "1:46.20",
@@ -3710,7 +3940,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 372,
+    "rank": 395,
     "name": "Carlo Galimberti",
     "gender": "男",
     "result": "1:46.33",
@@ -3720,7 +3950,7 @@
     "country": "Italy"
   },
   {
-    "rank": 373,
+    "rank": 396,
     "name": "Shen Flindell",
     "gender": "男",
     "result": "1:47.57",
@@ -3730,7 +3960,7 @@
     "country": "Australia"
   },
   {
-    "rank": 374,
+    "rank": 397,
     "name": "Mihail Petrochenkov",
     "gender": "男",
     "result": "1:48.27",
@@ -3740,7 +3970,7 @@
     "country": "Russia"
   },
   {
-    "rank": 375,
+    "rank": 398,
     "name": "Yuichi Hamada (濵田祐一)",
     "gender": "男",
     "result": "1:48.49",
@@ -3750,7 +3980,7 @@
     "country": "Japan"
   },
   {
-    "rank": 376,
+    "rank": 399,
     "name": "Ayden Dincher",
     "gender": "男",
     "result": "1:48.50",
@@ -3760,7 +3990,7 @@
     "country": "USA"
   },
   {
-    "rank": 377,
+    "rank": 400,
     "name": "Jovan Susanto",
     "gender": "男",
     "result": "1:48.68",
@@ -3770,7 +4000,17 @@
     "country": "Singapore"
   },
   {
-    "rank": 378,
+    "rank": 401,
+    "name": "Philipp Leimer",
+    "gender": "男",
+    "result": "1:48.92",
+    "competition": "Blind League Dobřejovice II: Crownrise 2026",
+    "wcaid": "2023LEIM02",
+    "date": "2026-04-25",
+    "country": "Austria"
+  },
+  {
+    "rank": 402,
     "name": "Bella Campbell",
     "gender": "女",
     "result": "1:49.99",
@@ -3780,7 +4020,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 379,
+    "rank": 403,
     "name": "David McLean",
     "gender": "男",
     "result": "1:50.05",
@@ -3790,7 +4030,7 @@
     "country": "Australia"
   },
   {
-    "rank": 380,
+    "rank": 404,
     "name": "Pauline Bonnaudet",
     "gender": "女",
     "result": "1:50.19",
@@ -3800,7 +4040,7 @@
     "country": "France"
   },
   {
-    "rank": 381,
+    "rank": 405,
     "name": "Vasile Dan",
     "gender": "男",
     "result": "1:50.37",
@@ -3810,7 +4050,7 @@
     "country": "Romania"
   },
   {
-    "rank": 382,
+    "rank": 406,
     "name": "Przemysław Rogalski",
     "gender": "男",
     "result": "1:51.12",
@@ -3820,7 +4060,7 @@
     "country": "Poland"
   },
   {
-    "rank": 383,
+    "rank": 407,
     "name": "Natthaphat Mahtani (ณัฐภัทร จี มาทานี)",
     "gender": "男",
     "result": "1:51.75",
@@ -3830,7 +4070,7 @@
     "country": "Thailand"
   },
   {
-    "rank": 384,
+    "rank": 408,
     "name": "Edward Rust",
     "gender": "男",
     "result": "1:52.82",
@@ -3840,7 +4080,7 @@
     "country": "Australia"
   },
   {
-    "rank": 385,
+    "rank": 409,
     "name": "Hajin Jeon (전하진)",
     "gender": "男",
     "result": "1:53.36",
@@ -3850,7 +4090,7 @@
     "country": "Korea"
   },
   {
-    "rank": 386,
+    "rank": 410,
     "name": "Rowan Davey",
     "gender": "男",
     "result": "1:53.52",
@@ -3860,7 +4100,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 387,
+    "rank": 411,
     "name": "Michał Kaczmarek",
     "gender": "男",
     "result": "1:53.89",
@@ -3870,7 +4110,7 @@
     "country": "Poland"
   },
   {
-    "rank": 388,
+    "rank": 412,
     "name": "Sebastián Morón Mariscal",
     "gender": "男",
     "result": "1:54.72",
@@ -3880,7 +4120,7 @@
     "country": "Bolivia"
   },
   {
-    "rank": 389,
+    "rank": 413,
     "name": "Andrés Hisashi Suzuki Cabrera",
     "gender": "男",
     "result": "1:55.10",
@@ -3890,7 +4130,7 @@
     "country": "Peru"
   },
   {
-    "rank": 390,
+    "rank": 414,
     "name": "Manuel Prieto de Antón",
     "gender": "男",
     "result": "1:55.14",
@@ -3900,7 +4140,7 @@
     "country": "Spain"
   },
   {
-    "rank": 391,
+    "rank": 415,
     "name": "Benjamin Gottschalk",
     "gender": "男",
     "result": "1:55.32",
@@ -3910,7 +4150,7 @@
     "country": "USA"
   },
   {
-    "rank": 392,
+    "rank": 416,
     "name": "Takuma Shirahase (白波瀬拓磨)",
     "gender": "男",
     "result": "1:56.44",
@@ -3920,7 +4160,7 @@
     "country": "Japan"
   },
   {
-    "rank": 393,
+    "rank": 417,
     "name": "Walker Welch",
     "gender": "男",
     "result": "1:57.17",
@@ -3930,7 +4170,7 @@
     "country": "USA"
   },
   {
-    "rank": 394,
+    "rank": 418,
     "name": "Hippolyte Moreau",
     "gender": "未知",
     "result": "1:57.20",
@@ -3940,7 +4180,7 @@
     "country": "France"
   },
   {
-    "rank": 395,
+    "rank": 419,
     "name": "Jaxon Foster",
     "gender": "男",
     "result": "1:57.27",
@@ -3950,7 +4190,27 @@
     "country": "Australia"
   },
   {
-    "rank": 396,
+    "rank": 420,
+    "name": "Simone Bentlage",
+    "gender": "女",
+    "result": "1:57.37",
+    "competition": "Nordic & Swedish Championship 2026",
+    "wcaid": "2014OHLE01",
+    "date": "2026-05-01",
+    "country": "Germany"
+  },
+  {
+    "rank": 421,
+    "name": "Damar Krisnandi Ramdan",
+    "gender": "男",
+    "result": "1:57.39",
+    "competition": "Jakarta Mini K-ubing 2026",
+    "wcaid": "2023RAMD01",
+    "date": "2026-04-26",
+    "country": "Indonesia"
+  },
+  {
+    "rank": 422,
     "name": "Andrew Medhat Monir",
     "gender": "男",
     "result": "1:57.56",
@@ -3960,7 +4220,7 @@
     "country": "Egypt"
   },
   {
-    "rank": 397,
+    "rank": 423,
     "name": "Florian Bernard",
     "gender": "男",
     "result": "1:57.60",
@@ -3970,7 +4230,7 @@
     "country": "France"
   },
   {
-    "rank": 398,
+    "rank": 424,
     "name": "Sheng-Jie Yang (楊勝絜)",
     "gender": "男",
     "result": "1:58.57",
@@ -3980,7 +4240,7 @@
     "country": "China"
   },
   {
-    "rank": 399,
+    "rank": 425,
     "name": "Braden Richards",
     "gender": "男",
     "result": "1:58.58",
@@ -3990,7 +4250,7 @@
     "country": "USA"
   },
   {
-    "rank": 400,
+    "rank": 426,
     "name": "Yuji Yoshida",
     "gender": "男",
     "result": "1:58.64",
@@ -4000,7 +4260,7 @@
     "country": "Philippines"
   },
   {
-    "rank": 401,
+    "rank": 427,
     "name": "Amitai Ziv",
     "gender": "男",
     "result": "1:59.03",
@@ -4010,7 +4270,17 @@
     "country": "Israel"
   },
   {
-    "rank": 402,
+    "rank": 428,
+    "name": "Stanley Tran",
+    "gender": "男",
+    "result": "1:59.24",
+    "competition": "Berkeley Spring 2026",
+    "wcaid": "2019TRAN04",
+    "date": "2026-04-26",
+    "country": "USA"
+  },
+  {
+    "rank": 429,
     "name": "Filip Bečić",
     "gender": "男",
     "result": "1:59.45",
@@ -4020,7 +4290,17 @@
     "country": "Croatia"
   },
   {
-    "rank": 403,
+    "rank": 430,
+    "name": "Aleksander Sołonczak",
+    "gender": "男",
+    "result": "1:59.79",
+    "competition": "All Rounders Katowice I 2026",
+    "wcaid": "2022SOLO01",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 431,
     "name": "Lola Pap",
     "gender": "女",
     "result": "2:00.41",
@@ -4030,7 +4310,7 @@
     "country": "Hungary"
   },
   {
-    "rank": 404,
+    "rank": 432,
     "name": "Ruben Grobler",
     "gender": "男",
     "result": "2:01.10",
@@ -4040,7 +4320,7 @@
     "country": "South Africa"
   },
   {
-    "rank": 405,
+    "rank": 433,
     "name": "Maja Łozowicka",
     "gender": "女",
     "result": "2:01.49",
@@ -4050,7 +4330,7 @@
     "country": "Poland"
   },
   {
-    "rank": 406,
+    "rank": 434,
     "name": "Renske Idzenga",
     "gender": "女",
     "result": "2:01.59",
@@ -4060,7 +4340,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 407,
+    "rank": 435,
     "name": "Yuheng Wu (吴雨衡)",
     "gender": "男",
     "result": "2:01.63",
@@ -4070,7 +4350,7 @@
     "country": "China"
   },
   {
-    "rank": 408,
+    "rank": 436,
     "name": "Matteo Provasi",
     "gender": "男",
     "result": "2:03.50",
@@ -4080,7 +4360,27 @@
     "country": "Italy"
   },
   {
-    "rank": 409,
+    "rank": 437,
+    "name": "Yizhi Cui (崔益智)",
+    "gender": "男",
+    "result": "2:03.92",
+    "competition": "Deqing Big & Blind 2026",
+    "wcaid": "2016CUIY04",
+    "date": "2026-04-25",
+    "country": "China"
+  },
+  {
+    "rank": 438,
+    "name": "Théo Girard",
+    "gender": "男",
+    "result": "2:05.07",
+    "competition": "Tigery Open 2026",
+    "wcaid": "2018GIRA01",
+    "date": "2026-04-25",
+    "country": "France"
+  },
+  {
+    "rank": 439,
     "name": "Elyas Eyou",
     "gender": "男",
     "result": "2:05.12",
@@ -4090,7 +4390,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 410,
+    "rank": 440,
     "name": "Xyruss Gatchalian",
     "gender": "男",
     "result": "2:05.15",
@@ -4100,17 +4400,7 @@
     "country": "Philippines"
   },
   {
-    "rank": 411,
-    "name": "Simone Bentlage",
-    "gender": "女",
-    "result": "2:05.46",
-    "competition": "Poulseur Quiet Open 2026",
-    "wcaid": "2014OHLE01",
-    "date": "2026-01-24",
-    "country": "Germany"
-  },
-  {
-    "rank": 412,
+    "rank": 441,
     "name": "Valentin Perrez",
     "gender": "男",
     "result": "2:05.51",
@@ -4120,7 +4410,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 413,
+    "rank": 442,
     "name": "Maryla Ustarroz-Calonge",
     "gender": "女",
     "result": "2:06.23",
@@ -4130,7 +4420,7 @@
     "country": "France"
   },
   {
-    "rank": 414,
+    "rank": 443,
     "name": "Chris Sambrooks",
     "gender": "男",
     "result": "2:06.26",
@@ -4140,7 +4430,7 @@
     "country": "Australia"
   },
   {
-    "rank": 415,
+    "rank": 444,
     "name": "Tristan Patrick",
     "gender": "男",
     "result": "2:06.78",
@@ -4150,7 +4440,7 @@
     "country": "USA"
   },
   {
-    "rank": 416,
+    "rank": 445,
     "name": "Jake Park",
     "gender": "男",
     "result": "2:06.83",
@@ -4160,7 +4450,7 @@
     "country": "Korea"
   },
   {
-    "rank": 417,
+    "rank": 446,
     "name": "Rasmus Stub Detlefsen",
     "gender": "男",
     "result": "2:07.31",
@@ -4170,7 +4460,7 @@
     "country": "Denmark"
   },
   {
-    "rank": 418,
+    "rank": 447,
     "name": "David Chong Kai Xiang (张凯祥)",
     "gender": "男",
     "result": "2:07.33",
@@ -4180,7 +4470,7 @@
     "country": "Malaysia"
   },
   {
-    "rank": 419,
+    "rank": 448,
     "name": "David Martins",
     "gender": "男",
     "result": "2:07.94",
@@ -4190,7 +4480,7 @@
     "country": "Portugal"
   },
   {
-    "rank": 420,
+    "rank": 449,
     "name": "Tyler Lindow Tsao",
     "gender": "男",
     "result": "2:08.12",
@@ -4200,7 +4490,7 @@
     "country": "USA"
   },
   {
-    "rank": 421,
+    "rank": 450,
     "name": "Pedro Henrique Maciel Ceccopieri Belo (陈昊然)",
     "gender": "男",
     "result": "2:08.83",
@@ -4210,7 +4500,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 422,
+    "rank": 451,
     "name": "Ong Joe Hean (王子贤)",
     "gender": "男",
     "result": "2:09.11",
@@ -4220,7 +4510,7 @@
     "country": "Malaysia"
   },
   {
-    "rank": 423,
+    "rank": 452,
     "name": "Ming Dao Ting",
     "gender": "男",
     "result": "2:09.18",
@@ -4230,7 +4520,7 @@
     "country": "Australia"
   },
   {
-    "rank": 424,
+    "rank": 453,
     "name": "Rich Tayag",
     "gender": "男",
     "result": "2:09.45",
@@ -4240,7 +4530,7 @@
     "country": "USA"
   },
   {
-    "rank": 425,
+    "rank": 454,
     "name": "Jakub Drobný",
     "gender": "男",
     "result": "2:09.87",
@@ -4250,7 +4540,7 @@
     "country": "Slovakia"
   },
   {
-    "rank": 426,
+    "rank": 455,
     "name": "Hanlin Chen (陈瀚林)",
     "gender": "男",
     "result": "2:10.87",
@@ -4260,7 +4550,27 @@
     "country": "China"
   },
   {
-    "rank": 427,
+    "rank": 456,
+    "name": "Łukasz Dubicki",
+    "gender": "男",
+    "result": "2:11.15",
+    "competition": "All Rounders Katowice I 2026",
+    "wcaid": "2018DUBI01",
+    "date": "2026-05-01",
+    "country": "Poland"
+  },
+  {
+    "rank": 457,
+    "name": "Lukas Deuschl",
+    "gender": "男",
+    "result": "2:11.65",
+    "competition": "Munich Open 2026",
+    "wcaid": "2023DEUS01",
+    "date": "2026-04-25",
+    "country": "Germany"
+  },
+  {
+    "rank": 458,
     "name": "Arthur Provot",
     "gender": "男",
     "result": "2:11.79",
@@ -4270,7 +4580,7 @@
     "country": "France"
   },
   {
-    "rank": 428,
+    "rank": 459,
     "name": "Jamie Otsu",
     "gender": "男",
     "result": "2:11.83",
@@ -4280,7 +4590,7 @@
     "country": "Australia"
   },
   {
-    "rank": 429,
+    "rank": 460,
     "name": "Joseph Ong",
     "gender": "男",
     "result": "2:12.75",
@@ -4290,7 +4600,7 @@
     "country": "USA"
   },
   {
-    "rank": 430,
+    "rank": 461,
     "name": "Rex Kotovich",
     "gender": "男",
     "result": "2:13.31",
@@ -4300,7 +4610,7 @@
     "country": "Canada"
   },
   {
-    "rank": 431,
+    "rank": 462,
     "name": "Carlos Villanueva",
     "gender": "男",
     "result": "2:13.50",
@@ -4310,7 +4620,7 @@
     "country": "Argentina"
   },
   {
-    "rank": 432,
+    "rank": 463,
     "name": "Levi Eyou",
     "gender": "男",
     "result": "2:13.96",
@@ -4320,7 +4630,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 433,
+    "rank": 464,
     "name": "Tyler Rose",
     "gender": "男",
     "result": "2:14.11",
@@ -4330,7 +4640,7 @@
     "country": "USA"
   },
   {
-    "rank": 434,
+    "rank": 465,
     "name": "Emilio Tanzarella",
     "gender": "男",
     "result": "2:14.60",
@@ -4340,7 +4650,7 @@
     "country": "Belgium"
   },
   {
-    "rank": 435,
+    "rank": 466,
     "name": "Daniel Choi",
     "gender": "男",
     "result": "2:14.86",
@@ -4350,7 +4660,7 @@
     "country": "Australia"
   },
   {
-    "rank": 436,
+    "rank": 467,
     "name": "Yuki Nagai",
     "gender": "男",
     "result": "2:15.27",
@@ -4360,7 +4670,7 @@
     "country": "USA"
   },
   {
-    "rank": 437,
+    "rank": 468,
     "name": "Luoyao Chen (陈洛瑶)",
     "gender": "女",
     "result": "2:15.51",
@@ -4370,7 +4680,17 @@
     "country": "China"
   },
   {
-    "rank": 438,
+    "rank": 469,
+    "name": "Eitan Ofer",
+    "gender": "男",
+    "result": "2:15.75",
+    "competition": "Rahn Education Open 2026",
+    "wcaid": "2022OFER01",
+    "date": "2026-05-01",
+    "country": "Israel"
+  },
+  {
+    "rank": 470,
     "name": "Jacob Joshi",
     "gender": "男",
     "result": "2:15.90",
@@ -4380,7 +4700,17 @@
     "country": "Australia"
   },
   {
-    "rank": 439,
+    "rank": 471,
+    "name": "Clément Cherblanc",
+    "gender": "未知",
+    "result": "2:16.43",
+    "competition": "Hvidovre April 2026",
+    "wcaid": "2014CHER05",
+    "date": "2026-04-25",
+    "country": "France"
+  },
+  {
+    "rank": 472,
     "name": "Justin Cawley",
     "gender": "男",
     "result": "2:17.35",
@@ -4390,7 +4720,7 @@
     "country": "USA"
   },
   {
-    "rank": 440,
+    "rank": 473,
     "name": "Komahal Eswaran",
     "gender": "女",
     "result": "2:18.12",
@@ -4400,7 +4730,7 @@
     "country": "India"
   },
   {
-    "rank": 441,
+    "rank": 474,
     "name": "Patrick Blackburn",
     "gender": "男",
     "result": "2:18.61",
@@ -4410,7 +4740,7 @@
     "country": "France"
   },
   {
-    "rank": 442,
+    "rank": 475,
     "name": "Ciprian Timotei Olaru",
     "gender": "男",
     "result": "2:19.04",
@@ -4420,7 +4750,7 @@
     "country": "Romania"
   },
   {
-    "rank": 443,
+    "rank": 476,
     "name": "Josip De Lora",
     "gender": "男",
     "result": "2:19.22",
@@ -4430,7 +4760,7 @@
     "country": "Panama"
   },
   {
-    "rank": 444,
+    "rank": 477,
     "name": "Léon Antonio Darwin Mangiola",
     "gender": "男",
     "result": "2:19.30",
@@ -4440,7 +4770,7 @@
     "country": "Switzerland"
   },
   {
-    "rank": 445,
+    "rank": 478,
     "name": "Lucas Hatfield",
     "gender": "男",
     "result": "2:19.75",
@@ -4450,7 +4780,7 @@
     "country": "USA"
   },
   {
-    "rank": 446,
+    "rank": 479,
     "name": "Albert Garriga Gea",
     "gender": "男",
     "result": "2:19.80",
@@ -4460,7 +4790,7 @@
     "country": "Spain"
   },
   {
-    "rank": 447,
+    "rank": 480,
     "name": "Michael Conard",
     "gender": "男",
     "result": "2:20.10",
@@ -4470,7 +4800,7 @@
     "country": "USA"
   },
   {
-    "rank": 448,
+    "rank": 481,
     "name": "Elijah Rain Phelps",
     "gender": "男",
     "result": "2:20.98",
@@ -4480,7 +4810,7 @@
     "country": "USA"
   },
   {
-    "rank": 449,
+    "rank": 482,
     "name": "Konosuke Nishiyama (西山幸之介)",
     "gender": "男",
     "result": "2:21.43",
@@ -4490,7 +4820,7 @@
     "country": "Japan"
   },
   {
-    "rank": 450,
+    "rank": 483,
     "name": "Erik Akkersdijk",
     "gender": "男",
     "result": "2:21.70",
@@ -4500,7 +4830,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 451,
+    "rank": 484,
     "name": "Benjamin Araujo",
     "gender": "男",
     "result": "2:21.87",
@@ -4510,7 +4840,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 452,
+    "rank": 485,
     "name": "Raghav Reddy",
     "gender": "男",
     "result": "2:22.13",
@@ -4520,7 +4850,7 @@
     "country": "USA"
   },
   {
-    "rank": 453,
+    "rank": 486,
     "name": "Eduardo Pires",
     "gender": "男",
     "result": "2:22.79",
@@ -4530,7 +4860,7 @@
     "country": "Portugal"
   },
   {
-    "rank": 454,
+    "rank": 487,
     "name": "Shane Grogan",
     "gender": "男",
     "result": "2:24.18",
@@ -4540,7 +4870,7 @@
     "country": "USA"
   },
   {
-    "rank": 455,
+    "rank": 488,
     "name": "Bartosz Karpiński",
     "gender": "男",
     "result": "2:25.42",
@@ -4550,7 +4880,7 @@
     "country": "Poland"
   },
   {
-    "rank": 456,
+    "rank": 489,
     "name": "Ruslans Ševčuks",
     "gender": "男",
     "result": "2:27.41",
@@ -4560,7 +4890,7 @@
     "country": "Latvia"
   },
   {
-    "rank": 457,
+    "rank": 490,
     "name": "Weiting Wang (王卫铤)",
     "gender": "男",
     "result": "2:28.62",
@@ -4570,7 +4900,7 @@
     "country": "China"
   },
   {
-    "rank": 458,
+    "rank": 491,
     "name": "Felix Christian Schmidt",
     "gender": "男",
     "result": "2:29.29",
@@ -4580,7 +4910,7 @@
     "country": "Germany"
   },
   {
-    "rank": 459,
+    "rank": 492,
     "name": "Fiona Bao",
     "gender": "女",
     "result": "2:29.45",
@@ -4590,7 +4920,7 @@
     "country": "USA"
   },
   {
-    "rank": 460,
+    "rank": 493,
     "name": "Anish Sanjay Badithe",
     "gender": "男",
     "result": "2:30.91",
@@ -4600,7 +4930,17 @@
     "country": "India"
   },
   {
-    "rank": 461,
+    "rank": 494,
+    "name": "Cendy Cahyo Rahmat",
+    "gender": "男",
+    "result": "2:30.97",
+    "competition": "Jakarta Mini K-ubing 2026",
+    "wcaid": "2010RAHM02",
+    "date": "2026-04-26",
+    "country": "Indonesia"
+  },
+  {
+    "rank": 495,
     "name": "Artur Augusto Mendes",
     "gender": "男",
     "result": "2:30.98",
@@ -4610,17 +4950,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 462,
-    "name": "Arvid Ahlstrand",
-    "gender": "男",
-    "result": "2:31.21",
-    "competition": "Porfyrkuben 2026",
-    "wcaid": "2022AHLS01",
-    "date": "2026-01-23",
-    "country": "Sweden"
-  },
-  {
-    "rank": 463,
+    "rank": 496,
     "name": "Kuan-Ying Li (李冠穎)",
     "gender": "男",
     "result": "2:31.42",
@@ -4630,8 +4960,8 @@
     "country": "China"
   },
   {
-    "rank": 464,
-    "name": "Skylar Albright",
+    "rank": 497,
+    "name": "Sage Albright",
     "gender": "未知",
     "result": "2:31.99",
     "competition": "Morrow Quiet Mania 2026",
@@ -4640,7 +4970,7 @@
     "country": "USA"
   },
   {
-    "rank": 465,
+    "rank": 498,
     "name": "Mahiro Tanaka (田中万尋)",
     "gender": "女",
     "result": "2:33.28",
@@ -4650,7 +4980,7 @@
     "country": "Japan"
   },
   {
-    "rank": 466,
+    "rank": 499,
     "name": "Michel Ye",
     "gender": "男",
     "result": "2:34.53",
@@ -4660,7 +4990,7 @@
     "country": "France"
   },
   {
-    "rank": 467,
+    "rank": 500,
     "name": "Matthew McConaha",
     "gender": "男",
     "result": "2:34.56",
@@ -4670,7 +5000,7 @@
     "country": "USA"
   },
   {
-    "rank": 468,
+    "rank": 501,
     "name": "Ken-Erik Aus",
     "gender": "男",
     "result": "2:35.07",
@@ -4680,7 +5010,7 @@
     "country": "Estonia"
   },
   {
-    "rank": 469,
+    "rank": 502,
     "name": "Song Jenden",
     "gender": "男",
     "result": "2:36.47",
@@ -4690,7 +5020,7 @@
     "country": "Malaysia"
   },
   {
-    "rank": 470,
+    "rank": 503,
     "name": "Jiaming Zhang (张家铭)",
     "gender": "男",
     "result": "2:37.24",
@@ -4700,7 +5030,7 @@
     "country": "China"
   },
   {
-    "rank": 471,
+    "rank": 504,
     "name": "Leo Lindqvist",
     "gender": "男",
     "result": "2:37.25",
@@ -4710,7 +5040,17 @@
     "country": "Sweden"
   },
   {
-    "rank": 472,
+    "rank": 505,
+    "name": "Diego Villarreal Salinas",
+    "gender": "男",
+    "result": "2:37.54",
+    "competition": "Vaquita Morelia 2026",
+    "wcaid": "2018SALI09",
+    "date": "2026-04-25",
+    "country": "Mexico"
+  },
+  {
+    "rank": 506,
     "name": "Syunei Miyauchi (宮内俊英)",
     "gender": "男",
     "result": "2:37.66",
@@ -4720,7 +5060,27 @@
     "country": "Japan"
   },
   {
-    "rank": 473,
+    "rank": 507,
+    "name": "Arthur Mello Coelho da Silva",
+    "gender": "男",
+    "result": "2:37.89",
+    "competition": "Campeonato Mineiro 2026",
+    "wcaid": "2025SILV77",
+    "date": "2026-05-01",
+    "country": "Brazil"
+  },
+  {
+    "rank": 508,
+    "name": "Diego Sanz Fernández-Regatillo",
+    "gender": "男",
+    "result": "2:38.25",
+    "competition": "Mirasierra Open 2026",
+    "wcaid": "2025FERN42",
+    "date": "2026-04-25",
+    "country": "Spain"
+  },
+  {
+    "rank": 509,
     "name": "Yu-Chi Hou (侯宥圻)",
     "gender": "男",
     "result": "2:38.70",
@@ -4730,7 +5090,7 @@
     "country": "China"
   },
   {
-    "rank": 474,
+    "rank": 510,
     "name": "Rainer Fürstenfeld",
     "gender": "男",
     "result": "2:40.22",
@@ -4740,7 +5100,17 @@
     "country": "Germany"
   },
   {
-    "rank": 475,
+    "rank": 511,
+    "name": "Juan Jose Ajcam",
+    "gender": "男",
+    "result": "2:40.31",
+    "competition": "Q'umarkaj 2026",
+    "wcaid": "2017AJCA01",
+    "date": "2026-04-25",
+    "country": "Guatemala"
+  },
+  {
+    "rank": 512,
     "name": "Ambinintsoa Razafimandimy",
     "gender": "男",
     "result": "2:40.74",
@@ -4750,7 +5120,7 @@
     "country": "Madagascar"
   },
   {
-    "rank": 476,
+    "rank": 513,
     "name": "Kian Cline",
     "gender": "男",
     "result": "2:41.36",
@@ -4760,7 +5130,7 @@
     "country": "USA"
   },
   {
-    "rank": 477,
+    "rank": 514,
     "name": "Ianis Costin Chele",
     "gender": "男",
     "result": "2:41.59",
@@ -4770,7 +5140,7 @@
     "country": "Romania"
   },
   {
-    "rank": 478,
+    "rank": 515,
     "name": "Sebastian Carrillo",
     "gender": "男",
     "result": "2:41.65",
@@ -4780,7 +5150,7 @@
     "country": "USA"
   },
   {
-    "rank": 479,
+    "rank": 516,
     "name": "Jakob Fiechter",
     "gender": "男",
     "result": "2:41.74",
@@ -4790,7 +5160,7 @@
     "country": "Austria"
   },
   {
-    "rank": 480,
+    "rank": 517,
     "name": "Lukas Brandberg",
     "gender": "男",
     "result": "2:42.79",
@@ -4800,7 +5170,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 481,
+    "rank": 518,
     "name": "Anay Shrikar",
     "gender": "男",
     "result": "2:43.58",
@@ -4810,7 +5180,7 @@
     "country": "India"
   },
   {
-    "rank": 482,
+    "rank": 519,
     "name": "Akatsuki Kitamura (北村曉)",
     "gender": "男",
     "result": "2:43.76",
@@ -4820,7 +5190,7 @@
     "country": "Japan"
   },
   {
-    "rank": 483,
+    "rank": 520,
     "name": "José David Castiblanco Marin",
     "gender": "男",
     "result": "2:43.84",
@@ -4830,7 +5200,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 484,
+    "rank": 521,
     "name": "Sébastien Auroux",
     "gender": "男",
     "result": "2:45.68",
@@ -4840,7 +5210,7 @@
     "country": "Germany"
   },
   {
-    "rank": 485,
+    "rank": 522,
     "name": "Ching-Hsiang Li (李清翔)",
     "gender": "男",
     "result": "2:45.75",
@@ -4850,7 +5220,7 @@
     "country": "China"
   },
   {
-    "rank": 486,
+    "rank": 523,
     "name": "Daniel Adel Alhayki",
     "gender": "男",
     "result": "2:47.69",
@@ -4860,7 +5230,7 @@
     "country": "Bahrain"
   },
   {
-    "rank": 487,
+    "rank": 524,
     "name": "Alex Hamburg",
     "gender": "男",
     "result": "2:48.25",
@@ -4870,7 +5240,7 @@
     "country": "USA"
   },
   {
-    "rank": 488,
+    "rank": 525,
     "name": "Marks Fridmans",
     "gender": "男",
     "result": "2:49.43",
@@ -4880,7 +5250,7 @@
     "country": "Latvia"
   },
   {
-    "rank": 489,
+    "rank": 526,
     "name": "Irving Andres Franco Segovia",
     "gender": "男",
     "result": "2:49.82",
@@ -4890,7 +5260,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 490,
+    "rank": 527,
     "name": "John Wanger II",
     "gender": "男",
     "result": "2:50.14",
@@ -4900,7 +5270,7 @@
     "country": "USA"
   },
   {
-    "rank": 491,
+    "rank": 528,
     "name": "Jefferson de Carvalho Andrade",
     "gender": "男",
     "result": "2:51.55",
@@ -4910,7 +5280,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 492,
+    "rank": 529,
     "name": "Anders Barhaugen",
     "gender": "男",
     "result": "2:51.93",
@@ -4920,7 +5290,7 @@
     "country": "Norway"
   },
   {
-    "rank": 493,
+    "rank": 530,
     "name": "Philippe Virouleau",
     "gender": "男",
     "result": "2:52.44",
@@ -4930,7 +5300,7 @@
     "country": "France"
   },
   {
-    "rank": 494,
+    "rank": 531,
     "name": "Michael Orger",
     "gender": "男",
     "result": "2:52.45",
@@ -4940,7 +5310,7 @@
     "country": "United Kingdom"
   },
   {
-    "rank": 495,
+    "rank": 532,
     "name": "Anderson Hong",
     "gender": "男",
     "result": "2:53.74",
@@ -4950,7 +5320,7 @@
     "country": "USA"
   },
   {
-    "rank": 496,
+    "rank": 533,
     "name": "José María Hernández Mendieta",
     "gender": "男",
     "result": "2:53.95",
@@ -4960,17 +5330,7 @@
     "country": "Mexico"
   },
   {
-    "rank": 497,
-    "name": "Théo Girard",
-    "gender": "男",
-    "result": "2:55.00",
-    "competition": "Stenay Que le Début 2026",
-    "wcaid": "2018GIRA01",
-    "date": "2026-01-31",
-    "country": "France"
-  },
-  {
-    "rank": 498,
+    "rank": 534,
     "name": "Matheus Casassa",
     "gender": "男",
     "result": "2:56.67",
@@ -4980,7 +5340,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 499,
+    "rank": 535,
     "name": "Brad Hoffman",
     "gender": "男",
     "result": "2:57.37",
@@ -4990,7 +5350,7 @@
     "country": "USA"
   },
   {
-    "rank": 500,
+    "rank": 536,
     "name": "Fabian Common",
     "gender": "男",
     "result": "2:59.21",
@@ -5000,7 +5360,7 @@
     "country": "Germany"
   },
   {
-    "rank": 501,
+    "rank": 537,
     "name": "Ledger Ramirez",
     "gender": "男",
     "result": "2:59.63",
@@ -5010,7 +5370,7 @@
     "country": "USA"
   },
   {
-    "rank": 502,
+    "rank": 538,
     "name": "Felix Hansson Tam",
     "gender": "男",
     "result": "3:02.13",
@@ -5020,7 +5380,7 @@
     "country": "Sweden"
   },
   {
-    "rank": 503,
+    "rank": 539,
     "name": "Jochen Bauer",
     "gender": "男",
     "result": "3:02.51",
@@ -5030,7 +5390,27 @@
     "country": "Germany"
   },
   {
-    "rank": 504,
+    "rank": 540,
+    "name": "Chris Yeager",
+    "gender": "男",
+    "result": "3:02.64",
+    "competition": "Hancock County Spring 2026",
+    "wcaid": "2016YEAG01",
+    "date": "2026-04-26",
+    "country": "USA"
+  },
+  {
+    "rank": 541,
+    "name": "Martin Fádlik",
+    "gender": "男",
+    "result": "3:06.20",
+    "competition": "Cubing in Ružinov: April 2026",
+    "wcaid": "2023FADL01",
+    "date": "2026-04-25",
+    "country": "Slovakia"
+  },
+  {
+    "rank": 542,
     "name": "Damiano Di Paola",
     "gender": "男",
     "result": "3:06.43",
@@ -5040,7 +5420,7 @@
     "country": "Italy"
   },
   {
-    "rank": 505,
+    "rank": 543,
     "name": "Erik Tjong Kim Sang",
     "gender": "男",
     "result": "3:08.02",
@@ -5050,7 +5430,7 @@
     "country": "Netherlands"
   },
   {
-    "rank": 506,
+    "rank": 544,
     "name": "Eduard Esteban García Domínguez",
     "gender": "男",
     "result": "3:08.12",
@@ -5060,7 +5440,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 507,
+    "rank": 545,
     "name": "Ethan Gotshall",
     "gender": "男",
     "result": "3:08.72",
@@ -5070,7 +5450,7 @@
     "country": "USA"
   },
   {
-    "rank": 508,
+    "rank": 546,
     "name": "Alfonsus Rahardjo",
     "gender": "男",
     "result": "3:11.29",
@@ -5080,7 +5460,7 @@
     "country": "USA"
   },
   {
-    "rank": 509,
+    "rank": 547,
     "name": "Alex Ignacio Arispe Loza",
     "gender": "男",
     "result": "3:15.64",
@@ -5090,7 +5470,7 @@
     "country": "Bolivia"
   },
   {
-    "rank": 510,
+    "rank": 548,
     "name": "Robinson Semolini",
     "gender": "男",
     "result": "3:17.30",
@@ -5100,7 +5480,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 511,
+    "rank": 549,
     "name": "Hajime Miyazaki (宮崎朔)",
     "gender": "男",
     "result": "3:19.25",
@@ -5110,7 +5490,7 @@
     "country": "Japan"
   },
   {
-    "rank": 512,
+    "rank": 550,
     "name": "Alexander Haaland",
     "gender": "男",
     "result": "3:21.28",
@@ -5120,7 +5500,7 @@
     "country": "Norway"
   },
   {
-    "rank": 513,
+    "rank": 551,
     "name": "Ashley Foster",
     "gender": "男",
     "result": "3:22.31",
@@ -5130,7 +5510,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 514,
+    "rank": 552,
     "name": "Benjamin Ragan",
     "gender": "男",
     "result": "3:24.66",
@@ -5140,7 +5520,7 @@
     "country": "Canada"
   },
   {
-    "rank": 515,
+    "rank": 553,
     "name": "DaYeong Kim (김다영)",
     "gender": "女",
     "result": "3:26.21",
@@ -5150,7 +5530,17 @@
     "country": "Korea"
   },
   {
-    "rank": 516,
+    "rank": 554,
+    "name": "Isaac Vergara Castillo",
+    "gender": "男",
+    "result": "3:28.15",
+    "competition": "Vaquita Morelia 2026",
+    "wcaid": "2018CAST17",
+    "date": "2026-04-25",
+    "country": "Mexico"
+  },
+  {
+    "rank": 555,
     "name": "Konrad Storgaard",
     "gender": "男",
     "result": "3:28.20",
@@ -5160,7 +5550,7 @@
     "country": "Denmark"
   },
   {
-    "rank": 517,
+    "rank": 556,
     "name": "Stepan Matveev",
     "gender": "男",
     "result": "3:32.73",
@@ -5170,7 +5560,7 @@
     "country": "Russia"
   },
   {
-    "rank": 518,
+    "rank": 557,
     "name": "Axel Juan Pablo Moreno Rodriguez",
     "gender": "男",
     "result": "3:34.52",
@@ -5180,7 +5570,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 519,
+    "rank": 558,
     "name": "Yosvaldo José Maizo",
     "gender": "男",
     "result": "3:38.38",
@@ -5190,7 +5580,7 @@
     "country": "Venezuela"
   },
   {
-    "rank": 520,
+    "rank": 559,
     "name": "Javier Agustín Rossi",
     "gender": "男",
     "result": "3:39.17",
@@ -5200,7 +5590,7 @@
     "country": "Argentina"
   },
   {
-    "rank": 521,
+    "rank": 560,
     "name": "Jesse Moens",
     "gender": "女",
     "result": "3:39.99",
@@ -5210,7 +5600,7 @@
     "country": "Belgium"
   },
   {
-    "rank": 522,
+    "rank": 561,
     "name": "Gilberto José dos Santos",
     "gender": "男",
     "result": "3:41.29",
@@ -5220,7 +5610,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 523,
+    "rank": 562,
     "name": "Gabriel Bertaluci da Costa",
     "gender": "男",
     "result": "3:42.34",
@@ -5230,7 +5620,7 @@
     "country": "Brazil"
   },
   {
-    "rank": 524,
+    "rank": 563,
     "name": "Caleb Axvig",
     "gender": "男",
     "result": "3:43.82",
@@ -5240,7 +5630,7 @@
     "country": "USA"
   },
   {
-    "rank": 525,
+    "rank": 564,
     "name": "Julian Esteban Giraldo Moncada",
     "gender": "男",
     "result": "3:45.60",
@@ -5250,7 +5640,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 526,
+    "rank": 565,
     "name": "Liam Wadek",
     "gender": "男",
     "result": "3:48.81",
@@ -5260,7 +5650,7 @@
     "country": "New Zealand"
   },
   {
-    "rank": 527,
+    "rank": 566,
     "name": "Afonso Carapeto",
     "gender": "男",
     "result": "3:50.51",
@@ -5270,17 +5660,7 @@
     "country": "Portugal"
   },
   {
-    "rank": 528,
-    "name": "Isaac Vergara Castillo",
-    "gender": "男",
-    "result": "3:53.37",
-    "competition": "Caminos de Guanajuato - León 2026",
-    "wcaid": "2018CAST17",
-    "date": "2026-04-12",
-    "country": "Mexico"
-  },
-  {
-    "rank": 529,
+    "rank": 567,
     "name": "Jared Ferrin",
     "gender": "男",
     "result": "3:55.07",
@@ -5290,7 +5670,7 @@
     "country": "USA"
   },
   {
-    "rank": 530,
+    "rank": 568,
     "name": "Magne Njå",
     "gender": "男",
     "result": "4:00.87",
@@ -5300,7 +5680,7 @@
     "country": "Norway"
   },
   {
-    "rank": 531,
+    "rank": 569,
     "name": "Zachary Van De Water",
     "gender": "男",
     "result": "4:03.01",
@@ -5310,7 +5690,7 @@
     "country": "USA"
   },
   {
-    "rank": 532,
+    "rank": 570,
     "name": "Emanuel Marques",
     "gender": "男",
     "result": "4:03.13",
@@ -5320,7 +5700,7 @@
     "country": "Portugal"
   },
   {
-    "rank": 533,
+    "rank": 571,
     "name": "Arun Kannan",
     "gender": "男",
     "result": "4:07.13",
@@ -5330,7 +5710,7 @@
     "country": "India"
   },
   {
-    "rank": 534,
+    "rank": 572,
     "name": "Sirun Wu (吴思润)",
     "gender": "女",
     "result": "4:09.20",
@@ -5340,7 +5720,7 @@
     "country": "China"
   },
   {
-    "rank": 535,
+    "rank": 573,
     "name": "Abhipsa Hazra",
     "gender": "女",
     "result": "4:09.24",
@@ -5350,7 +5730,7 @@
     "country": "India"
   },
   {
-    "rank": 536,
+    "rank": 574,
     "name": "Dennis Rosero",
     "gender": "男",
     "result": "4:11.93",
@@ -5360,7 +5740,7 @@
     "country": "Colombia"
   },
   {
-    "rank": 537,
+    "rank": 575,
     "name": "Théo Meyer-Dumoulin",
     "gender": "男",
     "result": "4:21.67",
@@ -5370,7 +5750,17 @@
     "country": "France"
   },
   {
-    "rank": 538,
+    "rank": 576,
+    "name": "Daniel Enrique Giron Reyna",
+    "gender": "男",
+    "result": "4:21.85",
+    "competition": "Q'umarkaj 2026",
+    "wcaid": "2018REYN03",
+    "date": "2026-04-25",
+    "country": "Guatemala"
+  },
+  {
+    "rank": 577,
     "name": "Jose Pablo Morales Gomez",
     "gender": "男",
     "result": "4:33.24",
@@ -5380,7 +5770,7 @@
     "country": "Guatemala"
   },
   {
-    "rank": 539,
+    "rank": 578,
     "name": "Victor Farles Cavalcante Alves",
     "gender": "男",
     "result": "4:33.58",
@@ -5390,7 +5780,17 @@
     "country": "Brazil"
   },
   {
-    "rank": 540,
+    "rank": 579,
+    "name": "Daniel Berndt Lemvigh",
+    "gender": "男",
+    "result": "4:40.67",
+    "competition": "Hvidovre April 2026",
+    "wcaid": "2024LEMV01",
+    "date": "2026-04-25",
+    "country": "Denmark"
+  },
+  {
+    "rank": 580,
     "name": "Thomas Schukraft",
     "gender": "男",
     "result": "4:47.03",
@@ -5400,7 +5800,7 @@
     "country": "Germany"
   },
   {
-    "rank": 541,
+    "rank": 581,
     "name": "Sofia Charvati",
     "gender": "女",
     "result": "4:56.65",
@@ -5410,7 +5810,7 @@
     "country": "Greece"
   },
   {
-    "rank": 542,
+    "rank": 582,
     "name": "Michał Denkiewicz",
     "gender": "男",
     "result": "5:18.34",
@@ -5420,7 +5820,7 @@
     "country": "Poland"
   },
   {
-    "rank": 543,
+    "rank": 583,
     "name": "Daryl Estella",
     "gender": "男",
     "result": "5:34.91",
@@ -5430,7 +5830,7 @@
     "country": "Canada"
   },
   {
-    "rank": 544,
+    "rank": 584,
     "name": "Anthony Finnigan",
     "gender": "男",
     "result": "6:30.58",
@@ -5440,7 +5840,7 @@
     "country": "Canada"
   },
   {
-    "rank": 545,
+    "rank": 585,
     "name": "Chiara Marcucci",
     "gender": "女",
     "result": "6:40.15",
@@ -5450,7 +5850,7 @@
     "country": "Italy"
   },
   {
-    "rank": 546,
+    "rank": 586,
     "name": "Nathaniel Gee",
     "gender": "未知",
     "result": "7:06.29",
@@ -5460,7 +5860,17 @@
     "country": "USA"
   },
   {
-    "rank": 547,
+    "rank": 587,
+    "name": "Serafim Weiß",
+    "gender": "男",
+    "result": "9:01.37",
+    "competition": "Munich Open 2026",
+    "wcaid": "2018WEIS10",
+    "date": "2026-04-25",
+    "country": "Germany"
+  },
+  {
+    "rank": 588,
     "name": "Lilian Zetterman",
     "gender": "未知",
     "result": "10:18.00",
