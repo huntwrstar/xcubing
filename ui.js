@@ -5,30 +5,14 @@ function renderHome() {
         </div>
         <div class="announcement-list">
             <div class="announcement">
-                <h3>更新公告</h3>
-                <div class="announcement-card"><p>更新内容如下：<p>
-<p>1.新增省市榜首排名<p>
-<p>-在省市榜首排名中，您可以看到每个省份/城市排名第一的选手的排名；<p>
-<p>2.新增省市综合排名<p>
-<p>-在省市综合排名中，您可以自由组合项目计算每个省份/城市的综合实力进行排名；<p>
-<p>3.完善一些细节<p>
-<p>2026-03-19<p>
+                <h3>公告</h3>
+<p>1.提交省市信息请找到右下角反馈小点，点击进入反馈页。<p>
+<p>2.访问中有任何问题请找到右下角反馈小点，点击进入反馈页。<p>
+<p>3.感谢您的支持！<p>
+<p>2026-05-05<p>
                 </div>
             </div>
-        <div class="announcement-list">
-            <div class="announcement">
-                <h3>更新公告</h3>
-                <div class="announcement-card"><p>根据最近几天大家的反馈，本次更新内容如下：<p>
-<p>1.更改部分排名榜单的定义<p>
-<p>2.修复部分已知bug<p>
-<p>3.开放选手省份城市更改<p>
-<p>4.添加反馈页<p>
-<p>-通过该页面可直接提交对网站的意见反馈或选手省市信息更改申请。<p>
-<p>（反馈入口可在页面右下角找到）<p>
-欢迎大家积极反馈，一起完善小破站。
-<p>2026-03-08<p>
-                </div>
-            </div>
+
         <div class="announcement-list">
             <div class="announcement">
                 <h3>关于省市信息</h3>
