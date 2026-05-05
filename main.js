@@ -35,7 +35,6 @@ function updateDesktopNav() {
         <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
         <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
         <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
-        <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
         <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
         <div class="nav-dropdown">
             <span class="nav-item dropdown-toggle">天赋测试</span>
@@ -64,7 +63,6 @@ mobileNav.innerHTML = `
     <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
     <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
     <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
-    <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
     <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
     <div class="nav-dropdown">
         <span class="nav-item dropdown-toggle">天赋测试</span>
@@ -115,6 +113,10 @@ function handleHash() {
     let page = hash;
     if (hash === 'annual') page = 'season';
     else if (hash === 'three-year') page = 'active';
+    else if (hash === 'regionComp') {
+        window.location.hash = '#home';
+        return;
+    }
     loadPage(page);
 }
 
@@ -1342,7 +1344,6 @@ window.addEventListener('load', async () => {
         <a href="#comprehensive" class="nav-item" data-page="comprehensive">${__('nav.comprehensive')}</a>
         <a href="#region" class="nav-item" data-page="region">${__('nav.region')}</a>
         <a href="#regionTop" class="nav-item" data-page="regionTop">${__('nav.regionTop')}</a>
-        <a href="#regionComp" class="nav-item" data-page="regionComp">${__('nav.regionComp')}</a>
         <a href="#record" class="nav-item" data-page="record">${__('nav.record')}</a>
     `;
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('show')));
