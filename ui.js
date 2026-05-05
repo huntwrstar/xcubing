@@ -1,8 +1,5 @@
 function renderHome() {
     return `
-        <div style="text-align: center; margin: 50px 0;">
-            <h3 class="home-title"><span>探索未来，</span><span>未来已来。</span></h3>
-        </div>
         <div class="announcement-list">
             <div class="announcement">
                 <h3>公告</h3>
