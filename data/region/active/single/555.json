@@ -18,8 +18,8 @@
     "competition": "Beijing Winter 2026",
     "wcaid": "2016WUZI04",
     "date": "2026-01-10",
-    "province": "河南",
-    "city": "鹤壁"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 3,
@@ -129,7 +129,7 @@
     "wcaid": "2012ZHAN08",
     "date": "2024-09-22",
     "province": "陕西",
-    "city": "榆林"
+    "city": "西安"
   },
   {
     "rank": 13,
@@ -161,8 +161,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2019ZHUH05",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "贵州",
+    "city": "贵阳"
   },
   {
     "rank": 16,
@@ -194,8 +194,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2017HUAN77",
     "date": "2026-03-01",
-    "province": "广东",
-    "city": "深圳"
+    "province": "湖北",
+    "city": "武汉"
   },
   {
     "rank": 19,
@@ -205,8 +205,8 @@
     "competition": "Beijing University Cube League 2025",
     "wcaid": "2023CHEC12",
     "date": "2025-10-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 20,
@@ -370,8 +370,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2021ZHUA01",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 35,
@@ -414,8 +414,8 @@
     "competition": "Chengdu Welcoming Summer 2026",
     "wcaid": "2023HUAN21",
     "date": "2026-05-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "重庆",
+    "city": "重庆"
   },
   {
     "rank": 39,
@@ -447,8 +447,8 @@
     "competition": "Xianju NxN 2026",
     "wcaid": "2016LIQI03",
     "date": "2026-03-07",
-    "province": "北京",
-    "city": "北京"
+    "province": "江苏",
+    "city": "苏州"
   },
   {
     "rank": 42,
@@ -502,8 +502,8 @@
     "competition": "Xuzhou Zenith 2026",
     "wcaid": "2018LIUY38",
     "date": "2026-04-11",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "广州"
   },
   {
     "rank": 47,
@@ -650,23 +650,23 @@
   },
   {
     "rank": 60,
+    "name": "Chao-Che Chung (鍾肇哲)",
+    "gender": "男",
+    "result": "47.35",
+    "competition": "BUBT Cube Open 2026",
+    "wcaid": "2012CHON03",
+    "date": "2026-05-07",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 61,
     "name": "Yueh-Lin Tsai (蔡岳霖)",
     "gender": "男",
     "result": "47.36",
     "competition": "Taipei Summer Open 2025",
     "wcaid": "2006TSAI03",
     "date": "2025-06-28",
-    "province": "台湾",
-    "city": "台湾"
-  },
-  {
-    "rank": 61,
-    "name": "Chao-Che Chung (鍾肇哲)",
-    "gender": "男",
-    "result": "47.52",
-    "competition": "Bravo BKK Cube Open 2026",
-    "wcaid": "2012CHON03",
-    "date": "2026-05-09",
     "province": "台湾",
     "city": "台湾"
   },
@@ -722,8 +722,8 @@
     "competition": "Beijing Spring Open 2025",
     "wcaid": "2019SUNY09",
     "date": "2025-04-20",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "抚州"
   },
   {
     "rank": 67,
@@ -777,8 +777,8 @@
     "competition": "Paradise Park Bangkok NxNxN 2026",
     "wcaid": "2019WUSI01",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "武汉"
   },
   {
     "rank": 72,
@@ -800,7 +800,7 @@
     "wcaid": "2016FANB01",
     "date": "2025-12-31",
     "province": "广东",
-    "city": "茂名"
+    "city": "广州"
   },
   {
     "rank": 73,
@@ -810,8 +810,8 @@
     "competition": "Start of Summer Beijing 2026",
     "wcaid": "2024FENG05",
     "date": "2026-05-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "武汉"
   },
   {
     "rank": 75,
@@ -909,8 +909,8 @@
     "competition": "Robinson Latkrabang Cubing 2025",
     "wcaid": "2021HANC01",
     "date": "2025-05-24",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "安徽",
+    "city": "亳州"
   },
   {
     "rank": 83,
@@ -931,8 +931,8 @@
     "competition": "Deqing Big & Blind 2026",
     "wcaid": "2017PENG04",
     "date": "2026-04-25",
-    "province": "四川",
-    "city": "成都"
+    "province": "江苏",
+    "city": "南京"
   },
   {
     "rank": 86,
@@ -986,8 +986,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2025DENG18",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "茂名"
   },
   {
     "rank": 91,
@@ -997,8 +997,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2024CHEP04",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "石家庄"
   },
   {
     "rank": 92,
@@ -1041,8 +1041,8 @@
     "competition": "Canton Countdown 2025",
     "wcaid": "2015XUTI01",
     "date": "2025-12-31",
-    "province": "广东",
-    "city": "广州"
+    "province": "江苏",
+    "city": "盐城"
   },
   {
     "rank": 96,
@@ -1217,8 +1217,8 @@
     "competition": "Deqing Spring 2025",
     "wcaid": "2021ZHAN01",
     "date": "2025-04-19",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "上海",
+    "city": "上海"
   },
   {
     "rank": 111,
@@ -1250,8 +1250,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2021HEZH01",
     "date": "2026-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 115,
@@ -1305,8 +1305,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2023CUIY02",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "咸阳"
   },
   {
     "rank": 120,
@@ -1360,8 +1360,8 @@
     "competition": "Chengdu Welcoming Summer 2026",
     "wcaid": "2023ZHOU27",
     "date": "2026-05-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "贵州",
+    "city": "遵义"
   },
   {
     "rank": 125,
@@ -1459,8 +1459,8 @@
     "competition": "Xuzhou Zenith 2026",
     "wcaid": "2017ZHAQ04",
     "date": "2026-04-11",
-    "province": "安徽",
-    "city": "滁州"
+    "province": "江苏",
+    "city": "南通"
   },
   {
     "rank": 134,
@@ -1492,8 +1492,19 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2024LUOW02",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "江门"
+  },
+  {
+    "rank": 136,
+    "name": "Jiayu Wang (王佳宇)",
+    "gender": "男",
+    "result": "52.64",
+    "competition": "BUBT Cube Open 2026",
+    "wcaid": "2010WANG53",
+    "date": "2026-05-07",
+    "province": "浙江",
+    "city": "台州"
   },
   {
     "rank": 136,
@@ -1503,11 +1514,11 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2023LILI01",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "云南",
+    "city": "西双版纳"
   },
   {
-    "rank": 138,
+    "rank": 139,
     "name": "Leung Ka Ho (梁家浩)",
     "gender": "男",
     "result": "52.65",
@@ -1518,7 +1529,7 @@
     "city": "香港"
   },
   {
-    "rank": 139,
+    "rank": 140,
     "name": "Jinge Li (李金戈)",
     "gender": "男",
     "result": "52.75",
@@ -1529,7 +1540,7 @@
     "city": "济南"
   },
   {
-    "rank": 140,
+    "rank": 141,
     "name": "Yun-Kai Yeh (葉昀愷)",
     "gender": "男",
     "result": "52.88",
@@ -1540,29 +1551,29 @@
     "city": "台湾"
   },
   {
-    "rank": 140,
+    "rank": 141,
     "name": "Zehan Xue (薛泽韩)",
     "gender": "男",
     "result": "52.88",
     "competition": "Thailand Championship 2025",
     "wcaid": "2018XUEZ01",
     "date": "2025-10-11",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "潮州"
   },
   {
-    "rank": 142,
+    "rank": 143,
     "name": "Yuwen Su (苏裕文)",
     "gender": "男",
     "result": "52.91",
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2018SUYU04",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "扬州"
   },
   {
-    "rank": 143,
+    "rank": 144,
     "name": "Chun-Chia Wang (王畯家)",
     "gender": "男",
     "result": "53.04",
@@ -1573,18 +1584,18 @@
     "city": "台湾"
   },
   {
-    "rank": 144,
+    "rank": 145,
     "name": "An Li (李安)",
     "gender": "男",
     "result": "53.07",
     "competition": "Canton Countdown 2025",
     "wcaid": "2018LIAN23",
     "date": "2025-12-31",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
-    "rank": 145,
+    "rank": 146,
     "name": "Jiayang Zhang (张嘉阳)",
     "gender": "男",
     "result": "53.12",
@@ -1595,7 +1606,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 146,
+    "rank": 147,
     "name": "Yu-Chun Yeh (葉昱均)",
     "gender": "男",
     "result": "53.13",
@@ -1606,7 +1617,7 @@
     "city": "台湾"
   },
   {
-    "rank": 146,
+    "rank": 147,
     "name": "Yu-Chia Sung (宋祐嘉)",
     "gender": "男",
     "result": "53.13",
@@ -1617,7 +1628,7 @@
     "city": "台湾"
   },
   {
-    "rank": 148,
+    "rank": 149,
     "name": "Yu-Chih Chuang (莊雨直)",
     "gender": "男",
     "result": "53.14",
@@ -1628,7 +1639,7 @@
     "city": "台湾"
   },
   {
-    "rank": 149,
+    "rank": 150,
     "name": "Cheng-Hua Wu (巫政樺)",
     "gender": "男",
     "result": "53.16",
@@ -1639,7 +1650,7 @@
     "city": "台湾"
   },
   {
-    "rank": 150,
+    "rank": 151,
     "name": "Xinyun Chen (陈新运)",
     "gender": "男",
     "result": "53.35",
@@ -1647,10 +1658,10 @@
     "wcaid": "2017CHEN36",
     "date": "2024-03-30",
     "province": "湖北",
-    "city": "武汉"
+    "city": "孝感"
   },
   {
-    "rank": 151,
+    "rank": 152,
     "name": "Zian Song (宋子安)",
     "gender": "男",
     "result": "53.48",
@@ -1661,7 +1672,7 @@
     "city": "南京"
   },
   {
-    "rank": 151,
+    "rank": 152,
     "name": "Shao-Yu Hu (胡紹宇)",
     "gender": "男",
     "result": "53.48",
@@ -1672,7 +1683,7 @@
     "city": "台湾"
   },
   {
-    "rank": 151,
+    "rank": 152,
     "name": "Chenxiao He (何辰骁)",
     "gender": "男",
     "result": "53.48",
@@ -1683,7 +1694,7 @@
     "city": "天津"
   },
   {
-    "rank": 154,
+    "rank": 155,
     "name": "Xiaohan Yan (闫小晗)",
     "gender": "男",
     "result": "53.50",
@@ -1694,7 +1705,7 @@
     "city": "阜阳"
   },
   {
-    "rank": 154,
+    "rank": 155,
     "name": "Wenxuan Tang (唐文轩)",
     "gender": "男",
     "result": "53.50",
@@ -1705,18 +1716,18 @@
     "city": "苏州"
   },
   {
-    "rank": 156,
+    "rank": 157,
     "name": "Kailin Sun (孙凯霖)",
     "gender": "男",
     "result": "53.60",
     "competition": "Xi'an Open 2024",
     "wcaid": "2018SUNK01",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "宁波"
   },
   {
-    "rank": 157,
+    "rank": 158,
     "name": "Kai-Xuan Lin (林楷軒)",
     "gender": "男",
     "result": "53.64",
@@ -1727,18 +1738,18 @@
     "city": "台湾"
   },
   {
-    "rank": 158,
+    "rank": 159,
     "name": "Weicheng Luo (罗炜城)",
     "gender": "男",
     "result": "53.70",
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2018LUOW01",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "佛山"
   },
   {
-    "rank": 159,
+    "rank": 160,
     "name": "Yuhang Chen (陈宇航)",
     "gender": "男",
     "result": "53.73",
@@ -1749,7 +1760,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 160,
+    "rank": 161,
     "name": "Shuxiu Jiang (蒋束修)",
     "gender": "男",
     "result": "53.80",
@@ -1760,7 +1771,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 160,
+    "rank": 161,
     "name": "Jiale Xu (徐嘉乐)",
     "gender": "男",
     "result": "53.80",
@@ -1771,7 +1782,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 162,
+    "rank": 163,
     "name": "Chi Zhang (张弛)",
     "gender": "男",
     "result": "53.84",
@@ -1782,7 +1793,7 @@
     "city": "西安"
   },
   {
-    "rank": 163,
+    "rank": 164,
     "name": "Bochang Lu (卢伯畅)",
     "gender": "男",
     "result": "53.86",
@@ -1793,7 +1804,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 164,
+    "rank": 165,
     "name": "Zhedong Wang (王哲栋)",
     "gender": "男",
     "result": "53.87",
@@ -1804,7 +1815,7 @@
     "city": "湖州"
   },
   {
-    "rank": 165,
+    "rank": 166,
     "name": "Chuan-Chen Ho (何權宸)",
     "gender": "男",
     "result": "53.91",
@@ -1815,7 +1826,7 @@
     "city": "台湾"
   },
   {
-    "rank": 166,
+    "rank": 167,
     "name": "Yuqi Fu (傅钰淇)",
     "gender": "女",
     "result": "53.92",
@@ -1826,7 +1837,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 167,
+    "rank": 168,
     "name": "Feng Luo (骆枫)",
     "gender": "男",
     "result": "53.94",
@@ -1837,7 +1848,7 @@
     "city": "广州"
   },
   {
-    "rank": 168,
+    "rank": 169,
     "name": "Weixing Zhang (张炜星)",
     "gender": "男",
     "result": "53.95",
@@ -1848,7 +1859,7 @@
     "city": "广州"
   },
   {
-    "rank": 169,
+    "rank": 170,
     "name": "Zhengzhe Li (李征哲)",
     "gender": "男",
     "result": "54.01",
@@ -1859,7 +1870,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 170,
+    "rank": 171,
     "name": "Guoqin Liu (刘国钦)",
     "gender": "男",
     "result": "54.03",
@@ -1870,7 +1881,7 @@
     "city": "东莞"
   },
   {
-    "rank": 171,
+    "rank": 172,
     "name": "Tianyuan Li (李天元)",
     "gender": "男",
     "result": "54.12",
@@ -1881,7 +1892,7 @@
     "city": "北京"
   },
   {
-    "rank": 171,
+    "rank": 172,
     "name": "Haoran Jing (荆浩然)",
     "gender": "男",
     "result": "54.12",
@@ -1892,7 +1903,7 @@
     "city": "济南"
   },
   {
-    "rank": 173,
+    "rank": 174,
     "name": "Kuo-Hau Wu (吳國豪)",
     "gender": "男",
     "result": "54.19",
@@ -1903,7 +1914,7 @@
     "city": "台湾"
   },
   {
-    "rank": 174,
+    "rank": 175,
     "name": "Yu-Nan Chen (陳宥男)",
     "gender": "男",
     "result": "54.34",
@@ -1914,7 +1925,7 @@
     "city": "台湾"
   },
   {
-    "rank": 174,
+    "rank": 175,
     "name": "Yizhi Wang (王易知)",
     "gender": "男",
     "result": "54.34",
@@ -1925,7 +1936,7 @@
     "city": "杭州"
   },
   {
-    "rank": 176,
+    "rank": 177,
     "name": "Zhengtao Yu (俞正涛)",
     "gender": "男",
     "result": "54.42",
@@ -1933,32 +1944,32 @@
     "wcaid": "2017YUZH02",
     "date": "2024-03-30",
     "province": "福建",
-    "city": "宁德"
+    "city": "厦门"
   },
   {
-    "rank": 177,
+    "rank": 178,
     "name": "Yusheng Zheng (郑煜升)",
     "gender": "男",
     "result": "54.44",
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2023ZHEN26",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "广州"
   },
   {
-    "rank": 178,
+    "rank": 179,
     "name": "Weiqin Yang (杨伟钦)",
     "gender": "男",
     "result": "54.46",
     "competition": "Guangzhou Big Cubes 2024",
     "wcaid": "2021YANG05",
     "date": "2024-08-18",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "汕尾"
   },
   {
-    "rank": 179,
+    "rank": 180,
     "name": "You Wu (吴悠)",
     "gender": "男",
     "result": "54.60",
@@ -1969,7 +1980,7 @@
     "city": "深圳"
   },
   {
-    "rank": 180,
+    "rank": 181,
     "name": "Chuhao Guo (郭楚昊)",
     "gender": "男",
     "result": "54.65",
@@ -1980,7 +1991,7 @@
     "city": "深圳"
   },
   {
-    "rank": 181,
+    "rank": 182,
     "name": "Pengcheng Wang (王鹏程)",
     "gender": "男",
     "result": "54.72",
@@ -1991,7 +2002,7 @@
     "city": "庆阳"
   },
   {
-    "rank": 182,
+    "rank": 183,
     "name": "Shidong Zhang (张世东)",
     "gender": "男",
     "result": "54.82",
@@ -2002,7 +2013,7 @@
     "city": "北京"
   },
   {
-    "rank": 183,
+    "rank": 184,
     "name": "Hau-Yu Huang (黃浩宇)",
     "gender": "男",
     "result": "54.89",
@@ -2013,7 +2024,7 @@
     "city": "台湾"
   },
   {
-    "rank": 184,
+    "rank": 185,
     "name": "Chan Chun Hei (陳俊熙)",
     "gender": "男",
     "result": "54.92",
@@ -2024,7 +2035,7 @@
     "city": "香港"
   },
   {
-    "rank": 185,
+    "rank": 186,
     "name": "Xuan Liu (刘璇)",
     "gender": "男",
     "result": "54.94",
@@ -2035,7 +2046,7 @@
     "city": "天津"
   },
   {
-    "rank": 186,
+    "rank": 187,
     "name": "Jiaxin Hou (侯家欣)",
     "gender": "男",
     "result": "54.97",
@@ -2046,18 +2057,18 @@
     "city": "武汉"
   },
   {
-    "rank": 187,
+    "rank": 188,
     "name": "Xinyu Wang (王欣宇)",
     "gender": "男",
     "result": "55.03",
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2017WANX08",
     "date": "2026-04-04",
-    "province": "安徽",
-    "city": "安庆"
+    "province": "陕西",
+    "city": "西安"
   },
   {
-    "rank": 188,
+    "rank": 189,
     "name": "Cai Ying (应才)",
     "gender": "男",
     "result": "55.04",
@@ -2068,7 +2079,7 @@
     "city": "金华"
   },
   {
-    "rank": 189,
+    "rank": 190,
     "name": "Miansheng Huang (黄勉盛)",
     "gender": "男",
     "result": "55.12",
@@ -2079,7 +2090,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 190,
+    "rank": 191,
     "name": "Rinji Chan Pak Hei (陳柏熹)",
     "gender": "男",
     "result": "55.18",
@@ -2090,7 +2101,7 @@
     "city": "香港"
   },
   {
-    "rank": 191,
+    "rank": 192,
     "name": "Haonan Su (苏浩楠)",
     "gender": "男",
     "result": "55.21",
@@ -2101,7 +2112,7 @@
     "city": "西安"
   },
   {
-    "rank": 192,
+    "rank": 193,
     "name": "Rui Zhu (朱锐)",
     "gender": "男",
     "result": "55.24",
@@ -2112,7 +2123,7 @@
     "city": "惠州"
   },
   {
-    "rank": 193,
+    "rank": 194,
     "name": "Yu-Chi Hou (侯宥圻)",
     "gender": "男",
     "result": "55.25",
@@ -2123,7 +2134,7 @@
     "city": "台湾"
   },
   {
-    "rank": 194,
+    "rank": 195,
     "name": "Ruotong Jia (贾若桐)",
     "gender": "男",
     "result": "55.35",
@@ -2134,7 +2145,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 195,
+    "rank": 196,
     "name": "Haoze Yang (杨浩泽)",
     "gender": "男",
     "result": "55.36",
@@ -2145,7 +2156,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 196,
+    "rank": 197,
     "name": "Yalun Wu (吴亚伦)",
     "gender": "男",
     "result": "55.39",
@@ -2156,18 +2167,18 @@
     "city": "丽水"
   },
   {
-    "rank": 197,
+    "rank": 198,
     "name": "Le Dai (代乐)",
     "gender": "男",
     "result": "55.61",
     "competition": "Beijing University Cube League 2025",
     "wcaid": "2018DAIL02",
     "date": "2025-10-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "德阳"
   },
   {
-    "rank": 198,
+    "rank": 199,
     "name": "Chengshuo Zhu (朱成硕)",
     "gender": "男",
     "result": "55.66",
@@ -2178,7 +2189,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 199,
+    "rank": 200,
     "name": "Xiwen Ruan (阮熙文)",
     "gender": "男",
     "result": "55.67",
@@ -2189,7 +2200,7 @@
     "city": "邵阳"
   },
   {
-    "rank": 200,
+    "rank": 201,
     "name": "Zixuan Zou (邹子轩)",
     "gender": "男",
     "result": "55.80",
@@ -2200,7 +2211,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 201,
+    "rank": 202,
     "name": "Haoyu Li (李浩宇)",
     "gender": "男",
     "result": "55.82",
@@ -2211,7 +2222,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 202,
+    "rank": 203,
     "name": "Zhi Li (李志)",
     "gender": "男",
     "result": "55.85",
@@ -2222,7 +2233,7 @@
     "city": "临沂"
   },
   {
-    "rank": 203,
+    "rank": 204,
     "name": "Haoyuan Lu (卢昊元)",
     "gender": "男",
     "result": "55.87",
@@ -2233,7 +2244,7 @@
     "city": "西安"
   },
   {
-    "rank": 204,
+    "rank": 205,
     "name": "Jieyu Yang (杨杰予)",
     "gender": "男",
     "result": "55.88",
@@ -2244,7 +2255,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 205,
+    "rank": 206,
     "name": "Quincy Tang (鄧子謙)",
     "gender": "男",
     "result": "55.90",
@@ -2255,7 +2266,7 @@
     "city": "香港"
   },
   {
-    "rank": 206,
+    "rank": 207,
     "name": "Yunhui Zhao (赵云晖)",
     "gender": "男",
     "result": "55.91",
@@ -2266,7 +2277,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 207,
+    "rank": 208,
     "name": "Kai-Jie Wu (吳楷傑)",
     "gender": "男",
     "result": "56.04",
@@ -2277,7 +2288,7 @@
     "city": "台湾"
   },
   {
-    "rank": 208,
+    "rank": 209,
     "name": "Jiacheng Cai (蔡嘉成)",
     "gender": "男",
     "result": "56.08",
@@ -2288,7 +2299,7 @@
     "city": "深圳"
   },
   {
-    "rank": 209,
+    "rank": 210,
     "name": "Yicheng Zhang (张翊程)",
     "gender": "男",
     "result": "56.13",
@@ -2299,7 +2310,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 210,
+    "rank": 211,
     "name": "Alvin Cheng Hiu Yeung (鄭曉洋)",
     "gender": "男",
     "result": "56.17",
@@ -2310,7 +2321,7 @@
     "city": "香港"
   },
   {
-    "rank": 211,
+    "rank": 212,
     "name": "Zhenyu Wang (王振宇)",
     "gender": "男",
     "result": "56.18",
@@ -2321,18 +2332,18 @@
     "city": "青岛"
   },
   {
-    "rank": 212,
+    "rank": 213,
     "name": "Yiqi Zheng (郑伊淇)",
     "gender": "男",
     "result": "56.22",
     "competition": "Deqing Spring 2025",
     "wcaid": "2025ZHEN11",
     "date": "2025-04-19",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "上饶"
   },
   {
-    "rank": 213,
+    "rank": 214,
     "name": "Yongjie Yan (严勇杰)",
     "gender": "男",
     "result": "56.32",
@@ -2343,7 +2354,7 @@
     "city": "上饶"
   },
   {
-    "rank": 214,
+    "rank": 215,
     "name": "Xinrui Lü (吕鑫睿)",
     "gender": "男",
     "result": "56.33",
@@ -2354,7 +2365,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 215,
+    "rank": 216,
     "name": "Yen-Chun Hua (華彥鈞)",
     "gender": "男",
     "result": "56.38",
@@ -2363,17 +2374,6 @@
     "date": "2024-08-18",
     "province": "台湾",
     "city": "台湾"
-  },
-  {
-    "rank": 216,
-    "name": "Jiayu Wang (王佳宇)",
-    "gender": "男",
-    "result": "56.39",
-    "competition": "Luzon Championship 2026",
-    "wcaid": "2010WANG53",
-    "date": "2026-01-09",
-    "province": "浙江",
-    "city": "台州"
   },
   {
     "rank": 217,
@@ -2472,7 +2472,7 @@
     "wcaid": "2015SHEN07",
     "date": "2025-12-31",
     "province": "广东",
-    "city": "深圳"
+    "city": "梅州"
   },
   {
     "rank": 226,
@@ -2515,8 +2515,8 @@
     "competition": "Guangzhou Big Cubes 2024",
     "wcaid": "2019NIJI01",
     "date": "2024-08-18",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "揭阳"
   },
   {
     "rank": 230,
@@ -2537,8 +2537,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2016WUYU09",
     "date": "2025-04-04",
-    "province": "山西",
-    "city": "晋中"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 232,
@@ -2735,8 +2735,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2018WANH29",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "黑龙江",
+    "city": "哈尔滨"
   },
   {
     "rank": 250,
@@ -3021,8 +3021,8 @@
     "competition": "Huzhou Open 2024",
     "wcaid": "2024LAIY02",
     "date": "2024-03-30",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 276,
@@ -3164,8 +3164,8 @@
     "competition": "Guangzhou Big Cubes 2024",
     "wcaid": "2018YEZH03",
     "date": "2024-08-18",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 289,
@@ -3208,8 +3208,8 @@
     "competition": "Zhengzhou Open 2024",
     "wcaid": "2024ZHAX02",
     "date": "2024-12-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "武汉"
   },
   {
     "rank": 293,
@@ -3340,8 +3340,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2024JIAN20",
     "date": "2026-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 305,
@@ -3384,8 +3384,8 @@
     "competition": "Xianju NxN 2026",
     "wcaid": "2024ZONG02",
     "date": "2026-03-07",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "金华"
   },
   {
     "rank": 309,
@@ -3472,8 +3472,8 @@
     "competition": "Start of Summer Beijing 2026",
     "wcaid": "2024CUIY02",
     "date": "2026-05-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "吉林",
+    "city": "四平"
   },
   {
     "rank": 317,
@@ -3582,8 +3582,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2023SONG24",
     "date": "2025-04-04",
-    "province": "新疆",
-    "city": "石河子"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 327,
@@ -3692,8 +3692,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2025ZHAN32",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "福州"
   },
   {
     "rank": 337,
@@ -3725,8 +3725,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2025WANG62",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 340,
@@ -3824,8 +3824,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2024CHEN90",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "广州"
   },
   {
     "rank": 349,
@@ -3945,8 +3945,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2026CHEN07",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "宁德"
   },
   {
     "rank": 360,
@@ -3978,8 +3978,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2025HUAZ01",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "赣州"
   },
   {
     "rank": 363,
@@ -3989,8 +3989,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2018GAOZ06",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "安徽",
+    "city": "铜陵"
   },
   {
     "rank": 364,
@@ -4022,8 +4022,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2019LIUW05",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 367,
@@ -4055,8 +4055,8 @@
     "competition": "XMUM Cube Open 2026",
     "wcaid": "2019ZHON17",
     "date": "2026-02-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广西",
+    "city": "柳州"
   },
   {
     "rank": 369,
@@ -4121,8 +4121,8 @@
     "competition": "Huzhou Open 2024",
     "wcaid": "2023LINX04",
     "date": "2024-03-30",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "温州"
   },
   {
     "rank": 375,
@@ -4187,8 +4187,8 @@
     "competition": "Huzhou Open 2024",
     "wcaid": "2018PANY07",
     "date": "2024-03-30",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 382,
@@ -4209,8 +4209,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2023JIAN33",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖南",
+    "city": "长沙"
   },
   {
     "rank": 383,
@@ -4396,8 +4396,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2019HUBI01",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖南",
+    "city": "衡阳"
   },
   {
     "rank": 401,
@@ -4429,8 +4429,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2016LIYI05",
     "date": "2025-04-04",
-    "province": "黑龙江",
-    "city": "大庆"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 403,
@@ -4671,8 +4671,8 @@
     "competition": "Chengdu Welcoming Summer 2026",
     "wcaid": "2024LIZE02",
     "date": "2026-05-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "泸州"
   },
   {
     "rank": 426,
@@ -4770,8 +4770,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2019GUAN11",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "珠海"
   },
   {
     "rank": 435,
@@ -4814,8 +4814,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2025SUNL01",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "赣州"
   },
   {
     "rank": 439,
@@ -4935,8 +4935,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2023WANG48",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 450,
@@ -5078,8 +5078,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2025LIUZ07",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "襄阳"
   },
   {
     "rank": 463,
@@ -5144,8 +5144,8 @@
     "competition": "Chengdu Spring Open 2025",
     "wcaid": "2017WANY29",
     "date": "2025-02-08",
-    "province": "福建",
-    "city": "三明"
+    "province": "浙江",
+    "city": "杭州"
   },
   {
     "rank": 467,
@@ -5155,8 +5155,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2025LIJI12",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "驻马店"
   },
   {
     "rank": 470,
@@ -5386,8 +5386,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2018WANH22",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "厦门"
   },
   {
     "rank": 491,
@@ -5430,8 +5430,8 @@
     "competition": "Deqing Big & Blind 2026",
     "wcaid": "2025LIJI05",
     "date": "2026-04-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "苏州"
   },
   {
     "rank": 495,
@@ -5441,8 +5441,8 @@
     "competition": "Chengdu Spring Open 2025",
     "wcaid": "2018LIJU06",
     "date": "2025-02-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 496,
@@ -5452,8 +5452,8 @@
     "competition": "Zhengzhou Summer I 2025",
     "wcaid": "2023GUOQ01",
     "date": "2025-08-23",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "辽宁",
+    "city": "大连"
   },
   {
     "rank": 497,
@@ -5463,8 +5463,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2018WUGU01",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "三明"
   },
   {
     "rank": 498,
@@ -5507,8 +5507,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2021YANG11",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 502,
@@ -5529,8 +5529,8 @@
     "competition": "Zhengzhou Open 2024",
     "wcaid": "2018ZHAJ22",
     "date": "2024-12-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "新乡"
   },
   {
     "rank": 504,
@@ -5639,8 +5639,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2024WANB03",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "东莞"
   },
   {
     "rank": 514,
@@ -5694,8 +5694,8 @@
     "competition": "Deqing Spring 2025",
     "wcaid": "2023YANG90",
     "date": "2025-04-19",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "安徽",
+    "city": "阜阳"
   },
   {
     "rank": 518,
@@ -5705,8 +5705,8 @@
     "competition": "Beijing University Cube League 2025",
     "wcaid": "2024LIPE02",
     "date": "2025-10-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "邢台"
   },
   {
     "rank": 520,
@@ -5738,8 +5738,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2021SHIK01",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "秦皇岛"
   },
   {
     "rank": 523,
@@ -5782,8 +5782,8 @@
     "competition": "Thailand Championship 2025",
     "wcaid": "2024WANG96",
     "date": "2025-10-11",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "广州"
   },
   {
     "rank": 527,
@@ -5925,8 +5925,8 @@
     "competition": "Nanchang Spring 2025",
     "wcaid": "2019JIAN57",
     "date": "2025-04-26",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "南昌"
   },
   {
     "rank": 540,
@@ -5947,8 +5947,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2018SHIJ05",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山西",
+    "city": "临汾"
   },
   {
     "rank": 542,
@@ -5969,8 +5969,8 @@
     "competition": "Chengdu Welcoming Summer 2026",
     "wcaid": "2023LIYA04",
     "date": "2026-05-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 544,
@@ -6200,8 +6200,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2018LIUZ10",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "南昌"
   },
   {
     "rank": 565,
@@ -6277,8 +6277,8 @@
     "competition": "Coping in July Singapore 2025",
     "wcaid": "2023PEIY01",
     "date": "2025-07-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 572,
@@ -6321,8 +6321,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2025LIUQ01",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "珠海"
   },
   {
     "rank": 576,
@@ -6332,8 +6332,8 @@
     "competition": "Nanchang Spring 2025",
     "wcaid": "2024WANJ01",
     "date": "2025-04-26",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "台州"
   },
   {
     "rank": 577,
@@ -6366,7 +6366,7 @@
     "wcaid": "2017WANY23",
     "date": "2024-03-30",
     "province": "浙江",
-    "city": "绍兴"
+    "city": "杭州"
   },
   {
     "rank": 579,
@@ -6442,8 +6442,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2019ZHON08",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "湛江"
   },
   {
     "rank": 587,
@@ -6453,8 +6453,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2023RENK05",
     "date": "2026-04-04",
-    "province": "湖南",
-    "city": "益阳"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 588,
@@ -6475,8 +6475,8 @@
     "competition": "Chengdu Spring Open 2025",
     "wcaid": "2025YANN02",
     "date": "2025-02-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "淮安"
   },
   {
     "rank": 590,
@@ -6552,8 +6552,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2024LIAO15",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "湛江"
   },
   {
     "rank": 597,
@@ -6574,8 +6574,8 @@
     "competition": "Canton Countdown 2025",
     "wcaid": "2024WANY05",
     "date": "2025-12-31",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "汕头"
   },
   {
     "rank": 599,
@@ -6673,8 +6673,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2019WANQ04",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "厦门"
   },
   {
     "rank": 608,
@@ -6717,8 +6717,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2011YANX01",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "咸阳"
   },
   {
     "rank": 612,
@@ -6816,8 +6816,8 @@
     "competition": "Zhengzhou Summer I 2025",
     "wcaid": "2024ZHOU18",
     "date": "2025-08-23",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "南通"
   },
   {
     "rank": 621,
@@ -6860,8 +6860,8 @@
     "competition": "Xianju NxN 2026",
     "wcaid": "2019XIAJ02",
     "date": "2026-03-07",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "湖州"
   },
   {
     "rank": 625,
@@ -6937,8 +6937,8 @@
     "competition": "Deqing Big & Blind 2026",
     "wcaid": "2025TAOR02",
     "date": "2026-04-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "苏州"
   },
   {
     "rank": 632,
@@ -7058,8 +7058,8 @@
     "competition": "Start of Summer Beijing 2026",
     "wcaid": "2024ZHAN47",
     "date": "2026-05-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山西",
+    "city": "晋城"
   },
   {
     "rank": 643,
@@ -7102,8 +7102,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2023CHEY31",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "泉州"
   },
   {
     "rank": 647,
@@ -7245,8 +7245,8 @@
     "competition": "Xuzhou Zenith 2026",
     "wcaid": "2019ZUZH01",
     "date": "2026-04-11",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "云南",
+    "city": "昆明"
   },
   {
     "rank": 660,
@@ -7333,8 +7333,8 @@
     "competition": "Zhengzhou Open 2024",
     "wcaid": "2017LEIX02",
     "date": "2024-12-08",
-    "province": "甘肃",
-    "city": "定西"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 668,
@@ -7388,8 +7388,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2024LIZE03",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "郑州"
   },
   {
     "rank": 673,
@@ -7432,8 +7432,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2024LIAI01",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "汕头"
   },
   {
     "rank": 677,
@@ -7487,8 +7487,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2018YITA01",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "肇庆"
   },
   {
     "rank": 682,
@@ -7553,8 +7553,8 @@
     "competition": "Xuzhou Zenith 2026",
     "wcaid": "2024LIWE01",
     "date": "2026-04-11",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山东",
+    "city": "济南"
   },
   {
     "rank": 688,
@@ -7664,7 +7664,7 @@
     "wcaid": "2017SUNL03",
     "date": "2026-04-11",
     "province": "黑龙江",
-    "city": "牡丹江"
+    "city": "哈尔滨"
   },
   {
     "rank": 698,
@@ -7850,8 +7850,8 @@
     "competition": "Canton Countdown 2025",
     "wcaid": "2023ZHEN28",
     "date": "2025-12-31",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "石家庄"
   },
   {
     "rank": 715,
@@ -7861,8 +7861,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2024HAOK01",
     "date": "2026-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山东",
+    "city": "滨州"
   },
   {
     "rank": 716,
@@ -7927,8 +7927,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2024ZHAN75",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "贵州",
+    "city": "六盘水"
   },
   {
     "rank": 722,
@@ -8004,8 +8004,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2018ZHAY32",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 728,
@@ -8092,8 +8092,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2018LIUL05",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "廊坊"
   },
   {
     "rank": 737,
@@ -8115,7 +8115,7 @@
     "wcaid": "2018GUOZ01",
     "date": "2026-02-06",
     "province": "广东",
-    "city": "汕尾"
+    "city": "广州"
   },
   {
     "rank": 739,
@@ -8125,8 +8125,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2018XIEZ03",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 740,
@@ -8169,8 +8169,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2024SUNY01",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "南京"
   },
   {
     "rank": 744,
@@ -8268,8 +8268,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2025ZHOU26",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "汕尾"
   },
   {
     "rank": 753,
@@ -8356,8 +8356,8 @@
     "competition": "Deqing Big & Blind 2026",
     "wcaid": "2019WANY36",
     "date": "2026-04-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "徐州"
   },
   {
     "rank": 761,
@@ -8422,8 +8422,8 @@
     "competition": "Beijing University Cube League 2025",
     "wcaid": "2024WANG14",
     "date": "2025-10-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "承德"
   },
   {
     "rank": 767,
@@ -8444,8 +8444,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2025KANG26",
     "date": "2026-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "安徽",
+    "city": "合肥"
   },
   {
     "rank": 769,
@@ -8466,8 +8466,8 @@
     "competition": "Deqing Spring 2025",
     "wcaid": "2025XUWE02",
     "date": "2025-04-19",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "上饶"
   },
   {
     "rank": 771,
@@ -8598,8 +8598,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2024XIET01",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "常州"
   },
   {
     "rank": 782,
@@ -8840,8 +8840,8 @@
     "competition": "Zhengzhou Summer I 2025",
     "wcaid": "2025HUQI01",
     "date": "2025-08-23",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 805,
@@ -8862,8 +8862,8 @@
     "competition": "Vietnam Championship 2024",
     "wcaid": "2019LILI02",
     "date": "2024-07-19",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "盐城"
   },
   {
     "rank": 807,
@@ -8895,8 +8895,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2024GUOH01",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "雅安"
   },
   {
     "rank": 810,
@@ -8906,8 +8906,8 @@
     "competition": "Zhengzhou Summer I 2025",
     "wcaid": "2025LIJI07",
     "date": "2025-08-23",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "武汉"
   },
   {
     "rank": 811,
@@ -8917,8 +8917,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2024FUBI01",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "吉林",
+    "city": "白山"
   },
   {
     "rank": 811,
@@ -8928,8 +8928,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2026LIZI05",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山东",
+    "city": "东营"
   },
   {
     "rank": 813,
@@ -8983,8 +8983,8 @@
     "competition": "Guangzhou Big Cubes 2024",
     "wcaid": "2020WANG20",
     "date": "2024-08-18",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "汕头"
   },
   {
     "rank": 817,
@@ -9005,8 +9005,8 @@
     "competition": "Chengdu Spring Open 2025",
     "wcaid": "2023FENG17",
     "date": "2025-02-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "赣州"
   },
   {
     "rank": 820,
@@ -9050,7 +9050,7 @@
     "wcaid": "2018TANH04",
     "date": "2025-12-28",
     "province": "广西",
-    "city": "来宾"
+    "city": "南宁"
   },
   {
     "rank": 824,
@@ -9500,8 +9500,8 @@
     "competition": "Beijing University Cube League 2025",
     "wcaid": "2019YANB02",
     "date": "2025-10-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "宁夏",
+    "city": "吴忠"
   },
   {
     "rank": 865,
@@ -9544,8 +9544,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2024HUAN50",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "襄阳"
   },
   {
     "rank": 869,
@@ -9632,8 +9632,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2015LIAN06",
     "date": "2025-04-04",
-    "province": "广东",
-    "city": "深圳"
+    "province": "安徽",
+    "city": "合肥"
   },
   {
     "rank": 877,
@@ -9731,8 +9731,8 @@
     "competition": "Chengdu Welcoming Summer 2026",
     "wcaid": "2021CHEN29",
     "date": "2026-05-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "洛阳"
   },
   {
     "rank": 886,
@@ -9764,8 +9764,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2025JIAN10",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "泉州"
   },
   {
     "rank": 889,
@@ -9874,8 +9874,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2026LIND02",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "江门"
   },
   {
     "rank": 899,
@@ -9974,7 +9974,7 @@
     "wcaid": "2025CHES02",
     "date": "2026-03-01",
     "province": "福建",
-    "city": "三明"
+    "city": "福州"
   },
   {
     "rank": 908,
@@ -10050,8 +10050,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2019WENG03",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "中山"
   },
   {
     "rank": 915,
@@ -10094,8 +10094,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2019TENG03",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "东莞"
   },
   {
     "rank": 919,
@@ -10127,8 +10127,8 @@
     "competition": "Guangzhou Big Cubes 2024",
     "wcaid": "2024LIHE01",
     "date": "2024-08-18",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "广州"
   },
   {
     "rank": 922,
@@ -10226,8 +10226,8 @@
     "competition": "Canton Countdown 2025",
     "wcaid": "2025CHEJ15",
     "date": "2025-12-31",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "广州"
   },
   {
     "rank": 931,
@@ -10259,8 +10259,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2024HUAJ02",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "惠州"
   },
   {
     "rank": 934,
@@ -10270,8 +10270,8 @@
     "competition": "Chengdu Spring Open 2025",
     "wcaid": "2025SHEN03",
     "date": "2025-02-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "安徽",
+    "city": "合肥"
   },
   {
     "rank": 935,
@@ -10314,8 +10314,8 @@
     "competition": "gateway KLIA2 Cube Open 2025",
     "wcaid": "2023LINX01",
     "date": "2025-05-31",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 939,
@@ -10336,8 +10336,8 @@
     "competition": "Xuzhou Zenith 2026",
     "wcaid": "2019BAIY04",
     "date": "2026-04-11",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 941,
@@ -10402,8 +10402,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2026XUZH02",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "泉州"
   },
   {
     "rank": 947,
@@ -10512,8 +10512,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2023YUAN17",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "邯郸"
   },
   {
     "rank": 957,
@@ -10633,8 +10633,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2018GAOZ03",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山西",
+    "city": "临汾"
   },
   {
     "rank": 968,
@@ -10644,8 +10644,8 @@
     "competition": "Guangzhou Big Cubes 2025",
     "wcaid": "2019HUAN76",
     "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "茂名"
   },
   {
     "rank": 969,
@@ -10677,8 +10677,8 @@
     "competition": "Deqing Big Cubes Summer 2024",
     "wcaid": "2018SHAN18",
     "date": "2024-08-24",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "盐城"
   },
   {
     "rank": 972,
@@ -10754,8 +10754,8 @@
     "competition": "Guangzhou Big Cubes 2024",
     "wcaid": "2024LUYA01",
     "date": "2024-08-18",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "佛山"
   },
   {
     "rank": 979,
@@ -10809,8 +10809,8 @@
     "competition": "Huzhou Open 2024",
     "wcaid": "2019WEIJ03",
     "date": "2024-03-30",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "石家庄"
   },
   {
     "rank": 984,
@@ -10831,8 +10831,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2018XUJI06",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "福建",
+    "city": "泉州"
   },
   {
     "rank": 986,
@@ -10919,8 +10919,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2024LINZ01",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "深圳"
   },
   {
     "rank": 994,
@@ -11095,8 +11095,8 @@
     "competition": "Quanzhou Big Cubes 2026",
     "wcaid": "2025LOUJ01",
     "date": "2026-03-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "杭州"
   },
   {
     "rank": 1010,
@@ -11183,8 +11183,8 @@
     "competition": "Odd Day in Hong Kong 2026",
     "wcaid": "2024LIUZ10",
     "date": "2026-04-26",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "黑龙江",
+    "city": "大庆"
   },
   {
     "rank": 1018,
@@ -11216,8 +11216,8 @@
     "competition": "Chengdu Spring Open 2025",
     "wcaid": "2018HUAN87",
     "date": "2025-02-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "汕头"
   },
   {
     "rank": 1021,
@@ -11227,8 +11227,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2025HUHA01",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "孝感"
   },
   {
     "rank": 1022,
@@ -11238,8 +11238,8 @@
     "competition": "Beijing Spring Open 2025",
     "wcaid": "2024WANG55",
     "date": "2025-04-20",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "舟山"
   },
   {
     "rank": 1023,
@@ -11293,8 +11293,8 @@
     "competition": "Huzhou Open 2024",
     "wcaid": "2023FANG09",
     "date": "2024-03-30",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "杭州"
   },
   {
     "rank": 1028,
@@ -11447,8 +11447,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2025ZHAO14",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山东",
+    "city": "日照"
   },
   {
     "rank": 1042,
@@ -11524,8 +11524,8 @@
     "competition": "Chengdu Welcoming Summer 2026",
     "wcaid": "2021CAOJ01",
     "date": "2026-05-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 1049,
@@ -11601,8 +11601,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2018HETI02",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "广州"
   },
   {
     "rank": 1056,
@@ -11799,8 +11799,8 @@
     "competition": "Nanchang Spring 2025",
     "wcaid": "2024WUHA02",
     "date": "2025-04-26",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "武汉"
   },
   {
     "rank": 1074,
@@ -11821,8 +11821,8 @@
     "competition": "Start of Summer Beijing 2026",
     "wcaid": "2020WANG08",
     "date": "2026-05-01",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "内蒙古",
+    "city": "鄂尔多斯"
   },
   {
     "rank": 1076,
@@ -11953,8 +11953,8 @@
     "competition": "Fushun Open 2024",
     "wcaid": "2023WUYI06",
     "date": "2024-01-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "商丘"
   },
   {
     "rank": 1088,
@@ -12008,8 +12008,8 @@
     "competition": "Guangdong Open - Revival & Rival 2026",
     "wcaid": "2018FENG28",
     "date": "2026-02-06",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "黑龙江",
+    "city": "哈尔滨"
   },
   {
     "rank": 1093,
@@ -12074,8 +12074,8 @@
     "competition": "Xi'an Open 2024",
     "wcaid": "2019NIUZ01",
     "date": "2024-08-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 1099,
@@ -12096,8 +12096,8 @@
     "competition": "Beijing Winter 2026",
     "wcaid": "2024LIUJ05",
     "date": "2026-01-10",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "辽宁",
+    "city": "沈阳"
   },
   {
     "rank": 1101,
@@ -12107,8 +12107,8 @@
     "competition": "Beijing Spring Open 2025",
     "wcaid": "2018ZHAO48",
     "date": "2025-04-20",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "新疆",
+    "city": "乌鲁木齐"
   },
   {
     "rank": 1102,
@@ -12239,8 +12239,8 @@
     "competition": "Zhuhai Pi Day 2026",
     "wcaid": "2024HOUH03",
     "date": "2026-03-14",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "广东",
+    "city": "珠海"
   },
   {
     "rank": 1114,
@@ -12283,8 +12283,8 @@
     "competition": "Chengdu Spring Open 2025",
     "wcaid": "2023ZHUJ02",
     "date": "2025-02-08",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "湖北",
+    "city": "武汉"
   },
   {
     "rank": 1118,
@@ -12294,8 +12294,8 @@
     "competition": "Xianju NxN 2026",
     "wcaid": "2025LIUC03",
     "date": "2026-03-07",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "温州"
   },
   {
     "rank": 1119,
@@ -12328,7 +12328,7 @@
     "wcaid": "2014CAIL01",
     "date": "2024-08-18",
     "province": "广东",
-    "city": "揭阳"
+    "city": "深圳"
   },
   {
     "rank": 1122,
@@ -12360,8 +12360,8 @@
     "competition": "Chengdu Welcoming Summer 2026",
     "wcaid": "2025LIGU01",
     "date": "2026-05-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 1125,
@@ -12371,8 +12371,8 @@
     "competition": "Xianju NxN 2026",
     "wcaid": "2025YANG33",
     "date": "2026-03-07",
-    "province": "浙江",
-    "city": "温州"
+    "province": "新疆",
+    "city": "昌吉"
   },
   {
     "rank": 1126,
@@ -12426,8 +12426,8 @@
     "competition": "Deqing Spring 2025",
     "wcaid": "2019ZUOY02",
     "date": "2025-04-19",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "盐城"
   },
   {
     "rank": 1131,
@@ -12449,7 +12449,7 @@
     "wcaid": "2017LONG15",
     "date": "2026-03-01",
     "province": "广东",
-    "city": "茂名"
+    "city": "深圳"
   },
   {
     "rank": 1133,
@@ -12569,8 +12569,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2018GUOX06",
     "date": "2026-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "山西",
+    "city": "临汾"
   },
   {
     "rank": 1144,
@@ -12602,8 +12602,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2021LIUZ07",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江苏",
+    "city": "南京"
   },
   {
     "rank": 1147,
@@ -12646,8 +12646,8 @@
     "competition": "Binus Speedcubing 2024",
     "wcaid": "2023YANR02",
     "date": "2024-02-03",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "四川",
+    "city": "成都"
   },
   {
     "rank": 1150,
@@ -12657,8 +12657,8 @@
     "competition": "Zhengzhou Zeal 2025",
     "wcaid": "2018FUJI05",
     "date": "2025-12-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "郑州"
   },
   {
     "rank": 1152,
@@ -12745,8 +12745,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2026CHEN70",
     "date": "2026-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "汉中"
   },
   {
     "rank": 1160,
@@ -12778,8 +12778,8 @@
     "competition": "Nanchang Spring 2025",
     "wcaid": "2025CHEN65",
     "date": "2025-04-26",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "南昌"
   },
   {
     "rank": 1163,
@@ -12977,7 +12977,7 @@
     "wcaid": "2019CHEN61",
     "date": "2024-04-06",
     "province": "广东",
-    "city": "惠州"
+    "city": "珠海"
   },
   {
     "rank": 1181,
@@ -13075,8 +13075,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2025LIRU02",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "渭南"
   },
   {
     "rank": 1190,
@@ -13350,8 +13350,8 @@
     "competition": "Nanchang Spring 2025",
     "wcaid": "2024ZHAN61",
     "date": "2025-04-26",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "江西",
+    "city": "南昌"
   },
   {
     "rank": 1215,
@@ -13493,8 +13493,8 @@
     "competition": "Beijing University Cube League 2025",
     "wcaid": "2024WANC13",
     "date": "2025-10-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "辽宁",
+    "city": "朝阳"
   },
   {
     "rank": 1228,
@@ -13559,8 +13559,8 @@
     "competition": "Xi'an Cherry Blossom 2025",
     "wcaid": "2025WEIR01",
     "date": "2025-04-04",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "陕西",
+    "city": "西安"
   },
   {
     "rank": 1234,
@@ -13592,8 +13592,8 @@
     "competition": "Beijing Spring Open 2025",
     "wcaid": "2018WANC10",
     "date": "2025-04-20",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "辽宁",
+    "city": "锦州"
   },
   {
     "rank": 1237,
@@ -13614,8 +13614,8 @@
     "competition": "Fushun Open 2024",
     "wcaid": "2024WUYU01",
     "date": "2024-01-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "辽宁",
+    "city": "大连"
   },
   {
     "rank": 1239,
@@ -13735,8 +13735,8 @@
     "competition": "Xuzhou Zenith 2026",
     "wcaid": "2024CAIS01",
     "date": "2026-04-11",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "杭州"
   },
   {
     "rank": 1250,
@@ -14044,7 +14044,7 @@
     "wcaid": "2014HELI01",
     "date": "2025-08-15",
     "province": "广东",
-    "city": "深圳"
+    "city": "梅州"
   },
   {
     "rank": 1278,
@@ -14142,8 +14142,8 @@
     "competition": "Beijing Winter 2026",
     "wcaid": "2026SONG01",
     "date": "2026-01-10",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河北",
+    "city": "张家口"
   },
   {
     "rank": 1287,
