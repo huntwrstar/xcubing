@@ -1,4 +1,4 @@
-/* ===== 清氧素白 UI ===== */
+
 :root {
     --font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     --bg: #f5f7fb;
@@ -670,16 +670,71 @@ tbody tr:hover {
     border-bottom: 1px solid var(--border);
 }
 
-/* 响应式微调 */
+
 @media (max-width: 640px) {
-    .header {
-        padding: 12px 20px;
+
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
     }
-    .logo-area h1 {
-        font-size: 1.4rem;
+
+    .table-container table {
+        min-width: 600px;          
+        white-space: nowrap;
+        font-size: 0.8rem;
     }
-    .banner-container {
-        width: calc(100% - 70px);
-        height: 80px;
+
+    th, td {
+        padding: 6px 4px;
+        white-space: nowrap;
+    }
+
+
+    #region-table {
+        min-width: 580px;        
+    }
+
+
+    #record-table {
+        min-width: 480px;
+    }
+
+
+    #region-table th:nth-child(1),
+    #region-table td:nth-child(1) { width: 40px; }   
+    #region-table th:nth-child(2),
+    #region-table td:nth-child(2) { width: 70px; }   
+    #region-table th:nth-child(3),
+    #region-table td:nth-child(3) { width: 50px; }   
+    #region-table th:nth-child(4),
+    #region-table td:nth-child(4) { width: 70px; }   
+    #region-table th:nth-child(5),
+    #region-table td:nth-child(5) { width: 70px; }   
+
+    #record-table th:nth-child(1),
+    #record-table td:nth-child(1) { width: 80px; }   
+    #record-table th:nth-child(2),
+    #record-table td:nth-child(2) { width: 70px; }   
+    #record-table th:nth-child(3),
+    #record-table td:nth-child(3) { width: 70px; }   
+    #record-table th:nth-child(4),
+    #record-table td:nth-child(4) { width: 70px; }  
+
+
+    #record-table .region-cell td {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+
+    .rank-cell {
+        text-align: center;
+    }
+
+
+    .home-title {
+        font-size: 1.5rem;
     }
 }
