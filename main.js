@@ -951,11 +951,10 @@ async function loadRecordV2Data() {
         let singleNameStr = '';
         if (singleList.length > 0) {
             const results = singleList.map(r => formatResult(r.result));
-            // 去重：成绩相同时只显示一次
             const uniqueResults = [...new Set(results)];
             singleResultStr = uniqueResults.join(' / ');
-            // 姓名用顿号分隔
-            const names = singleList.map(r => extractChineseName(r.name));
+            // 姓名去重后再用顿号连接
+            const names = [...new Set(singleList.map(r => extractChineseName(r.name)))];
             singleNameStr = names.join('、');
         }
 
@@ -966,7 +965,7 @@ async function loadRecordV2Data() {
             const results = avgList.map(r => formatResult(r.result));
             const uniqueResults = [...new Set(results)];
             avgResultStr = uniqueResults.join(' / ');
-            const names = avgList.map(r => extractChineseName(r.name));
+            const names = [...new Set(avgList.map(r => extractChineseName(r.name)))];
             avgNameStr = names.join('、');
         }
 
