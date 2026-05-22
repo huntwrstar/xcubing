@@ -704,3 +704,52 @@ function renderRegionCompTableBody(tbody, data) {
     });
     tbody.innerHTML = html;
 }
+function renderRecordV2() {
+    return `
+        <div class="page-heading">
+            <h2>省市纪录</h2>
+        </div>
+        <div class="page-subtitle">本页面为省市纪录，可以查看中国所有有参赛选手的省份及城市在WCA所有项目的纪录。所有的成绩源自WCA官方排名。</div>
+        <div class="filter-section">
+            <div class="filter-item">
+                <label>省份</label>
+                <select id="recordV2-province"></select>
+            </div>
+            <div class="filter-item">
+                <label>城市</label>
+                <select id="recordV2-city"></select>
+            </div>
+            <div class="filter-item">
+                <label>性别</label>
+                <select id="recordV2-gender">
+                    <option value="all">所有</option>
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                    <option value="未知">未知</option>
+                </select>
+            </div>
+            <div class="btn-group">
+                <button id="recordV2-refresh" class="btn btn-primary">刷新</button>
+            </div>
+        </div>
+        <div class="current-info">
+            <h3>省市纪录 - <span id="recordV2-current-province">北京</span> - <span id="recordV2-current-city">全省</span> - <span id="recordV2-current-gender">所有</span></h3>
+        </div>
+        <div class="table-container">
+            <table id="recordV2-table">
+                <thead>
+                    <tr>
+                        <th>项目</th>
+                        <th>单次</th>
+                        <th>姓名</th>
+                        <th>平均</th>
+                        <th>姓名</th>
+                    </tr>
+                </thead>
+                <tbody id="recordV2-tbody">
+                    <tr><td colspan="5" class="loading-cell">加载中</td></tr>
+                </tbody>
+            </table>
+        </div>
+    `;
+}

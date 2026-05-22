@@ -102,6 +102,7 @@ async function loadPage(page) {
         case 'regionTop': app.innerHTML = renderRegionTop(); await initRegionTop(); break;
         case 'regionComp': app.innerHTML = renderRegionComp(); await initRegionComp(); break;
         case 'record': app.innerHTML = renderRecord(); await initRecord(); break;
+case 'recordV2': app.innerHTML = renderRecordV2(); await initRecordV2(); break;
         default: window.location.hash = '#home';
     }
 }
@@ -111,6 +112,7 @@ function handleHash() {
     let page = hash;
     if (hash === 'annual') page = 'season';
     else if (hash === 'three-year') page = 'active';
+else if (hash === 'recordV2') page = 'recordV2';
     else if (hash === 'regionComp') {
         window.location.hash = '#home';
         return;
@@ -629,6 +631,267 @@ async function initRecord() {
     });
 
     await loadRecordData();
+}
+
+async function initRecordV2() {
+    // 复用已有的数据加载
+    if (!state.recordV2.dataLoaded) {
+        await loadAllRecordsDataV2();
+    }
+
+    const provinceSelect = document.getElementById('recordV2-province');
+    if (provinceSelect && state.recordV2.allProvinces.length > 0) {
+        provinceSelect.innerHTML = state.recordV2.allProvinces.map(p => `<option value="${p}">${p}</option>`).join('');
+        if (state.recordV2.province && state.recordV2.allProvinces.includes(state.recordV2.province)) {
+            provinceSelect.value = state.recordV2.province;
+        } else {
+            provinceSelect.value = state.recordV2.allProvinces[0];
+            state.recordV2.province = state.recordV2.allProvinces[0];
+        }
+    }
+
+    updateRecordV2CitySelect(state.recordV2.province);
+
+    const genderSelect = document.getElementById('recordV2-gender');
+    if (genderSelect) {
+        genderSelect.value = state.recordV2.gender;
+    }
+
+    provinceSelect?.addEventListener('change', (e) => {
+        state.recordV2.province = e.target.value;
+        state.recordV2.city = '全部城市';
+        updateRecordV2CitySelect(state.recordV2.province);
+    });
+
+    const citySelect = document.getElementById('recordV2-city');
+    citySelect?.addEventListener('change', (e) => {
+        state.recordV2.city = e.target.value;
+    });
+
+    genderSelect?.addEventListener('change', (e) => {
+        state.recordV2.gender = e.target.value;
+    });
+
+    document.getElementById('recordV2-refresh')?.addEventListener('click', () => {
+        loadRecordV2Data();
+    });
+
+    await loadRecordV2Data();
+}
+
+async function loadAllRecordsDataV2() {
+    if (state.recordV2.dataLoaded) return;
+    state.recordV2.loading = true;
+
+    const rawDataByProject = {};
+    PROJECT_LIST.forEach(p => {
+        rawDataByProject[p.code] = { single: [], average: [] };
+    });
+
+    const singlePromises = PROJECT_LIST.map(p =>
+        fetchJSON(`data/region/historical/single/${p.code}.json`).catch(() => [])
+    );
+    const avgPromises = PROJECT_LIST.map(p =>
+        fetchJSON(`data/region/historical/average/${p.code}.json`).catch(() => [])
+    );
+
+    try {
+        const singles = await Promise.all(singlePromises);
+        const averages = await Promise.all(avgPromises);
+
+        PROJECT_LIST.forEach((p, idx) => {
+            rawDataByProject[p.code].single = singles[idx] || [];
+            rawDataByProject[p.code].average = averages[idx] || [];
+        });
+
+        state.recordV2.rawDataByProject = rawDataByProject;
+
+        const provinceSet = new Set();
+        for (let proj in rawDataByProject) {
+            ['single', 'average'].forEach(type => {
+                rawDataByProject[proj][type].forEach(item => {
+                    if (item.province) provinceSet.add(item.province);
+                });
+            });
+        }
+        let provinces = Array.from(provinceSet).sort((a,b) => a.localeCompare(b, 'zh'));
+        const shenshouIndex = provinces.indexOf('神手谷');
+        if (shenshouIndex > -1) {
+            provinces.splice(shenshouIndex, 1);
+            provinces.unshift('神手谷');
+        }
+        state.recordV2.allProvinces = provinces;
+        state.recordV2.dataLoaded = true;
+    } catch (e) {
+        console.error('加载省市纪录原始数据失败', e);
+    } finally {
+        state.recordV2.loading = false;
+    }
+}
+
+function extractCitiesFromRawDataV2(province) {
+    if (!state.recordV2.dataLoaded) return [];
+    const citiesSet = new Set();
+    for (let proj in state.recordV2.rawDataByProject) {
+        ['single', 'average'].forEach(type => {
+            const list = state.recordV2.rawDataByProject[proj][type] || [];
+            list.forEach(item => {
+                if (item.province === province && item.city) {
+                    citiesSet.add(item.city);
+                }
+            });
+        });
+    }
+    return Array.from(citiesSet).sort((a,b) => a.localeCompare(b, 'zh'));
+}
+
+function updateRecordV2CitySelect(province) {
+    const citySelect = document.getElementById('recordV2-city');
+    if (!citySelect) return;
+    if (MUNICIPALITIES.includes(province)) {
+        citySelect.disabled = true;
+        citySelect.innerHTML = `<option value="${province}">${province}</option>`;
+        citySelect.value = province;
+        state.recordV2.city = province;
+    } else {
+        citySelect.disabled = false;
+        const cities = extractCitiesFromRawDataV2(province);
+        let options = '<option value="全部城市">全省</option>';
+        cities.forEach(c => options += `<option value="${c}">${c}</option>`);
+        citySelect.innerHTML = options;
+        if (!cities.includes(state.recordV2.city) && state.recordV2.city !== '全部城市') {
+            state.recordV2.city = '全部城市';
+        }
+        citySelect.value = state.recordV2.city;
+    }
+}
+
+function computeAllBestRecordsV2(province, city, gender) {
+    const result = {};
+    for (let proj of PROJECT_LIST) {
+        const projCode = proj.code;
+        const singleList = state.recordV2.rawDataByProject[projCode]?.single || [];
+        const avgList = state.recordV2.rawDataByProject[projCode]?.average || [];
+
+        const filterFn = (item) => {
+            if (item.province !== province) return false;
+            if (city !== '全部城市' && item.city !== city) return false;
+            if (gender !== 'all' && item.gender !== gender) return false;
+            return true;
+        };
+
+        const filteredSingle = singleList.filter(filterFn);
+        const filteredAvg = avgList.filter(filterFn);
+
+        let bestSingleVal = (projCode === '333mbf') ? -Infinity : Infinity;
+        let bestAvgVal = Infinity;
+
+        if (projCode === '333mbf') {
+            filteredSingle.forEach(item => {
+                const parsed = parseMBF(item.result);
+                if (!parsed) return;
+                const score = parsed.success - parsed.fail;
+                if (score > bestSingleVal) bestSingleVal = score;
+            });
+        } else {
+            filteredSingle.forEach(item => {
+                const val = parseTime(item.result);
+                if (val < bestSingleVal) bestSingleVal = val;
+            });
+            filteredAvg.forEach(item => {
+                const val = parseTime(item.result);
+                if (val < bestAvgVal) bestAvgVal = val;
+            });
+        }
+
+        const bestSingles = [];
+        const bestAvgs = [];
+
+        if (projCode === '333mbf') {
+            filteredSingle.forEach(item => {
+                const parsed = parseMBF(item.result);
+                if (parsed && (parsed.success - parsed.fail) === bestSingleVal) {
+                    bestSingles.push(item);
+                }
+            });
+        } else {
+            filteredSingle.forEach(item => {
+                if (parseTime(item.result) === bestSingleVal) bestSingles.push(item);
+            });
+            filteredAvg.forEach(item => {
+                if (parseTime(item.result) === bestAvgVal) bestAvgs.push(item);
+            });
+        }
+
+        result[projCode] = {
+            single: bestSingles,
+            average: bestAvgs
+        };
+    }
+    return result;
+}
+
+async function loadRecordV2Data() {
+    const tbody = document.getElementById('recordV2-tbody');
+    if (!tbody) return;
+    if (!state.recordV2.dataLoaded) {
+        tbody.innerHTML = '<tr><td colspan="5" class="loading-cell">数据未就绪</td></tr>';
+        return;
+    }
+
+    const province = state.recordV2.province;
+    const city = state.recordV2.city;
+    const gender = state.recordV2.gender;
+
+    document.getElementById('recordV2-current-province').textContent = province;
+    let displayCity = (city === '全部城市') ? '全省' : city;
+    document.getElementById('recordV2-current-city').textContent = displayCity;
+    let genderText = '所有';
+    if (gender === '男') genderText = '男';
+    else if (gender === '女') genderText = '女';
+    else if (gender === '未知') genderText = '未知';
+    document.getElementById('recordV2-current-gender').textContent = genderText;
+
+    tbody.innerHTML = '<tr><td colspan="5" class="loading-cell">加载纪录表</td></tr>';
+    await new Promise(resolve => setTimeout(resolve, 20));
+
+    const bestMap = computeAllBestRecordsV2(province, city, gender);
+    let html = '';
+
+    for (let proj of PROJECT_LIST) {
+        const projBest = bestMap[proj.code] || { single: [], average: [] };
+        const singleList = projBest.single;
+        const avgList = projBest.average;
+
+        const maxRows = Math.max(singleList.length, avgList.length);
+
+        if (maxRows === 0) {
+            html += `<tr class="region-cell"><td colspan="5">${proj.name}</td></tr>`;
+            html += `<tr><td colspan="5" class="empty-cell">暂无纪录</td></tr>`;
+            continue;
+        }
+
+        html += `<tr class="region-cell"><td colspan="5">${proj.name}</td></tr>`;
+
+        for (let i = 0; i < maxRows; i++) {
+            const singleRec = singleList[i] || null;
+            const avgRec = avgList[i] || null;
+
+            const singleResult = singleRec ? formatResult(singleRec.result) : '';
+            const singleName = singleRec ? extractChineseName(singleRec.name) : '';
+            const avgResult = avgRec ? formatResult(avgRec.result) : '';
+            const avgName = avgRec ? extractChineseName(avgRec.name) : '';
+
+            html += `<tr>
+                <td></td>
+                <td>${singleResult}</td>
+                <td>${singleName}</td>
+                <td>${avgResult}</td>
+                <td>${avgName}</td>
+            </tr>`;
+        }
+    }
+    tbody.innerHTML = html || '<tr><td colspan="5">暂无数据</td></tr>';
 }
 
 async function loadPageData(page) {

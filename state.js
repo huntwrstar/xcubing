@@ -52,6 +52,17 @@ window.state = {
     },
     pagination: { currentPage: 1, totalPages: 1, data: [] }
 };
+// 在 state.js 的 window.state 对象内，record 后面添加
+recordV2: {
+    province: '北京',
+    city: '全部城市',
+    gender: 'all',
+    allProvinces: [],
+    provinceCities: {},
+    rawDataByProject: {},
+    dataLoaded: false,
+    loading: false
+},
 
 window.MUNICIPALITIES = ['北京', '上海', '重庆', '天津', '台湾', '香港', '澳门', '神手谷'];
 

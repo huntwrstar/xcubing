@@ -737,4 +737,19 @@ tbody tr:hover {
     .home-title {
         font-size: 1.5rem;
     }
+
+/* 新省市纪录V2表格手机端适配 */
+#recordV2-table {
+    min-width: 400px;
+}
+#recordV2-table th:nth-child(1),
+#recordV2-table td:nth-child(1) { width: 80px; }
+#recordV2-table th:nth-child(2),
+#recordV2-table td:nth-child(2) { width: 70px; }
+#recordV2-table th:nth-child(3),
+#recordV2-table td:nth-child(3) { width: 70px; }
+#recordV2-table th:nth-child(4),
+#recordV2-table td:nth-child(4) { width: 70px; }
+#recordV2-table th:nth-child(5),
+#recordV2-table td:nth-child(5) { width: 70px; }
 }
