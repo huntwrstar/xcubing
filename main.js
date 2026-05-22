@@ -679,11 +679,20 @@ async function initRecordV2() {
     await loadRecordV2Data();
 // 截图功能（只截取当前信息栏和完整表格）
 document.getElementById('recordV2-screenshot')?.addEventListener('click', async () => {
+    console.log('[截图] 按钮被点击');
+
     const pageEl = document.getElementById('recordV2-page');
+    console.log('[截图] pageEl:', pageEl);
+
     const infoEl = pageEl ? pageEl.querySelector('.current-info') : null;
     const tableEl = document.getElementById('recordV2-table');
+    console.log('[截图] infoEl:', infoEl, 'tableEl:', tableEl);
 
-    if (!infoEl || !tableEl) return;
+    if (!infoEl || !tableEl) {
+        console.error('[截图] 缺失元素：infoEl或tableEl为空，终止');
+        alert('未找到要截取的内容，请刷新后重试');
+        return;
+    }
 
     const btn = document.getElementById('recordV2-screenshot');
     if (btn) {
@@ -698,15 +707,15 @@ document.getElementById('recordV2-screenshot')?.addEventListener('click', async 
         container.style.left = '-9999px';
         container.style.top = '0';
         container.style.backgroundColor = '#ffffff';
-        // 让容器宽度与表格一致，信息栏也同宽
         container.style.width = tableEl.offsetWidth + 'px';
         document.body.appendChild(container);
+        console.log('[截图] 临时容器已创建');
 
         // 克隆信息栏和表格
         const infoClone = infoEl.cloneNode(true);
         const tableClone = tableEl.cloneNode(true);
 
-        // 去掉表格的 overflow 限制，确保完整显示
+        // 取消表格横向滚动限制
         const tableContainer = tableClone.closest('.table-container');
         if (tableContainer) {
             tableContainer.style.overflow = 'visible';
@@ -716,6 +725,7 @@ document.getElementById('recordV2-screenshot')?.addEventListener('click', async 
         container.appendChild(infoClone);
         container.appendChild(tableClone);
 
+        console.log('[截图] 开始调用 html2canvas...');
         const canvas = await html2canvas(container, {
             scale: 2,
             backgroundColor: '#ffffff',
@@ -723,6 +733,7 @@ document.getElementById('recordV2-screenshot')?.addEventListener('click', async 
             useCORS: true,
             logging: false
         });
+        console.log('[截图] canvas 生成成功');
 
         // 清理临时容器
         document.body.removeChild(container);
@@ -735,9 +746,10 @@ document.getElementById('recordV2-screenshot')?.addEventListener('click', async 
         link.download = fileName;
         link.href = canvas.toDataURL('image/png');
         link.click();
+        console.log('[截图] 下载触发完成');
 
     } catch (error) {
-        console.error('截图失败：', error);
+        console.error('[截图] 失败：', error);
         alert('截图失败，请刷新后重试');
     } finally {
         if (btn) {
