@@ -706,6 +706,7 @@ function renderRegionCompTableBody(tbody, data) {
 }
 function renderRecordV2() {
     return `
+<div id="recordV2-page">
         <div class="page-heading">
             <h2>省市纪录</h2>
         </div>
