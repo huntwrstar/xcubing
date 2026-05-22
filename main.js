@@ -677,6 +677,77 @@ async function initRecordV2() {
     });
 
     await loadRecordV2Data();
+// 截图功能（只截取当前信息栏和完整表格）
+document.getElementById('recordV2-screenshot')?.addEventListener('click', async () => {
+    const pageEl = document.getElementById('recordV2-page');
+    const infoEl = pageEl ? pageEl.querySelector('.current-info') : null;
+    const tableEl = document.getElementById('recordV2-table');
+
+    if (!infoEl || !tableEl) return;
+
+    const btn = document.getElementById('recordV2-screenshot');
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = '生成中...';
+    }
+
+    try {
+        // 创建离屏临时容器
+        const container = document.createElement('div');
+        container.style.position = 'absolute';
+        container.style.left = '-9999px';
+        container.style.top = '0';
+        container.style.backgroundColor = '#ffffff';
+        // 让容器宽度与表格一致，信息栏也同宽
+        container.style.width = tableEl.offsetWidth + 'px';
+        document.body.appendChild(container);
+
+        // 克隆信息栏和表格
+        const infoClone = infoEl.cloneNode(true);
+        const tableClone = tableEl.cloneNode(true);
+
+        // 去掉表格的 overflow 限制，确保完整显示
+        const tableContainer = tableClone.closest('.table-container');
+        if (tableContainer) {
+            tableContainer.style.overflow = 'visible';
+        }
+        tableClone.style.width = tableEl.offsetWidth + 'px';
+
+        container.appendChild(infoClone);
+        container.appendChild(tableClone);
+
+        const canvas = await html2canvas(container, {
+            scale: 2,
+            backgroundColor: '#ffffff',
+            allowTaint: false,
+            useCORS: true,
+            logging: false
+        });
+
+        // 清理临时容器
+        document.body.removeChild(container);
+
+        const province = state.recordV2.province || '未知';
+        const city = state.recordV2.city === '全部城市' ? '全省' : state.recordV2.city;
+        const fileName = `省市纪录_${province}_${city}.png`;
+
+        const link = document.createElement('a');
+        link.download = fileName;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+
+    } catch (error) {
+        console.error('截图失败：', error);
+        alert('截图失败，请刷新后重试');
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.textContent = '截图保存';
+        }
+    }
+});
+
+
 }
 
 async function loadAllRecordsDataV2() {

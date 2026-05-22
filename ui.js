@@ -728,9 +728,11 @@ function renderRecordV2() {
                     <option value="未知">未知</option>
                 </select>
             </div>
-            <div class="btn-group">
-                <button id="recordV2-refresh" class="btn btn-primary">刷新</button>
-            </div>
+            // 找到 renderRecordV2 函数中的按钮区域，替换为：
+<div class="btn-group">
+    <button id="recordV2-refresh" class="btn btn-primary">刷新</button>
+    <button id="recordV2-screenshot" class="btn" style="background:#0d9488;color:white;border-color:#0d9488;">截图保存</button>
+</div>
         </div>
         <div class="current-info">
             <h3>省市纪录 - <span id="recordV2-current-province">北京</span> - <span id="recordV2-current-city">全省</span> - <span id="recordV2-current-gender">所有</span></h3>
@@ -751,5 +753,6 @@ function renderRecordV2() {
                 </tbody>
             </table>
         </div>
+</div>
     `;
 }
