@@ -753,3 +753,41 @@ tbody tr:hover {
 #recordV2-table th:nth-child(5),
 #recordV2-table td:nth-child(5) { width: 70px; }
 }
+
+/* 新省市纪录页面 - 电脑端紧凑化 */
+@media (min-width: 1025px) {
+    /* 缩小表格字体和内边距 */
+    #recordV2-table th,
+    #recordV2-table td {
+        padding: 4px 8px;
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+
+    /* 分组行稍微突出但不占太多空间 */
+    #recordV2-table .region-cell td {
+        padding: 5px 8px;
+        font-size: 0.9rem;
+    }
+
+    /* 可选：压缩页面标题和副标题的边距 */
+    #recordV2 .page-heading {
+        padding-bottom: 6px;
+        margin-bottom: 4px;
+    }
+    #recordV2 .page-subtitle {
+        margin-bottom: 12px;
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+
+    /* 压缩筛选区和当前信息条 */
+    #recordV2 .filter-section {
+        padding: 12px 20px;
+        gap: 12px;
+    }
+    #recordV2 .current-info {
+        padding: 8px 16px;
+        margin-bottom: 15px;
+    }
+}
