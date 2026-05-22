@@ -728,7 +728,6 @@ function renderRecordV2() {
                     <option value="未知">未知</option>
                 </select>
             </div>
-            // 找到 renderRecordV2 函数中的按钮区域，替换为：
 <div class="btn-group">
     <button id="recordV2-refresh" class="btn btn-primary">刷新</button>
     <button id="recordV2-screenshot" class="btn" style="background:#0d9488;color:white;border-color:#0d9488;">截图保存</button>
