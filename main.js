@@ -863,34 +863,48 @@ async function loadRecordV2Data() {
         const singleList = projBest.single;
         const avgList = projBest.average;
 
-        const maxRows = Math.max(singleList.length, avgList.length);
+        // ----- 处理单次成绩和姓名 -----
+        let singleResultStr = '';
+        let singleNameStr = '';
+        if (singleList.length > 0) {
+            const results = singleList.map(r => formatResult(r.result));
+            // 去重：成绩相同时只显示一次
+            const uniqueResults = [...new Set(results)];
+            singleResultStr = uniqueResults.join(' / ');
+            // 姓名用顿号分隔
+            const names = singleList.map(r => extractChineseName(r.name));
+            singleNameStr = names.join('、');
+        }
 
-        if (maxRows === 0) {
-            html += `<tr class="region-cell"><td colspan="5">${proj.name}</td></tr>`;
-            html += `<tr><td colspan="5" class="empty-cell">暂无纪录</td></tr>`;
+        // ----- 处理平均成绩和姓名 -----
+        let avgResultStr = '';
+        let avgNameStr = '';
+        if (avgList.length > 0) {
+            const results = avgList.map(r => formatResult(r.result));
+            const uniqueResults = [...new Set(results)];
+            avgResultStr = uniqueResults.join(' / ');
+            const names = avgList.map(r => extractChineseName(r.name));
+            avgNameStr = names.join('、');
+        }
+
+        // 如果没有任何纪录
+        if (!singleResultStr && !avgResultStr) {
+            html += `<tr>
+                <td>${proj.name}</td>
+                <td colspan="4" class="empty-cell">暂无纪录</td>
+            </tr>`;
             continue;
         }
 
-        html += `<tr class="region-cell"><td colspan="5">${proj.name}</td></tr>`;
-
-        for (let i = 0; i < maxRows; i++) {
-            const singleRec = singleList[i] || null;
-            const avgRec = avgList[i] || null;
-
-            const singleResult = singleRec ? formatResult(singleRec.result) : '';
-            const singleName = singleRec ? extractChineseName(singleRec.name) : '';
-            const avgResult = avgRec ? formatResult(avgRec.result) : '';
-            const avgName = avgRec ? extractChineseName(avgRec.name) : '';
-
-            html += `<tr>
-                <td></td>
-                <td>${singleResult}</td>
-                <td>${singleName}</td>
-                <td>${avgResult}</td>
-                <td>${avgName}</td>
-            </tr>`;
-        }
+        html += `<tr>
+            <td>${proj.name}</td>
+            <td>${singleResultStr}</td>
+            <td>${singleNameStr}</td>
+            <td>${avgResultStr}</td>
+            <td>${avgNameStr}</td>
+        </tr>`;
     }
+
     tbody.innerHTML = html || '<tr><td colspan="5">暂无数据</td></tr>';
 }
 
