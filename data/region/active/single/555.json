@@ -1343,6 +1343,17 @@
   },
   {
     "rank": 123,
+    "name": "Loïc Zhang",
+    "gender": "男",
+    "result": "51.89",
+    "competition": "Rueil Open 2026",
+    "wcaid": "2022ZHAN31",
+    "date": "2026-05-23",
+    "province": "",
+    "city": ""
+  },
+  {
+    "rank": 124,
     "name": "Jiahao Deng (邓家豪)",
     "gender": "男",
     "result": "51.96",
@@ -1353,7 +1364,7 @@
     "city": "佛山"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Zean Zhou (周泽安)",
     "gender": "男",
     "result": "52.00",
@@ -1364,7 +1375,7 @@
     "city": "遵义"
   },
   {
-    "rank": 125,
+    "rank": 126,
     "name": "Yung-Hung Cheng (鄭永鴻)",
     "gender": "男",
     "result": "52.03",
@@ -1375,7 +1386,7 @@
     "city": "台湾"
   },
   {
-    "rank": 126,
+    "rank": 127,
     "name": "Michael Chou (周禹)",
     "gender": "男",
     "result": "52.12",
@@ -1384,17 +1395,6 @@
     "date": "2025-06-28",
     "province": "台湾",
     "city": "台湾"
-  },
-  {
-    "rank": 127,
-    "name": "Loïc Zhang",
-    "gender": "男",
-    "result": "52.13",
-    "competition": "Tigery Open 2026",
-    "wcaid": "2022ZHAN31",
-    "date": "2026-04-25",
-    "province": "",
-    "city": ""
   },
   {
     "rank": 128,
@@ -2834,8 +2834,8 @@
     "competition": "Huzhou Open 2024",
     "wcaid": "2018ZHUH05",
     "date": "2024-03-30",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "舟山"
   },
   {
     "rank": 259,
@@ -3340,8 +3340,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2024JIAN20",
     "date": "2026-04-04",
-    "province": "陕西",
-    "city": "西安"
+    "province": "山东",
+    "city": "威海"
   },
   {
     "rank": 305,
@@ -6255,8 +6255,8 @@
     "competition": "Beijing University Cube League 2025",
     "wcaid": "2025QIAO09",
     "date": "2025-10-25",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "平顶山"
   },
   {
     "rank": 570,
@@ -12712,8 +12712,8 @@
     "competition": "Mega Time Singapore 2024",
     "wcaid": "2015ZHAN72",
     "date": "2024-08-18",
-    "province": "北京",
-    "city": "北京"
+    "province": "天津",
+    "city": "天津"
   },
   {
     "rank": 1157,

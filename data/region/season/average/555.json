@@ -870,6 +870,17 @@
   },
   {
     "rank": 80,
+    "name": "Loïc Zhang",
+    "gender": "男",
+    "result": "57.57",
+    "competition": "Rueil Open 2026",
+    "wcaid": "2022ZHAN31",
+    "date": "2026-05-23",
+    "province": "",
+    "city": ""
+  },
+  {
+    "rank": 81,
     "name": "Lei Liu (刘磊)",
     "gender": "男",
     "result": "57.77",
@@ -880,7 +891,7 @@
     "city": "台州"
   },
   {
-    "rank": 81,
+    "rank": 82,
     "name": "Yiming Lin (林伊铭)",
     "gender": "女",
     "result": "57.79",
@@ -891,7 +902,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 82,
+    "rank": 83,
     "name": "Chenlai Zhao",
     "gender": "男",
     "result": "58.05",
@@ -902,7 +913,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Boxuan Fan (范柏轩)",
     "gender": "男",
     "result": "58.23",
@@ -913,7 +924,7 @@
     "city": "茂名"
   },
   {
-    "rank": 84,
+    "rank": 85,
     "name": "Yiqin Sun (孙弋钦)",
     "gender": "男",
     "result": "58.43",
@@ -924,7 +935,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 85,
+    "rank": 86,
     "name": "Yun-Kai Yeh (葉昀愷)",
     "gender": "男",
     "result": "58.51",
@@ -935,7 +946,7 @@
     "city": "台湾"
   },
   {
-    "rank": 86,
+    "rank": 87,
     "name": "Wenjun Luo (罗文俊)",
     "gender": "男",
     "result": "58.57",
@@ -946,7 +957,7 @@
     "city": "江门"
   },
   {
-    "rank": 87,
+    "rank": 88,
     "name": "Chengshuo Zhu (朱成硕)",
     "gender": "男",
     "result": "58.66",
@@ -955,17 +966,6 @@
     "date": "2026-05-01",
     "province": "神手谷",
     "city": "神手谷"
-  },
-  {
-    "rank": 88,
-    "name": "Loïc Zhang",
-    "gender": "男",
-    "result": "58.72",
-    "competition": "Longjum'Open 2026",
-    "wcaid": "2022ZHAN31",
-    "date": "2026-05-08",
-    "province": "",
-    "city": ""
   },
   {
     "rank": 89,
@@ -1888,8 +1888,8 @@
     "competition": "Xi'an Cherry Blossom 2026",
     "wcaid": "2024JIAN20",
     "date": "2026-04-04",
-    "province": "陕西",
-    "city": "西安"
+    "province": "山东",
+    "city": "威海"
   },
   {
     "rank": 173,
@@ -5611,6 +5611,17 @@
   },
   {
     "rank": 511,
+    "name": "Anjie Zhao (赵安洁)",
+    "gender": "女",
+    "result": "2:15.96",
+    "competition": "Eversdal Autumn Cape Town 2026",
+    "wcaid": "2018ZHAO48",
+    "date": "2026-05-24",
+    "province": "新疆",
+    "city": "乌鲁木齐"
+  },
+  {
+    "rank": 512,
     "name": "Kepan Tu (涂可攀)",
     "gender": "男",
     "result": "2:16.20",
@@ -5621,7 +5632,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 512,
+    "rank": 513,
     "name": "Ethan Ruoqing Chen (陈若轻)",
     "gender": "男",
     "result": "2:20.09",
@@ -5632,7 +5643,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 513,
+    "rank": 514,
     "name": "Xiangxiang Hao (郝翔翔)",
     "gender": "女",
     "result": "2:22.36",
@@ -5643,7 +5654,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 514,
+    "rank": 515,
     "name": "Sunnie Hong Ching Shing (盛康晴)",
     "gender": "女",
     "result": "2:23.93",
@@ -5654,7 +5665,7 @@
     "city": "香港"
   },
   {
-    "rank": 515,
+    "rank": 516,
     "name": "Han Wu (吳翰)",
     "gender": "男",
     "result": "2:26.13",
@@ -5665,7 +5676,7 @@
     "city": "台湾"
   },
   {
-    "rank": 516,
+    "rank": 517,
     "name": "Glen Zhang",
     "gender": "男",
     "result": "2:27.68",
@@ -5676,7 +5687,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 517,
+    "rank": 518,
     "name": "Linzhen Chen",
     "gender": "男",
     "result": "2:29.65",
@@ -5687,7 +5698,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 518,
+    "rank": 519,
     "name": "Man Ka Lok (文嘉樂)",
     "gender": "男",
     "result": "2:34.99",
@@ -5698,7 +5709,7 @@
     "city": "香港"
   },
   {
-    "rank": 519,
+    "rank": 520,
     "name": "Marius Tsui",
     "gender": "男",
     "result": "2:44.81",
@@ -5709,7 +5720,7 @@
     "city": "香港"
   },
   {
-    "rank": 520,
+    "rank": 521,
     "name": "Ruogu Zhang (张若谷)",
     "gender": "男",
     "result": "2:45.18",
@@ -5720,7 +5731,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 521,
+    "rank": 522,
     "name": "Kwok Hiu Yeung",
     "gender": "男",
     "result": "3:31.18",
@@ -5731,7 +5742,7 @@
     "city": "香港"
   },
   {
-    "rank": 522,
+    "rank": 523,
     "name": "John Lau Hing Ming (劉興民)",
     "gender": "男",
     "result": "4:44.61",

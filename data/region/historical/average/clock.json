@@ -243,23 +243,23 @@
   },
   {
     "rank": 23,
+    "name": "Andy Mok Man Cheuk (莫文卓)",
+    "gender": "男",
+    "result": "4.23",
+    "competition": "Future Park Thailand Cube Battle 2026",
+    "wcaid": "2016CHEU04",
+    "date": "2026-05-23",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 23,
     "name": "Dorian Chan",
     "gender": "男",
     "result": "4.23",
     "competition": "Wiltshire November 2024",
     "wcaid": "2023DORI01",
     "date": "2024-11-30",
-    "province": "香港",
-    "city": "香港"
-  },
-  {
-    "rank": 24,
-    "name": "Andy Mok Man Cheuk (莫文卓)",
-    "gender": "男",
-    "result": "4.24",
-    "competition": "XMUM Cube Open 2026",
-    "wcaid": "2016CHEU04",
-    "date": "2026-02-28",
     "province": "香港",
     "city": "香港"
   },
@@ -469,8 +469,8 @@
     "competition": "Xi'an Summer 2025",
     "wcaid": "2024JIAN20",
     "date": "2025-07-19",
-    "province": "陕西",
-    "city": "西安"
+    "province": "山东",
+    "city": "威海"
   },
   {
     "rank": 44,
@@ -1288,6 +1288,17 @@
   },
   {
     "rank": 118,
+    "name": "Timothy Kong Wing Sum (江永琛)",
+    "gender": "男",
+    "result": "6.15",
+    "competition": "Future Park Thailand Cube Battle 2026",
+    "wcaid": "2015SUMT01",
+    "date": "2026-05-23",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 119,
     "name": "Siheng Chen (陈思衡)",
     "gender": "男",
     "result": "6.16",
@@ -1298,7 +1309,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 119,
+    "rank": 120,
     "name": "Chenhao Ma (马晨皓)",
     "gender": "男",
     "result": "6.17",
@@ -1309,7 +1320,7 @@
     "city": "天津"
   },
   {
-    "rank": 120,
+    "rank": 121,
     "name": "Chenyu Wang (王晨宇)",
     "gender": "男",
     "result": "6.18",
@@ -1320,7 +1331,7 @@
     "city": "唐山"
   },
   {
-    "rank": 121,
+    "rank": 122,
     "name": "Wei-Chen Hsieh (謝維宸)",
     "gender": "男",
     "result": "6.19",
@@ -1331,7 +1342,7 @@
     "city": "台湾"
   },
   {
-    "rank": 121,
+    "rank": 122,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "6.19",
@@ -1342,7 +1353,7 @@
     "city": "澳门"
   },
   {
-    "rank": 123,
+    "rank": 124,
     "name": "Yi Qu (曲熠)",
     "gender": "女",
     "result": "6.24",
@@ -1353,7 +1364,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Chenwei Li (李琛炜)",
     "gender": "男",
     "result": "6.26",
@@ -1364,7 +1375,7 @@
     "city": "西宁"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Chenwei Li (李琛炜)",
     "gender": "男",
     "result": "6.26",
@@ -1375,7 +1386,7 @@
     "city": "西宁"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Cian-Jyun Yang (楊謙君)",
     "gender": "男",
     "result": "6.26",
@@ -1386,7 +1397,7 @@
     "city": "台湾"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Haoyi Wu (吴昊一)",
     "gender": "男",
     "result": "6.26",
@@ -1397,7 +1408,7 @@
     "city": "武汉"
   },
   {
-    "rank": 128,
+    "rank": 129,
     "name": "Yen-Pin Xiao (蕭彥平)",
     "gender": "男",
     "result": "6.33",
@@ -1408,7 +1419,7 @@
     "city": "台湾"
   },
   {
-    "rank": 129,
+    "rank": 130,
     "name": "Sheng Cao (曹晟)",
     "gender": "男",
     "result": "6.34",
@@ -1419,7 +1430,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 130,
+    "rank": 131,
     "name": "Qiyu Hou (侯启予)",
     "gender": "男",
     "result": "6.36",
@@ -1430,7 +1441,7 @@
     "city": "南京"
   },
   {
-    "rank": 130,
+    "rank": 131,
     "name": "Yan Zheng (郑岩)",
     "gender": "男",
     "result": "6.36",
@@ -1439,17 +1450,6 @@
     "date": "2018-04-06",
     "province": "内蒙古",
     "city": "赤峰"
-  },
-  {
-    "rank": 130,
-    "name": "Timothy Kong Wing Sum (江永琛)",
-    "gender": "男",
-    "result": "6.36",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2015SUMT01",
-    "date": "2026-02-06",
-    "province": "香港",
-    "city": "香港"
   },
   {
     "rank": 133,
@@ -4642,7 +4642,18 @@
     "city": "大同"
   },
   {
-    "rank": 423,
+    "rank": 421,
+    "name": "Li Shang Cheng (李尚澄)",
+    "gender": "女",
+    "result": "9.78",
+    "competition": "Future Park Thailand Cube Battle 2026",
+    "wcaid": "2024LISH03",
+    "date": "2026-05-23",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 424,
     "name": "Zirui Huo (霍子睿)",
     "gender": "男",
     "result": "9.79",
@@ -4653,7 +4664,7 @@
     "city": "佛山"
   },
   {
-    "rank": 424,
+    "rank": 425,
     "name": "Ling Yan (严铃)",
     "gender": "女",
     "result": "9.80",
@@ -4664,7 +4675,7 @@
     "city": "西安"
   },
   {
-    "rank": 425,
+    "rank": 426,
     "name": "Yingcheng Tong (童映程)",
     "gender": "男",
     "result": "9.81",
@@ -4675,7 +4686,7 @@
     "city": "信阳"
   },
   {
-    "rank": 426,
+    "rank": 427,
     "name": "Fubo Wang (王富博)",
     "gender": "男",
     "result": "9.82",
@@ -4686,7 +4697,7 @@
     "city": "北京"
   },
   {
-    "rank": 427,
+    "rank": 428,
     "name": "Zaiyang Zhang (张在旸)",
     "gender": "男",
     "result": "9.86",
@@ -4697,7 +4708,7 @@
     "city": "北京"
   },
   {
-    "rank": 428,
+    "rank": 429,
     "name": "Yu Wang (王宇)",
     "gender": "男",
     "result": "9.87",
@@ -4708,7 +4719,7 @@
     "city": "天津"
   },
   {
-    "rank": 429,
+    "rank": 430,
     "name": "Yi-En Tsai (蔡以恩)",
     "gender": "男",
     "result": "9.88",
@@ -4719,7 +4730,7 @@
     "city": "台湾"
   },
   {
-    "rank": 429,
+    "rank": 430,
     "name": "Zhuojia Zhou (周琢嘉)",
     "gender": "男",
     "result": "9.88",
@@ -4730,7 +4741,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 431,
+    "rank": 432,
     "name": "Jacky Koo Chun Ki (顧俊祺)",
     "gender": "男",
     "result": "9.90",
@@ -4741,7 +4752,7 @@
     "city": "香港"
   },
   {
-    "rank": 431,
+    "rank": 432,
     "name": "Mickey Chan Sin Kei",
     "gender": "男",
     "result": "9.90",
@@ -4752,7 +4763,7 @@
     "city": "香港"
   },
   {
-    "rank": 431,
+    "rank": 432,
     "name": "Wenjie Huang (黄文杰)",
     "gender": "男",
     "result": "9.90",
@@ -4763,7 +4774,7 @@
     "city": "佛山"
   },
   {
-    "rank": 434,
+    "rank": 435,
     "name": "Bokang Peng (彭博康)",
     "gender": "男",
     "result": "9.92",
@@ -4774,7 +4785,7 @@
     "city": "常州"
   },
   {
-    "rank": 434,
+    "rank": 435,
     "name": "Jia-Wei Yu (游家瑋)",
     "gender": "男",
     "result": "9.92",
@@ -4785,7 +4796,7 @@
     "city": "台湾"
   },
   {
-    "rank": 436,
+    "rank": 437,
     "name": "Qingling Chen (陈庆灵)",
     "gender": "男",
     "result": "9.96",
@@ -4796,7 +4807,7 @@
     "city": "湛江"
   },
   {
-    "rank": 437,
+    "rank": 438,
     "name": "Xiao Xu (徐骁)",
     "gender": "男",
     "result": "9.97",
@@ -4807,7 +4818,7 @@
     "city": "开封"
   },
   {
-    "rank": 437,
+    "rank": 438,
     "name": "Renxin Tang (汤任欣)",
     "gender": "女",
     "result": "9.97",
@@ -4818,7 +4829,7 @@
     "city": "嘉兴"
   },
   {
-    "rank": 439,
+    "rank": 440,
     "name": "Yunhui Zhao (赵云晖)",
     "gender": "男",
     "result": "9.98",
@@ -4829,7 +4840,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 439,
+    "rank": 440,
     "name": "Yuxia Luo (罗与夏)",
     "gender": "男",
     "result": "9.98",
@@ -4840,7 +4851,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 439,
+    "rank": 440,
     "name": "Gengchen Hua (华庚宸)",
     "gender": "男",
     "result": "9.98",
@@ -4851,7 +4862,7 @@
     "city": "徐州"
   },
   {
-    "rank": 442,
+    "rank": 443,
     "name": "Yi Li (李燚)",
     "gender": "男",
     "result": "9.99",
@@ -4862,7 +4873,7 @@
     "city": "大庆"
   },
   {
-    "rank": 443,
+    "rank": 444,
     "name": "Xingyan Ding (丁醒炎)",
     "gender": "男",
     "result": "10.00",
@@ -4873,7 +4884,7 @@
     "city": "无锡"
   },
   {
-    "rank": 444,
+    "rank": 445,
     "name": "Yongyi Xiong (熊永一)",
     "gender": "男",
     "result": "10.02",
@@ -4884,7 +4895,7 @@
     "city": "武汉"
   },
   {
-    "rank": 445,
+    "rank": 446,
     "name": "Hongtao Jiang (蒋鸿涛)",
     "gender": "男",
     "result": "10.03",
@@ -4895,7 +4906,7 @@
     "city": "绍兴"
   },
   {
-    "rank": 446,
+    "rank": 447,
     "name": "Loïc Zhang",
     "gender": "男",
     "result": "10.04",
@@ -4906,7 +4917,7 @@
     "city": ""
   },
   {
-    "rank": 446,
+    "rank": 447,
     "name": "Yanjierui Li (李延杰睿)",
     "gender": "男",
     "result": "10.04",
@@ -4917,7 +4928,7 @@
     "city": "深圳"
   },
   {
-    "rank": 448,
+    "rank": 449,
     "name": "Qihan Chen (陈启晗)",
     "gender": "男",
     "result": "10.06",
@@ -4928,7 +4939,7 @@
     "city": "广州"
   },
   {
-    "rank": 449,
+    "rank": 450,
     "name": "Zewei Wang (王泽伟)",
     "gender": "男",
     "result": "10.07",
@@ -4939,7 +4950,7 @@
     "city": "天津"
   },
   {
-    "rank": 450,
+    "rank": 451,
     "name": "Duo Zheng (郑铎)",
     "gender": "男",
     "result": "10.08",
@@ -4950,7 +4961,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 451,
+    "rank": 452,
     "name": "Zhiyang Wei (魏之杨)",
     "gender": "男",
     "result": "10.09",
@@ -4961,7 +4972,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 452,
+    "rank": 453,
     "name": "Yixing Wang (王一行)",
     "gender": "男",
     "result": "10.13",
@@ -4972,7 +4983,7 @@
     "city": "北京"
   },
   {
-    "rank": 453,
+    "rank": 454,
     "name": "Marius Tsui",
     "gender": "男",
     "result": "10.14",
@@ -4983,7 +4994,7 @@
     "city": "香港"
   },
   {
-    "rank": 454,
+    "rank": 455,
     "name": "Zejun Chen (陈泽鋆)",
     "gender": "男",
     "result": "10.18",
@@ -4994,7 +5005,7 @@
     "city": "北京"
   },
   {
-    "rank": 455,
+    "rank": 456,
     "name": "Lai Pak Kiu (賴柏喬)",
     "gender": "男",
     "result": "10.20",
@@ -5005,7 +5016,7 @@
     "city": "香港"
   },
   {
-    "rank": 456,
+    "rank": 457,
     "name": "Zean Zhou (周泽安)",
     "gender": "男",
     "result": "10.22",
@@ -5016,7 +5027,7 @@
     "city": "遵义"
   },
   {
-    "rank": 457,
+    "rank": 458,
     "name": "Yifeng Pei (裴一丰)",
     "gender": "男",
     "result": "10.23",
@@ -5027,7 +5038,7 @@
     "city": "西安"
   },
   {
-    "rank": 457,
+    "rank": 458,
     "name": "Chia-Ling Tseng (曾加菱)",
     "gender": "女",
     "result": "10.23",
@@ -5038,7 +5049,7 @@
     "city": "台湾"
   },
   {
-    "rank": 459,
+    "rank": 460,
     "name": "Yize Xing (邢羿泽)",
     "gender": "男",
     "result": "10.24",
@@ -5049,7 +5060,7 @@
     "city": "北京"
   },
   {
-    "rank": 460,
+    "rank": 461,
     "name": "Bowen Xiao (肖博文)",
     "gender": "男",
     "result": "10.25",
@@ -5060,7 +5071,7 @@
     "city": "济南"
   },
   {
-    "rank": 461,
+    "rank": 462,
     "name": "Qingze Li (李庆泽)",
     "gender": "男",
     "result": "10.26",
@@ -5071,7 +5082,7 @@
     "city": "北京"
   },
   {
-    "rank": 462,
+    "rank": 463,
     "name": "You-Hsiang Lu (呂祐翔)",
     "gender": "男",
     "result": "10.27",
@@ -5082,7 +5093,7 @@
     "city": "台湾"
   },
   {
-    "rank": 462,
+    "rank": 463,
     "name": "Tianyu Yang (杨天宇)",
     "gender": "男",
     "result": "10.27",
@@ -5093,7 +5104,7 @@
     "city": "贵阳"
   },
   {
-    "rank": 464,
+    "rank": 465,
     "name": "Hui Cai (蔡辉)",
     "gender": "男",
     "result": "10.28",
@@ -5104,7 +5115,7 @@
     "city": "武汉"
   },
   {
-    "rank": 465,
+    "rank": 466,
     "name": "Hangwei Yu (禹航伟)",
     "gender": "男",
     "result": "10.29",
@@ -5115,7 +5126,7 @@
     "city": "深圳"
   },
   {
-    "rank": 465,
+    "rank": 466,
     "name": "Lichia Huang",
     "gender": "男",
     "result": "10.29",
@@ -5126,7 +5137,7 @@
     "city": "台湾"
   },
   {
-    "rank": 467,
+    "rank": 468,
     "name": "Pin-Shang Ye (葉品尚)",
     "gender": "男",
     "result": "10.31",
@@ -5137,7 +5148,7 @@
     "city": "台湾"
   },
   {
-    "rank": 468,
+    "rank": 469,
     "name": "Clara Wu Mun Yu (胡滿悆)",
     "gender": "女",
     "result": "10.32",
@@ -5148,7 +5159,7 @@
     "city": "香港"
   },
   {
-    "rank": 468,
+    "rank": 469,
     "name": "Cliff Lam",
     "gender": "男",
     "result": "10.32",
@@ -5159,7 +5170,7 @@
     "city": "香港"
   },
   {
-    "rank": 468,
+    "rank": 469,
     "name": "Gan Chun Hin (甘俊軒)",
     "gender": "男",
     "result": "10.32",
@@ -5170,7 +5181,7 @@
     "city": "香港"
   },
   {
-    "rank": 471,
+    "rank": 472,
     "name": "Jinxuan Ni (倪锦旋)",
     "gender": "男",
     "result": "10.33",
@@ -5181,7 +5192,7 @@
     "city": "揭阳"
   },
   {
-    "rank": 472,
+    "rank": 473,
     "name": "Hongxi Wang (王洪熙)",
     "gender": "男",
     "result": "10.35",
@@ -5192,7 +5203,7 @@
     "city": "青岛"
   },
   {
-    "rank": 472,
+    "rank": 473,
     "name": "Hao Chang (常皓)",
     "gender": "女",
     "result": "10.35",
@@ -5203,7 +5214,7 @@
     "city": "乌兰察布"
   },
   {
-    "rank": 472,
+    "rank": 473,
     "name": "Wanling He (何婉灵)",
     "gender": "女",
     "result": "10.35",
@@ -5214,7 +5225,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 472,
+    "rank": 473,
     "name": "Chang Wu (吴畅)",
     "gender": "女",
     "result": "10.35",
@@ -5225,7 +5236,7 @@
     "city": "九江"
   },
   {
-    "rank": 476,
+    "rank": 477,
     "name": "Zheqi Xie (谢哲麒)",
     "gender": "男",
     "result": "10.37",
@@ -5236,7 +5247,7 @@
     "city": "成都"
   },
   {
-    "rank": 477,
+    "rank": 478,
     "name": "Angus Lo Kai Him (盧啟謙)",
     "gender": "男",
     "result": "10.38",
@@ -5247,7 +5258,7 @@
     "city": "香港"
   },
   {
-    "rank": 478,
+    "rank": 479,
     "name": "Qiuhao Qian (潜秋豪)",
     "gender": "男",
     "result": "10.39",
@@ -5258,7 +5269,7 @@
     "city": "金华"
   },
   {
-    "rank": 478,
+    "rank": 479,
     "name": "Haonan Su (苏浩楠)",
     "gender": "男",
     "result": "10.39",
@@ -5269,7 +5280,7 @@
     "city": "西安"
   },
   {
-    "rank": 478,
+    "rank": 479,
     "name": "Xuan Liu (刘璇)",
     "gender": "男",
     "result": "10.39",
@@ -5280,7 +5291,7 @@
     "city": "天津"
   },
   {
-    "rank": 478,
+    "rank": 479,
     "name": "Beibei Lin (林北北)",
     "gender": "男",
     "result": "10.39",
@@ -5291,7 +5302,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 478,
+    "rank": 479,
     "name": "Jiashuo Li (黎家硕)",
     "gender": "男",
     "result": "10.39",
@@ -5302,7 +5313,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 483,
+    "rank": 484,
     "name": "Zijie Xu (徐子杰)",
     "gender": "男",
     "result": "10.40",
@@ -5313,7 +5324,7 @@
     "city": "深圳"
   },
   {
-    "rank": 483,
+    "rank": 484,
     "name": "Antonio Li Ka Ming (李家銘)",
     "gender": "男",
     "result": "10.40",
@@ -5324,7 +5335,7 @@
     "city": "香港"
   },
   {
-    "rank": 485,
+    "rank": 486,
     "name": "Li Chak Lam (李澤霖)",
     "gender": "男",
     "result": "10.41",
@@ -5335,7 +5346,7 @@
     "city": "香港"
   },
   {
-    "rank": 486,
+    "rank": 487,
     "name": "Siqi Chen (陈思琦)",
     "gender": "女",
     "result": "10.42",
@@ -5346,7 +5357,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 487,
+    "rank": 488,
     "name": "Jiachen Xu (徐嘉辰)",
     "gender": "男",
     "result": "10.43",
@@ -5357,7 +5368,7 @@
     "city": "北京"
   },
   {
-    "rank": 487,
+    "rank": 488,
     "name": "Junyuan Hu (胡珺榞)",
     "gender": "男",
     "result": "10.43",
@@ -5368,7 +5379,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 489,
+    "rank": 490,
     "name": "Zekai Cui (崔泽楷)",
     "gender": "男",
     "result": "10.44",
@@ -5379,7 +5390,7 @@
     "city": "南京"
   },
   {
-    "rank": 489,
+    "rank": 490,
     "name": "Ziqi Wang (王子琦)",
     "gender": "男",
     "result": "10.44",
@@ -5390,7 +5401,7 @@
     "city": "保定"
   },
   {
-    "rank": 489,
+    "rank": 490,
     "name": "Yucheng Chen (陈裕铖)",
     "gender": "男",
     "result": "10.44",
@@ -5401,7 +5412,7 @@
     "city": "东莞"
   },
   {
-    "rank": 492,
+    "rank": 493,
     "name": "Changao Wu (吴昌傲)",
     "gender": "男",
     "result": "10.46",
@@ -5412,7 +5423,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 492,
+    "rank": 493,
     "name": "Madison Ling Chin Yi (凌千詒)",
     "gender": "女",
     "result": "10.46",
@@ -5423,7 +5434,7 @@
     "city": "香港"
   },
   {
-    "rank": 494,
+    "rank": 495,
     "name": "Xuewei Zhang (章学威)",
     "gender": "男",
     "result": "10.47",
@@ -5434,7 +5445,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 494,
+    "rank": 495,
     "name": "Zhongcheng Shen (谌重丞)",
     "gender": "男",
     "result": "10.47",
@@ -5445,7 +5456,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 494,
+    "rank": 495,
     "name": "Wei-Zhong Wang (王為中)",
     "gender": "男",
     "result": "10.47",
@@ -5456,7 +5467,7 @@
     "city": "台湾"
   },
   {
-    "rank": 497,
+    "rank": 498,
     "name": "Xintian Wang (王欣天)",
     "gender": "男",
     "result": "10.48",
@@ -5467,7 +5478,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 498,
+    "rank": 499,
     "name": "Donghao Xu (许东豪)",
     "gender": "男",
     "result": "10.49",
@@ -5478,7 +5489,7 @@
     "city": "深圳"
   },
   {
-    "rank": 498,
+    "rank": 499,
     "name": "Yanchu Guo (郭雁初)",
     "gender": "男",
     "result": "10.49",
@@ -5489,7 +5500,7 @@
     "city": "太原"
   },
   {
-    "rank": 498,
+    "rank": 499,
     "name": "Chongjian Zhao (赵崇健)",
     "gender": "男",
     "result": "10.49",
@@ -5500,7 +5511,7 @@
     "city": "江门"
   },
   {
-    "rank": 501,
+    "rank": 502,
     "name": "Nathan Wang (王思文)",
     "gender": "男",
     "result": "10.50",
@@ -5511,7 +5522,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 501,
+    "rank": 502,
     "name": "Zhiyuan Xue (薛智远)",
     "gender": "男",
     "result": "10.50",
@@ -5522,7 +5533,7 @@
     "city": "连云港"
   },
   {
-    "rank": 503,
+    "rank": 504,
     "name": "Jingcai Li (李经才)",
     "gender": "男",
     "result": "10.51",
@@ -5533,7 +5544,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 503,
+    "rank": 504,
     "name": "Jiayao Guo (郭家瑶)",
     "gender": "女",
     "result": "10.51",
@@ -5544,7 +5555,7 @@
     "city": "潍坊"
   },
   {
-    "rank": 503,
+    "rank": 504,
     "name": "Zitao Ye (叶子滔)",
     "gender": "男",
     "result": "10.51",
@@ -5555,7 +5566,7 @@
     "city": "厦门"
   },
   {
-    "rank": 503,
+    "rank": 504,
     "name": "Hanlin Chen (陈瀚林)",
     "gender": "男",
     "result": "10.51",
@@ -5566,7 +5577,7 @@
     "city": "济南"
   },
   {
-    "rank": 507,
+    "rank": 508,
     "name": "Wei Dong (董唯)",
     "gender": "男",
     "result": "10.54",
@@ -5577,7 +5588,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 508,
+    "rank": 509,
     "name": "Yanghong Wu (伍洋弘)",
     "gender": "男",
     "result": "10.55",
@@ -5588,7 +5599,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 509,
+    "rank": 510,
     "name": "Yutong Liu (刘昱彤)",
     "gender": "男",
     "result": "10.56",
@@ -5599,7 +5610,7 @@
     "city": "济宁"
   },
   {
-    "rank": 509,
+    "rank": 510,
     "name": "Junxi Huang (黄俊熹)",
     "gender": "男",
     "result": "10.56",
@@ -5610,7 +5621,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 509,
+    "rank": 510,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "10.56",
@@ -5619,17 +5630,6 @@
     "date": "2026-04-26",
     "province": "神手谷",
     "city": "神手谷"
-  },
-  {
-    "rank": 509,
-    "name": "Li Shang Cheng (李尚澄)",
-    "gender": "女",
-    "result": "10.56",
-    "competition": "Hong Kong Championship 2025",
-    "wcaid": "2024LISH03",
-    "date": "2025-11-15",
-    "province": "香港",
-    "city": "香港"
   },
   {
     "rank": 513,
@@ -6028,7 +6028,18 @@
     "city": "南京"
   },
   {
-    "rank": 549,
+    "rank": 548,
+    "name": "Kai-Jie Wu (吳楷傑)",
+    "gender": "男",
+    "result": "10.92",
+    "competition": "Future Park Thailand Cube Battle 2026",
+    "wcaid": "2024WUKA02",
+    "date": "2026-05-23",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 550,
     "name": "Yifan Sun (孙一帆)",
     "gender": "女",
     "result": "10.93",
@@ -6039,7 +6050,7 @@
     "city": "西安"
   },
   {
-    "rank": 550,
+    "rank": 551,
     "name": "Vulcan Leung Yau Long (梁佑朗)",
     "gender": "男",
     "result": "10.94",
@@ -6050,7 +6061,7 @@
     "city": "香港"
   },
   {
-    "rank": 551,
+    "rank": 552,
     "name": "Jun Wang (王珺)",
     "gender": "男",
     "result": "10.95",
@@ -6061,7 +6072,7 @@
     "city": "宁德"
   },
   {
-    "rank": 551,
+    "rank": 552,
     "name": "Zi-Qi Lee (李紫祺)",
     "gender": "男",
     "result": "10.95",
@@ -6072,7 +6083,7 @@
     "city": "台湾"
   },
   {
-    "rank": 553,
+    "rank": 554,
     "name": "Xulang Li (黎旭朗)",
     "gender": "男",
     "result": "10.98",
@@ -6083,7 +6094,7 @@
     "city": "上海"
   },
   {
-    "rank": 553,
+    "rank": 554,
     "name": "Jiaming Wu (吴嘉鸣)",
     "gender": "男",
     "result": "10.98",
@@ -6094,7 +6105,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 555,
+    "rank": 556,
     "name": "Zhenyu Wang (王振宇)",
     "gender": "男",
     "result": "10.99",
@@ -6105,7 +6116,7 @@
     "city": "青岛"
   },
   {
-    "rank": 556,
+    "rank": 557,
     "name": "Lei Liu (刘磊)",
     "gender": "男",
     "result": "11.00",
@@ -6116,7 +6127,7 @@
     "city": "台州"
   },
   {
-    "rank": 557,
+    "rank": 558,
     "name": "Triton Tsui",
     "gender": "男",
     "result": "11.02",
@@ -6127,7 +6138,7 @@
     "city": "香港"
   },
   {
-    "rank": 558,
+    "rank": 559,
     "name": "Yu-Kai Chen (陳宇楷)",
     "gender": "男",
     "result": "11.03",
@@ -6138,7 +6149,7 @@
     "city": "台湾"
   },
   {
-    "rank": 558,
+    "rank": 559,
     "name": "Jianxu Chen (陈建旭)",
     "gender": "男",
     "result": "11.03",
@@ -6149,7 +6160,7 @@
     "city": "湛江"
   },
   {
-    "rank": 558,
+    "rank": 559,
     "name": "Xinyang Li (李昕洋)",
     "gender": "男",
     "result": "11.03",
@@ -6160,7 +6171,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 561,
+    "rank": 562,
     "name": "Jiaxi Ye (叶佳希)",
     "gender": "男",
     "result": "11.04",
@@ -6171,7 +6182,7 @@
     "city": "厦门"
   },
   {
-    "rank": 561,
+    "rank": 562,
     "name": "Ziyue Ding (丁子越)",
     "gender": "男",
     "result": "11.04",
@@ -6182,7 +6193,7 @@
     "city": "广州"
   },
   {
-    "rank": 561,
+    "rank": 562,
     "name": "Shuyang Zhang (张舒洋)",
     "gender": "女",
     "result": "11.04",
@@ -6193,7 +6204,7 @@
     "city": "晋城"
   },
   {
-    "rank": 564,
+    "rank": 565,
     "name": "Yuxuan Chen",
     "gender": "女",
     "result": "11.06",
@@ -6204,7 +6215,7 @@
     "city": ""
   },
   {
-    "rank": 565,
+    "rank": 566,
     "name": "Bing-Zhe Xie (謝秉哲)",
     "gender": "男",
     "result": "11.07",
@@ -6215,7 +6226,7 @@
     "city": "台湾"
   },
   {
-    "rank": 566,
+    "rank": 567,
     "name": "Leung Ka Ho (梁家浩)",
     "gender": "男",
     "result": "11.08",
@@ -6226,7 +6237,7 @@
     "city": "香港"
   },
   {
-    "rank": 567,
+    "rank": 568,
     "name": "Jun Xia (夏骏)",
     "gender": "男",
     "result": "11.09",
@@ -6237,7 +6248,7 @@
     "city": "宜春"
   },
   {
-    "rank": 567,
+    "rank": 568,
     "name": "Evan Zhou",
     "gender": "男",
     "result": "11.09",
@@ -6248,7 +6259,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 569,
+    "rank": 570,
     "name": "Yan-Chen Wu (吳彥宸)",
     "gender": "男",
     "result": "11.10",
@@ -6259,7 +6270,7 @@
     "city": "台湾"
   },
   {
-    "rank": 570,
+    "rank": 571,
     "name": "Wenxuan Tang (唐文轩)",
     "gender": "男",
     "result": "11.12",
@@ -6270,7 +6281,7 @@
     "city": "苏州"
   },
   {
-    "rank": 570,
+    "rank": 571,
     "name": "Shijie Peng (彭世杰)",
     "gender": "男",
     "result": "11.12",
@@ -6281,7 +6292,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 572,
+    "rank": 573,
     "name": "Xiaotian Ma (马晓田)",
     "gender": "男",
     "result": "11.13",
@@ -6292,7 +6303,7 @@
     "city": "吕梁"
   },
   {
-    "rank": 573,
+    "rank": 574,
     "name": "Jiaqi Jin (靳佳祺)",
     "gender": "女",
     "result": "11.14",
@@ -6303,7 +6314,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 574,
+    "rank": 575,
     "name": "Weiran Zhang (张为然)",
     "gender": "男",
     "result": "11.15",
@@ -6314,7 +6325,7 @@
     "city": "深圳"
   },
   {
-    "rank": 574,
+    "rank": 575,
     "name": "Yue Shen (申粤)",
     "gender": "男",
     "result": "11.15",
@@ -6325,7 +6336,7 @@
     "city": "深圳"
   },
   {
-    "rank": 574,
+    "rank": 575,
     "name": "Jiaqian Zhang (张佳倩)",
     "gender": "女",
     "result": "11.15",
@@ -6336,7 +6347,7 @@
     "city": "贵港"
   },
   {
-    "rank": 577,
+    "rank": 578,
     "name": "Chilin Fang (方炽霖)",
     "gender": "男",
     "result": "11.17",
@@ -6347,7 +6358,7 @@
     "city": "汕头"
   },
   {
-    "rank": 578,
+    "rank": 579,
     "name": "Chufan Cao (曹楚凡)",
     "gender": "男",
     "result": "11.18",
@@ -6358,7 +6369,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 579,
+    "rank": 580,
     "name": "Ethan Ruoqing Chen (陈若轻)",
     "gender": "男",
     "result": "11.19",
@@ -6369,7 +6380,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 579,
+    "rank": 580,
     "name": "Yiming Zuo (左一鸣)",
     "gender": "男",
     "result": "11.19",
@@ -6380,7 +6391,7 @@
     "city": "盐城"
   },
   {
-    "rank": 581,
+    "rank": 582,
     "name": "Tong Wang (王桐)",
     "gender": "男",
     "result": "11.20",
@@ -6391,7 +6402,7 @@
     "city": "绥化"
   },
   {
-    "rank": 581,
+    "rank": 582,
     "name": "Chia-En Wu (吳佳恩)",
     "gender": "女",
     "result": "11.20",
@@ -6402,7 +6413,7 @@
     "city": "台湾"
   },
   {
-    "rank": 581,
+    "rank": 582,
     "name": "Sihan Fu (傅思涵)",
     "gender": "男",
     "result": "11.20",
@@ -6413,7 +6424,7 @@
     "city": "上海"
   },
   {
-    "rank": 584,
+    "rank": 585,
     "name": "Yiyi Xing (邢祎祎)",
     "gender": "女",
     "result": "11.22",
@@ -6424,7 +6435,7 @@
     "city": "北京"
   },
   {
-    "rank": 584,
+    "rank": 585,
     "name": "Guangda Liu (刘广达)",
     "gender": "男",
     "result": "11.22",
@@ -6435,7 +6446,7 @@
     "city": "盐城"
   },
   {
-    "rank": 584,
+    "rank": 585,
     "name": "Gengxu Qin (秦庚旭)",
     "gender": "男",
     "result": "11.22",
@@ -6446,7 +6457,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 587,
+    "rank": 588,
     "name": "Au Nap Shun (區納信)",
     "gender": "男",
     "result": "11.23",
@@ -6457,7 +6468,7 @@
     "city": "香港"
   },
   {
-    "rank": 588,
+    "rank": 589,
     "name": "Fan Li (李凡)",
     "gender": "男",
     "result": "11.25",
@@ -6468,7 +6479,7 @@
     "city": "邵阳"
   },
   {
-    "rank": 589,
+    "rank": 590,
     "name": "Felix Gu (顾敏琦)",
     "gender": "男",
     "result": "11.26",
@@ -6479,7 +6490,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 590,
+    "rank": 591,
     "name": "Yanchen Weng (翁彦辰)",
     "gender": "男",
     "result": "11.27",
@@ -6490,7 +6501,7 @@
     "city": "南京"
   },
   {
-    "rank": 590,
+    "rank": 591,
     "name": "Zong-Xing Yang (楊宗興)",
     "gender": "男",
     "result": "11.27",
@@ -6501,7 +6512,7 @@
     "city": "台湾"
   },
   {
-    "rank": 590,
+    "rank": 591,
     "name": "Jiacheng Lou (楼嘉铖)",
     "gender": "男",
     "result": "11.27",
@@ -6512,7 +6523,7 @@
     "city": "杭州"
   },
   {
-    "rank": 593,
+    "rank": 594,
     "name": "Michael Chou (周禹)",
     "gender": "男",
     "result": "11.28",
@@ -6523,7 +6534,7 @@
     "city": "台湾"
   },
   {
-    "rank": 594,
+    "rank": 595,
     "name": "Cheng-Yu Hsieh (謝承諭)",
     "gender": "男",
     "result": "11.29",
@@ -6534,7 +6545,7 @@
     "city": "台湾"
   },
   {
-    "rank": 595,
+    "rank": 596,
     "name": "Yongtao Sun (孙永涛)",
     "gender": "男",
     "result": "11.31",
@@ -6545,7 +6556,7 @@
     "city": "郑州"
   },
   {
-    "rank": 596,
+    "rank": 597,
     "name": "Zixiong Li (李紫雄)",
     "gender": "男",
     "result": "11.32",
@@ -6556,7 +6567,7 @@
     "city": "宜宾"
   },
   {
-    "rank": 597,
+    "rank": 598,
     "name": "Bodun Zhu (朱博楯)",
     "gender": "男",
     "result": "11.33",
@@ -6567,7 +6578,7 @@
     "city": "石家庄"
   },
   {
-    "rank": 598,
+    "rank": 599,
     "name": "Tian Ying Xi (田盈汐)",
     "gender": "女",
     "result": "11.34",
@@ -6578,7 +6589,7 @@
     "city": "香港"
   },
   {
-    "rank": 599,
+    "rank": 600,
     "name": "Boxun Zhang (张博勋)",
     "gender": "男",
     "result": "11.35",
@@ -6589,7 +6600,7 @@
     "city": "上海"
   },
   {
-    "rank": 600,
+    "rank": 601,
     "name": "Xiaozhe Yan (晏骁哲)",
     "gender": "男",
     "result": "11.36",
@@ -6600,7 +6611,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 601,
+    "rank": 602,
     "name": "Wenhao He (贺文浩)",
     "gender": "男",
     "result": "11.37",
@@ -6611,7 +6622,7 @@
     "city": "榆林"
   },
   {
-    "rank": 601,
+    "rank": 602,
     "name": "Wayne Pi",
     "gender": "男",
     "result": "11.37",
@@ -6622,7 +6633,7 @@
     "city": "台湾"
   },
   {
-    "rank": 601,
+    "rank": 602,
     "name": "Wayne Pi",
     "gender": "男",
     "result": "11.37",
@@ -6633,7 +6644,7 @@
     "city": "台湾"
   },
   {
-    "rank": 601,
+    "rank": 602,
     "name": "Yuhao Lu (路昱昊)",
     "gender": "男",
     "result": "11.37",
@@ -6644,7 +6655,7 @@
     "city": "南阳"
   },
   {
-    "rank": 605,
+    "rank": 606,
     "name": "Jianjun Li (李建军)",
     "gender": "男",
     "result": "11.38",
@@ -6655,7 +6666,7 @@
     "city": "临汾"
   },
   {
-    "rank": 605,
+    "rank": 606,
     "name": "Henry Tang Kun Chung (鄧貫中)",
     "gender": "男",
     "result": "11.38",
@@ -6666,7 +6677,7 @@
     "city": "香港"
   },
   {
-    "rank": 607,
+    "rank": 608,
     "name": "Huanfu Liu (刘焕福)",
     "gender": "男",
     "result": "11.39",
@@ -6677,7 +6688,7 @@
     "city": "宝鸡"
   },
   {
-    "rank": 608,
+    "rank": 609,
     "name": "Yuxuan Zhai (翟宇轩)",
     "gender": "男",
     "result": "11.40",
@@ -6688,7 +6699,7 @@
     "city": "南京"
   },
   {
-    "rank": 608,
+    "rank": 609,
     "name": "Hao-Jyun Kang (康皓鈞)",
     "gender": "男",
     "result": "11.40",
@@ -6699,7 +6710,7 @@
     "city": "台湾"
   },
   {
-    "rank": 610,
+    "rank": 611,
     "name": "Fanyang Zeng (曾凡洋)",
     "gender": "男",
     "result": "11.41",
@@ -6710,7 +6721,7 @@
     "city": "德阳"
   },
   {
-    "rank": 610,
+    "rank": 611,
     "name": "Zhijie He (何智劼)",
     "gender": "男",
     "result": "11.41",
@@ -6721,7 +6732,7 @@
     "city": "西安"
   },
   {
-    "rank": 612,
+    "rank": 613,
     "name": "Yu-Hsuan Chang (張祐瑄)",
     "gender": "男",
     "result": "11.42",
@@ -6732,7 +6743,7 @@
     "city": "台湾"
   },
   {
-    "rank": 612,
+    "rank": 613,
     "name": "Cheng-Hua Liu (劉晟華)",
     "gender": "男",
     "result": "11.42",
@@ -6743,7 +6754,7 @@
     "city": "台湾"
   },
   {
-    "rank": 612,
+    "rank": 613,
     "name": "Haokai Wang (王昊凯)",
     "gender": "男",
     "result": "11.42",
@@ -6754,7 +6765,7 @@
     "city": "厦门"
   },
   {
-    "rank": 615,
+    "rank": 616,
     "name": "Cheung Ka Long (張嘉朗)",
     "gender": "男",
     "result": "11.43",
@@ -6765,7 +6776,7 @@
     "city": "香港"
   },
   {
-    "rank": 615,
+    "rank": 616,
     "name": "Haotian Shi (史浩天)",
     "gender": "男",
     "result": "11.43",
@@ -6776,7 +6787,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 617,
+    "rank": 618,
     "name": "Chia-Wei Lu (呂家維)",
     "gender": "男",
     "result": "11.44",
@@ -6787,7 +6798,7 @@
     "city": "台湾"
   },
   {
-    "rank": 618,
+    "rank": 619,
     "name": "Jun Hu (胡骏)",
     "gender": "男",
     "result": "11.47",
@@ -6798,7 +6809,7 @@
     "city": "扬州"
   },
   {
-    "rank": 619,
+    "rank": 620,
     "name": "Yu-Fang Liu (劉語芳)",
     "gender": "女",
     "result": "11.48",
@@ -6809,7 +6820,7 @@
     "city": "台湾"
   },
   {
-    "rank": 619,
+    "rank": 620,
     "name": "Xuhao Wang (王栩豪)",
     "gender": "男",
     "result": "11.48",
@@ -6820,7 +6831,7 @@
     "city": "黄山"
   },
   {
-    "rank": 621,
+    "rank": 622,
     "name": "Zeyuan Liu (刘泽源)",
     "gender": "男",
     "result": "11.49",
@@ -6831,7 +6842,7 @@
     "city": "泸州"
   },
   {
-    "rank": 622,
+    "rank": 623,
     "name": "Chia-Leo Lin (林珈樂)",
     "gender": "男",
     "result": "11.51",
@@ -6842,7 +6853,7 @@
     "city": "台湾"
   },
   {
-    "rank": 622,
+    "rank": 623,
     "name": "Gefeng Guo (郭革锋)",
     "gender": "男",
     "result": "11.51",
@@ -6853,7 +6864,7 @@
     "city": "中山"
   },
   {
-    "rank": 622,
+    "rank": 623,
     "name": "Taiqi Li (李泰祺)",
     "gender": "男",
     "result": "11.51",
@@ -6864,7 +6875,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 625,
+    "rank": 626,
     "name": "Weile Liang (梁伟乐)",
     "gender": "男",
     "result": "11.53",
@@ -6875,7 +6886,7 @@
     "city": "广州"
   },
   {
-    "rank": 625,
+    "rank": 626,
     "name": "Yonghua Xie (解永华)",
     "gender": "男",
     "result": "11.53",
@@ -6886,7 +6897,7 @@
     "city": "太原"
   },
   {
-    "rank": 625,
+    "rank": 626,
     "name": "Chunyang Hu (胡春阳)",
     "gender": "男",
     "result": "11.53",
@@ -6897,7 +6908,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 628,
+    "rank": 629,
     "name": "Yuhang Zhong (钟宇航)",
     "gender": "男",
     "result": "11.54",
@@ -6908,7 +6919,7 @@
     "city": "宜春"
   },
   {
-    "rank": 629,
+    "rank": 630,
     "name": "Qianying Cao (曹倩影)",
     "gender": "女",
     "result": "11.55",
@@ -6919,7 +6930,7 @@
     "city": "常州"
   },
   {
-    "rank": 629,
+    "rank": 630,
     "name": "Wu Li (李悟)",
     "gender": "男",
     "result": "11.55",
@@ -6930,7 +6941,7 @@
     "city": "台湾"
   },
   {
-    "rank": 629,
+    "rank": 630,
     "name": "Lam Chi Yin (林知言)",
     "gender": "男",
     "result": "11.55",
@@ -6941,7 +6952,7 @@
     "city": "香港"
   },
   {
-    "rank": 632,
+    "rank": 633,
     "name": "Junze Zhao (赵俊泽)",
     "gender": "男",
     "result": "11.56",
@@ -6952,7 +6963,7 @@
     "city": "洛阳"
   },
   {
-    "rank": 633,
+    "rank": 634,
     "name": "Chenkai Shen (沈宸恺)",
     "gender": "男",
     "result": "11.57",
@@ -6963,7 +6974,7 @@
     "city": "上海"
   },
   {
-    "rank": 634,
+    "rank": 635,
     "name": "Shihao Ou (欧世浩)",
     "gender": "男",
     "result": "11.58",
@@ -6974,7 +6985,7 @@
     "city": "汕头"
   },
   {
-    "rank": 634,
+    "rank": 635,
     "name": "Shih-Yu Yang (楊仕宇)",
     "gender": "男",
     "result": "11.58",
@@ -6985,7 +6996,7 @@
     "city": "台湾"
   },
   {
-    "rank": 636,
+    "rank": 637,
     "name": "Taiji Yi (易泰基)",
     "gender": "男",
     "result": "11.59",
@@ -6996,7 +7007,7 @@
     "city": "肇庆"
   },
   {
-    "rank": 637,
+    "rank": 638,
     "name": "Bojie Chen (陈博杰)",
     "gender": "男",
     "result": "11.60",
@@ -7007,7 +7018,7 @@
     "city": "潮州"
   },
   {
-    "rank": 637,
+    "rank": 638,
     "name": "Pengrui Xiang (向鹏睿)",
     "gender": "男",
     "result": "11.60",
@@ -7018,7 +7029,7 @@
     "city": "北京"
   },
   {
-    "rank": 639,
+    "rank": 640,
     "name": "Minyang Li (李旻旸)",
     "gender": "男",
     "result": "11.61",
@@ -7029,7 +7040,7 @@
     "city": "常州"
   },
   {
-    "rank": 639,
+    "rank": 640,
     "name": "Chuntian Long (龙椿天)",
     "gender": "男",
     "result": "11.61",
@@ -7040,7 +7051,7 @@
     "city": "茂名"
   },
   {
-    "rank": 639,
+    "rank": 640,
     "name": "Huanjin Liu (刘桓锦)",
     "gender": "男",
     "result": "11.61",
@@ -7051,7 +7062,7 @@
     "city": "重庆"
   },
   {
-    "rank": 642,
+    "rank": 643,
     "name": "Qi Zhou (周祺)",
     "gender": "男",
     "result": "11.63",
@@ -7062,7 +7073,7 @@
     "city": "湖州"
   },
   {
-    "rank": 643,
+    "rank": 644,
     "name": "Chenhao Sun (孙晨皓)",
     "gender": "男",
     "result": "11.64",
@@ -7073,7 +7084,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 644,
+    "rank": 645,
     "name": "Yongxing Hou (侯永兴)",
     "gender": "男",
     "result": "11.65",
@@ -7084,7 +7095,7 @@
     "city": "太原"
   },
   {
-    "rank": 644,
+    "rank": 645,
     "name": "Yichao Li (李伊超)",
     "gender": "男",
     "result": "11.65",
@@ -7095,7 +7106,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 644,
+    "rank": 645,
     "name": "Shun-Yu Yu (游舜宇)",
     "gender": "男",
     "result": "11.65",
@@ -7106,7 +7117,7 @@
     "city": "台湾"
   },
   {
-    "rank": 647,
+    "rank": 648,
     "name": "Li Yifei (李逸飞)",
     "gender": "男",
     "result": "11.67",
@@ -7117,7 +7128,7 @@
     "city": ""
   },
   {
-    "rank": 648,
+    "rank": 649,
     "name": "Yimin Lü (吕怡敏)",
     "gender": "女",
     "result": "11.68",
@@ -7128,7 +7139,7 @@
     "city": "漳州"
   },
   {
-    "rank": 648,
+    "rank": 649,
     "name": "Tiantai Yang (杨天泰)",
     "gender": "男",
     "result": "11.68",
@@ -7139,7 +7150,7 @@
     "city": "石家庄"
   },
   {
-    "rank": 648,
+    "rank": 649,
     "name": "Hao Liang (梁昊)",
     "gender": "男",
     "result": "11.68",
@@ -7150,7 +7161,7 @@
     "city": "厦门"
   },
   {
-    "rank": 651,
+    "rank": 652,
     "name": "Lianghai Sui (眭亮海)",
     "gender": "男",
     "result": "11.69",
@@ -7161,7 +7172,7 @@
     "city": "吉安"
   },
   {
-    "rank": 652,
+    "rank": 653,
     "name": "Yiyun Chen (陈毅昀)",
     "gender": "男",
     "result": "11.71",
@@ -7172,7 +7183,7 @@
     "city": "广州"
   },
   {
-    "rank": 653,
+    "rank": 654,
     "name": "Yuhao Zhao (赵宇灏)",
     "gender": "男",
     "result": "11.72",
@@ -7183,7 +7194,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 654,
+    "rank": 655,
     "name": "Bo-Yan Wu (吳柏彥)",
     "gender": "男",
     "result": "11.73",
@@ -7194,7 +7205,7 @@
     "city": "台湾"
   },
   {
-    "rank": 655,
+    "rank": 656,
     "name": "Mingyu Wang (汪明煜)",
     "gender": "男",
     "result": "11.74",
@@ -7205,7 +7216,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 656,
+    "rank": 657,
     "name": "Canxing Gao",
     "gender": "男",
     "result": "11.75",
@@ -7216,7 +7227,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 657,
+    "rank": 658,
     "name": "Ren-Fu Wang (王仁甫)",
     "gender": "男",
     "result": "11.76",
@@ -7227,7 +7238,7 @@
     "city": "台湾"
   },
   {
-    "rank": 658,
+    "rank": 659,
     "name": "Yun-Kai Yeh (葉昀愷)",
     "gender": "男",
     "result": "11.78",
@@ -7238,7 +7249,7 @@
     "city": "台湾"
   },
   {
-    "rank": 658,
+    "rank": 659,
     "name": "Hongyu Zhu (朱泓宇)",
     "gender": "男",
     "result": "11.78",
@@ -7249,7 +7260,7 @@
     "city": "西双版纳"
   },
   {
-    "rank": 660,
+    "rank": 661,
     "name": "Zhenghao Wu (吴峥浩)",
     "gender": "男",
     "result": "11.79",
@@ -7260,7 +7271,7 @@
     "city": "泰州"
   },
   {
-    "rank": 661,
+    "rank": 662,
     "name": "Zhenyi Xu (徐珍怡)",
     "gender": "女",
     "result": "11.82",
@@ -7271,7 +7282,7 @@
     "city": "上海"
   },
   {
-    "rank": 662,
+    "rank": 663,
     "name": "Wenzhuo Ji (季文卓)",
     "gender": "男",
     "result": "11.83",
@@ -7282,7 +7293,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 663,
+    "rank": 664,
     "name": "Lei Wang (汪磊)",
     "gender": "男",
     "result": "11.84",
@@ -7293,7 +7304,7 @@
     "city": "马鞍山"
   },
   {
-    "rank": 663,
+    "rank": 664,
     "name": "Mingshi Zheng (郑铭师)",
     "gender": "男",
     "result": "11.84",
@@ -7304,7 +7315,7 @@
     "city": "揭阳"
   },
   {
-    "rank": 663,
+    "rank": 664,
     "name": "Tzi-Yu Ho (何子譽)",
     "gender": "男",
     "result": "11.84",
@@ -7315,7 +7326,7 @@
     "city": "台湾"
   },
   {
-    "rank": 666,
+    "rank": 667,
     "name": "Chi-Chien Kao (高齊謙)",
     "gender": "男",
     "result": "11.85",
@@ -7326,7 +7337,7 @@
     "city": "台湾"
   },
   {
-    "rank": 667,
+    "rank": 668,
     "name": "Ruei-Ying Huang (黃睿穎)",
     "gender": "男",
     "result": "11.87",
@@ -7337,7 +7348,7 @@
     "city": "台湾"
   },
   {
-    "rank": 668,
+    "rank": 669,
     "name": "Mufan Long (龙沐凡)",
     "gender": "女",
     "result": "11.88",
@@ -7348,7 +7359,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 668,
+    "rank": 669,
     "name": "Le Dai (代乐)",
     "gender": "男",
     "result": "11.88",
@@ -7359,7 +7370,7 @@
     "city": "昆明"
   },
   {
-    "rank": 670,
+    "rank": 671,
     "name": "Zhiyuan Zhang (张智渊)",
     "gender": "男",
     "result": "11.89",
@@ -7370,7 +7381,7 @@
     "city": "淄博"
   },
   {
-    "rank": 670,
+    "rank": 671,
     "name": "Jia Song (宋佳)",
     "gender": "女",
     "result": "11.89",
@@ -7381,7 +7392,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 672,
+    "rank": 673,
     "name": "Ruoshui Zhang (张若水)",
     "gender": "男",
     "result": "11.91",
@@ -7392,7 +7403,7 @@
     "city": "济宁"
   },
   {
-    "rank": 673,
+    "rank": 674,
     "name": "Jinhao Zheng (郑金昊)",
     "gender": "男",
     "result": "11.92",
@@ -7403,7 +7414,7 @@
     "city": "南京"
   },
   {
-    "rank": 674,
+    "rank": 675,
     "name": "Meng Yuan (袁梦)",
     "gender": "男",
     "result": "11.94",
@@ -7414,7 +7425,7 @@
     "city": "徐州"
   },
   {
-    "rank": 674,
+    "rank": 675,
     "name": "Chengzi Huang (黄橙子)",
     "gender": "女",
     "result": "11.94",
@@ -7425,7 +7436,7 @@
     "city": "揭阳"
   },
   {
-    "rank": 676,
+    "rank": 677,
     "name": "Weijie Fang (方伟杰)",
     "gender": "男",
     "result": "11.95",
@@ -7436,7 +7447,7 @@
     "city": "潮州"
   },
   {
-    "rank": 677,
+    "rank": 678,
     "name": "Yi-Hsun Lai (賴奕勳)",
     "gender": "男",
     "result": "11.96",
@@ -7447,7 +7458,7 @@
     "city": "台湾"
   },
   {
-    "rank": 678,
+    "rank": 679,
     "name": "Zhe Wang (汪哲)",
     "gender": "男",
     "result": "11.98",
@@ -7458,7 +7469,7 @@
     "city": "杭州"
   },
   {
-    "rank": 678,
+    "rank": 679,
     "name": "Sheng-Jie Yang (楊勝絜)",
     "gender": "男",
     "result": "11.98",
@@ -7469,7 +7480,7 @@
     "city": "台湾"
   },
   {
-    "rank": 680,
+    "rank": 681,
     "name": "Yi Ren (任逸)",
     "gender": "男",
     "result": "11.99",
@@ -7480,7 +7491,7 @@
     "city": "北京"
   },
   {
-    "rank": 681,
+    "rank": 682,
     "name": "Xinnan Ye (叶新楠)",
     "gender": "女",
     "result": "12.00",
@@ -7491,7 +7502,7 @@
     "city": "广州"
   },
   {
-    "rank": 682,
+    "rank": 683,
     "name": "Jiyi Wang (王吉怡)",
     "gender": "女",
     "result": "12.02",
@@ -7502,7 +7513,7 @@
     "city": "无锡"
   },
   {
-    "rank": 682,
+    "rank": 683,
     "name": "Yutong Yan (严裕彤)",
     "gender": "男",
     "result": "12.02",
@@ -7513,7 +7524,7 @@
     "city": "上海"
   },
   {
-    "rank": 682,
+    "rank": 683,
     "name": "Jun-Kai Qin (秦俊凱)",
     "gender": "男",
     "result": "12.02",
@@ -7524,7 +7535,7 @@
     "city": "台湾"
   },
   {
-    "rank": 685,
+    "rank": 686,
     "name": "Shilan Wang (王石蓝)",
     "gender": "男",
     "result": "12.03",
@@ -7535,7 +7546,7 @@
     "city": "深圳"
   },
   {
-    "rank": 685,
+    "rank": 686,
     "name": "Leanne Yeung",
     "gender": "女",
     "result": "12.03",
@@ -7546,7 +7557,7 @@
     "city": "香港"
   },
   {
-    "rank": 687,
+    "rank": 688,
     "name": "Han Dong (董晗)",
     "gender": "男",
     "result": "12.04",
@@ -7557,7 +7568,7 @@
     "city": "上海"
   },
   {
-    "rank": 687,
+    "rank": 688,
     "name": "Yuxuan Wang (王语萱)",
     "gender": "女",
     "result": "12.04",
@@ -7568,7 +7579,7 @@
     "city": "苏州"
   },
   {
-    "rank": 689,
+    "rank": 690,
     "name": "Ng Tsz Hei (吳紫熙)",
     "gender": "男",
     "result": "12.06",
@@ -7579,7 +7590,7 @@
     "city": "香港"
   },
   {
-    "rank": 690,
+    "rank": 691,
     "name": "Yi-Fan Wu (吳亦凡)",
     "gender": "男",
     "result": "12.07",
@@ -7590,7 +7601,7 @@
     "city": "台湾"
   },
   {
-    "rank": 690,
+    "rank": 691,
     "name": "Yuhao Lin (林宇浩)",
     "gender": "男",
     "result": "12.07",
@@ -7601,7 +7612,7 @@
     "city": "中山"
   },
   {
-    "rank": 690,
+    "rank": 691,
     "name": "Yuanyuan Gao (高原园)",
     "gender": "男",
     "result": "12.07",
@@ -7612,7 +7623,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 693,
+    "rank": 694,
     "name": "Xiaowen He (何晓文)",
     "gender": "男",
     "result": "12.08",
@@ -7623,7 +7634,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 694,
+    "rank": 695,
     "name": "Yichen Wang (王奕辰)",
     "gender": "男",
     "result": "12.09",
@@ -7634,7 +7645,7 @@
     "city": "舟山"
   },
   {
-    "rank": 695,
+    "rank": 696,
     "name": "Ziling Wu (吴子菱)",
     "gender": "女",
     "result": "12.10",
@@ -7645,7 +7656,7 @@
     "city": "广州"
   },
   {
-    "rank": 695,
+    "rank": 696,
     "name": "Chen Kang (亢晨)",
     "gender": "男",
     "result": "12.10",
@@ -7656,7 +7667,7 @@
     "city": "西宁"
   },
   {
-    "rank": 695,
+    "rank": 696,
     "name": "Shitao Niu (牛世涛)",
     "gender": "女",
     "result": "12.10",
@@ -7667,7 +7678,7 @@
     "city": "西安"
   },
   {
-    "rank": 698,
+    "rank": 699,
     "name": "Baian Liu",
     "gender": "男",
     "result": "12.11",
@@ -7678,7 +7689,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 698,
+    "rank": 699,
     "name": "Yuhang Chen (陈宇航)",
     "gender": "男",
     "result": "12.11",
@@ -7689,7 +7700,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 700,
+    "rank": 701,
     "name": "Junming Liao (廖均铭)",
     "gender": "男",
     "result": "12.13",
@@ -7700,7 +7711,7 @@
     "city": "广州"
   },
   {
-    "rank": 701,
+    "rank": 702,
     "name": "Fengyan Zhang (张枫岩)",
     "gender": "男",
     "result": "12.15",
@@ -7711,7 +7722,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 701,
+    "rank": 702,
     "name": "Hira Adhikari",
     "gender": "女",
     "result": "12.15",
@@ -7722,7 +7733,7 @@
     "city": "香港"
   },
   {
-    "rank": 701,
+    "rank": 702,
     "name": "Min Wu (吴民)",
     "gender": "男",
     "result": "12.15",
@@ -7733,7 +7744,7 @@
     "city": "北京"
   },
   {
-    "rank": 704,
+    "rank": 705,
     "name": "Yu Feng (冯煜)",
     "gender": "男",
     "result": "12.16",
@@ -7744,7 +7755,7 @@
     "city": "廊坊"
   },
   {
-    "rank": 705,
+    "rank": 706,
     "name": "Zejia Guo (郭泽嘉)",
     "gender": "男",
     "result": "12.17",
@@ -7755,7 +7766,7 @@
     "city": "汕尾"
   },
   {
-    "rank": 706,
+    "rank": 707,
     "name": "I-Hsun Li (李奕勳)",
     "gender": "男",
     "result": "12.19",
@@ -7766,7 +7777,7 @@
     "city": "台湾"
   },
   {
-    "rank": 707,
+    "rank": 708,
     "name": "Hongfei Tian (田洪飞)",
     "gender": "男",
     "result": "12.20",
@@ -7777,7 +7788,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 708,
+    "rank": 709,
     "name": "Jinxu Li (李锦煦)",
     "gender": "男",
     "result": "12.21",
@@ -7788,7 +7799,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 709,
+    "rank": 710,
     "name": "Hangshi Li (李航泽)",
     "gender": "男",
     "result": "12.23",
@@ -7799,7 +7810,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 710,
+    "rank": 711,
     "name": "Yiyang Chen (陈熠扬)",
     "gender": "男",
     "result": "12.24",
@@ -7810,7 +7821,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 710,
+    "rank": 711,
     "name": "Zhaoyi Wang (王兆仪)",
     "gender": "男",
     "result": "12.24",
@@ -7821,7 +7832,7 @@
     "city": "鄂尔多斯"
   },
   {
-    "rank": 712,
+    "rank": 713,
     "name": "Jiechun Lin (林洁纯)",
     "gender": "女",
     "result": "12.27",
@@ -7832,7 +7843,7 @@
     "city": "广州"
   },
   {
-    "rank": 713,
+    "rank": 714,
     "name": "Yaying Su (苏雅颖)",
     "gender": "女",
     "result": "12.28",
@@ -7843,18 +7854,18 @@
     "city": "广州"
   },
   {
-    "rank": 713,
+    "rank": 714,
     "name": "Zongpu Qiao (乔宗璞)",
     "gender": "男",
     "result": "12.28",
     "competition": "Beijing Spring Open 2026",
     "wcaid": "2025QIAO09",
     "date": "2026-03-28",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "河南",
+    "city": "平顶山"
   },
   {
-    "rank": 715,
+    "rank": 716,
     "name": "Tse Yuet Ming (謝乙銘)",
     "gender": "男",
     "result": "12.29",
@@ -7865,7 +7876,7 @@
     "city": "香港"
   },
   {
-    "rank": 715,
+    "rank": 716,
     "name": "Jiaxiang Wang (王家祥)",
     "gender": "男",
     "result": "12.29",
@@ -7876,7 +7887,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 717,
+    "rank": 718,
     "name": "Haoran He (何浩然)",
     "gender": "男",
     "result": "12.30",
@@ -7887,7 +7898,7 @@
     "city": "大庆"
   },
   {
-    "rank": 718,
+    "rank": 719,
     "name": "Yuanzhao Kang (康远昭)",
     "gender": "男",
     "result": "12.31",
@@ -7898,7 +7909,7 @@
     "city": "北京"
   },
   {
-    "rank": 718,
+    "rank": 719,
     "name": "Wenshuo Wang (王文烁)",
     "gender": "男",
     "result": "12.31",
@@ -7909,7 +7920,7 @@
     "city": "承德"
   },
   {
-    "rank": 720,
+    "rank": 721,
     "name": "Hongyu Qian (钱泓宇)",
     "gender": "男",
     "result": "12.32",
@@ -7920,7 +7931,7 @@
     "city": "嘉兴"
   },
   {
-    "rank": 720,
+    "rank": 721,
     "name": "Zongze Li (李宗泽)",
     "gender": "男",
     "result": "12.32",
@@ -7931,7 +7942,7 @@
     "city": "西安"
   },
   {
-    "rank": 722,
+    "rank": 723,
     "name": "Jiawei Wu (伍嘉维)",
     "gender": "男",
     "result": "12.33",
@@ -7942,7 +7953,7 @@
     "city": "江门"
   },
   {
-    "rank": 722,
+    "rank": 723,
     "name": "Tianze Xu (徐天泽)",
     "gender": "男",
     "result": "12.33",
@@ -7953,7 +7964,7 @@
     "city": "广州"
   },
   {
-    "rank": 722,
+    "rank": 723,
     "name": "Yazhu Guo (郭雅竹)",
     "gender": "女",
     "result": "12.33",
@@ -7964,7 +7975,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 725,
+    "rank": 726,
     "name": "Fangxu Yu (余方续)",
     "gender": "男",
     "result": "12.35",
@@ -7975,7 +7986,7 @@
     "city": "西安"
   },
   {
-    "rank": 725,
+    "rank": 726,
     "name": "Hailun Hou (侯海论)",
     "gender": "男",
     "result": "12.35",
@@ -7986,7 +7997,7 @@
     "city": "珠海"
   },
   {
-    "rank": 727,
+    "rank": 728,
     "name": "Yixiang Gao (高翊翔)",
     "gender": "男",
     "result": "12.36",
@@ -7997,7 +8008,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 728,
+    "rank": 729,
     "name": "Yichang Chen (陈益昌)",
     "gender": "男",
     "result": "12.37",
@@ -8008,7 +8019,7 @@
     "city": "龙岩"
   },
   {
-    "rank": 729,
+    "rank": 730,
     "name": "Yuqi Wang (王钰琪)",
     "gender": "女",
     "result": "12.38",
@@ -8019,7 +8030,7 @@
     "city": "汕头"
   },
   {
-    "rank": 730,
+    "rank": 731,
     "name": "Yufei Hu (胡雨菲)",
     "gender": "女",
     "result": "12.39",
@@ -8030,7 +8041,7 @@
     "city": "武汉"
   },
   {
-    "rank": 731,
+    "rank": 732,
     "name": "Yexin Cai (蔡烨欣)",
     "gender": "女",
     "result": "12.40",
@@ -8041,7 +8052,7 @@
     "city": "汕头"
   },
   {
-    "rank": 732,
+    "rank": 733,
     "name": "Xince Sun (孙新策)",
     "gender": "男",
     "result": "12.41",
@@ -8052,7 +8063,7 @@
     "city": "辽源"
   },
   {
-    "rank": 733,
+    "rank": 734,
     "name": "Jeff Miao",
     "gender": "男",
     "result": "12.42",
@@ -8063,7 +8074,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 734,
+    "rank": 735,
     "name": "Jun Cao (曹骏)",
     "gender": "男",
     "result": "12.43",
@@ -8074,7 +8085,7 @@
     "city": "成都"
   },
   {
-    "rank": 735,
+    "rank": 736,
     "name": "Yu-Chin Lee (李侑縉)",
     "gender": "男",
     "result": "12.44",
@@ -8085,7 +8096,7 @@
     "city": "台湾"
   },
   {
-    "rank": 736,
+    "rank": 737,
     "name": "Yicheng Bao (包亦成)",
     "gender": "男",
     "result": "12.45",
@@ -8096,7 +8107,7 @@
     "city": "上海"
   },
   {
-    "rank": 736,
+    "rank": 737,
     "name": "Yu-Chi Hou (侯宥圻)",
     "gender": "男",
     "result": "12.45",
@@ -8107,7 +8118,7 @@
     "city": "台湾"
   },
   {
-    "rank": 736,
+    "rank": 737,
     "name": "Wenjie Li (李文杰)",
     "gender": "男",
     "result": "12.45",
@@ -8118,7 +8129,7 @@
     "city": "茂名"
   },
   {
-    "rank": 736,
+    "rank": 737,
     "name": "Enting Xiong (熊恩霆)",
     "gender": "男",
     "result": "12.45",
@@ -8129,7 +8140,7 @@
     "city": "深圳"
   },
   {
-    "rank": 736,
+    "rank": 737,
     "name": "Qiuchi Sang (桑秋驰)",
     "gender": "男",
     "result": "12.45",
@@ -8140,7 +8151,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 741,
+    "rank": 742,
     "name": "Han Wu (吳翰)",
     "gender": "男",
     "result": "12.49",
@@ -8151,7 +8162,7 @@
     "city": "台湾"
   },
   {
-    "rank": 742,
+    "rank": 743,
     "name": "Yu-Chia Chang (張祐嘉)",
     "gender": "男",
     "result": "12.50",
@@ -8162,7 +8173,7 @@
     "city": "台湾"
   },
   {
-    "rank": 743,
+    "rank": 744,
     "name": "Han Chu (储菡)",
     "gender": "女",
     "result": "12.51",
@@ -8173,7 +8184,7 @@
     "city": "苏州"
   },
   {
-    "rank": 744,
+    "rank": 745,
     "name": "Yan Xia (夏焱)",
     "gender": "男",
     "result": "12.52",
@@ -8184,7 +8195,7 @@
     "city": "西安"
   },
   {
-    "rank": 745,
+    "rank": 746,
     "name": "Jun Fei (费俊)",
     "gender": "男",
     "result": "12.53",
@@ -8195,7 +8206,7 @@
     "city": "南通"
   },
   {
-    "rank": 745,
+    "rank": 746,
     "name": "Lam Yu Ching (林雨晴)",
     "gender": "女",
     "result": "12.53",
@@ -8206,7 +8217,7 @@
     "city": "香港"
   },
   {
-    "rank": 747,
+    "rank": 748,
     "name": "Chen-Ze Wang (王臣擇)",
     "gender": "男",
     "result": "12.55",
@@ -8217,7 +8228,7 @@
     "city": "台湾"
   },
   {
-    "rank": 748,
+    "rank": 749,
     "name": "Jintao Li (李进滔)",
     "gender": "男",
     "result": "12.59",
@@ -8228,7 +8239,7 @@
     "city": "广州"
   },
   {
-    "rank": 748,
+    "rank": 749,
     "name": "Yaohua Li (李垚桦)",
     "gender": "男",
     "result": "12.59",
@@ -8239,7 +8250,7 @@
     "city": "成都"
   },
   {
-    "rank": 750,
+    "rank": 751,
     "name": "Junjie Wang (王俊杰)",
     "gender": "男",
     "result": "12.60",
@@ -8250,7 +8261,7 @@
     "city": "合肥"
   },
   {
-    "rank": 750,
+    "rank": 751,
     "name": "Hao Yin (殷浩)",
     "gender": "男",
     "result": "12.60",
@@ -8261,7 +8272,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 752,
+    "rank": 753,
     "name": "Tang-Kai Huang (黃堂愷)",
     "gender": "男",
     "result": "12.61",
@@ -8272,7 +8283,7 @@
     "city": "台湾"
   },
   {
-    "rank": 752,
+    "rank": 753,
     "name": "Yaochao Wang (王垚超)",
     "gender": "男",
     "result": "12.61",
@@ -8283,7 +8294,7 @@
     "city": "威海"
   },
   {
-    "rank": 754,
+    "rank": 755,
     "name": "Jingyu Huang (黄靖宇)",
     "gender": "男",
     "result": "12.62",
@@ -8294,7 +8305,7 @@
     "city": "襄阳"
   },
   {
-    "rank": 754,
+    "rank": 755,
     "name": "Zi-Jun Zheng (鄭子駿)",
     "gender": "男",
     "result": "12.62",
@@ -8305,7 +8316,7 @@
     "city": "台湾"
   },
   {
-    "rank": 756,
+    "rank": 757,
     "name": "Wen-Ching Hsu (徐文清)",
     "gender": "男",
     "result": "12.63",
@@ -8316,7 +8327,7 @@
     "city": "台湾"
   },
   {
-    "rank": 756,
+    "rank": 757,
     "name": "Mingzhi Da (达明志)",
     "gender": "男",
     "result": "12.63",
@@ -8327,7 +8338,7 @@
     "city": "南京"
   },
   {
-    "rank": 756,
+    "rank": 757,
     "name": "Hansi Wang (王翰思)",
     "gender": "男",
     "result": "12.63",
@@ -8338,7 +8349,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 759,
+    "rank": 760,
     "name": "Yi-Ho Hsueh (薛以和)",
     "gender": "男",
     "result": "12.64",
@@ -8349,7 +8360,7 @@
     "city": "台湾"
   },
   {
-    "rank": 760,
+    "rank": 761,
     "name": "Yi-Chun Chen (陳奕均)",
     "gender": "男",
     "result": "12.65",
@@ -8360,7 +8371,7 @@
     "city": "台湾"
   },
   {
-    "rank": 760,
+    "rank": 761,
     "name": "Bo-Yi Liu (劉柏沂)",
     "gender": "男",
     "result": "12.65",
@@ -8371,7 +8382,7 @@
     "city": "台湾"
   },
   {
-    "rank": 762,
+    "rank": 763,
     "name": "Andy Wu",
     "gender": "男",
     "result": "12.66",
@@ -8382,7 +8393,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 763,
+    "rank": 764,
     "name": "Zhen Yuan (袁桢)",
     "gender": "男",
     "result": "12.68",
@@ -8393,7 +8404,7 @@
     "city": "杭州"
   },
   {
-    "rank": 764,
+    "rank": 765,
     "name": "Jinyi Deng (邓晋一)",
     "gender": "男",
     "result": "12.69",
@@ -8404,7 +8415,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 764,
+    "rank": 765,
     "name": "Yichi Shan (单意驰)",
     "gender": "男",
     "result": "12.69",
@@ -8415,7 +8426,7 @@
     "city": "商丘"
   },
   {
-    "rank": 764,
+    "rank": 765,
     "name": "Jihan Wu",
     "gender": "男",
     "result": "12.69",
@@ -8426,7 +8437,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 767,
+    "rank": 768,
     "name": "Jiawen Wu (吴嘉文)",
     "gender": "男",
     "result": "12.70",
@@ -8437,7 +8448,7 @@
     "city": "上海"
   },
   {
-    "rank": 767,
+    "rank": 768,
     "name": "Ziren Wang (王梓任)",
     "gender": "男",
     "result": "12.70",
@@ -8448,7 +8459,7 @@
     "city": "长春"
   },
   {
-    "rank": 767,
+    "rank": 768,
     "name": "Yuxiang Wang (王宇翔)",
     "gender": "男",
     "result": "12.70",
@@ -8459,7 +8470,7 @@
     "city": "合肥"
   },
   {
-    "rank": 770,
+    "rank": 771,
     "name": "Chi-Lun Hung (洪啟倫)",
     "gender": "男",
     "result": "12.71",
@@ -8470,7 +8481,7 @@
     "city": "台湾"
   },
   {
-    "rank": 770,
+    "rank": 771,
     "name": "Jeffers Chan",
     "gender": "男",
     "result": "12.71",
@@ -8481,7 +8492,7 @@
     "city": "香港"
   },
   {
-    "rank": 772,
+    "rank": 773,
     "name": "Rui-Jun Liu (劉睿鈞)",
     "gender": "男",
     "result": "12.72",
@@ -8492,7 +8503,7 @@
     "city": "台湾"
   },
   {
-    "rank": 772,
+    "rank": 773,
     "name": "Chaorui Su (宿晁瑞)",
     "gender": "男",
     "result": "12.72",
@@ -8503,7 +8514,7 @@
     "city": "天津"
   },
   {
-    "rank": 772,
+    "rank": 773,
     "name": "Bo Tang (唐搏)",
     "gender": "男",
     "result": "12.72",
@@ -8514,7 +8525,7 @@
     "city": "重庆"
   },
   {
-    "rank": 775,
+    "rank": 776,
     "name": "Boqin Zhao (赵博钦)",
     "gender": "男",
     "result": "12.73",
@@ -8525,7 +8536,7 @@
     "city": "北京"
   },
   {
-    "rank": 776,
+    "rank": 777,
     "name": "Ruimin Yan (颜瑞民)",
     "gender": "男",
     "result": "12.74",
@@ -8536,7 +8547,7 @@
     "city": "北京"
   },
   {
-    "rank": 776,
+    "rank": 777,
     "name": "Deying Ou (欧德颖)",
     "gender": "男",
     "result": "12.74",
@@ -8547,7 +8558,7 @@
     "city": "湛江"
   },
   {
-    "rank": 778,
+    "rank": 779,
     "name": "Yuchen Huang (黄禹尘)",
     "gender": "男",
     "result": "12.76",
@@ -8558,7 +8569,7 @@
     "city": "厦门"
   },
   {
-    "rank": 778,
+    "rank": 779,
     "name": "Yung-Chun Tsai (蔡詠竣)",
     "gender": "男",
     "result": "12.76",
@@ -8569,7 +8580,7 @@
     "city": "台湾"
   },
   {
-    "rank": 780,
+    "rank": 781,
     "name": "Chuanxu Yan (严传旭)",
     "gender": "男",
     "result": "12.78",
@@ -8580,7 +8591,7 @@
     "city": "大连"
   },
   {
-    "rank": 780,
+    "rank": 781,
     "name": "Hung-Cheng Chang (張鴻承)",
     "gender": "男",
     "result": "12.78",
@@ -8591,7 +8602,7 @@
     "city": "台湾"
   },
   {
-    "rank": 782,
+    "rank": 783,
     "name": "Chunyu Zhang (张春雨)",
     "gender": "男",
     "result": "12.79",
@@ -8602,7 +8613,7 @@
     "city": "合肥"
   },
   {
-    "rank": 782,
+    "rank": 783,
     "name": "Xiwen Ruan (阮熙文)",
     "gender": "男",
     "result": "12.79",
@@ -8613,7 +8624,7 @@
     "city": "邵阳"
   },
   {
-    "rank": 784,
+    "rank": 785,
     "name": "Fan Ye (叶凡)",
     "gender": "男",
     "result": "12.80",
@@ -8624,7 +8635,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 785,
+    "rank": 786,
     "name": "Jiaxiang Feng (冯嘉翔)",
     "gender": "男",
     "result": "12.82",
@@ -8635,7 +8646,7 @@
     "city": "哈尔滨"
   },
   {
-    "rank": 786,
+    "rank": 787,
     "name": "Cheng-Hsuan Liu (劉承軒)",
     "gender": "男",
     "result": "12.83",
@@ -8646,7 +8657,7 @@
     "city": "台湾"
   },
   {
-    "rank": 787,
+    "rank": 788,
     "name": "Xinhao Yang (杨心昊)",
     "gender": "男",
     "result": "12.84",
@@ -8657,7 +8668,7 @@
     "city": "苏州"
   },
   {
-    "rank": 787,
+    "rank": 788,
     "name": "Xuanwei Liang (梁轩玮)",
     "gender": "男",
     "result": "12.84",
@@ -8668,7 +8679,7 @@
     "city": "台州"
   },
   {
-    "rank": 789,
+    "rank": 790,
     "name": "Yiyang Ma (马熠阳)",
     "gender": "男",
     "result": "12.85",
@@ -8679,7 +8690,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 789,
+    "rank": 790,
     "name": "Lam Seon Zi (林信知)",
     "gender": "男",
     "result": "12.85",
@@ -8690,7 +8701,7 @@
     "city": "香港"
   },
   {
-    "rank": 791,
+    "rank": 792,
     "name": "Jichen Zha (查吉辰)",
     "gender": "男",
     "result": "12.86",
@@ -8701,7 +8712,7 @@
     "city": "常州"
   },
   {
-    "rank": 791,
+    "rank": 792,
     "name": "Yu Zhou (周煜)",
     "gender": "男",
     "result": "12.86",
@@ -8712,7 +8723,7 @@
     "city": "嘉兴"
   },
   {
-    "rank": 791,
+    "rank": 792,
     "name": "Xu Sun (孙旭)",
     "gender": "女",
     "result": "12.86",
@@ -8723,7 +8734,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 791,
+    "rank": 792,
     "name": "Chen-Yuan Chu (朱鎮原)",
     "gender": "男",
     "result": "12.86",
@@ -8734,7 +8745,7 @@
     "city": "台湾"
   },
   {
-    "rank": 791,
+    "rank": 792,
     "name": "Xuyi Wang (汪绪奕)",
     "gender": "男",
     "result": "12.86",
@@ -8745,7 +8756,7 @@
     "city": "上海"
   },
   {
-    "rank": 796,
+    "rank": 797,
     "name": "Yunzhou Zhu (朱云舟)",
     "gender": "男",
     "result": "12.87",
@@ -8756,7 +8767,7 @@
     "city": "太原"
   },
   {
-    "rank": 796,
+    "rank": 797,
     "name": "Hsiang-Cheng Kan (闞祥誠)",
     "gender": "男",
     "result": "12.87",
@@ -8767,7 +8778,7 @@
     "city": "台湾"
   },
   {
-    "rank": 796,
+    "rank": 797,
     "name": "Law Yi Chun (羅以臻)",
     "gender": "男",
     "result": "12.87",
@@ -8778,7 +8789,7 @@
     "city": "香港"
   },
   {
-    "rank": 799,
+    "rank": 800,
     "name": "Yiming Liu (刘一鸣)",
     "gender": "男",
     "result": "12.88",
@@ -8789,7 +8800,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 799,
+    "rank": 800,
     "name": "Xiaoyi Lin (林小懿)",
     "gender": "女",
     "result": "12.88",
@@ -8800,7 +8811,7 @@
     "city": "深圳"
   },
   {
-    "rank": 801,
+    "rank": 802,
     "name": "Zheng Chen (陈政)",
     "gender": "男",
     "result": "12.91",
@@ -8811,7 +8822,7 @@
     "city": "盐城"
   },
   {
-    "rank": 802,
+    "rank": 803,
     "name": "Qing Zhao (赵庆)",
     "gender": "男",
     "result": "12.93",
@@ -8822,7 +8833,7 @@
     "city": "商洛"
   },
   {
-    "rank": 803,
+    "rank": 804,
     "name": "Qi Mi (米琦)",
     "gender": "男",
     "result": "12.94",
@@ -8833,7 +8844,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 803,
+    "rank": 804,
     "name": "Taiyu Wan (万泰宇)",
     "gender": "男",
     "result": "12.94",
@@ -8844,7 +8855,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 803,
+    "rank": 804,
     "name": "Yangming Wang (王扬铭)",
     "gender": "男",
     "result": "12.94",
@@ -8855,7 +8866,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 806,
+    "rank": 807,
     "name": "Ding-Hong Ke (柯定紘)",
     "gender": "男",
     "result": "12.95",
@@ -8866,7 +8877,7 @@
     "city": "台湾"
   },
   {
-    "rank": 807,
+    "rank": 808,
     "name": "Yifan Liu (刘一帆)",
     "gender": "男",
     "result": "12.97",
@@ -8877,7 +8888,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 808,
+    "rank": 809,
     "name": "Shih-Hao Wang (王士豪)",
     "gender": "男",
     "result": "12.99",
@@ -8888,7 +8899,7 @@
     "city": "台湾"
   },
   {
-    "rank": 809,
+    "rank": 810,
     "name": "Chongshun Li (李崇顺)",
     "gender": "男",
     "result": "13.00",
@@ -8899,7 +8910,7 @@
     "city": "杭州"
   },
   {
-    "rank": 809,
+    "rank": 810,
     "name": "Wentian Xin (辛文天)",
     "gender": "男",
     "result": "13.00",
@@ -8910,7 +8921,7 @@
     "city": "北京"
   },
   {
-    "rank": 809,
+    "rank": 810,
     "name": "Ziyi Chen (陈子怡)",
     "gender": "女",
     "result": "13.00",
@@ -8921,7 +8932,7 @@
     "city": "武汉"
   },
   {
-    "rank": 809,
+    "rank": 810,
     "name": "Xuanheng Yan (颜暄衡)",
     "gender": "男",
     "result": "13.00",
@@ -8932,7 +8943,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 813,
+    "rank": 814,
     "name": "Chenghao Guo (国成浩)",
     "gender": "男",
     "result": "13.01",
@@ -8943,7 +8954,7 @@
     "city": "淄博"
   },
   {
-    "rank": 813,
+    "rank": 814,
     "name": "Jingyang Zhu (朱景炀)",
     "gender": "男",
     "result": "13.01",
@@ -8954,7 +8965,7 @@
     "city": "武汉"
   },
   {
-    "rank": 813,
+    "rank": 814,
     "name": "Dong Shen (沈冬)",
     "gender": "男",
     "result": "13.01",
@@ -8965,7 +8976,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 816,
+    "rank": 817,
     "name": "Cheng-Xuan Jiang (江程軒)",
     "gender": "男",
     "result": "13.03",
@@ -8976,7 +8987,7 @@
     "city": "台湾"
   },
   {
-    "rank": 817,
+    "rank": 818,
     "name": "Qiaowei Hong (洪翘伟)",
     "gender": "男",
     "result": "13.05",
@@ -8987,7 +8998,7 @@
     "city": "深圳"
   },
   {
-    "rank": 817,
+    "rank": 818,
     "name": "Zhizhe Li (李知哲)",
     "gender": "男",
     "result": "13.05",
@@ -8998,7 +9009,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 819,
+    "rank": 820,
     "name": "Xun Zhao (赵洵)",
     "gender": "男",
     "result": "13.06",
@@ -9009,7 +9020,7 @@
     "city": "成都"
   },
   {
-    "rank": 820,
+    "rank": 821,
     "name": "Siming Li (李斯铭)",
     "gender": "男",
     "result": "13.07",
@@ -9020,7 +9031,7 @@
     "city": "广州"
   },
   {
-    "rank": 820,
+    "rank": 821,
     "name": "Yuanxing Gao (高元兴)",
     "gender": "男",
     "result": "13.07",
@@ -9031,7 +9042,7 @@
     "city": "潍坊"
   },
   {
-    "rank": 822,
+    "rank": 823,
     "name": "Hailun Su (苏海伦)",
     "gender": "女",
     "result": "13.08",
@@ -9042,7 +9053,7 @@
     "city": "汕头"
   },
   {
-    "rank": 822,
+    "rank": 823,
     "name": "Jin Tian (田金)",
     "gender": "男",
     "result": "13.08",
@@ -9053,7 +9064,7 @@
     "city": "宜宾"
   },
   {
-    "rank": 824,
+    "rank": 825,
     "name": "Yiren Lu (陆弈人)",
     "gender": "男",
     "result": "13.09",
@@ -9064,7 +9075,7 @@
     "city": "上海"
   },
   {
-    "rank": 824,
+    "rank": 825,
     "name": "Weiyi Liu (刘为一)",
     "gender": "男",
     "result": "13.09",
@@ -9075,7 +9086,7 @@
     "city": "北京"
   },
   {
-    "rank": 826,
+    "rank": 827,
     "name": "Mingzhe Yuan (袁明哲)",
     "gender": "男",
     "result": "13.12",
@@ -9086,7 +9097,7 @@
     "city": "天津"
   },
   {
-    "rank": 827,
+    "rank": 828,
     "name": "Haoyang Chen (陈浩杨)",
     "gender": "男",
     "result": "13.14",
@@ -9097,7 +9108,7 @@
     "city": "温州"
   },
   {
-    "rank": 827,
+    "rank": 828,
     "name": "Yuxuan Song (宋宇轩)",
     "gender": "男",
     "result": "13.14",
@@ -9108,7 +9119,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 829,
+    "rank": 830,
     "name": "Yongbin Zhao (赵勇镔)",
     "gender": "男",
     "result": "13.15",
@@ -9119,7 +9130,7 @@
     "city": "潍坊"
   },
   {
-    "rank": 830,
+    "rank": 831,
     "name": "Hongjie Zhang (张鸿杰)",
     "gender": "男",
     "result": "13.16",
@@ -9130,7 +9141,7 @@
     "city": "宁德"
   },
   {
-    "rank": 831,
+    "rank": 832,
     "name": "Yangbiao Liao (廖扬彪)",
     "gender": "男",
     "result": "13.17",
@@ -9141,7 +9152,7 @@
     "city": "湛江"
   },
   {
-    "rank": 832,
+    "rank": 833,
     "name": "Zhiyuan Zeng (曾志远)",
     "gender": "男",
     "result": "13.18",
@@ -9152,7 +9163,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 833,
+    "rank": 834,
     "name": "Shih-Chu Lin (林祏玖)",
     "gender": "男",
     "result": "13.19",
@@ -9163,7 +9174,7 @@
     "city": "台湾"
   },
   {
-    "rank": 833,
+    "rank": 834,
     "name": "Yanfu Feng (冯彦福)",
     "gender": "男",
     "result": "13.19",
@@ -9174,7 +9185,7 @@
     "city": "阳泉"
   },
   {
-    "rank": 835,
+    "rank": 836,
     "name": "Tam Chun Sang (譚浚生)",
     "gender": "男",
     "result": "13.22",
@@ -9185,7 +9196,7 @@
     "city": "香港"
   },
   {
-    "rank": 835,
+    "rank": 836,
     "name": "Yiran Peng (彭弈然)",
     "gender": "男",
     "result": "13.22",
@@ -9196,7 +9207,7 @@
     "city": "成都"
   },
   {
-    "rank": 837,
+    "rank": 838,
     "name": "Yiqun Fan (樊轶群)",
     "gender": "男",
     "result": "13.23",
@@ -9207,7 +9218,7 @@
     "city": "杭州"
   },
   {
-    "rank": 838,
+    "rank": 839,
     "name": "Feier Huang (黄菲儿)",
     "gender": "女",
     "result": "13.24",
@@ -9218,7 +9229,7 @@
     "city": "上海"
   },
   {
-    "rank": 838,
+    "rank": 839,
     "name": "Lan Yang (杨澜)",
     "gender": "女",
     "result": "13.24",
@@ -9229,7 +9240,7 @@
     "city": "北京"
   },
   {
-    "rank": 838,
+    "rank": 839,
     "name": "Yaxin Song (宋亚新)",
     "gender": "男",
     "result": "13.24",
@@ -9240,7 +9251,7 @@
     "city": "石河子"
   },
   {
-    "rank": 838,
+    "rank": 839,
     "name": "Junbo Liu (刘竣菠)",
     "gender": "男",
     "result": "13.24",
@@ -9251,7 +9262,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 838,
+    "rank": 839,
     "name": "Ziyi Lu (陆梓熠)",
     "gender": "女",
     "result": "13.24",
@@ -9260,17 +9271,6 @@
     "date": "2025-03-15",
     "province": "江苏",
     "city": "无锡"
-  },
-  {
-    "rank": 838,
-    "name": "Kai-Jie Wu (吳楷傑)",
-    "gender": "男",
-    "result": "13.24",
-    "competition": "Taiwan Championship 2025",
-    "wcaid": "2024WUKA02",
-    "date": "2025-12-19",
-    "province": "台湾",
-    "city": "台湾"
   },
   {
     "rank": 844,
@@ -13548,8 +13548,8 @@
     "competition": "Foshan Open 2026",
     "wcaid": "2015ZHAN72",
     "date": "2026-05-02",
-    "province": "北京",
-    "city": "北京"
+    "province": "天津",
+    "city": "天津"
   },
   {
     "rank": 1233,
@@ -15341,8 +15341,8 @@
     "competition": "Hangzhou Open 2018",
     "wcaid": "2018ZHUH05",
     "date": "2018-11-10",
-    "province": "神手谷",
-    "city": "神手谷"
+    "province": "浙江",
+    "city": "舟山"
   },
   {
     "rank": 1395,
@@ -17601,8 +17601,8 @@
   },
   {
     "rank": 1601,
-    "name": "Shengmei Zhou",
-    "gender": "女",
+    "name": "Bobby Zhou",
+    "gender": "男",
     "result": "24.27",
     "competition": "Mission Viejo Fall 2025",
     "wcaid": "2025ZHOU33",
@@ -19163,6 +19163,17 @@
   },
   {
     "rank": 1743,
+    "name": "John Lau Hing Ming (劉興民)",
+    "gender": "男",
+    "result": "32.83",
+    "competition": "Future Park Thailand Cube Battle 2026",
+    "wcaid": "2023MING12",
+    "date": "2026-05-23",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 1744,
     "name": "Jin-Han Guo (郭景翰)",
     "gender": "男",
     "result": "32.88",
@@ -19173,7 +19184,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1744,
+    "rank": 1745,
     "name": "Huan Yuan (袁欢)",
     "gender": "男",
     "result": "33.15",
@@ -19184,7 +19195,7 @@
     "city": "苏州"
   },
   {
-    "rank": 1745,
+    "rank": 1746,
     "name": "Yan Song (宋岩)",
     "gender": "男",
     "result": "33.20",
@@ -19195,7 +19206,7 @@
     "city": "西宁"
   },
   {
-    "rank": 1746,
+    "rank": 1747,
     "name": "Tao Mei (梅涛)",
     "gender": "男",
     "result": "33.34",
@@ -19206,7 +19217,7 @@
     "city": "宁波"
   },
   {
-    "rank": 1747,
+    "rank": 1748,
     "name": "Xiaowei Wang (王晓伟)",
     "gender": "男",
     "result": "33.43",
@@ -19217,7 +19228,7 @@
     "city": "濮阳"
   },
   {
-    "rank": 1748,
+    "rank": 1749,
     "name": "Peijie Huang (黄沛杰)",
     "gender": "男",
     "result": "33.96",
@@ -19228,7 +19239,7 @@
     "city": "广州"
   },
   {
-    "rank": 1749,
+    "rank": 1750,
     "name": "Haitong Wu (吴海通)",
     "gender": "男",
     "result": "34.09",
@@ -19239,7 +19250,7 @@
     "city": "保定"
   },
   {
-    "rank": 1750,
+    "rank": 1751,
     "name": "Guo-Lin Huang (黃國霖)",
     "gender": "男",
     "result": "34.11",
@@ -19250,7 +19261,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1751,
+    "rank": 1752,
     "name": "Jialin Liao (廖佳林)",
     "gender": "男",
     "result": "34.21",
@@ -19261,7 +19272,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1752,
+    "rank": 1753,
     "name": "Jibo Zhao (赵吉波)",
     "gender": "男",
     "result": "34.29",
@@ -19272,7 +19283,7 @@
     "city": "绵阳"
   },
   {
-    "rank": 1753,
+    "rank": 1754,
     "name": "Gong Chen (陈功)",
     "gender": "男",
     "result": "34.37",
@@ -19283,7 +19294,7 @@
     "city": "上海"
   },
   {
-    "rank": 1754,
+    "rank": 1755,
     "name": "Guan Sheng Zhe (官圣哲)",
     "gender": "男",
     "result": "34.44",
@@ -19294,7 +19305,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1755,
+    "rank": 1756,
     "name": "Ruiguo Yang (杨瑞国)",
     "gender": "男",
     "result": "34.58",
@@ -19305,7 +19316,7 @@
     "city": "太原"
   },
   {
-    "rank": 1756,
+    "rank": 1757,
     "name": "Fudong Wang",
     "gender": "男",
     "result": "34.62",
@@ -19316,7 +19327,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1757,
+    "rank": 1758,
     "name": "Guokang He (何国康)",
     "gender": "男",
     "result": "34.84",
@@ -19327,7 +19338,7 @@
     "city": "肇庆"
   },
   {
-    "rank": 1758,
+    "rank": 1759,
     "name": "Jihaobutao (冀好布套)",
     "gender": "男",
     "result": "34.85",
@@ -19338,7 +19349,7 @@
     "city": "呼和浩特"
   },
   {
-    "rank": 1759,
+    "rank": 1760,
     "name": "Mok Mun Wai (莫滿懷)",
     "gender": "男",
     "result": "34.93",
@@ -19349,7 +19360,7 @@
     "city": "香港"
   },
   {
-    "rank": 1760,
+    "rank": 1761,
     "name": "Zheng Li (李政)",
     "gender": "男",
     "result": "35.01",
@@ -19360,7 +19371,7 @@
     "city": "上海"
   },
   {
-    "rank": 1761,
+    "rank": 1762,
     "name": "Chaofan Yu (俞超凡)",
     "gender": "男",
     "result": "35.16",
@@ -19371,7 +19382,7 @@
     "city": "合肥"
   },
   {
-    "rank": 1762,
+    "rank": 1763,
     "name": "Shuohong Wang (王硕鸿)",
     "gender": "女",
     "result": "35.38",
@@ -19382,7 +19393,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1763,
+    "rank": 1764,
     "name": "Joy Liou Liu (刘丽欧)",
     "gender": "女",
     "result": "35.77",
@@ -19393,7 +19404,7 @@
     "city": "吉林"
   },
   {
-    "rank": 1764,
+    "rank": 1765,
     "name": "Ming Gao (高鸣)",
     "gender": "男",
     "result": "36.17",
@@ -19404,7 +19415,7 @@
     "city": "北京"
   },
   {
-    "rank": 1765,
+    "rank": 1766,
     "name": "Iven Song",
     "gender": "男",
     "result": "36.52",
@@ -19415,7 +19426,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1766,
+    "rank": 1767,
     "name": "Andy Ge",
     "gender": "男",
     "result": "36.68",
@@ -19426,7 +19437,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1767,
+    "rank": 1768,
     "name": "Tse-Kan Lin (林哲侃)",
     "gender": "男",
     "result": "36.72",
@@ -19437,7 +19448,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1768,
+    "rank": 1769,
     "name": "Jun-Yi Guo (郭君逸)",
     "gender": "男",
     "result": "36.84",
@@ -19448,7 +19459,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1769,
+    "rank": 1770,
     "name": "Qianwen Zhu (朱倩雯)",
     "gender": "未知",
     "result": "36.86",
@@ -19459,7 +19470,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1770,
+    "rank": 1771,
     "name": "Cong Wang (王聪)",
     "gender": "男",
     "result": "36.94",
@@ -19470,7 +19481,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 1771,
+    "rank": 1772,
     "name": "Tzu-yu Sun",
     "gender": "男",
     "result": "37.26",
@@ -19481,7 +19492,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1772,
+    "rank": 1773,
     "name": "Ye Yuan (袁野)",
     "gender": "男",
     "result": "37.37",
@@ -19492,7 +19503,7 @@
     "city": "咸阳"
   },
   {
-    "rank": 1773,
+    "rank": 1774,
     "name": "Haowei Fan (樊浩玮)",
     "gender": "男",
     "result": "37.59",
@@ -19503,7 +19514,7 @@
     "city": "西安"
   },
   {
-    "rank": 1774,
+    "rank": 1775,
     "name": "Sheng Jiang (蒋笙)",
     "gender": "男",
     "result": "37.76",
@@ -19514,7 +19525,7 @@
     "city": "桂林"
   },
   {
-    "rank": 1775,
+    "rank": 1776,
     "name": "Maosheng Chen (陈茂盛)",
     "gender": "男",
     "result": "37.98",
@@ -19525,7 +19536,7 @@
     "city": "深圳"
   },
   {
-    "rank": 1776,
+    "rank": 1777,
     "name": "Ziyi Su (苏子易)",
     "gender": "男",
     "result": "38.12",
@@ -19536,7 +19547,7 @@
     "city": "威海"
   },
   {
-    "rank": 1777,
+    "rank": 1778,
     "name": "Ting-Wei Tseng (曾亭瑋)",
     "gender": "男",
     "result": "38.36",
@@ -19547,7 +19558,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1778,
+    "rank": 1779,
     "name": "Yang Li (李洋)",
     "gender": "男",
     "result": "38.51",
@@ -19558,7 +19569,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 1779,
+    "rank": 1780,
     "name": "Junhe Zhang (张钧鹤)",
     "gender": "男",
     "result": "38.56",
@@ -19569,7 +19580,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 1780,
+    "rank": 1781,
     "name": "Baiqiang Dong (董百强)",
     "gender": "男",
     "result": "39.30",
@@ -19580,7 +19591,7 @@
     "city": "泉州"
   },
   {
-    "rank": 1781,
+    "rank": 1782,
     "name": "Tianzhu Chen",
     "gender": "男",
     "result": "39.36",
@@ -19591,7 +19602,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1782,
+    "rank": 1783,
     "name": "Jiaji Shi (施家吉)",
     "gender": "男",
     "result": "39.46",
@@ -19602,7 +19613,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1783,
+    "rank": 1784,
     "name": "Fangjian Shang (尚方剑)",
     "gender": "男",
     "result": "39.81",
@@ -19613,7 +19624,7 @@
     "city": "商丘"
   },
   {
-    "rank": 1784,
+    "rank": 1785,
     "name": "Geng-Ling Jhang (張耕領)",
     "gender": "男",
     "result": "39.98",
@@ -19624,7 +19635,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1785,
+    "rank": 1786,
     "name": "Chunhao Wang (王淳淏)",
     "gender": "男",
     "result": "40.01",
@@ -19635,7 +19646,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1786,
+    "rank": 1787,
     "name": "I-Chieh Hung (洪顗傑)",
     "gender": "男",
     "result": "40.21",
@@ -19646,7 +19657,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1787,
+    "rank": 1788,
     "name": "Haifeng Zhang (章海峰)",
     "gender": "男",
     "result": "40.60",
@@ -19657,7 +19668,7 @@
     "city": "十堰"
   },
   {
-    "rank": 1788,
+    "rank": 1789,
     "name": "Gong-Feng Lin (林躬豐)",
     "gender": "男",
     "result": "40.78",
@@ -19668,7 +19679,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1789,
+    "rank": 1790,
     "name": "Linzhen Chen",
     "gender": "男",
     "result": "41.31",
@@ -19679,7 +19690,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1790,
+    "rank": 1791,
     "name": "Tiancheng Feng (冯天成)",
     "gender": "男",
     "result": "41.42",
@@ -19690,7 +19701,7 @@
     "city": "深圳"
   },
   {
-    "rank": 1791,
+    "rank": 1792,
     "name": "Yongfeng Hou (侯永锋)",
     "gender": "男",
     "result": "41.76",
@@ -19701,7 +19712,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1792,
+    "rank": 1793,
     "name": "Yue Qiu (邱玥)",
     "gender": "女",
     "result": "41.88",
@@ -19712,7 +19723,7 @@
     "city": "上海"
   },
   {
-    "rank": 1793,
+    "rank": 1794,
     "name": "Shenchuan Mao (毛神川)",
     "gender": "男",
     "result": "42.26",
@@ -19723,7 +19734,7 @@
     "city": "南平"
   },
   {
-    "rank": 1794,
+    "rank": 1795,
     "name": "Aiying Guo (郭蔼盈)",
     "gender": "女",
     "result": "42.50",
@@ -19734,7 +19745,7 @@
     "city": "广州"
   },
   {
-    "rank": 1795,
+    "rank": 1796,
     "name": "Jiaqi Dai (戴家麒)",
     "gender": "男",
     "result": "42.61",
@@ -19745,7 +19756,7 @@
     "city": "上海"
   },
   {
-    "rank": 1796,
+    "rank": 1797,
     "name": "Yang Li (李扬)",
     "gender": "男",
     "result": "42.63",
@@ -19756,7 +19767,7 @@
     "city": "石家庄"
   },
   {
-    "rank": 1797,
+    "rank": 1798,
     "name": "Hanhan Liu (刘含菡)",
     "gender": "女",
     "result": "42.75",
@@ -19767,7 +19778,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1798,
+    "rank": 1799,
     "name": "Yishun Chen (陈翊舜)",
     "gender": "男",
     "result": "42.97",
@@ -19778,7 +19789,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1799,
+    "rank": 1800,
     "name": "Rong Fan (樊榕)",
     "gender": "男",
     "result": "43.65",
@@ -19789,7 +19800,7 @@
     "city": "上海"
   },
   {
-    "rank": 1800,
+    "rank": 1801,
     "name": "Hui Shen (沈卉)",
     "gender": "女",
     "result": "43.76",
@@ -19800,7 +19811,7 @@
     "city": "泰州"
   },
   {
-    "rank": 1801,
+    "rank": 1802,
     "name": "Penghui Zhang (张鹏慧)",
     "gender": "男",
     "result": "44.03",
@@ -19811,7 +19822,7 @@
     "city": "天津"
   },
   {
-    "rank": 1802,
+    "rank": 1803,
     "name": "Hanrui Kang (康汉睿)",
     "gender": "男",
     "result": "44.05",
@@ -19822,7 +19833,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1803,
+    "rank": 1804,
     "name": "Qizhe Sang (桑祺哲)",
     "gender": "男",
     "result": "44.15",
@@ -19833,7 +19844,7 @@
     "city": "上海"
   },
   {
-    "rank": 1804,
+    "rank": 1805,
     "name": "Tianxiao Wang (王天笑)",
     "gender": "男",
     "result": "44.30",
@@ -19844,7 +19855,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1805,
+    "rank": 1806,
     "name": "Xudong Zhao (赵旭东)",
     "gender": "男",
     "result": "45.44",
@@ -19855,7 +19866,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1806,
+    "rank": 1807,
     "name": "Mattias Wang",
     "gender": "男",
     "result": "45.72",
@@ -19866,7 +19877,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1807,
+    "rank": 1808,
     "name": "Yekai Zhu (朱业凯)",
     "gender": "男",
     "result": "46.44",
@@ -19877,7 +19888,7 @@
     "city": "上海"
   },
   {
-    "rank": 1808,
+    "rank": 1809,
     "name": "Qiang Liu (刘强)",
     "gender": "男",
     "result": "46.82",
@@ -19888,7 +19899,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1809,
+    "rank": 1810,
     "name": "Zhanshuo Xu (徐展铄)",
     "gender": "男",
     "result": "48.07",
@@ -19899,7 +19910,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1810,
+    "rank": 1811,
     "name": "Rui Yang (杨睿)",
     "gender": "男",
     "result": "49.89",
@@ -19910,7 +19921,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1811,
+    "rank": 1812,
     "name": "Yusheng Liu (刘雨生)",
     "gender": "男",
     "result": "51.80",
@@ -19921,7 +19932,7 @@
     "city": "亳州"
   },
   {
-    "rank": 1812,
+    "rank": 1813,
     "name": "Pei-Chun Tsao (曹培峻)",
     "gender": "男",
     "result": "51.97",
@@ -19932,7 +19943,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1813,
+    "rank": 1814,
     "name": "Zikai Liu (刘子恺)",
     "gender": "男",
     "result": "53.04",
@@ -19943,7 +19954,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1814,
+    "rank": 1815,
     "name": "Yucheng Ma (马宇骋)",
     "gender": "男",
     "result": "53.96",
@@ -19954,7 +19965,7 @@
     "city": "昆明"
   },
   {
-    "rank": 1815,
+    "rank": 1816,
     "name": "Bowen Wen (温博文)",
     "gender": "男",
     "result": "54.11",
@@ -19965,7 +19976,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1816,
+    "rank": 1817,
     "name": "Heng Ma (马恒)",
     "gender": "男",
     "result": "54.97",
@@ -19976,7 +19987,7 @@
     "city": "郑州"
   },
   {
-    "rank": 1817,
+    "rank": 1818,
     "name": "Ziqian Yin (尹子谦)",
     "gender": "女",
     "result": "55.29",
@@ -19987,7 +19998,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1818,
+    "rank": 1819,
     "name": "Muyi Yang (杨慕屹)",
     "gender": "男",
     "result": "57.33",
@@ -19998,7 +20009,7 @@
     "city": "张家口"
   },
   {
-    "rank": 1819,
+    "rank": 1820,
     "name": "Shihang Wang (王世行)",
     "gender": "男",
     "result": "58.70",
@@ -20009,7 +20020,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1820,
+    "rank": 1821,
     "name": "Jiawei He (贺佳伟)",
     "gender": "男",
     "result": "58.78",
@@ -20020,7 +20031,7 @@
     "city": "上海"
   },
   {
-    "rank": 1821,
+    "rank": 1822,
     "name": "Li Gao (高力)",
     "gender": "男",
     "result": "58.83",
@@ -20031,7 +20042,7 @@
     "city": "秦皇岛"
   },
   {
-    "rank": 1822,
+    "rank": 1823,
     "name": "Yunfa Cao (曹云发)",
     "gender": "男",
     "result": "1:00.79",
@@ -20042,7 +20053,7 @@
     "city": "合肥"
   },
   {
-    "rank": 1823,
+    "rank": 1824,
     "name": "Men-Shing Lin (林孟欣)",
     "gender": "女",
     "result": "1:01.58",
@@ -20053,7 +20064,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1824,
+    "rank": 1825,
     "name": "Ruijie Wang (王睿杰)",
     "gender": "男",
     "result": "1:02.89",
@@ -20064,7 +20075,7 @@
     "city": "乐山"
   },
   {
-    "rank": 1825,
+    "rank": 1826,
     "name": "Kai-Hsiang Chang (張凱翔)",
     "gender": "男",
     "result": "1:04.08",
@@ -20075,7 +20086,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1826,
+    "rank": 1827,
     "name": "Min-Yan Tsai (蔡旻諺)",
     "gender": "男",
     "result": "1:04.85",
@@ -20086,7 +20097,7 @@
     "city": "台湾"
   },
   {
-    "rank": 1827,
+    "rank": 1828,
     "name": "Yanhao Wang",
     "gender": "男",
     "result": "1:06.15",
@@ -20097,7 +20108,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 1828,
+    "rank": 1829,
     "name": "Pengju Li (李鹏举)",
     "gender": "男",
     "result": "1:08.35",
@@ -20108,7 +20119,7 @@
     "city": "西安"
   },
   {
-    "rank": 1829,
+    "rank": 1830,
     "name": "Dongyun Yin (殷冬昀)",
     "gender": "男",
     "result": "1:11.56",
@@ -20119,7 +20130,7 @@
     "city": "无锡"
   },
   {
-    "rank": 1830,
+    "rank": 1831,
     "name": "Chaofan Yan (严超凡)",
     "gender": "男",
     "result": "1:14.91",
@@ -20130,7 +20141,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1831,
+    "rank": 1832,
     "name": "Zesong Yuan (苑泽松)",
     "gender": "男",
     "result": "1:16.85",
@@ -20141,7 +20152,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1832,
+    "rank": 1833,
     "name": "Xiao Gu (顾骁)",
     "gender": "男",
     "result": "1:18.32",
@@ -20152,7 +20163,7 @@
     "city": "太原"
   },
   {
-    "rank": 1833,
+    "rank": 1834,
     "name": "Fang Qin (秦方)",
     "gender": "男",
     "result": "1:22.23",
@@ -20163,7 +20174,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1834,
+    "rank": 1835,
     "name": "Shufan Wang (王澍凡)",
     "gender": "女",
     "result": "1:28.95",
@@ -20174,7 +20185,7 @@
     "city": "北京"
   },
   {
-    "rank": 1835,
+    "rank": 1836,
     "name": "Bin Li (李斌)",
     "gender": "男",
     "result": "1:34.06",
@@ -20185,7 +20196,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1836,
+    "rank": 1837,
     "name": "Xie Xie (谢泻)",
     "gender": "男",
     "result": "1:51.54",
@@ -20196,7 +20207,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 1837,
+    "rank": 1838,
     "name": "Yiliang Lu (路义亮)",
     "gender": "男",
     "result": "2:54.81",
