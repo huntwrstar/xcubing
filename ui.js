@@ -3,6 +3,14 @@ function renderHome() {
         <div class="announcement-list">
             <div class="announcement">
                 <h3>公告</h3>
+<p>近期收到反馈，网站在访问时出现选项加载失败或无法选择的情况，这是由于网站当前使用的免费服务器性能有限，容易出现响应不及时的情况。如果您遇到上述问题，还请您换个时间再访问，给您带来不便敬请谅解，感谢您的包容与支持！<p>
+<p>2026-05-31<p>
+                </div>
+            </div>
+
+        <div class="announcement-list">
+            <div class="announcement">
+                <h3>公告</h3>
 <p>1.提交省市信息请找到右下角反馈小点，点击进入反馈页。<p>
 <p>2.访问中有任何问题请找到右下角反馈小点，点击进入反馈页。<p>
 <p>3.感谢您的支持！<p>
