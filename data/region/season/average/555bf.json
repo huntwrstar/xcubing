@@ -1,6 +1,17 @@
 [
   {
     "rank": 1,
+    "name": "Kaijun Lin (林恺俊)",
+    "gender": "男",
+    "result": "3:27.68",
+    "competition": "Quanzhou Blindfolded 2026",
+    "wcaid": "2013LINK01",
+    "date": "2026-05-31",
+    "province": "广东",
+    "city": "江门"
+  },
+  {
+    "rank": 2,
     "name": "Victor Tang Yao Jun (湯曜駿)",
     "gender": "男",
     "result": "5:32.27",
@@ -11,7 +22,7 @@
     "city": "香港"
   },
   {
-    "rank": 2,
+    "rank": 3,
     "name": "Xiangjie Li (李祥杰)",
     "gender": "男",
     "result": "15:08.00",
@@ -22,7 +33,18 @@
     "city": "连云港"
   },
   {
-    "rank": 3,
+    "rank": 4,
+    "name": "Lanshi Zhang (张岚石)",
+    "gender": "男",
+    "result": "16:30.00",
+    "competition": "Quanzhou Blindfolded 2026",
+    "wcaid": "2013ZHAN41",
+    "date": "2026-05-31",
+    "province": "黑龙江",
+    "city": "哈尔滨"
+  },
+  {
+    "rank": 5,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "17:08.00",
@@ -33,7 +55,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 4,
+    "rank": 6,
     "name": "Yuheng Wu (吴雨衡)",
     "gender": "男",
     "result": "24:54.00",
