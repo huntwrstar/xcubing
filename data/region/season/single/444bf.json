@@ -23,7 +23,7 @@
   },
   {
     "rank": 3,
-    "name": "Alvin Cheng Hiu Yeung (鄭曉洋)",
+    "name": "Alvin Hiu Yeung Cheng (鄭曉洋)",
     "gender": "男",
     "result": "1:49.03",
     "competition": "Pickering Blindfolded 2026",
@@ -56,6 +56,17 @@
   },
   {
     "rank": 6,
+    "name": "Jia-Hong Lu (陸嘉宏)",
+    "gender": "男",
+    "result": "2:12.08",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2007LUJI01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 7,
     "name": "Sora Wenjie Xu (徐文杰)",
     "gender": "男",
     "result": "2:15.26",
@@ -66,7 +77,7 @@
     "city": "广州"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "name": "Yuhang Sun (孙煜航)",
     "gender": "男",
     "result": "2:20.92",
@@ -77,7 +88,7 @@
     "city": "抚州"
   },
   {
-    "rank": 8,
+    "rank": 9,
     "name": "Michael Ngan (顏律言)",
     "gender": "男",
     "result": "2:20.96",
@@ -88,7 +99,7 @@
     "city": "香港"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "name": "Ziyi Xu (徐梓翼)",
     "gender": "男",
     "result": "2:32.89",
@@ -99,7 +110,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "name": "Victor Tang Yao Jun (湯曜駿)",
     "gender": "男",
     "result": "2:33.42",
@@ -110,7 +121,7 @@
     "city": "香港"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "name": "Haijun Tan (谭海俊)",
     "gender": "男",
     "result": "2:36.08",
@@ -119,17 +130,6 @@
     "date": "2026-02-06",
     "province": "广东",
     "city": "广州"
-  },
-  {
-    "rank": 12,
-    "name": "Jia-Hong Lu (陸嘉宏)",
-    "gender": "男",
-    "result": "2:38.72",
-    "competition": "Please Don't DNF Kaohsiung 2026",
-    "wcaid": "2007LUJI01",
-    "date": "2026-04-05",
-    "province": "台湾",
-    "city": "台湾"
   },
   {
     "rank": 13,
@@ -155,6 +155,17 @@
   },
   {
     "rank": 15,
+    "name": "Wayne Pi",
+    "gender": "男",
+    "result": "3:00.24",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2017PIWA01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 16,
     "name": "Yifan Wang (王逸帆)",
     "gender": "男",
     "result": "3:03.19",
@@ -165,7 +176,7 @@
     "city": "三明"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "name": "Yonghao Xu (徐永浩)",
     "gender": "男",
     "result": "3:10.17",
@@ -176,7 +187,7 @@
     "city": "韶关"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "name": "Wenxuan Yue (岳文轩)",
     "gender": "男",
     "result": "3:21.64",
@@ -187,7 +198,7 @@
     "city": "洛阳"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "name": "Tianyu Zhao (赵天愉)",
     "gender": "男",
     "result": "3:32.68",
@@ -198,18 +209,18 @@
     "city": "北京"
   },
   {
-    "rank": 19,
-    "name": "Wayne Pi",
+    "rank": 20,
+    "name": "Li-Chen Lin (林立宸)",
     "gender": "男",
-    "result": "3:41.84",
-    "competition": "Please Don't DNF Kaohsiung 2026",
-    "wcaid": "2017PIWA01",
-    "date": "2026-04-05",
+    "result": "3:36.66",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2021LINL02",
+    "date": "2026-06-26",
     "province": "台湾",
     "city": "台湾"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "name": "Jiaye Cheng (程嘉烨)",
     "gender": "男",
     "result": "3:46.04",
@@ -220,7 +231,7 @@
     "city": "北京"
   },
   {
-    "rank": 21,
+    "rank": 22,
     "name": "Rui Yang (杨睿)",
     "gender": "男",
     "result": "3:49.37",
@@ -231,7 +242,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "name": "Yangyang Shen (沈炀炀)",
     "gender": "男",
     "result": "3:50.61",
@@ -242,7 +253,7 @@
     "city": "温州"
   },
   {
-    "rank": 23,
+    "rank": 24,
     "name": "Xin Shi (石欣)",
     "gender": "男",
     "result": "4:14.69",
@@ -253,7 +264,7 @@
     "city": "武汉"
   },
   {
-    "rank": 24,
+    "rank": 25,
     "name": "Zijun Liu (刘子钧)",
     "gender": "男",
     "result": "4:26.04",
@@ -264,7 +275,7 @@
     "city": "南京"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "name": "Jiayu Wang (王佳宇)",
     "gender": "男",
     "result": "4:55.27",
@@ -275,7 +286,7 @@
     "city": "台州"
   },
   {
-    "rank": 26,
+    "rank": 27,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "5:00.38",
@@ -286,7 +297,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 27,
+    "rank": 28,
     "name": "Jinghan Yang (杨景涵)",
     "gender": "男",
     "result": "5:11.13",
@@ -297,7 +308,7 @@
     "city": "温州"
   },
   {
-    "rank": 28,
+    "rank": 29,
     "name": "Zhibao Zhang (张智宝)",
     "gender": "男",
     "result": "5:27.86",
@@ -308,7 +319,18 @@
     "city": "广州"
   },
   {
-    "rank": 29,
+    "rank": 30,
+    "name": "Zaya Qiaolong (俏龙扎雅)",
+    "gender": "女",
+    "result": "6:01.36",
+    "competition": "Selangor PBQ 2026",
+    "wcaid": "2024QIAO03",
+    "date": "2026-07-05",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 31,
     "name": "Po-Ling Lin (林柏伶)",
     "gender": "女",
     "result": "6:14.51",
@@ -319,7 +341,7 @@
     "city": "台湾"
   },
   {
-    "rank": 30,
+    "rank": 32,
     "name": "Hongjie Zhang (张鸿杰)",
     "gender": "男",
     "result": "6:15.36",
@@ -330,7 +352,18 @@
     "city": "宁德"
   },
   {
-    "rank": 31,
+    "rank": 33,
+    "name": "Putian Ye (叶溥天)",
+    "gender": "男",
+    "result": "6:15.41",
+    "competition": "Australian Nationals 2026",
+    "wcaid": "2021YEPU01",
+    "date": "2026-07-09",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 34,
     "name": "Meng Chon Kuok (郭明臻)",
     "gender": "女",
     "result": "6:31.03",
@@ -341,18 +374,7 @@
     "city": "澳门"
   },
   {
-    "rank": 32,
-    "name": "Putian Ye (叶溥天)",
-    "gender": "男",
-    "result": "6:31.32",
-    "competition": "Melbourne Summer 2026",
-    "wcaid": "2021YEPU01",
-    "date": "2026-01-24",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
-    "rank": 33,
+    "rank": 35,
     "name": "Tianyu Yang (杨天宇)",
     "gender": "男",
     "result": "6:32.34",
@@ -363,18 +385,7 @@
     "city": "贵阳"
   },
   {
-    "rank": 34,
-    "name": "Zaya Qiaolong (俏龙扎雅)",
-    "gender": "女",
-    "result": "6:43.05",
-    "competition": "Side N Blind Narre Warren 2026",
-    "wcaid": "2024QIAO03",
-    "date": "2026-06-13",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
-    "rank": 35,
+    "rank": 36,
     "name": "Yuheng Wu (吴雨衡)",
     "gender": "男",
     "result": "6:53.67",
@@ -385,7 +396,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "name": "Xiangjie Li (李祥杰)",
     "gender": "男",
     "result": "7:06.34",
@@ -396,7 +407,7 @@
     "city": "连云港"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "name": "Guoqiao Wang (王国桥)",
     "gender": "男",
     "result": "7:16.23",
@@ -407,7 +418,7 @@
     "city": "北京"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "name": "Jiahao Han (韩嘉豪)",
     "gender": "男",
     "result": "7:57.08",
@@ -418,7 +429,7 @@
     "city": "广州"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "9:34.99",
@@ -429,7 +440,7 @@
     "city": "常德"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Dorian Chan",
     "gender": "男",
     "result": "10:22.00",
@@ -440,7 +451,7 @@
     "city": "香港"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "10:42.00",
@@ -451,7 +462,7 @@
     "city": "澳门"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "name": "Loïc Zhang",
     "gender": "男",
     "result": "10:59.00",
@@ -462,7 +473,7 @@
     "city": ""
   },
   {
-    "rank": 43,
+    "rank": 44,
     "name": "Taiji Yi (易泰基)",
     "gender": "男",
     "result": "13:38.00",
@@ -473,7 +484,7 @@
     "city": "肇庆"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "name": "Andy Wu",
     "gender": "男",
     "result": "15:50.00",
@@ -484,7 +495,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "name": "Guanghua Wang (王光华)",
     "gender": "男",
     "result": "17:17.00",
@@ -495,7 +506,7 @@
     "city": "嘉兴"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "name": "Hong-An Lai (賴泓安)",
     "gender": "男",
     "result": "18:02.00",
@@ -506,14 +517,25 @@
     "city": "台湾"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "name": "Kuan-Ying Li (李冠穎)",
     "gender": "男",
-    "result": "20:38.00",
-    "competition": "Please Don't DNF Kaohsiung 2026",
+    "result": "18:50.00",
+    "competition": "Taipei PBQ Open 2026",
     "wcaid": "2009LIKU01",
-    "date": "2026-04-05",
+    "date": "2026-06-26",
     "province": "台湾",
     "city": "台湾"
+  },
+  {
+    "rank": 49,
+    "name": "Xuehao Ding",
+    "gender": "男",
+    "result": "20:33.00",
+    "competition": "Mid-Atlantic Quiet Championship 2026",
+    "wcaid": "2025DING08",
+    "date": "2026-06-27",
+    "province": "神手谷",
+    "city": "神手谷"
   }
 ]

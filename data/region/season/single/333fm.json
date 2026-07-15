@@ -221,6 +221,17 @@
   },
   {
     "rank": 21,
+    "name": "Ziheng Feng (冯梓恒)",
+    "gender": "男",
+    "result": "21",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2023FENG05",
+    "date": "2026-07-12",
+    "province": "上海",
+    "city": "上海"
+  },
+  {
+    "rank": 21,
     "name": "Yanghong Zhang (张扬红)",
     "gender": "男",
     "result": "21",
@@ -231,7 +242,7 @@
     "city": "六盘水"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "22",
@@ -242,7 +253,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 22,
+    "rank": 23,
+    "name": "Yifan Wang (王逸帆)",
+    "gender": "男",
+    "result": "22",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2017WANY29",
+    "date": "2026-07-12",
+    "province": "福建",
+    "city": "三明"
+  },
+  {
+    "rank": 23,
     "name": "Kun Zhu (朱坤)",
     "gender": "男",
     "result": "22",
@@ -253,7 +275,18 @@
     "city": "成都"
   },
   {
-    "rank": 22,
+    "rank": 23,
+    "name": "Cian-Jyun Yang (楊謙君)",
+    "gender": "男",
+    "result": "22",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2019YANG94",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 23,
     "name": "Lichi Fang (方力驰)",
     "gender": "男",
     "result": "22",
@@ -264,7 +297,7 @@
     "city": "珠海"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "name": "Liren Sun (孙立仁)",
     "gender": "男",
     "result": "22",
@@ -275,7 +308,7 @@
     "city": "牡丹江"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "name": "Ziyuan Li (李梓元)",
     "gender": "男",
     "result": "22",
@@ -286,7 +319,7 @@
     "city": "秦皇岛"
   },
   {
-    "rank": 27,
+    "rank": 30,
     "name": "Guangtong Quan (全广通)",
     "gender": "男",
     "result": "23",
@@ -297,7 +330,7 @@
     "city": "湛江"
   },
   {
-    "rank": 27,
+    "rank": 30,
     "name": "Min Wu (吴民)",
     "gender": "男",
     "result": "23",
@@ -308,7 +341,7 @@
     "city": "北京"
   },
   {
-    "rank": 27,
+    "rank": 30,
     "name": "Dunhui Xiao (肖敦慧)",
     "gender": "男",
     "result": "23",
@@ -319,7 +352,7 @@
     "city": ""
   },
   {
-    "rank": 27,
+    "rank": 30,
     "name": "Andy Mok Man Cheuk (莫文卓)",
     "gender": "男",
     "result": "23",
@@ -330,8 +363,8 @@
     "city": "香港"
   },
   {
-    "rank": 27,
-    "name": "Lin Heiyin (林熙彦)",
+    "rank": 30,
+    "name": "Lam Hei Yin (林熙彦)",
     "gender": "男",
     "result": "23",
     "competition": "FMC World 2026",
@@ -341,18 +374,18 @@
     "city": "香港"
   },
   {
-    "rank": 32,
-    "name": "Yifan Wang (王逸帆)",
+    "rank": 30,
+    "name": "Alvin Hiu Yeung Cheng (鄭曉洋)",
     "gender": "男",
-    "result": "24",
-    "competition": "FMC World 2026",
-    "wcaid": "2017WANY29",
-    "date": "2026-06-20",
-    "province": "福建",
-    "city": "三明"
+    "result": "23",
+    "competition": "Rubik's WCA North American Championship 2026",
+    "wcaid": "2019YEUN01",
+    "date": "2026-07-02",
+    "province": "香港",
+    "city": "香港"
   },
   {
-    "rank": 32,
+    "rank": 36,
     "name": "Wenhao Xiang (向文昊)",
     "gender": "男",
     "result": "24",
@@ -363,7 +396,7 @@
     "city": "广州"
   },
   {
-    "rank": 32,
+    "rank": 36,
     "name": "Qihan Chen (陈启晗)",
     "gender": "男",
     "result": "24",
@@ -374,7 +407,7 @@
     "city": "广州"
   },
   {
-    "rank": 32,
+    "rank": 36,
     "name": "Yining Wang (王逸宁)",
     "gender": "男",
     "result": "24",
@@ -385,7 +418,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 32,
+    "rank": 36,
     "name": "Ruicheng Tao (陶睿成)",
     "gender": "男",
     "result": "24",
@@ -396,7 +429,7 @@
     "city": "苏州"
   },
   {
-    "rank": 37,
+    "rank": 40,
     "name": "Junhao Jin (金俊昊)",
     "gender": "男",
     "result": "25",
@@ -407,7 +440,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 37,
+    "rank": 40,
     "name": "Zicong Liu (刘子聪)",
     "gender": "男",
     "result": "25",
@@ -418,7 +451,7 @@
     "city": "天津"
   },
   {
-    "rank": 37,
+    "rank": 40,
     "name": "Wenxin Huang (黄文信)",
     "gender": "男",
     "result": "25",
@@ -429,18 +462,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 37,
-    "name": "Ziheng Feng (冯梓恒)",
+    "rank": 40,
+    "name": "Yuhang Sun (孙煜航)",
     "gender": "男",
     "result": "25",
-    "competition": "More Than One Cube Shanghai 2026",
-    "wcaid": "2023FENG05",
-    "date": "2026-06-06",
-    "province": "上海",
-    "city": "上海"
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2019SUNY09",
+    "date": "2026-07-12",
+    "province": "江西",
+    "city": "抚州"
   },
   {
-    "rank": 37,
+    "rank": 40,
     "name": "Xuyang Zhang (张煦阳)",
     "gender": "男",
     "result": "25",
@@ -451,7 +484,29 @@
     "city": "广州"
   },
   {
-    "rank": 37,
+    "rank": 40,
+    "name": "Yen-Lei Jen (任晏磊)",
+    "gender": "男",
+    "result": "25",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2023JENY01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 40,
+    "name": "Wayne Pi",
+    "gender": "男",
+    "result": "25",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2017PIWA01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 40,
     "name": "Xiaohu Xu (胥啸虎)",
     "gender": "男",
     "result": "25",
@@ -462,7 +517,7 @@
     "city": "成都"
   },
   {
-    "rank": 37,
+    "rank": 40,
     "name": "Jiayue Chen (陈家悦)",
     "gender": "女",
     "result": "25",
@@ -473,7 +528,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 37,
+    "rank": 40,
     "name": "Yibo Wang (王怡卜)",
     "gender": "男",
     "result": "25",
@@ -484,7 +539,7 @@
     "city": "西安"
   },
   {
-    "rank": 37,
+    "rank": 40,
     "name": "Yiyang Ma (马熠阳)",
     "gender": "男",
     "result": "25",
@@ -495,7 +550,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 46,
+    "rank": 51,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "26",
@@ -506,7 +561,18 @@
     "city": "常德"
   },
   {
-    "rank": 46,
+    "rank": 51,
+    "name": "Tianyu Yang (杨天宇)",
+    "gender": "男",
+    "result": "26",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2024YANG18",
+    "date": "2026-07-12",
+    "province": "贵州",
+    "city": "贵阳"
+  },
+  {
+    "rank": 51,
     "name": "Xingyu Chen (陈星宇)",
     "gender": "男",
     "result": "26",
@@ -517,7 +583,7 @@
     "city": "茂名"
   },
   {
-    "rank": 46,
+    "rank": 51,
     "name": "Lui Chi Fung (雷智鋒)",
     "gender": "男",
     "result": "26",
@@ -528,7 +594,7 @@
     "city": "香港"
   },
   {
-    "rank": 46,
+    "rank": 51,
     "name": "Matt Mao",
     "gender": "男",
     "result": "26",
@@ -539,7 +605,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 46,
+    "rank": 51,
     "name": "Zijian Cai (蔡子健)",
     "gender": "男",
     "result": "26",
@@ -550,7 +616,7 @@
     "city": "深圳"
   },
   {
-    "rank": 46,
+    "rank": 51,
     "name": "Mok Man Kit (莫文傑)",
     "gender": "男",
     "result": "26",
@@ -561,18 +627,18 @@
     "city": "香港"
   },
   {
-    "rank": 46,
-    "name": "Yen-Lei Jen (任晏磊)",
+    "rank": 51,
+    "name": "Zhuocheng Guo (郭卓成)",
     "gender": "男",
     "result": "26",
-    "competition": "Please Don't DNF Kaohsiung 2026",
-    "wcaid": "2023JENY01",
-    "date": "2026-04-05",
-    "province": "台湾",
-    "city": "台湾"
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2024GUOZ04",
+    "date": "2026-07-04",
+    "province": "神手谷",
+    "city": "神手谷"
   },
   {
-    "rank": 46,
+    "rank": 51,
     "name": "Liang Chen (陈樑)",
     "gender": "男",
     "result": "26",
@@ -583,7 +649,7 @@
     "city": "上海"
   },
   {
-    "rank": 46,
+    "rank": 51,
     "name": "Zhiyuan Ma (马之元)",
     "gender": "男",
     "result": "26",
@@ -594,7 +660,29 @@
     "city": "上海"
   },
   {
-    "rank": 55,
+    "rank": 51,
+    "name": "Zijun Liu (刘子钧)",
+    "gender": "男",
+    "result": "26",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2021LIUZ07",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "南京"
+  },
+  {
+    "rank": 51,
+    "name": "Ruei-Ying Huang (黃睿穎)",
+    "gender": "男",
+    "result": "26",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2017HUAN63",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 63,
     "name": "Haoxiang Ying (应浩祥)",
     "gender": "男",
     "result": "27",
@@ -605,7 +693,7 @@
     "city": "龙岩"
   },
   {
-    "rank": 55,
+    "rank": 63,
     "name": "Yuheng Wu (吴雨衡)",
     "gender": "男",
     "result": "27",
@@ -616,7 +704,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 55,
+    "rank": 63,
     "name": "Yiyun Chen (陈毅昀)",
     "gender": "男",
     "result": "27",
@@ -627,7 +715,7 @@
     "city": "广州"
   },
   {
-    "rank": 55,
+    "rank": 63,
     "name": "Zibo Xu (徐子博)",
     "gender": "男",
     "result": "27",
@@ -638,7 +726,7 @@
     "city": "襄阳"
   },
   {
-    "rank": 55,
+    "rank": 63,
     "name": "Zhe Wang (王哲)",
     "gender": "男",
     "result": "27",
@@ -649,7 +737,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 55,
+    "rank": 63,
     "name": "Tsang Hon Pong (曾漢邦)",
     "gender": "男",
     "result": "27",
@@ -660,7 +748,7 @@
     "city": "香港"
   },
   {
-    "rank": 61,
+    "rank": 69,
     "name": "Lichao Liu (刘立超)",
     "gender": "男",
     "result": "28",
@@ -671,7 +759,7 @@
     "city": "廊坊"
   },
   {
-    "rank": 61,
+    "rank": 69,
     "name": "Weikang Zheng (郑炜康)",
     "gender": "男",
     "result": "28",
@@ -682,18 +770,7 @@
     "city": "杭州"
   },
   {
-    "rank": 61,
-    "name": "Zhuocheng Guo (郭卓成)",
-    "gender": "男",
-    "result": "28",
-    "competition": "FMCanton Nansha 2026",
-    "wcaid": "2024GUOZ04",
-    "date": "2026-03-21",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
-    "rank": 61,
+    "rank": 69,
     "name": "Zifeng Liu (刘子枫)",
     "gender": "男",
     "result": "28",
@@ -704,7 +781,7 @@
     "city": "北京"
   },
   {
-    "rank": 61,
+    "rank": 69,
     "name": "Zejun Chen (陈泽鋆)",
     "gender": "男",
     "result": "28",
@@ -715,18 +792,7 @@
     "city": "北京"
   },
   {
-    "rank": 61,
-    "name": "Cian-Jyun Yang (楊謙君)",
-    "gender": "男",
-    "result": "28",
-    "competition": "Hiroshima Spring 2026",
-    "wcaid": "2019YANG94",
-    "date": "2026-05-30",
-    "province": "台湾",
-    "city": "台湾"
-  },
-  {
-    "rank": 61,
+    "rank": 69,
     "name": "Yixiang Gao (高翊翔)",
     "gender": "男",
     "result": "28",
@@ -737,7 +803,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 61,
+    "rank": 69,
     "name": "Yunqi Liu (刘云起)",
     "gender": "男",
     "result": "28",
@@ -749,6 +815,17 @@
   },
   {
     "rank": 69,
+    "name": "Xingye Zhu (朱星晔)",
+    "gender": "男",
+    "result": "28",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2015ZHUX01",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "南京"
+  },
+  {
+    "rank": 76,
     "name": "Young He (何嘉炀)",
     "gender": "男",
     "result": "29",
@@ -759,18 +836,7 @@
     "city": "南京"
   },
   {
-    "rank": 69,
-    "name": "Tianyu Yang (杨天宇)",
-    "gender": "男",
-    "result": "29",
-    "competition": "More Than One Cube Shanghai 2026",
-    "wcaid": "2024YANG18",
-    "date": "2026-06-06",
-    "province": "贵州",
-    "city": "贵阳"
-  },
-  {
-    "rank": 69,
+    "rank": 76,
     "name": "Jiahao Han (韩嘉豪)",
     "gender": "男",
     "result": "29",
@@ -781,7 +847,18 @@
     "city": "广州"
   },
   {
-    "rank": 69,
+    "rank": 76,
+    "name": "Jici Liu (刘纪赐)",
+    "gender": "男",
+    "result": "29",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2009LIUJ04",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "深圳"
+  },
+  {
+    "rank": 76,
     "name": "Yu-Chun Yeh (葉昱均)",
     "gender": "男",
     "result": "29",
@@ -792,7 +869,29 @@
     "city": "台湾"
   },
   {
-    "rank": 69,
+    "rank": 76,
+    "name": "Meng Chon Kuok (郭明臻)",
+    "gender": "女",
+    "result": "29",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2023KUOK01",
+    "date": "2026-06-26",
+    "province": "澳门",
+    "city": "澳门"
+  },
+  {
+    "rank": 76,
+    "name": "Tzu-Heng Lin (林子恆)",
+    "gender": "男",
+    "result": "29",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2010LINT01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 76,
     "name": "Albert So Yik Ban (蘇益品)",
     "gender": "男",
     "result": "29",
@@ -803,7 +902,7 @@
     "city": "香港"
   },
   {
-    "rank": 69,
+    "rank": 76,
     "name": "Chao-Che Chung (鍾肇哲)",
     "gender": "男",
     "result": "29",
@@ -814,7 +913,7 @@
     "city": "台湾"
   },
   {
-    "rank": 69,
+    "rank": 76,
     "name": "Aolin Tang (唐奥林)",
     "gender": "男",
     "result": "29",
@@ -825,7 +924,7 @@
     "city": "北京"
   },
   {
-    "rank": 69,
+    "rank": 76,
     "name": "Haoyu Li (李浩宇)",
     "gender": "男",
     "result": "29",
@@ -836,7 +935,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 77,
+    "rank": 86,
     "name": "Jiayu Wang (王佳宇)",
     "gender": "男",
     "result": "30",
@@ -847,7 +946,7 @@
     "city": "台州"
   },
   {
-    "rank": 77,
+    "rank": 86,
     "name": "Michael Ngan (顏律言)",
     "gender": "男",
     "result": "30",
@@ -858,7 +957,7 @@
     "city": "香港"
   },
   {
-    "rank": 77,
+    "rank": 86,
     "name": "Taiji Yi (易泰基)",
     "gender": "男",
     "result": "30",
@@ -869,18 +968,7 @@
     "city": "肇庆"
   },
   {
-    "rank": 77,
-    "name": "Yuhang Sun (孙煜航)",
-    "gender": "男",
-    "result": "30",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2019SUNY09",
-    "date": "2026-02-06",
-    "province": "江西",
-    "city": "抚州"
-  },
-  {
-    "rank": 77,
+    "rank": 86,
     "name": "Yibo Wang (王奕博)",
     "gender": "男",
     "result": "30",
@@ -891,7 +979,7 @@
     "city": "青岛"
   },
   {
-    "rank": 77,
+    "rank": 86,
     "name": "Jerry Chung (鍾養浩)",
     "gender": "男",
     "result": "30",
@@ -902,7 +990,18 @@
     "city": "香港"
   },
   {
-    "rank": 77,
+    "rank": 86,
+    "name": "Wenqiang Yan (严文强)",
+    "gender": "男",
+    "result": "30",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2016YANW01",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "阳江"
+  },
+  {
+    "rank": 86,
     "name": "Chongjian Zhao (赵崇健)",
     "gender": "男",
     "result": "30",
@@ -913,7 +1012,7 @@
     "city": "江门"
   },
   {
-    "rank": 77,
+    "rank": 86,
     "name": "Taiqi Li (李泰祺)",
     "gender": "男",
     "result": "30",
@@ -924,18 +1023,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 77,
-    "name": "Meng Chon Kuok (郭明臻)",
-    "gender": "女",
-    "result": "30",
-    "competition": "Please Don't DNF Kaohsiung 2026",
-    "wcaid": "2023KUOK01",
-    "date": "2026-04-05",
-    "province": "澳门",
-    "city": "澳门"
-  },
-  {
-    "rank": 77,
+    "rank": 86,
     "name": "Jiahao Zhu (朱嘉昊)",
     "gender": "男",
     "result": "30",
@@ -946,7 +1034,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 77,
+    "rank": 86,
     "name": "Chang Guo (郭畅)",
     "gender": "男",
     "result": "30",
@@ -957,7 +1045,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 88,
+    "rank": 86,
+    "name": "Bo-Yan Wu (吳柏彥)",
+    "gender": "男",
+    "result": "30",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2019WUBO01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 86,
+    "name": "Yiheng Wang (王艺衡)",
+    "gender": "男",
+    "result": "30",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2019WANY36",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "徐州"
+  },
+  {
+    "rank": 98,
     "name": "Ziyu Liang (梁梓煜)",
     "gender": "男",
     "result": "31",
@@ -968,7 +1078,7 @@
     "city": "广州"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Haoxuan Zhang (张浩轩)",
     "gender": "男",
     "result": "31",
@@ -979,7 +1089,7 @@
     "city": "北京"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Zhibo Xuan (禤志博)",
     "gender": "男",
     "result": "31",
@@ -990,7 +1100,7 @@
     "city": "深圳"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Ziyi Xu (徐梓翼)",
     "gender": "男",
     "result": "31",
@@ -1001,7 +1111,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Minxing Zhang (张敏行)",
     "gender": "女",
     "result": "31",
@@ -1012,7 +1122,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Yexin Weng (翁业心)",
     "gender": "男",
     "result": "31",
@@ -1023,18 +1133,7 @@
     "city": "中山"
   },
   {
-    "rank": 88,
-    "name": "Jici Liu (刘纪赐)",
-    "gender": "男",
-    "result": "31",
-    "competition": "FMCanton Haizhu 2026",
-    "wcaid": "2009LIUJ04",
-    "date": "2026-03-22",
-    "province": "广东",
-    "city": "深圳"
-  },
-  {
-    "rank": 88,
+    "rank": 98,
     "name": "Yonglin Zhong (钟永麟)",
     "gender": "男",
     "result": "31",
@@ -1045,7 +1144,7 @@
     "city": "湛江"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Jui-Hung Liu (劉睿紘)",
     "gender": "男",
     "result": "31",
@@ -1056,18 +1155,7 @@
     "city": "台湾"
   },
   {
-    "rank": 88,
-    "name": "Wayne Pi",
-    "gender": "男",
-    "result": "31",
-    "competition": "Please Don't DNF Kaohsiung 2026",
-    "wcaid": "2017PIWA01",
-    "date": "2026-04-05",
-    "province": "台湾",
-    "city": "台湾"
-  },
-  {
-    "rank": 88,
+    "rank": 98,
     "name": "Congxi Liu (刘淙溪)",
     "gender": "男",
     "result": "31",
@@ -1078,7 +1166,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Hao Wang (王浩)",
     "gender": "男",
     "result": "31",
@@ -1089,7 +1177,7 @@
     "city": "宁波"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Daoming Ye (叶道明)",
     "gender": "男",
     "result": "31",
@@ -1100,7 +1188,7 @@
     "city": "厦门"
   },
   {
-    "rank": 88,
+    "rank": 98,
     "name": "Weilong Luo (罗伟龙)",
     "gender": "男",
     "result": "31",
@@ -1111,7 +1199,29 @@
     "city": "武汉"
   },
   {
-    "rank": 102,
+    "rank": 98,
+    "name": "Yuan Shu (袁數)",
+    "gender": "男",
+    "result": "31",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2025SHUY01",
+    "date": "2026-07-04",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 98,
+    "name": "Xingyu Wu (伍星宇)",
+    "gender": "男",
+    "result": "31",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2018WUXI03",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "淮安"
+  },
+  {
+    "rank": 112,
     "name": "Zijia Feng (冯子甲)",
     "gender": "男",
     "result": "32",
@@ -1122,7 +1232,7 @@
     "city": "南京"
   },
   {
-    "rank": 102,
+    "rank": 112,
     "name": "Jinge Li (李金戈)",
     "gender": "男",
     "result": "32",
@@ -1133,7 +1243,7 @@
     "city": "济南"
   },
   {
-    "rank": 102,
+    "rank": 112,
     "name": "Xiang Xiao (肖翔)",
     "gender": "男",
     "result": "32",
@@ -1144,7 +1254,7 @@
     "city": "惠州"
   },
   {
-    "rank": 102,
+    "rank": 112,
     "name": "Chuntian Long (龙椿天)",
     "gender": "男",
     "result": "32",
@@ -1155,7 +1265,7 @@
     "city": "茂名"
   },
   {
-    "rank": 102,
+    "rank": 112,
     "name": "Yu-An Dai (戴昱安)",
     "gender": "男",
     "result": "32",
@@ -1166,7 +1276,18 @@
     "city": "台湾"
   },
   {
-    "rank": 102,
+    "rank": 112,
+    "name": "Yu-Chi Hou (侯宥圻)",
+    "gender": "男",
+    "result": "32",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2018HOUY01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 112,
     "name": "Haotian Shi (史浩天)",
     "gender": "男",
     "result": "32",
@@ -1177,7 +1298,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 102,
+    "rank": 112,
     "name": "Jieming Zhao (赵捷鸣)",
     "gender": "男",
     "result": "32",
@@ -1188,7 +1309,29 @@
     "city": "苏州"
   },
   {
-    "rank": 109,
+    "rank": 112,
+    "name": "Rui-Jun Liu (劉睿鈞)",
+    "gender": "男",
+    "result": "32",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2011LIUR02",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 112,
+    "name": "Haoguang Lyu (吕浩光)",
+    "gender": "男",
+    "result": "32",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2017LUHA03",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "深圳"
+  },
+  {
+    "rank": 122,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "33",
@@ -1199,7 +1342,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Hongyu Zhu (朱泓宇)",
     "gender": "男",
     "result": "33",
@@ -1210,7 +1353,7 @@
     "city": "西双版纳"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Ruixuan Dong (董睿轩)",
     "gender": "男",
     "result": "33",
@@ -1221,7 +1364,7 @@
     "city": "广州"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Ming Zheng (郑鸣)",
     "gender": "男",
     "result": "33",
@@ -1232,7 +1375,7 @@
     "city": "广州"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Zongpu Qiao (乔宗璞)",
     "gender": "男",
     "result": "33",
@@ -1243,7 +1386,7 @@
     "city": "平顶山"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Linxiao Xu (徐林霄)",
     "gender": "男",
     "result": "33",
@@ -1254,7 +1397,7 @@
     "city": "天津"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Yechen Yan (颜叶辰)",
     "gender": "男",
     "result": "33",
@@ -1265,7 +1408,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Tao Wen (温韬)",
     "gender": "男",
     "result": "33",
@@ -1276,7 +1419,7 @@
     "city": "钦州"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Yutong Yan (严裕彤)",
     "gender": "男",
     "result": "33",
@@ -1287,7 +1430,7 @@
     "city": "上海"
   },
   {
-    "rank": 109,
+    "rank": 122,
     "name": "Xinyu Wang (王欣宇)",
     "gender": "男",
     "result": "33",
@@ -1298,7 +1441,18 @@
     "city": "安庆"
   },
   {
-    "rank": 119,
+    "rank": 122,
+    "name": "Yizhou Huang (黄一舟)",
+    "gender": "男",
+    "result": "33",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2025HUAN27",
+    "date": "2026-07-12",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 133,
     "name": "Jingbin Li (李晶斌)",
     "gender": "男",
     "result": "34",
@@ -1309,7 +1463,7 @@
     "city": "莆田"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Yanrui Xie (谢延睿)",
     "gender": "男",
     "result": "34",
@@ -1320,7 +1474,7 @@
     "city": "成都"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Yueshan Yang (杨悦山)",
     "gender": "男",
     "result": "34",
@@ -1331,7 +1485,7 @@
     "city": "深圳"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Yuzhe Gan (甘宇喆)",
     "gender": "男",
     "result": "34",
@@ -1342,7 +1496,7 @@
     "city": "厦门"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Junhe Liao (廖俊和)",
     "gender": "男",
     "result": "34",
@@ -1353,7 +1507,7 @@
     "city": "深圳"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Weicheng Luo (罗炜城)",
     "gender": "男",
     "result": "34",
@@ -1364,7 +1518,7 @@
     "city": "佛山"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Boxi Deng (邓柏禧)",
     "gender": "男",
     "result": "34",
@@ -1375,18 +1529,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 119,
-    "name": "Wenqiang Yan (严文强)",
-    "gender": "男",
-    "result": "34",
-    "competition": "FMCanton Nansha 2026",
-    "wcaid": "2016YANW01",
-    "date": "2026-03-21",
-    "province": "广东",
-    "city": "阳江"
-  },
-  {
-    "rank": 119,
+    "rank": 133,
     "name": "Sheng-Jie Yang (楊勝絜)",
     "gender": "男",
     "result": "34",
@@ -1397,7 +1540,7 @@
     "city": "台湾"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Hong-An Lai (賴泓安)",
     "gender": "男",
     "result": "34",
@@ -1408,7 +1551,7 @@
     "city": "台湾"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Mengyao Sun (孙梦瑶)",
     "gender": "女",
     "result": "34",
@@ -1419,7 +1562,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Kai Liang (梁楷)",
     "gender": "男",
     "result": "34",
@@ -1430,7 +1573,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Yanchen Weng (翁彦辰)",
     "gender": "男",
     "result": "34",
@@ -1441,7 +1584,7 @@
     "city": "南京"
   },
   {
-    "rank": 119,
+    "rank": 133,
     "name": "Chen Chen (陈宸)",
     "gender": "男",
     "result": "34",
@@ -1453,6 +1596,28 @@
   },
   {
     "rank": 133,
+    "name": "Po-Hsien Lai (賴柏憲)",
+    "gender": "男",
+    "result": "34",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2022LAIP01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 147,
+    "name": "Yuan Gao (高原)",
+    "gender": "男",
+    "result": "35",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2016GAOY02",
+    "date": "2026-07-04",
+    "province": "辽宁",
+    "city": "铁岭"
+  },
+  {
+    "rank": 147,
     "name": "Zhedong Wang (王哲栋)",
     "gender": "男",
     "result": "35",
@@ -1463,7 +1628,7 @@
     "city": "湖州"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Xin Shi (石欣)",
     "gender": "男",
     "result": "35",
@@ -1474,7 +1639,7 @@
     "city": "武汉"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Sing-Hao Lian (連星皓)",
     "gender": "男",
     "result": "35",
@@ -1485,7 +1650,7 @@
     "city": "台湾"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Miaojie Wang (王妙杰)",
     "gender": "男",
     "result": "35",
@@ -1496,7 +1661,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Junyu Wang (王骏瑜)",
     "gender": "男",
     "result": "35",
@@ -1507,7 +1672,7 @@
     "city": "上海"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Xuming Wang (王旭明)",
     "gender": "男",
     "result": "35",
@@ -1518,7 +1683,7 @@
     "city": "杭州"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Yi Chen (陈易)",
     "gender": "男",
     "result": "35",
@@ -1529,7 +1694,7 @@
     "city": "泉州"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Mingsen Han (韩明森)",
     "gender": "男",
     "result": "35",
@@ -1540,7 +1705,7 @@
     "city": "西安"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "Jiacan Su (苏家灿)",
     "gender": "男",
     "result": "35",
@@ -1551,7 +1716,7 @@
     "city": "南宁"
   },
   {
-    "rank": 133,
+    "rank": 147,
     "name": "David-Nuo Cheng",
     "gender": "男",
     "result": "35",
@@ -1562,7 +1727,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 143,
+    "rank": 147,
+    "name": "Yen-An Chen (陳彥安)",
+    "gender": "男",
+    "result": "35",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2019CHEY31",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 147,
+    "name": "Jie-Yu Xie (謝傑宇)",
+    "gender": "男",
+    "result": "35",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2019XIEJ05",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 160,
     "name": "Sirun Wu (吴思润)",
     "gender": "女",
     "result": "36",
@@ -1573,7 +1760,7 @@
     "city": "武汉"
   },
   {
-    "rank": 143,
+    "rank": 160,
     "name": "Ruohan Qiu (邱若寒)",
     "gender": "男",
     "result": "36",
@@ -1584,7 +1771,7 @@
     "city": "广州"
   },
   {
-    "rank": 143,
+    "rank": 160,
     "name": "Hangxu Liu (刘航旭)",
     "gender": "男",
     "result": "36",
@@ -1595,7 +1782,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 143,
+    "rank": 160,
     "name": "Wenjun Luo (罗文俊)",
     "gender": "男",
     "result": "36",
@@ -1606,7 +1793,7 @@
     "city": "江门"
   },
   {
-    "rank": 143,
+    "rank": 160,
     "name": "Yu-Lun Huang (黃于倫)",
     "gender": "男",
     "result": "36",
@@ -1617,7 +1804,7 @@
     "city": "台湾"
   },
   {
-    "rank": 143,
+    "rank": 160,
     "name": "Yuqing Tang (唐雨清)",
     "gender": "女",
     "result": "36",
@@ -1628,7 +1815,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 143,
+    "rank": 160,
     "name": "Yu-Hsuan Chang (張祐瑄)",
     "gender": "男",
     "result": "36",
@@ -1639,7 +1826,7 @@
     "city": "台湾"
   },
   {
-    "rank": 143,
+    "rank": 160,
     "name": "Yiming Zuo (左一鸣)",
     "gender": "男",
     "result": "36",
@@ -1650,7 +1837,40 @@
     "city": "盐城"
   },
   {
-    "rank": 151,
+    "rank": 160,
+    "name": "Wenjie Huang (黄文杰)",
+    "gender": "男",
+    "result": "36",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2017HUAN80",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "佛山"
+  },
+  {
+    "rank": 160,
+    "name": "Junxi Jian (简隽希)",
+    "gender": "男",
+    "result": "36",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2017JIAN32",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "深圳"
+  },
+  {
+    "rank": 160,
+    "name": "Zhanyi Xie (谢展羿)",
+    "gender": "男",
+    "result": "36",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2026XIEZ02",
+    "date": "2026-07-12",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 171,
     "name": "Zirui Zhang (张梓瑞)",
     "gender": "男",
     "result": "37",
@@ -1661,7 +1881,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 151,
+    "rank": 171,
     "name": "Deying Ou (欧德颖)",
     "gender": "男",
     "result": "37",
@@ -1672,7 +1892,7 @@
     "city": "湛江"
   },
   {
-    "rank": 151,
+    "rank": 171,
     "name": "Lianghai Sui (眭亮海)",
     "gender": "男",
     "result": "37",
@@ -1683,7 +1903,7 @@
     "city": "吉安"
   },
   {
-    "rank": 151,
+    "rank": 171,
     "name": "Chun-Chia Wang (王畯家)",
     "gender": "男",
     "result": "37",
@@ -1694,29 +1914,7 @@
     "city": "台湾"
   },
   {
-    "rank": 151,
-    "name": "Yu-Chi Hou (侯宥圻)",
-    "gender": "男",
-    "result": "37",
-    "competition": "Please Don't DNF Kaohsiung 2026",
-    "wcaid": "2018HOUY01",
-    "date": "2026-04-05",
-    "province": "台湾",
-    "city": "台湾"
-  },
-  {
-    "rank": 151,
-    "name": "Tzu-Heng Lin (林子恆)",
-    "gender": "男",
-    "result": "37",
-    "competition": "Please Don't DNF Kaohsiung 2026",
-    "wcaid": "2010LINT01",
-    "date": "2026-04-05",
-    "province": "台湾",
-    "city": "台湾"
-  },
-  {
-    "rank": 151,
+    "rank": 171,
     "name": "Shun-Hsin Chang (張舜欣)",
     "gender": "女",
     "result": "37",
@@ -1727,7 +1925,7 @@
     "city": "台湾"
   },
   {
-    "rank": 151,
+    "rank": 171,
     "name": "Yichen Ye (叶逸晨)",
     "gender": "男",
     "result": "37",
@@ -1738,18 +1936,7 @@
     "city": "厦门"
   },
   {
-    "rank": 151,
-    "name": "Zijun Liu (刘子钧)",
-    "gender": "男",
-    "result": "37",
-    "competition": "More Than One Cube Shanghai 2026",
-    "wcaid": "2021LIUZ07",
-    "date": "2026-06-06",
-    "province": "江苏",
-    "city": "南京"
-  },
-  {
-    "rank": 151,
+    "rank": 171,
     "name": "Chen Kang (亢晨)",
     "gender": "男",
     "result": "37",
@@ -1760,7 +1947,7 @@
     "city": "西宁"
   },
   {
-    "rank": 151,
+    "rank": 171,
     "name": "Yan Luk (陸昕)",
     "gender": "女",
     "result": "37",
@@ -1771,7 +1958,40 @@
     "city": "香港"
   },
   {
-    "rank": 162,
+    "rank": 171,
+    "name": "Ri-Sheng Huang (黃日昇)",
+    "gender": "男",
+    "result": "37",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2026HUAN29",
+    "date": "2026-06-26",
+    "province": "",
+    "city": ""
+  },
+  {
+    "rank": 171,
+    "name": "Weitong Qi (戚卫桐)",
+    "gender": "男",
+    "result": "37",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2026QIWE01",
+    "date": "2026-07-12",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 171,
+    "name": "Yuhan Wu (吴羽寒)",
+    "gender": "男",
+    "result": "37",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2018WUYU02",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "苏州"
+  },
+  {
+    "rank": 182,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "38",
@@ -1782,7 +2002,18 @@
     "city": "澳门"
   },
   {
-    "rank": 162,
+    "rank": 182,
+    "name": "Sora Wenjie Xu (徐文杰)",
+    "gender": "男",
+    "result": "38",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2016XUWE02",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "广州"
+  },
+  {
+    "rank": 182,
     "name": "Yu-Shen Zhang (張昱紳)",
     "gender": "男",
     "result": "38",
@@ -1793,7 +2024,7 @@
     "city": "台湾"
   },
   {
-    "rank": 162,
+    "rank": 182,
     "name": "Han Wu (吳翰)",
     "gender": "男",
     "result": "38",
@@ -1804,7 +2035,7 @@
     "city": "台湾"
   },
   {
-    "rank": 162,
+    "rank": 182,
     "name": "Jiangchuan Wen (文江川)",
     "gender": "男",
     "result": "38",
@@ -1815,7 +2046,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 162,
+    "rank": 182,
     "name": "Wenzhuo Ji (季文卓)",
     "gender": "男",
     "result": "38",
@@ -1826,7 +2057,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 162,
+    "rank": 182,
     "name": "Hengxi Liu (刘恒希)",
     "gender": "男",
     "result": "38",
@@ -1837,7 +2068,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 162,
+    "rank": 182,
     "name": "Hailun Hou (侯海论)",
     "gender": "男",
     "result": "38",
@@ -1848,7 +2079,7 @@
     "city": "珠海"
   },
   {
-    "rank": 162,
+    "rank": 182,
     "name": "Ethan Ruoqing Chen (陈若轻)",
     "gender": "男",
     "result": "38",
@@ -1859,7 +2090,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 170,
+    "rank": 182,
+    "name": "Liheng Zhou (周立珩)",
+    "gender": "男",
+    "result": "38",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2024ZHOU10",
+    "date": "2026-07-12",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 182,
+    "name": "Yuxuan Sun (孙煜轩)",
+    "gender": "男",
+    "result": "38",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2024SUNY01",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "南京"
+  },
+  {
+    "rank": 193,
     "name": "Yuki Gao",
     "gender": "女",
     "result": "39",
@@ -1870,7 +2123,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 170,
+    "rank": 193,
     "name": "Zeyuan Guo (郭泽原)",
     "gender": "男",
     "result": "39",
@@ -1881,7 +2134,7 @@
     "city": "宁波"
   },
   {
-    "rank": 170,
+    "rank": 193,
     "name": "Zhengyu Zhu (朱政宇)",
     "gender": "男",
     "result": "39",
@@ -1892,7 +2145,7 @@
     "city": "西安"
   },
   {
-    "rank": 170,
+    "rank": 193,
     "name": "Chan-Yi Lin (林展邑)",
     "gender": "男",
     "result": "39",
@@ -1903,7 +2156,7 @@
     "city": "台湾"
   },
   {
-    "rank": 170,
+    "rank": 193,
     "name": "Liang-Zhen Lai (賴良榛)",
     "gender": "男",
     "result": "39",
@@ -1914,7 +2167,7 @@
     "city": "台湾"
   },
   {
-    "rank": 170,
+    "rank": 193,
     "name": "Jinghan Yang (杨景涵)",
     "gender": "男",
     "result": "39",
@@ -1925,7 +2178,18 @@
     "city": "温州"
   },
   {
-    "rank": 176,
+    "rank": 193,
+    "name": "Yuan Shi Chu (袁時初)",
+    "gender": "男",
+    "result": "39",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2019CHUY01",
+    "date": "2026-07-04",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 200,
     "name": "Zirui Wang (王子睿)",
     "gender": "男",
     "result": "40",
@@ -1936,7 +2200,7 @@
     "city": "佛山"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Andy Wu",
     "gender": "男",
     "result": "40",
@@ -1947,7 +2211,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Zicong Weng (翁子聪)",
     "gender": "男",
     "result": "40",
@@ -1958,7 +2222,7 @@
     "city": "广州"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Jiayi Li (李嘉忆)",
     "gender": "男",
     "result": "40",
@@ -1969,7 +2233,7 @@
     "city": "广州"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Mocheng Liu (刘默成)",
     "gender": "男",
     "result": "40",
@@ -1980,7 +2244,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Yuxuan Huang (黄宇轩)",
     "gender": "男",
     "result": "40",
@@ -1991,7 +2255,7 @@
     "city": "滁州"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Ching-Hsiang Li (李清翔)",
     "gender": "男",
     "result": "40",
@@ -2002,7 +2266,7 @@
     "city": "台湾"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Dongzhe Li (李东哲)",
     "gender": "男",
     "result": "40",
@@ -2013,7 +2277,7 @@
     "city": "南京"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Yonghao Xu (徐永浩)",
     "gender": "男",
     "result": "40",
@@ -2024,7 +2288,7 @@
     "city": "韶关"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Ruotong Jia (贾若桐)",
     "gender": "男",
     "result": "40",
@@ -2035,7 +2299,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 176,
+    "rank": 200,
     "name": "Mingzhi Cai (蔡明志)",
     "gender": "男",
     "result": "40",
@@ -2046,29 +2310,29 @@
     "city": "神手谷"
   },
   {
-    "rank": 187,
-    "name": "Yuan Gao (高原)",
-    "gender": "男",
-    "result": "41",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2016GAOY02",
-    "date": "2026-02-06",
-    "province": "辽宁",
-    "city": "铁岭"
+    "rank": 200,
+    "name": "Pei-Ni Chiang (江霈妮)",
+    "gender": "女",
+    "result": "40",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2022CHIA01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
   },
   {
-    "rank": 187,
-    "name": "Sora Wenjie Xu (徐文杰)",
-    "gender": "男",
-    "result": "41",
-    "competition": "FMCanton Haizhu 2026",
-    "wcaid": "2016XUWE02",
-    "date": "2026-03-22",
-    "province": "广东",
-    "city": "广州"
+    "rank": 200,
+    "name": "Xin-Hui Huang (黃歆惠)",
+    "gender": "女",
+    "result": "40",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2023HUAN22",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
   },
   {
-    "rank": 187,
+    "rank": 213,
     "name": "Chen-Rui Yu (余晨睿)",
     "gender": "男",
     "result": "41",
@@ -2079,7 +2343,7 @@
     "city": "台湾"
   },
   {
-    "rank": 187,
+    "rank": 213,
     "name": "Yifan Cheng (程依凡)",
     "gender": "男",
     "result": "41",
@@ -2090,7 +2354,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 187,
+    "rank": 213,
     "name": "Jizhao Wu (吴继钊)",
     "gender": "男",
     "result": "41",
@@ -2101,7 +2365,7 @@
     "city": "北京"
   },
   {
-    "rank": 187,
+    "rank": 213,
     "name": "Haibin Shi (施海滨)",
     "gender": "男",
     "result": "41",
@@ -2112,7 +2376,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 187,
+    "rank": 213,
     "name": "Weizhong Luo (罗尉衷)",
     "gender": "男",
     "result": "41",
@@ -2123,7 +2387,7 @@
     "city": "成都"
   },
   {
-    "rank": 187,
+    "rank": 213,
     "name": "Haidong Feng (冯海栋)",
     "gender": "男",
     "result": "41",
@@ -2134,7 +2398,29 @@
     "city": "金华"
   },
   {
-    "rank": 195,
+    "rank": 213,
+    "name": "Wei-Zhong Wang (王為中)",
+    "gender": "男",
+    "result": "41",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2024WANW03",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 213,
+    "name": "Jiaqing Zhang (章家卿)",
+    "gender": "男",
+    "result": "41",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2017ZHAJ02",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "南京"
+  },
+  {
+    "rank": 221,
     "name": "Shuxiu Jiang (蒋束修)",
     "gender": "男",
     "result": "42",
@@ -2145,7 +2431,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 195,
+    "rank": 221,
+    "name": "Minjie Huang (黄敏杰)",
+    "gender": "男",
+    "result": "42",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2011HUAN08",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "广州"
+  },
+  {
+    "rank": 221,
     "name": "Baocheng Wu (吴宝城)",
     "gender": "男",
     "result": "42",
@@ -2156,7 +2453,7 @@
     "city": "武汉"
   },
   {
-    "rank": 195,
+    "rank": 221,
     "name": "Chia-Leo Lin (林珈樂)",
     "gender": "男",
     "result": "42",
@@ -2167,7 +2464,7 @@
     "city": "台湾"
   },
   {
-    "rank": 195,
+    "rank": 221,
     "name": "Fugui Li (李福桂)",
     "gender": "男",
     "result": "42",
@@ -2178,7 +2475,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 195,
+    "rank": 221,
     "name": "Jiawei Xu (许佳炜)",
     "gender": "男",
     "result": "42",
@@ -2189,7 +2486,7 @@
     "city": "泉州"
   },
   {
-    "rank": 195,
+    "rank": 221,
     "name": "Haoxu Ye (叶浩煦)",
     "gender": "男",
     "result": "42",
@@ -2200,7 +2497,29 @@
     "city": "宁德"
   },
   {
-    "rank": 201,
+    "rank": 221,
+    "name": "Lixiang Zhang (张理翔)",
+    "gender": "男",
+    "result": "42",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2024ZHAL06",
+    "date": "2026-07-12",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 221,
+    "name": "Guangda Liu (刘广达)",
+    "gender": "男",
+    "result": "42",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2016LIUG03",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "盐城"
+  },
+  {
+    "rank": 230,
     "name": "Jie Liu (刘捷)",
     "gender": "男",
     "result": "43",
@@ -2211,7 +2530,7 @@
     "city": "揭阳"
   },
   {
-    "rank": 201,
+    "rank": 230,
     "name": "Fang-Ru Yu (余芳儒)",
     "gender": "女",
     "result": "43",
@@ -2222,7 +2541,7 @@
     "city": "台湾"
   },
   {
-    "rank": 201,
+    "rank": 230,
     "name": "Zibo Peng (彭梓博)",
     "gender": "男",
     "result": "43",
@@ -2233,7 +2552,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 201,
+    "rank": 230,
     "name": "Sutong Wang (王苏桐)",
     "gender": "男",
     "result": "43",
@@ -2244,7 +2563,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 201,
+    "rank": 230,
     "name": "Yuchuan Gao (高雨川)",
     "gender": "男",
     "result": "43",
@@ -2255,7 +2574,18 @@
     "city": "绍兴"
   },
   {
-    "rank": 206,
+    "rank": 230,
+    "name": "Haonan Li (李皓楠)",
+    "gender": "男",
+    "result": "43",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2023LIHA03",
+    "date": "2026-07-04",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 236,
     "name": "Yangfan Shu (舒扬帆)",
     "gender": "男",
     "result": "44",
@@ -2266,7 +2596,7 @@
     "city": "上海"
   },
   {
-    "rank": 206,
+    "rank": 236,
     "name": "Hsiang-Chih Kan",
     "gender": "男",
     "result": "44",
@@ -2277,7 +2607,7 @@
     "city": ""
   },
   {
-    "rank": 206,
+    "rank": 236,
     "name": "Enqi Bai (白恩企)",
     "gender": "男",
     "result": "44",
@@ -2288,7 +2618,7 @@
     "city": "临汾"
   },
   {
-    "rank": 209,
+    "rank": 239,
     "name": "Yu-You Guo (郭昱佑)",
     "gender": "男",
     "result": "45",
@@ -2299,7 +2629,7 @@
     "city": "台湾"
   },
   {
-    "rank": 209,
+    "rank": 239,
     "name": "Zhenghai Zu (祖正海)",
     "gender": "男",
     "result": "45",
@@ -2310,7 +2640,7 @@
     "city": "昆明"
   },
   {
-    "rank": 209,
+    "rank": 239,
     "name": "Zengzhe Wang (王曾喆)",
     "gender": "男",
     "result": "45",
@@ -2321,7 +2651,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 209,
+    "rank": 239,
     "name": "Han Wang (汪涵)",
     "gender": "男",
     "result": "45",
@@ -2332,7 +2662,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 213,
+    "rank": 239,
+    "name": "Qingwei Kong (孔庆玮)",
+    "gender": "男",
+    "result": "45",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2012KONG01",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "淮安"
+  },
+  {
+    "rank": 244,
     "name": "You Wu (吴悠)",
     "gender": "男",
     "result": "46",
@@ -2343,7 +2684,7 @@
     "city": "深圳"
   },
   {
-    "rank": 213,
+    "rank": 244,
     "name": "Gordon Cheung",
     "gender": "男",
     "result": "46",
@@ -2354,7 +2695,7 @@
     "city": "香港"
   },
   {
-    "rank": 213,
+    "rank": 244,
     "name": "Xiang Li (李响)",
     "gender": "男",
     "result": "46",
@@ -2365,7 +2706,7 @@
     "city": "张家口"
   },
   {
-    "rank": 213,
+    "rank": 244,
     "name": "Zihao Wang (王子豪)",
     "gender": "男",
     "result": "46",
@@ -2376,7 +2717,29 @@
     "city": "泰安"
   },
   {
-    "rank": 217,
+    "rank": 244,
+    "name": "Chung-Yao Chiang (江仲堯)",
+    "gender": "男",
+    "result": "46",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2015CHIA05",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 244,
+    "name": "Jinhong Chen (陈锦鸿)",
+    "gender": "男",
+    "result": "46",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2026CHEJ10",
+    "date": "2026-07-12",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 250,
     "name": "Hao Zhang (张昊)",
     "gender": "男",
     "result": "47",
@@ -2387,7 +2750,7 @@
     "city": "郑州"
   },
   {
-    "rank": 218,
+    "rank": 251,
     "name": "Qiuchi Sang (桑秋驰)",
     "gender": "男",
     "result": "48",
@@ -2398,7 +2761,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 218,
+    "rank": 251,
+    "name": "Wu Li (李悟)",
+    "gender": "男",
+    "result": "48",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2023LIWU01",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 251,
     "name": "Yueqi Bai (白悦琦)",
     "gender": "男",
     "result": "48",
@@ -2409,7 +2783,7 @@
     "city": "西安"
   },
   {
-    "rank": 218,
+    "rank": 251,
     "name": "Weijie Hong (洪伟杰)",
     "gender": "男",
     "result": "48",
@@ -2420,7 +2794,7 @@
     "city": "阳江"
   },
   {
-    "rank": 221,
+    "rank": 255,
     "name": "Jin Wu (武进)",
     "gender": "男",
     "result": "49",
@@ -2431,7 +2805,7 @@
     "city": "北京"
   },
   {
-    "rank": 221,
+    "rank": 255,
     "name": "Hung-Tsang Chen (陳泓滄)",
     "gender": "男",
     "result": "49",
@@ -2442,7 +2816,7 @@
     "city": "台湾"
   },
   {
-    "rank": 221,
+    "rank": 255,
     "name": "Po-Ling Lin (林柏伶)",
     "gender": "女",
     "result": "49",
@@ -2453,7 +2827,7 @@
     "city": "台湾"
   },
   {
-    "rank": 221,
+    "rank": 255,
     "name": "Luchen Zhang (张录辰)",
     "gender": "男",
     "result": "49",
@@ -2464,7 +2838,40 @@
     "city": "北京"
   },
   {
-    "rank": 225,
+    "rank": 255,
+    "name": "Kai-Jie Wu (吳楷傑)",
+    "gender": "男",
+    "result": "49",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2024WUKA02",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 260,
+    "name": "Chi-Hsun Hung (洪琪勛)",
+    "gender": "男",
+    "result": "50",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2024HUNG15",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 260,
+    "name": "Huan Yao (姚欢)",
+    "gender": "男",
+    "result": "50",
+    "competition": "FMC Nanjing 2026",
+    "wcaid": "2017YAOH02",
+    "date": "2026-07-12",
+    "province": "江苏",
+    "city": "镇江"
+  },
+  {
+    "rank": 262,
     "name": "Zhenhuan Zhang (张振寰)",
     "gender": "男",
     "result": "52",
@@ -2475,7 +2882,18 @@
     "city": "三亚"
   },
   {
-    "rank": 226,
+    "rank": 262,
+    "name": "Shihao Ou (欧世浩)",
+    "gender": "男",
+    "result": "52",
+    "competition": "FMCanton Baiyun 2026",
+    "wcaid": "2014OUSH01",
+    "date": "2026-07-04",
+    "province": "广东",
+    "city": "汕头"
+  },
+  {
+    "rank": 264,
     "name": "Yifeng Jiang",
     "gender": "男",
     "result": "53",
@@ -2486,18 +2904,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 227,
-    "name": "Minjie Huang (黄敏杰)",
-    "gender": "男",
-    "result": "54",
-    "competition": "FMCanton Nansha 2026",
-    "wcaid": "2011HUAN08",
-    "date": "2026-03-21",
-    "province": "广东",
-    "city": "广州"
-  },
-  {
-    "rank": 228,
+    "rank": 265,
     "name": "Cheng-Ru Lee (李承儒)",
     "gender": "男",
     "result": "55",
@@ -2508,7 +2915,7 @@
     "city": "台湾"
   },
   {
-    "rank": 229,
+    "rank": 266,
     "name": "En-Tzu Lin (林恩慈)",
     "gender": "女",
     "result": "57",
@@ -2519,7 +2926,7 @@
     "city": "台湾"
   },
   {
-    "rank": 229,
+    "rank": 266,
     "name": "Yizhi Cui (崔益智)",
     "gender": "男",
     "result": "57",
@@ -2530,7 +2937,7 @@
     "city": "台州"
   },
   {
-    "rank": 231,
+    "rank": 268,
     "name": "Sena Y. Zhang",
     "gender": "男",
     "result": "59",
@@ -2541,7 +2948,7 @@
     "city": "成都"
   },
   {
-    "rank": 232,
+    "rank": 269,
     "name": "Chuhang Ma (马楚航)",
     "gender": "男",
     "result": "61",
@@ -2552,7 +2959,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 233,
+    "rank": 270,
     "name": "Yu-Cheng Lin (林昱丞)",
     "gender": "男",
     "result": "62",
@@ -2563,7 +2970,7 @@
     "city": "台湾"
   },
   {
-    "rank": 233,
+    "rank": 270,
     "name": "Fangyuan Chang (常方圆)",
     "gender": "女",
     "result": "62",

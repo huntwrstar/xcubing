@@ -23,12 +23,12 @@
   },
   {
     "rank": 3,
-    "name": "Alvin Cheng Hiu Yeung (鄭曉洋)",
+    "name": "Alvin Hiu Yeung Cheng (鄭曉洋)",
     "gender": "男",
-    "result": "4:00.35",
-    "competition": "Turning in Corning 2025",
+    "result": "3:54.06",
+    "competition": "Rubik's WCA North American Championship 2026",
     "wcaid": "2019YEUN01",
-    "date": "2025-12-20",
+    "date": "2026-07-02",
     "province": "香港",
     "city": "香港"
   },
@@ -100,6 +100,17 @@
   },
   {
     "rank": 10,
+    "name": "Michael Ngan (顏律言)",
+    "gender": "男",
+    "result": "5:48.16",
+    "competition": "Hampshire Summer 2026",
+    "wcaid": "2016NGAN02",
+    "date": "2026-06-27",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 11,
     "name": "Zicong Liu (刘子聪)",
     "gender": "男",
     "result": "5:50.87",
@@ -108,17 +119,6 @@
     "date": "2026-02-06",
     "province": "天津",
     "city": "天津"
-  },
-  {
-    "rank": 11,
-    "name": "Michael Ngan (顏律言)",
-    "gender": "男",
-    "result": "5:59.61",
-    "competition": "Glasgow Winter - Scottish Blind Off 2026",
-    "wcaid": "2016NGAN02",
-    "date": "2026-02-07",
-    "province": "香港",
-    "city": "香港"
   },
   {
     "rank": 12,
@@ -331,6 +331,17 @@
   },
   {
     "rank": 31,
+    "name": "Ge Shi (石歌)",
+    "gender": "男",
+    "result": "11:13.00",
+    "competition": "Selangor PBQ 2026",
+    "wcaid": "2024GESH01",
+    "date": "2026-07-05",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 32,
     "name": "Xiangjie Li (李祥杰)",
     "gender": "男",
     "result": "11:31.00",
@@ -341,7 +352,7 @@
     "city": "连云港"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "name": "Tianyu Zhao (赵天愉)",
     "gender": "男",
     "result": "11:44.00",
@@ -352,7 +363,7 @@
     "city": "北京"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "name": "Min Wu (吴民)",
     "gender": "男",
     "result": "12:56.00",
@@ -363,7 +374,7 @@
     "city": "北京"
   },
   {
-    "rank": 34,
+    "rank": 35,
     "name": "Yuheng Wu (吴雨衡)",
     "gender": "男",
     "result": "13:09.00",
@@ -374,7 +385,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 35,
+    "rank": 36,
     "name": "Meng Chon Kuok (郭明臻)",
     "gender": "女",
     "result": "13:11.00",
@@ -385,7 +396,18 @@
     "city": "澳门"
   },
   {
-    "rank": 36,
+    "rank": 37,
+    "name": "Po-Ling Lin (林柏伶)",
+    "gender": "女",
+    "result": "13:32.00",
+    "competition": "Taipei PBQ Open 2026",
+    "wcaid": "2019LINP03",
+    "date": "2026-06-26",
+    "province": "台湾",
+    "city": "台湾"
+  },
+  {
+    "rank": 38,
     "name": "Lanshi Zhang (张岚石)",
     "gender": "男",
     "result": "13:51.00",
@@ -396,7 +418,7 @@
     "city": "哈尔滨"
   },
   {
-    "rank": 36,
+    "rank": 38,
     "name": "Jingcai Li (李经才)",
     "gender": "男",
     "result": "13:51.00",
@@ -407,7 +429,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 38,
+    "rank": 40,
     "name": "Matt Mao",
     "gender": "男",
     "result": "13:53.00",
@@ -418,7 +440,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 39,
+    "rank": 41,
     "name": "Ting He (禾廷)",
     "gender": "男",
     "result": "14:27.00",
@@ -429,18 +451,7 @@
     "city": "大同"
   },
   {
-    "rank": 40,
-    "name": "Ge Shi (石歌)",
-    "gender": "男",
-    "result": "14:31.00",
-    "competition": "Please Be Quiet Singapore June 2026",
-    "wcaid": "2024GESH01",
-    "date": "2026-06-13",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
-    "rank": 41,
+    "rank": 42,
     "name": "Jiayu Wang (王佳宇)",
     "gender": "男",
     "result": "14:32.00",
@@ -451,7 +462,7 @@
     "city": "台州"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "name": "Jiahao Han (韩嘉豪)",
     "gender": "男",
     "result": "14:39.00",
@@ -462,7 +473,7 @@
     "city": "广州"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "name": "Guoqiao Wang (王国桥)",
     "gender": "男",
     "result": "15:26.00",
@@ -473,7 +484,7 @@
     "city": "北京"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "name": "Anto Kam (甘浩東)",
     "gender": "男",
     "result": "16:42.00",
@@ -484,7 +495,7 @@
     "city": "香港"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "17:24.00",
@@ -495,7 +506,7 @@
     "city": "澳门"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "name": "Zhengxing Su (苏正行)",
     "gender": "男",
     "result": "19:35.00",
@@ -506,7 +517,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "name": "Chu Yiu On (朱耀安)",
     "gender": "男",
     "result": "19:59.00",
@@ -517,7 +528,7 @@
     "city": "香港"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "22:23.00",
@@ -528,7 +539,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "name": "Jinge Li (李金戈)",
     "gender": "男",
     "result": "23:19.00",
@@ -539,7 +550,7 @@
     "city": "济南"
   },
   {
-    "rank": 50,
+    "rank": 51,
     "name": "Max Xiong (熊锐明)",
     "gender": "男",
     "result": "23:27.00",
@@ -550,7 +561,7 @@
     "city": ""
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "24:16.00",
@@ -561,7 +572,7 @@
     "city": "常德"
   },
   {
-    "rank": 52,
+    "rank": 53,
     "name": "Chan Hay Yin (陳希言)",
     "gender": "男",
     "result": "27:05.00",
@@ -572,7 +583,7 @@
     "city": "香港"
   },
   {
-    "rank": 53,
+    "rank": 54,
     "name": "Yizhi Cui (崔益智)",
     "gender": "男",
     "result": "27:57.00",
@@ -583,7 +594,7 @@
     "city": "台州"
   },
   {
-    "rank": 54,
+    "rank": 55,
     "name": "Putian Ye (叶溥天)",
     "gender": "男",
     "result": "29:11.00",
@@ -594,7 +605,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 55,
+    "rank": 56,
     "name": "Cian-Jyun Yang (楊謙君)",
     "gender": "男",
     "result": "30:00.00",
@@ -605,7 +616,7 @@
     "city": "台湾"
   },
   {
-    "rank": 56,
+    "rank": 57,
     "name": "Hongjie Zhang (张鸿杰)",
     "gender": "男",
     "result": "32:32.00",
@@ -616,7 +627,7 @@
     "city": "宁德"
   },
   {
-    "rank": 57,
+    "rank": 58,
     "name": "Haotian Hu (胡皓天)",
     "gender": "男",
     "result": "44:49.00",
