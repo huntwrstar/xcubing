@@ -34,6 +34,17 @@
   },
   {
     "rank": 4,
+    "name": "Hui Cai (蔡辉)",
+    "gender": "男",
+    "result": "4:08.51",
+    "competition": "Please Be Quiet Xi'an 2026",
+    "wcaid": "2018CAIH01",
+    "date": "2026-08-23",
+    "province": "湖北",
+    "city": "武汉"
+  },
+  {
+    "rank": 5,
     "name": "Jia-Hong Lu (陸嘉宏)",
     "gender": "男",
     "result": "4:25.72",
@@ -44,7 +55,7 @@
     "city": "台湾"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "name": "Sora Wenjie Xu (徐文杰)",
     "gender": "男",
     "result": "4:26.60",
@@ -55,7 +66,7 @@
     "city": "广州"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "name": "Mengfei Shen (沈梦非)",
     "gender": "女",
     "result": "4:50.26",
@@ -66,7 +77,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "name": "Victor Tang Yao Jun (湯曜駿)",
     "gender": "男",
     "result": "5:03.29",
@@ -77,7 +88,7 @@
     "city": "香港"
   },
   {
-    "rank": 8,
+    "rank": 9,
     "name": "Li-Chen Lin (林立宸)",
     "gender": "男",
     "result": "5:08.00",
@@ -88,18 +99,18 @@
     "city": "台湾"
   },
   {
-    "rank": 9,
-    "name": "Hui Cai (蔡辉)",
+    "rank": 10,
+    "name": "Yuhang Sun (孙煜航)",
     "gender": "男",
-    "result": "5:17.03",
-    "competition": "Zhengzhou Summer II 2025",
-    "wcaid": "2018CAIH01",
-    "date": "2025-08-23",
-    "province": "湖北",
-    "city": "武汉"
+    "result": "5:09.40",
+    "competition": "Hefei September Open 2026",
+    "wcaid": "2019SUNY09",
+    "date": "2026-09-05",
+    "province": "江西",
+    "city": "抚州"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "name": "Michael Ngan (顏律言)",
     "gender": "男",
     "result": "5:48.16",
@@ -110,7 +121,7 @@
     "city": "香港"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "name": "Zicong Liu (刘子聪)",
     "gender": "男",
     "result": "5:50.87",
@@ -121,7 +132,7 @@
     "city": "天津"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "name": "Ping-Yueh Huang (黃品越)",
     "gender": "男",
     "result": "6:11.80",
@@ -132,7 +143,7 @@
     "city": "台湾"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "name": "Ziyi Xu (徐梓翼)",
     "gender": "男",
     "result": "6:17.02",
@@ -143,7 +154,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "name": "Yonghao Xu (徐永浩)",
     "gender": "男",
     "result": "6:37.57",
@@ -154,7 +165,7 @@
     "city": "韶关"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "name": "Haozhen Ding (丁昊桢)",
     "gender": "男",
     "result": "6:38.45",
@@ -165,7 +176,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 16,
+    "rank": 17,
+    "name": "Haotian Shi (史浩天)",
+    "gender": "男",
+    "result": "6:51.45",
+    "competition": "Hefei September Open 2026",
+    "wcaid": "2024SHIH06",
+    "date": "2026-09-05",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 18,
     "name": "Yucheng Chen (陈裕铖)",
     "gender": "男",
     "result": "6:53.81",
@@ -176,7 +198,7 @@
     "city": "东莞"
   },
   {
-    "rank": 17,
+    "rank": 19,
     "name": "Lingxiao Li (李凌霄)",
     "gender": "男",
     "result": "7:19.57",
@@ -187,18 +209,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 18,
-    "name": "Yuhang Sun (孙煜航)",
-    "gender": "男",
-    "result": "7:45.40",
-    "competition": "Please Be Quiet Shanghai 2025",
-    "wcaid": "2019SUNY09",
-    "date": "2025-04-12",
-    "province": "江西",
-    "city": "抚州"
-  },
-  {
-    "rank": 19,
+    "rank": 20,
     "name": "Wayne Pi",
     "gender": "男",
     "result": "8:13.21",
@@ -209,24 +220,13 @@
     "city": "台湾"
   },
   {
-    "rank": 20,
-    "name": "Haotian Shi (史浩天)",
-    "gender": "男",
-    "result": "8:13.91",
-    "competition": "Please Be Quiet Hefei 2025",
-    "wcaid": "2024SHIH06",
-    "date": "2025-12-21",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
     "rank": 21,
     "name": "Yifan Wang (王逸帆)",
     "gender": "男",
-    "result": "9:04.04",
-    "competition": "Please Be Quiet Hefei 2026",
+    "result": "8:55.14",
+    "competition": "Hefei September Open 2026",
     "wcaid": "2017WANY29",
-    "date": "2026-05-10",
+    "date": "2026-09-05",
     "province": "福建",
     "city": "三明"
   },
@@ -309,6 +309,17 @@
   },
   {
     "rank": 29,
+    "name": "Tianyu Yang (杨天宇)",
+    "gender": "男",
+    "result": "10:19.00",
+    "competition": "Please Be Quiet Xi'an 2026",
+    "wcaid": "2024YANG18",
+    "date": "2026-08-23",
+    "province": "贵州",
+    "city": "贵阳"
+  },
+  {
+    "rank": 30,
     "name": "Rui Yang (杨睿)",
     "gender": "男",
     "result": "10:20.00",
@@ -319,7 +330,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 30,
+    "rank": 31,
     "name": "Liang Chen (陈樑)",
     "gender": "男",
     "result": "10:25.00",
@@ -330,7 +341,7 @@
     "city": "上海"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "name": "Ge Shi (石歌)",
     "gender": "男",
     "result": "11:13.00",
@@ -341,7 +352,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "name": "Xiangjie Li (李祥杰)",
     "gender": "男",
     "result": "11:31.00",
@@ -352,7 +363,7 @@
     "city": "连云港"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "name": "Tianyu Zhao (赵天愉)",
     "gender": "男",
     "result": "11:44.00",
@@ -363,7 +374,18 @@
     "city": "北京"
   },
   {
-    "rank": 34,
+    "rank": 35,
+    "name": "Linjin Xu (徐林锦)",
+    "gender": "男",
+    "result": "12:11.00",
+    "competition": "Hefei September Open 2026",
+    "wcaid": "2025XULI01",
+    "date": "2026-09-05",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 36,
     "name": "Min Wu (吴民)",
     "gender": "男",
     "result": "12:56.00",
@@ -374,7 +396,7 @@
     "city": "北京"
   },
   {
-    "rank": 35,
+    "rank": 37,
     "name": "Yuheng Wu (吴雨衡)",
     "gender": "男",
     "result": "13:09.00",
@@ -385,7 +407,7 @@
     "city": "沈阳"
   },
   {
-    "rank": 36,
+    "rank": 38,
     "name": "Meng Chon Kuok (郭明臻)",
     "gender": "女",
     "result": "13:11.00",
@@ -396,7 +418,7 @@
     "city": "澳门"
   },
   {
-    "rank": 37,
+    "rank": 39,
     "name": "Po-Ling Lin (林柏伶)",
     "gender": "女",
     "result": "13:32.00",
@@ -407,7 +429,7 @@
     "city": "台湾"
   },
   {
-    "rank": 38,
+    "rank": 40,
     "name": "Lanshi Zhang (张岚石)",
     "gender": "男",
     "result": "13:51.00",
@@ -418,7 +440,7 @@
     "city": "哈尔滨"
   },
   {
-    "rank": 38,
+    "rank": 40,
     "name": "Jingcai Li (李经才)",
     "gender": "男",
     "result": "13:51.00",
@@ -429,7 +451,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 40,
+    "rank": 42,
     "name": "Matt Mao",
     "gender": "男",
     "result": "13:53.00",
@@ -440,7 +462,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 41,
+    "rank": 43,
+    "name": "Jiayu Wang (王佳宇)",
+    "gender": "男",
+    "result": "14:14.00",
+    "competition": "Hefei September Open 2026",
+    "wcaid": "2010WANG53",
+    "date": "2026-09-05",
+    "province": "浙江",
+    "city": "台州"
+  },
+  {
+    "rank": 44,
     "name": "Ting He (禾廷)",
     "gender": "男",
     "result": "14:27.00",
@@ -451,18 +484,7 @@
     "city": "大同"
   },
   {
-    "rank": 42,
-    "name": "Jiayu Wang (王佳宇)",
-    "gender": "男",
-    "result": "14:32.00",
-    "competition": "BUBT Cube Open 2026",
-    "wcaid": "2010WANG53",
-    "date": "2026-05-07",
-    "province": "浙江",
-    "city": "台州"
-  },
-  {
-    "rank": 43,
+    "rank": 45,
     "name": "Jiahao Han (韩嘉豪)",
     "gender": "男",
     "result": "14:39.00",
@@ -473,7 +495,7 @@
     "city": "广州"
   },
   {
-    "rank": 44,
+    "rank": 46,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "15:13.00",
@@ -484,7 +506,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 45,
+    "rank": 47,
     "name": "Guoqiao Wang (王国桥)",
     "gender": "男",
     "result": "15:26.00",
@@ -495,7 +517,7 @@
     "city": "北京"
   },
   {
-    "rank": 46,
+    "rank": 48,
     "name": "Anto Kam (甘浩東)",
     "gender": "男",
     "result": "16:42.00",
@@ -506,7 +528,7 @@
     "city": "香港"
   },
   {
-    "rank": 47,
+    "rank": 49,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "17:24.00",
@@ -517,7 +539,7 @@
     "city": "澳门"
   },
   {
-    "rank": 48,
+    "rank": 50,
     "name": "Zhengxing Su (苏正行)",
     "gender": "男",
     "result": "19:35.00",
@@ -528,7 +550,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 49,
+    "rank": 51,
     "name": "Chu Yiu On (朱耀安)",
     "gender": "男",
     "result": "19:59.00",
@@ -539,7 +561,7 @@
     "city": "香港"
   },
   {
-    "rank": 50,
+    "rank": 52,
     "name": "Jinge Li (李金戈)",
     "gender": "男",
     "result": "23:19.00",
@@ -550,7 +572,7 @@
     "city": "济南"
   },
   {
-    "rank": 51,
+    "rank": 53,
     "name": "Max Xiong (熊锐明)",
     "gender": "男",
     "result": "23:27.00",
@@ -561,7 +583,7 @@
     "city": ""
   },
   {
-    "rank": 52,
+    "rank": 54,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "24:16.00",
@@ -572,7 +594,18 @@
     "city": "常德"
   },
   {
-    "rank": 53,
+    "rank": 55,
+    "name": "Yizhi Cui (崔益智)",
+    "gender": "男",
+    "result": "24:28.00",
+    "competition": "Hefei September Open 2026",
+    "wcaid": "2016CUIY04",
+    "date": "2026-09-05",
+    "province": "浙江",
+    "city": "台州"
+  },
+  {
+    "rank": 56,
     "name": "Chan Hay Yin (陳希言)",
     "gender": "男",
     "result": "27:05.00",
@@ -583,18 +616,7 @@
     "city": "香港"
   },
   {
-    "rank": 54,
-    "name": "Yizhi Cui (崔益智)",
-    "gender": "男",
-    "result": "27:57.00",
-    "competition": "Please Be Quiet Hefei 2026",
-    "wcaid": "2016CUIY04",
-    "date": "2026-05-10",
-    "province": "浙江",
-    "city": "台州"
-  },
-  {
-    "rank": 55,
+    "rank": 57,
     "name": "Putian Ye (叶溥天)",
     "gender": "男",
     "result": "29:11.00",
@@ -605,7 +627,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 56,
+    "rank": 58,
     "name": "Cian-Jyun Yang (楊謙君)",
     "gender": "男",
     "result": "30:00.00",
@@ -616,7 +638,7 @@
     "city": "台湾"
   },
   {
-    "rank": 57,
+    "rank": 59,
     "name": "Hongjie Zhang (张鸿杰)",
     "gender": "男",
     "result": "32:32.00",
@@ -627,7 +649,7 @@
     "city": "宁德"
   },
   {
-    "rank": 58,
+    "rank": 60,
     "name": "Haotian Hu (胡皓天)",
     "gender": "男",
     "result": "44:49.00",
