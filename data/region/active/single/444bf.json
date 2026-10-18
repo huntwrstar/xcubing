@@ -14,10 +14,10 @@
     "rank": 2,
     "name": "Zhe Wang (王哲)",
     "gender": "男",
-    "result": "1:37.93",
-    "competition": "Please Be Quiet Shanghai 2025",
+    "result": "1:33.74",
+    "competition": "Beijing Autumn Rivalry 2026",
     "wcaid": "2019WANZ21",
-    "date": "2025-04-12",
+    "date": "2026-10-01",
     "province": "神手谷",
     "city": "神手谷"
   },
@@ -223,15 +223,26 @@
     "rank": 21,
     "name": "Lingxiao Li (李凌霄)",
     "gender": "男",
-    "result": "2:49.94",
-    "competition": "Guangdong Open - Revival & Rival 2026",
+    "result": "2:49.49",
+    "competition": "Beijing Autumn Rivalry 2026",
     "wcaid": "2021LILI02",
-    "date": "2026-02-06",
+    "date": "2026-10-01",
     "province": "神手谷",
     "city": "神手谷"
   },
   {
     "rank": 22,
+    "name": "Jiaye Cheng (程嘉烨)",
+    "gender": "男",
+    "result": "2:53.42",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2026CHEN19",
+    "date": "2026-10-01",
+    "province": "北京",
+    "city": "北京"
+  },
+  {
+    "rank": 23,
     "name": "Wayne Pi",
     "gender": "男",
     "result": "3:00.24",
@@ -242,7 +253,7 @@
     "city": "台湾"
   },
   {
-    "rank": 23,
+    "rank": 24,
     "name": "Wenxuan Yue (岳文轩)",
     "gender": "男",
     "result": "3:13.28",
@@ -253,7 +264,7 @@
     "city": "洛阳"
   },
   {
-    "rank": 24,
+    "rank": 25,
     "name": "Ziwei Yuan (袁子为)",
     "gender": "男",
     "result": "3:21.74",
@@ -264,7 +275,7 @@
     "city": "成都"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "name": "Li-Chen Lin (林立宸)",
     "gender": "男",
     "result": "3:36.66",
@@ -273,17 +284,6 @@
     "date": "2026-06-26",
     "province": "台湾",
     "city": "台湾"
-  },
-  {
-    "rank": 26,
-    "name": "Jiaye Cheng (程嘉烨)",
-    "gender": "男",
-    "result": "3:46.04",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2026CHEN19",
-    "date": "2026-02-06",
-    "province": "北京",
-    "city": "北京"
   },
   {
     "rank": 27,
@@ -716,6 +716,17 @@
   },
   {
     "rank": 66,
+    "name": "Xieben Zou",
+    "gender": "男",
+    "result": "9:26.86",
+    "competition": "Deep Focus Apeldoorn 2026",
+    "wcaid": "2018ZOUX03",
+    "date": "2026-10-04",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 67,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "9:34.99",
@@ -726,7 +737,7 @@
     "city": "常德"
   },
   {
-    "rank": 67,
+    "rank": 68,
     "name": "Jinge Li (李金戈)",
     "gender": "男",
     "result": "9:48.11",
@@ -737,7 +748,7 @@
     "city": "济南"
   },
   {
-    "rank": 68,
+    "rank": 69,
     "name": "Yikang Chen (陈毅康)",
     "gender": "男",
     "result": "9:58.84",
@@ -748,7 +759,7 @@
     "city": "吕梁"
   },
   {
-    "rank": 69,
+    "rank": 70,
     "name": "Jibo Zhao (赵吉波)",
     "gender": "男",
     "result": "10:06.00",
@@ -759,7 +770,7 @@
     "city": "绵阳"
   },
   {
-    "rank": 70,
+    "rank": 71,
     "name": "Yizhi Cui (崔益智)",
     "gender": "男",
     "result": "10:20.00",
@@ -770,7 +781,7 @@
     "city": "台州"
   },
   {
-    "rank": 71,
+    "rank": 72,
     "name": "Dorian Chan",
     "gender": "男",
     "result": "10:22.00",
@@ -781,7 +792,7 @@
     "city": "香港"
   },
   {
-    "rank": 72,
+    "rank": 73,
     "name": "Chan Hay Yin (陳希言)",
     "gender": "男",
     "result": "10:31.00",
@@ -792,7 +803,7 @@
     "city": "香港"
   },
   {
-    "rank": 73,
+    "rank": 74,
     "name": "Hongyu Jiang (姜宏禹)",
     "gender": "男",
     "result": "10:54.00",
@@ -803,7 +814,7 @@
     "city": "抚顺"
   },
   {
-    "rank": 74,
+    "rank": 75,
     "name": "Lichi Fang (方力驰)",
     "gender": "男",
     "result": "10:56.00",
@@ -814,7 +825,7 @@
     "city": "珠海"
   },
   {
-    "rank": 75,
+    "rank": 76,
     "name": "Loïc Zhang",
     "gender": "男",
     "result": "10:59.00",
@@ -825,7 +836,7 @@
     "city": ""
   },
   {
-    "rank": 76,
+    "rank": 77,
     "name": "Cindy Xiaoyue Huang (黄小越)",
     "gender": "女",
     "result": "11:05.00",
@@ -836,7 +847,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 77,
+    "rank": 78,
     "name": "Cian-Jyun Yang (楊謙君)",
     "gender": "男",
     "result": "11:13.00",
@@ -847,7 +858,7 @@
     "city": "台湾"
   },
   {
-    "rank": 78,
+    "rank": 79,
     "name": "Zian Song (宋子安)",
     "gender": "男",
     "result": "11:40.00",
@@ -858,7 +869,7 @@
     "city": "南京"
   },
   {
-    "rank": 79,
+    "rank": 80,
     "name": "Junhao Jin (金俊昊)",
     "gender": "男",
     "result": "11:45.00",
@@ -869,7 +880,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 80,
+    "rank": 81,
     "name": "Lai Pak Kiu (賴柏喬)",
     "gender": "男",
     "result": "11:46.00",
@@ -880,7 +891,7 @@
     "city": "香港"
   },
   {
-    "rank": 81,
+    "rank": 82,
     "name": "Chan Yun Yung (陳潤蓉)",
     "gender": "女",
     "result": "12:30.00",
@@ -891,7 +902,7 @@
     "city": "香港"
   },
   {
-    "rank": 82,
+    "rank": 83,
     "name": "Taiji Yi (易泰基)",
     "gender": "男",
     "result": "13:38.00",
@@ -902,7 +913,7 @@
     "city": "肇庆"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Hung-Tsang Chen (陳泓滄)",
     "gender": "男",
     "result": "13:47.00",
@@ -913,7 +924,7 @@
     "city": "台湾"
   },
   {
-    "rank": 84,
+    "rank": 85,
     "name": "Xinhao Chen (陈新浩)",
     "gender": "男",
     "result": "14:16.00",
@@ -924,7 +935,7 @@
     "city": "江门"
   },
   {
-    "rank": 85,
+    "rank": 86,
     "name": "Haotian Hu (胡皓天)",
     "gender": "男",
     "result": "15:03.00",
@@ -935,7 +946,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 86,
+    "rank": 87,
     "name": "Andy Mok Man Cheuk (莫文卓)",
     "gender": "男",
     "result": "15:26.00",
@@ -946,7 +957,7 @@
     "city": "香港"
   },
   {
-    "rank": 87,
+    "rank": 88,
     "name": "Andy Wu",
     "gender": "男",
     "result": "15:50.00",
@@ -957,7 +968,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 88,
+    "rank": 89,
     "name": "Xiaotian Ma (马晓田)",
     "gender": "男",
     "result": "17:03.00",
@@ -968,7 +979,7 @@
     "city": "吕梁"
   },
   {
-    "rank": 89,
+    "rank": 90,
     "name": "Guanghua Wang (王光华)",
     "gender": "男",
     "result": "17:17.00",
@@ -979,7 +990,18 @@
     "city": "嘉兴"
   },
   {
-    "rank": 90,
+    "rank": 91,
+    "name": "Xuehao Ding",
+    "gender": "男",
+    "result": "17:59.00",
+    "competition": "Multimatum: New York Multimate PBQ VI 2026",
+    "wcaid": "2025DING08",
+    "date": "2026-09-25",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 92,
     "name": "Hong-An Lai (賴泓安)",
     "gender": "男",
     "result": "18:02.00",
@@ -990,7 +1012,7 @@
     "city": "台湾"
   },
   {
-    "rank": 91,
+    "rank": 93,
     "name": "Matthew Advani (歐卓禮)",
     "gender": "男",
     "result": "18:44.00",
@@ -1001,7 +1023,7 @@
     "city": "香港"
   },
   {
-    "rank": 92,
+    "rank": 94,
     "name": "Kuan-Ying Li (李冠穎)",
     "gender": "男",
     "result": "18:50.00",
@@ -1012,7 +1034,7 @@
     "city": "台湾"
   },
   {
-    "rank": 93,
+    "rank": 95,
     "name": "Chao-Che Chung (鍾肇哲)",
     "gender": "男",
     "result": "19:04.00",
@@ -1023,7 +1045,7 @@
     "city": "台湾"
   },
   {
-    "rank": 94,
+    "rank": 96,
     "name": "Yu-Chi Hou (侯宥圻)",
     "gender": "男",
     "result": "19:19.00",
@@ -1034,18 +1056,7 @@
     "city": "台湾"
   },
   {
-    "rank": 95,
-    "name": "Xuehao Ding",
-    "gender": "男",
-    "result": "20:33.00",
-    "competition": "Mid-Atlantic Quiet Championship 2026",
-    "wcaid": "2025DING08",
-    "date": "2026-06-27",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
-    "rank": 96,
+    "rank": 97,
     "name": "Chan Yau Hoi (陳佑愷)",
     "gender": "男",
     "result": "21:26.00",
@@ -1056,7 +1067,7 @@
     "city": "香港"
   },
   {
-    "rank": 97,
+    "rank": 98,
     "name": "Ziyou Yin (殷子佑)",
     "gender": "男",
     "result": "22:29.00",
@@ -1067,7 +1078,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Zixuan Tan",
     "gender": "男",
     "result": "22:42.00",
@@ -1078,7 +1089,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 99,
+    "rank": 100,
     "name": "Tzu-Heng Lin (林子恆)",
     "gender": "男",
     "result": "34:12.00",

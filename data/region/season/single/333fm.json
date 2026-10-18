@@ -155,6 +155,17 @@
   },
   {
     "rank": 11,
+    "name": "Jiashun Wu (吴嘉顺)",
+    "gender": "男",
+    "result": "19",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2016WUJI01",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "厦门"
+  },
+  {
+    "rank": 11,
     "name": "Hsiang-Cheng Kan (闞祥誠)",
     "gender": "男",
     "result": "19",
@@ -176,7 +187,7 @@
     "city": "北京"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "name": "Yunhao Lou (娄云皓)",
     "gender": "男",
     "result": "20",
@@ -187,7 +198,7 @@
     "city": "深圳"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "name": "Dorian Chan",
     "gender": "男",
     "result": "20",
@@ -198,7 +209,7 @@
     "city": "香港"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "name": "Mingzhi Da (达明志)",
     "gender": "男",
     "result": "20",
@@ -207,17 +218,6 @@
     "date": "2026-06-06",
     "province": "江苏",
     "city": "南京"
-  },
-  {
-    "rank": 17,
-    "name": "Jiashun Wu (吴嘉顺)",
-    "gender": "男",
-    "result": "20",
-    "competition": "Quanzhou FMC Summer 2026",
-    "wcaid": "2016WUJI01",
-    "date": "2026-06-20",
-    "province": "福建",
-    "city": "厦门"
   },
   {
     "rank": 21,
@@ -331,6 +331,17 @@
   },
   {
     "rank": 31,
+    "name": "Zicong Liu (刘子聪)",
+    "gender": "男",
+    "result": "23",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2024LIUZ11",
+    "date": "2026-10-01",
+    "province": "天津",
+    "city": "天津"
+  },
+  {
+    "rank": 31,
     "name": "Guangtong Quan (全广通)",
     "gender": "男",
     "result": "23",
@@ -385,7 +396,7 @@
     "city": "香港"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "name": "Wenhao Xiang (向文昊)",
     "gender": "男",
     "result": "24",
@@ -396,7 +407,7 @@
     "city": "广州"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "name": "Qihan Chen (陈启晗)",
     "gender": "男",
     "result": "24",
@@ -407,7 +418,7 @@
     "city": "广州"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "name": "Yining Wang (王逸宁)",
     "gender": "男",
     "result": "24",
@@ -418,7 +429,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "name": "Ruicheng Tao (陶睿成)",
     "gender": "男",
     "result": "24",
@@ -429,7 +440,7 @@
     "city": "苏州"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Junhao Jin (金俊昊)",
     "gender": "男",
     "result": "25",
@@ -440,18 +451,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 40,
-    "name": "Zicong Liu (刘子聪)",
-    "gender": "男",
-    "result": "25",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2024LIUZ11",
-    "date": "2026-02-06",
-    "province": "天津",
-    "city": "天津"
-  },
-  {
-    "rank": 40,
+    "rank": 41,
     "name": "Wenxin Huang (黄文信)",
     "gender": "男",
     "result": "25",
@@ -462,7 +462,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Yuhang Sun (孙煜航)",
     "gender": "男",
     "result": "25",
@@ -473,7 +473,7 @@
     "city": "抚州"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Xuyang Zhang (张煦阳)",
     "gender": "男",
     "result": "25",
@@ -484,7 +484,18 @@
     "city": "广州"
   },
   {
-    "rank": 40,
+    "rank": 41,
+    "name": "Zhuocheng Guo (郭卓成)",
+    "gender": "男",
+    "result": "25",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2024GUOZ04",
+    "date": "2026-10-04",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 41,
     "name": "Yen-Lei Jen (任晏磊)",
     "gender": "男",
     "result": "25",
@@ -495,7 +506,7 @@
     "city": "台湾"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Wayne Pi",
     "gender": "男",
     "result": "25",
@@ -506,7 +517,7 @@
     "city": "台湾"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Xiaohu Xu (胥啸虎)",
     "gender": "男",
     "result": "25",
@@ -517,7 +528,7 @@
     "city": "成都"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Jiayue Chen (陈家悦)",
     "gender": "女",
     "result": "25",
@@ -528,7 +539,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Yibo Wang (王怡卜)",
     "gender": "男",
     "result": "25",
@@ -539,7 +550,7 @@
     "city": "西安"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Yiyang Ma (马熠阳)",
     "gender": "男",
     "result": "25",
@@ -550,7 +561,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Bowen Deng (邓博文)",
     "gender": "男",
     "result": "26",
@@ -561,7 +572,7 @@
     "city": "常德"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Tianyu Yang (杨天宇)",
     "gender": "男",
     "result": "26",
@@ -572,7 +583,7 @@
     "city": "贵阳"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Xingyu Chen (陈星宇)",
     "gender": "男",
     "result": "26",
@@ -583,7 +594,7 @@
     "city": "茂名"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Lui Chi Fung (雷智鋒)",
     "gender": "男",
     "result": "26",
@@ -594,7 +605,7 @@
     "city": "香港"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Matt Mao",
     "gender": "男",
     "result": "26",
@@ -605,7 +616,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Zijian Cai (蔡子健)",
     "gender": "男",
     "result": "26",
@@ -616,7 +627,7 @@
     "city": "深圳"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Mok Man Kit (莫文傑)",
     "gender": "男",
     "result": "26",
@@ -627,18 +638,7 @@
     "city": "香港"
   },
   {
-    "rank": 51,
-    "name": "Zhuocheng Guo (郭卓成)",
-    "gender": "男",
-    "result": "26",
-    "competition": "FMCanton Baiyun 2026",
-    "wcaid": "2024GUOZ04",
-    "date": "2026-07-04",
-    "province": "神手谷",
-    "city": "神手谷"
-  },
-  {
-    "rank": 51,
+    "rank": 52,
     "name": "Liang Chen (陈樑)",
     "gender": "男",
     "result": "26",
@@ -649,7 +649,7 @@
     "city": "上海"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Zhiyuan Ma (马之元)",
     "gender": "男",
     "result": "26",
@@ -660,7 +660,7 @@
     "city": "上海"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Zijun Liu (刘子钧)",
     "gender": "男",
     "result": "26",
@@ -671,7 +671,7 @@
     "city": "南京"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Ruei-Ying Huang (黃睿穎)",
     "gender": "男",
     "result": "26",
@@ -991,6 +991,17 @@
   },
   {
     "rank": 89,
+    "name": "Yuzhe Gan (甘宇喆)",
+    "gender": "男",
+    "result": "30",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2018GANY01",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "厦门"
+  },
+  {
+    "rank": 89,
     "name": "Taiji Yi (易泰基)",
     "gender": "男",
     "result": "30",
@@ -1089,7 +1100,18 @@
     "city": "台湾"
   },
   {
-    "rank": 100,
+    "rank": 89,
+    "name": "Pengwei Chen (陈芃威)",
+    "gender": "男",
+    "result": "30",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2015CHEN87",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "宁德"
+  },
+  {
+    "rank": 102,
     "name": "Ziyu Liang (梁梓煜)",
     "gender": "男",
     "result": "31",
@@ -1100,7 +1122,7 @@
     "city": "广州"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Haoxuan Zhang (张浩轩)",
     "gender": "男",
     "result": "31",
@@ -1111,7 +1133,7 @@
     "city": "北京"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Zhibo Xuan (禤志博)",
     "gender": "男",
     "result": "31",
@@ -1122,7 +1144,7 @@
     "city": "深圳"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Ziyi Xu (徐梓翼)",
     "gender": "男",
     "result": "31",
@@ -1133,7 +1155,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Minxing Zhang (张敏行)",
     "gender": "女",
     "result": "31",
@@ -1144,7 +1166,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Yexin Weng (翁业心)",
     "gender": "男",
     "result": "31",
@@ -1155,7 +1177,7 @@
     "city": "中山"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Yonglin Zhong (钟永麟)",
     "gender": "男",
     "result": "31",
@@ -1166,7 +1188,7 @@
     "city": "湛江"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Jui-Hung Liu (劉睿紘)",
     "gender": "男",
     "result": "31",
@@ -1177,7 +1199,7 @@
     "city": "台湾"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Congxi Liu (刘淙溪)",
     "gender": "男",
     "result": "31",
@@ -1188,7 +1210,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Hao Wang (王浩)",
     "gender": "男",
     "result": "31",
@@ -1199,7 +1221,7 @@
     "city": "宁波"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Daoming Ye (叶道明)",
     "gender": "男",
     "result": "31",
@@ -1210,7 +1232,7 @@
     "city": "厦门"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Weilong Luo (罗伟龙)",
     "gender": "男",
     "result": "31",
@@ -1221,7 +1243,7 @@
     "city": "武汉"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Yuan Shu (袁數)",
     "gender": "男",
     "result": "31",
@@ -1232,7 +1254,7 @@
     "city": "香港"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Zijia Feng (冯子甲)",
     "gender": "男",
     "result": "32",
@@ -1243,7 +1265,7 @@
     "city": "南京"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Jinge Li (李金戈)",
     "gender": "男",
     "result": "32",
@@ -1254,7 +1276,7 @@
     "city": "济南"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Xiang Xiao (肖翔)",
     "gender": "男",
     "result": "32",
@@ -1265,7 +1287,7 @@
     "city": "惠州"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Chuntian Long (龙椿天)",
     "gender": "男",
     "result": "32",
@@ -1276,7 +1298,7 @@
     "city": "茂名"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Yu-An Dai (戴昱安)",
     "gender": "男",
     "result": "32",
@@ -1287,7 +1309,7 @@
     "city": "台湾"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Yu-Chi Hou (侯宥圻)",
     "gender": "男",
     "result": "32",
@@ -1298,7 +1320,7 @@
     "city": "台湾"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Haotian Shi (史浩天)",
     "gender": "男",
     "result": "32",
@@ -1309,7 +1331,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Jieming Zhao (赵捷鸣)",
     "gender": "男",
     "result": "32",
@@ -1320,7 +1342,7 @@
     "city": "苏州"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Rui-Jun Liu (劉睿鈞)",
     "gender": "男",
     "result": "32",
@@ -1331,7 +1353,7 @@
     "city": "台湾"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Haoguang Lyu (吕浩光)",
     "gender": "男",
     "result": "32",
@@ -1342,7 +1364,18 @@
     "city": "深圳"
   },
   {
-    "rank": 123,
+    "rank": 115,
+    "name": "Xintong Wang (王心潼)",
+    "gender": "女",
+    "result": "32",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2026WANG81",
+    "date": "2026-10-01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 126,
     "name": "Zaya Qiaolong (俏龙扎雅)",
     "gender": "女",
     "result": "33",
@@ -1353,7 +1386,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Hongyu Zhu (朱泓宇)",
     "gender": "男",
     "result": "33",
@@ -1364,7 +1397,7 @@
     "city": "西双版纳"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Ruixuan Dong (董睿轩)",
     "gender": "男",
     "result": "33",
@@ -1375,7 +1408,7 @@
     "city": "广州"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Ming Zheng (郑鸣)",
     "gender": "男",
     "result": "33",
@@ -1386,7 +1419,7 @@
     "city": "广州"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Zongpu Qiao (乔宗璞)",
     "gender": "男",
     "result": "33",
@@ -1397,7 +1430,7 @@
     "city": "平顶山"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Linxiao Xu (徐林霄)",
     "gender": "男",
     "result": "33",
@@ -1408,7 +1441,7 @@
     "city": "天津"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Yechen Yan (颜叶辰)",
     "gender": "男",
     "result": "33",
@@ -1419,7 +1452,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Tao Wen (温韬)",
     "gender": "男",
     "result": "33",
@@ -1430,7 +1463,7 @@
     "city": "钦州"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Yutong Yan (严裕彤)",
     "gender": "男",
     "result": "33",
@@ -1441,7 +1474,7 @@
     "city": "上海"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Xinyu Wang (王欣宇)",
     "gender": "男",
     "result": "33",
@@ -1452,7 +1485,7 @@
     "city": "安庆"
   },
   {
-    "rank": 123,
+    "rank": 126,
     "name": "Yizhou Huang (黄一舟)",
     "gender": "男",
     "result": "33",
@@ -1463,7 +1496,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 134,
+    "rank": 126,
+    "name": "Haoting Jiang (蒋昊庭)",
+    "gender": "男",
+    "result": "33",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2025JIAN10",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "泉州"
+  },
+  {
+    "rank": 138,
     "name": "Jingbin Li (李晶斌)",
     "gender": "男",
     "result": "34",
@@ -1474,7 +1518,7 @@
     "city": "莆田"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Yanrui Xie (谢延睿)",
     "gender": "男",
     "result": "34",
@@ -1485,7 +1529,7 @@
     "city": "成都"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Yueshan Yang (杨悦山)",
     "gender": "男",
     "result": "34",
@@ -1496,18 +1540,7 @@
     "city": "深圳"
   },
   {
-    "rank": 134,
-    "name": "Yuzhe Gan (甘宇喆)",
-    "gender": "男",
-    "result": "34",
-    "competition": "Guangdong Open - Revival & Rival 2026",
-    "wcaid": "2018GANY01",
-    "date": "2026-02-06",
-    "province": "福建",
-    "city": "厦门"
-  },
-  {
-    "rank": 134,
+    "rank": 138,
     "name": "Junhe Liao (廖俊和)",
     "gender": "男",
     "result": "34",
@@ -1518,7 +1551,7 @@
     "city": "深圳"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Weicheng Luo (罗炜城)",
     "gender": "男",
     "result": "34",
@@ -1529,7 +1562,7 @@
     "city": "佛山"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Boxi Deng (邓柏禧)",
     "gender": "男",
     "result": "34",
@@ -1540,7 +1573,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Sheng-Jie Yang (楊勝絜)",
     "gender": "男",
     "result": "34",
@@ -1551,7 +1584,7 @@
     "city": "台湾"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Hong-An Lai (賴泓安)",
     "gender": "男",
     "result": "34",
@@ -1562,7 +1595,18 @@
     "city": "台湾"
   },
   {
-    "rank": 134,
+    "rank": 138,
+    "name": "Yichen Ye (叶逸晨)",
+    "gender": "男",
+    "result": "34",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2019YEYI01",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "厦门"
+  },
+  {
+    "rank": 138,
     "name": "Mengyao Sun (孙梦瑶)",
     "gender": "女",
     "result": "34",
@@ -1573,7 +1617,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Kai Liang (梁楷)",
     "gender": "男",
     "result": "34",
@@ -1584,7 +1628,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Yanchen Weng (翁彦辰)",
     "gender": "男",
     "result": "34",
@@ -1595,7 +1639,7 @@
     "city": "南京"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Chen Chen (陈宸)",
     "gender": "男",
     "result": "34",
@@ -1606,7 +1650,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 134,
+    "rank": 138,
     "name": "Po-Hsien Lai (賴柏憲)",
     "gender": "男",
     "result": "34",
@@ -1617,7 +1661,18 @@
     "city": "台湾"
   },
   {
-    "rank": 148,
+    "rank": 138,
+    "name": "Hongjie Zhang (张鸿杰)",
+    "gender": "男",
+    "result": "34",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2018ZHAH02",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "宁德"
+  },
+  {
+    "rank": 153,
     "name": "Yuan Gao (高原)",
     "gender": "男",
     "result": "35",
@@ -1628,7 +1683,7 @@
     "city": "铁岭"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Zhedong Wang (王哲栋)",
     "gender": "男",
     "result": "35",
@@ -1639,7 +1694,7 @@
     "city": "湖州"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Xin Shi (石欣)",
     "gender": "男",
     "result": "35",
@@ -1650,7 +1705,7 @@
     "city": "武汉"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Sing-Hao Lian (連星皓)",
     "gender": "男",
     "result": "35",
@@ -1661,7 +1716,7 @@
     "city": "台湾"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Miaojie Wang (王妙杰)",
     "gender": "男",
     "result": "35",
@@ -1672,7 +1727,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Junyu Wang (王骏瑜)",
     "gender": "男",
     "result": "35",
@@ -1683,7 +1738,7 @@
     "city": "上海"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Xuming Wang (王旭明)",
     "gender": "男",
     "result": "35",
@@ -1694,7 +1749,7 @@
     "city": "杭州"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Yi Chen (陈易)",
     "gender": "男",
     "result": "35",
@@ -1705,7 +1760,7 @@
     "city": "泉州"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Mingsen Han (韩明森)",
     "gender": "男",
     "result": "35",
@@ -1716,7 +1771,7 @@
     "city": "西安"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Jiacan Su (苏家灿)",
     "gender": "男",
     "result": "35",
@@ -1727,7 +1782,7 @@
     "city": "南宁"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "David-Nuo Cheng",
     "gender": "男",
     "result": "35",
@@ -1738,7 +1793,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Yen-An Chen (陳彥安)",
     "gender": "男",
     "result": "35",
@@ -1749,7 +1804,7 @@
     "city": "台湾"
   },
   {
-    "rank": 148,
+    "rank": 153,
     "name": "Jie-Yu Xie (謝傑宇)",
     "gender": "男",
     "result": "35",
@@ -1760,7 +1815,18 @@
     "city": "台湾"
   },
   {
-    "rank": 161,
+    "rank": 153,
+    "name": "Jihao Huang (黄继豪)",
+    "gender": "男",
+    "result": "35",
+    "competition": "Vietnam FMC Championship 2026",
+    "wcaid": "2019HUAN69",
+    "date": "2026-09-26",
+    "province": "广西",
+    "city": "桂林"
+  },
+  {
+    "rank": 167,
     "name": "Sirun Wu (吴思润)",
     "gender": "女",
     "result": "36",
@@ -1771,7 +1837,7 @@
     "city": "武汉"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Ruohan Qiu (邱若寒)",
     "gender": "男",
     "result": "36",
@@ -1782,7 +1848,7 @@
     "city": "广州"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Hangxu Liu (刘航旭)",
     "gender": "男",
     "result": "36",
@@ -1793,7 +1859,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Wenjun Luo (罗文俊)",
     "gender": "男",
     "result": "36",
@@ -1804,7 +1870,7 @@
     "city": "江门"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Yu-Lun Huang (黃于倫)",
     "gender": "男",
     "result": "36",
@@ -1815,7 +1881,7 @@
     "city": "台湾"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Yuqing Tang (唐雨清)",
     "gender": "女",
     "result": "36",
@@ -1826,7 +1892,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Yu-Hsuan Chang (張祐瑄)",
     "gender": "男",
     "result": "36",
@@ -1837,7 +1903,7 @@
     "city": "台湾"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Yiming Zuo (左一鸣)",
     "gender": "男",
     "result": "36",
@@ -1848,7 +1914,7 @@
     "city": "盐城"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Wenjie Huang (黄文杰)",
     "gender": "男",
     "result": "36",
@@ -1859,7 +1925,7 @@
     "city": "佛山"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Junxi Jian (简隽希)",
     "gender": "男",
     "result": "36",
@@ -1870,7 +1936,7 @@
     "city": "深圳"
   },
   {
-    "rank": 161,
+    "rank": 167,
     "name": "Zhanyi Xie (谢展羿)",
     "gender": "男",
     "result": "36",
@@ -1881,7 +1947,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 172,
+    "rank": 167,
+    "name": "Chenyi Ye (叶晨佾)",
+    "gender": "男",
+    "result": "36",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2018YECH03",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "厦门"
+  },
+  {
+    "rank": 179,
     "name": "Yuki Gao",
     "gender": "女",
     "result": "37",
@@ -1892,7 +1969,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Zirui Zhang (张梓瑞)",
     "gender": "男",
     "result": "37",
@@ -1903,7 +1980,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Deying Ou (欧德颖)",
     "gender": "男",
     "result": "37",
@@ -1914,7 +1991,7 @@
     "city": "湛江"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Lianghai Sui (眭亮海)",
     "gender": "男",
     "result": "37",
@@ -1925,7 +2002,7 @@
     "city": "吉安"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Chun-Chia Wang (王畯家)",
     "gender": "男",
     "result": "37",
@@ -1936,7 +2013,7 @@
     "city": "台湾"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Shun-Hsin Chang (張舜欣)",
     "gender": "女",
     "result": "37",
@@ -1947,18 +2024,7 @@
     "city": "台湾"
   },
   {
-    "rank": 172,
-    "name": "Yichen Ye (叶逸晨)",
-    "gender": "男",
-    "result": "37",
-    "competition": "Please Don't DNF Beijing 2026",
-    "wcaid": "2019YEYI01",
-    "date": "2026-05-16",
-    "province": "福建",
-    "city": "厦门"
-  },
-  {
-    "rank": 172,
+    "rank": 179,
     "name": "Chen Kang (亢晨)",
     "gender": "男",
     "result": "37",
@@ -1969,7 +2035,7 @@
     "city": "西宁"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Yan Luk (陸昕)",
     "gender": "女",
     "result": "37",
@@ -1980,7 +2046,7 @@
     "city": "香港"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Ri-Sheng Huang (黃日昇)",
     "gender": "男",
     "result": "37",
@@ -1991,7 +2057,7 @@
     "city": ""
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Weitong Qi (戚卫桐)",
     "gender": "男",
     "result": "37",
@@ -2002,7 +2068,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 172,
+    "rank": 179,
     "name": "Yuhan Wu (吴羽寒)",
     "gender": "男",
     "result": "37",
@@ -2013,8 +2079,8 @@
     "city": "苏州"
   },
   {
-    "rank": 172,
-    "name": "Burno Li Chak Kwan (李澤堃)",
+    "rank": 179,
+    "name": "Burno Chak Kwan Li (李澤堃)",
     "gender": "男",
     "result": "37",
     "competition": "Brighton Brawl NY 2026",
@@ -2024,7 +2090,18 @@
     "city": "香港"
   },
   {
-    "rank": 185,
+    "rank": 179,
+    "name": "Xuezhong Deng (邓学中)",
+    "gender": "男",
+    "result": "37",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2024DENG09",
+    "date": "2026-10-01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 192,
     "name": "Max Kwok U Sam (郭愉琛)",
     "gender": "男",
     "result": "38",
@@ -2035,7 +2112,7 @@
     "city": "澳门"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Sora Wenjie Xu (徐文杰)",
     "gender": "男",
     "result": "38",
@@ -2046,7 +2123,7 @@
     "city": "广州"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Yu-Shen Zhang (張昱紳)",
     "gender": "男",
     "result": "38",
@@ -2057,7 +2134,7 @@
     "city": "台湾"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Han Wu (吳翰)",
     "gender": "男",
     "result": "38",
@@ -2068,7 +2145,7 @@
     "city": "台湾"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Jiangchuan Wen (文江川)",
     "gender": "男",
     "result": "38",
@@ -2079,7 +2156,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Wenzhuo Ji (季文卓)",
     "gender": "男",
     "result": "38",
@@ -2090,7 +2167,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Yuchuan Gao (高雨川)",
     "gender": "男",
     "result": "38",
@@ -2101,7 +2178,7 @@
     "city": "绍兴"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Hengxi Liu (刘恒希)",
     "gender": "男",
     "result": "38",
@@ -2112,7 +2189,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Hailun Hou (侯海论)",
     "gender": "男",
     "result": "38",
@@ -2123,7 +2200,7 @@
     "city": "珠海"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Ethan Ruoqing Chen (陈若轻)",
     "gender": "男",
     "result": "38",
@@ -2134,7 +2211,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Liheng Zhou (周立珩)",
     "gender": "男",
     "result": "38",
@@ -2145,7 +2222,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 185,
+    "rank": 192,
     "name": "Yuxuan Sun (孙煜轩)",
     "gender": "男",
     "result": "38",
@@ -2156,7 +2233,29 @@
     "city": "南京"
   },
   {
-    "rank": 197,
+    "rank": 192,
+    "name": "Jingqi Zhang",
+    "gender": "男",
+    "result": "38",
+    "competition": "Swisscubing Cup Mental Breakdown II 2026",
+    "wcaid": "2016ZHAJ08",
+    "date": "2026-09-19",
+    "province": "",
+    "city": ""
+  },
+  {
+    "rank": 192,
+    "name": "Kangjin Liu (刘康琎)",
+    "gender": "男",
+    "result": "38",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2025LIUK05",
+    "date": "2026-10-04",
+    "province": "江西",
+    "city": "吉安"
+  },
+  {
+    "rank": 206,
     "name": "Zeyuan Guo (郭泽原)",
     "gender": "男",
     "result": "39",
@@ -2167,7 +2266,7 @@
     "city": "宁波"
   },
   {
-    "rank": 197,
+    "rank": 206,
     "name": "Zhengyu Zhu (朱政宇)",
     "gender": "男",
     "result": "39",
@@ -2178,7 +2277,7 @@
     "city": "西安"
   },
   {
-    "rank": 197,
+    "rank": 206,
     "name": "Chan-Yi Lin (林展邑)",
     "gender": "男",
     "result": "39",
@@ -2189,7 +2288,7 @@
     "city": "台湾"
   },
   {
-    "rank": 197,
+    "rank": 206,
     "name": "Liang-Zhen Lai (賴良榛)",
     "gender": "男",
     "result": "39",
@@ -2200,7 +2299,7 @@
     "city": "台湾"
   },
   {
-    "rank": 197,
+    "rank": 206,
     "name": "Jinghan Yang (杨景涵)",
     "gender": "男",
     "result": "39",
@@ -2211,7 +2310,18 @@
     "city": "温州"
   },
   {
-    "rank": 197,
+    "rank": 206,
+    "name": "Jiawei Xu (许佳炜)",
+    "gender": "男",
+    "result": "39",
+    "competition": "Quanzhou FMC Autumn 2026",
+    "wcaid": "2018XUJI06",
+    "date": "2026-10-04",
+    "province": "福建",
+    "city": "泉州"
+  },
+  {
+    "rank": 206,
     "name": "Yuan Shi Chu (袁時初)",
     "gender": "男",
     "result": "39",
@@ -2222,7 +2332,18 @@
     "city": "香港"
   },
   {
-    "rank": 203,
+    "rank": 206,
+    "name": "Sun Chen Bo (孫晨博)",
+    "gender": "男",
+    "result": "39",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2025SUNP01",
+    "date": "2026-10-01",
+    "province": "香港",
+    "city": "香港"
+  },
+  {
+    "rank": 214,
     "name": "Zirui Wang (王子睿)",
     "gender": "男",
     "result": "40",
@@ -2233,7 +2354,7 @@
     "city": "佛山"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Andy Wu",
     "gender": "男",
     "result": "40",
@@ -2244,7 +2365,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Zicong Weng (翁子聪)",
     "gender": "男",
     "result": "40",
@@ -2255,7 +2376,7 @@
     "city": "广州"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Jiayi Li (李嘉忆)",
     "gender": "男",
     "result": "40",
@@ -2266,7 +2387,7 @@
     "city": "广州"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Mocheng Liu (刘默成)",
     "gender": "男",
     "result": "40",
@@ -2277,7 +2398,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Yuxuan Huang (黄宇轩)",
     "gender": "男",
     "result": "40",
@@ -2288,7 +2409,7 @@
     "city": "滁州"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Ching-Hsiang Li (李清翔)",
     "gender": "男",
     "result": "40",
@@ -2299,7 +2420,7 @@
     "city": "台湾"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Dongzhe Li (李东哲)",
     "gender": "男",
     "result": "40",
@@ -2310,7 +2431,7 @@
     "city": "南京"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Yonghao Xu (徐永浩)",
     "gender": "男",
     "result": "40",
@@ -2321,7 +2442,7 @@
     "city": "韶关"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Ruotong Jia (贾若桐)",
     "gender": "男",
     "result": "40",
@@ -2332,7 +2453,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Mingzhi Cai (蔡明志)",
     "gender": "男",
     "result": "40",
@@ -2343,7 +2464,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Luchen Zhang (张录辰)",
     "gender": "男",
     "result": "40",
@@ -2354,7 +2475,7 @@
     "city": "北京"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Pei-Ni Chiang (江霈妮)",
     "gender": "女",
     "result": "40",
@@ -2365,7 +2486,7 @@
     "city": "台湾"
   },
   {
-    "rank": 203,
+    "rank": 214,
     "name": "Xin-Hui Huang (黃歆惠)",
     "gender": "女",
     "result": "40",
@@ -2376,7 +2497,7 @@
     "city": "台湾"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Chen-Rui Yu (余晨睿)",
     "gender": "男",
     "result": "41",
@@ -2387,7 +2508,7 @@
     "city": "台湾"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Yifan Cheng (程依凡)",
     "gender": "男",
     "result": "41",
@@ -2398,7 +2519,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Jizhao Wu (吴继钊)",
     "gender": "男",
     "result": "41",
@@ -2409,7 +2530,7 @@
     "city": "北京"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Haibin Shi (施海滨)",
     "gender": "男",
     "result": "41",
@@ -2420,7 +2541,7 @@
     "city": "上海"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Weizhong Luo (罗尉衷)",
     "gender": "男",
     "result": "41",
@@ -2431,7 +2552,7 @@
     "city": "成都"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Haidong Feng (冯海栋)",
     "gender": "男",
     "result": "41",
@@ -2442,7 +2563,7 @@
     "city": "金华"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Wei-Zhong Wang (王為中)",
     "gender": "男",
     "result": "41",
@@ -2453,7 +2574,7 @@
     "city": "台湾"
   },
   {
-    "rank": 217,
+    "rank": 228,
     "name": "Jiaqing Zhang (章家卿)",
     "gender": "男",
     "result": "41",
@@ -2464,7 +2585,29 @@
     "city": "南京"
   },
   {
-    "rank": 225,
+    "rank": 228,
+    "name": "Yanfu Feng (冯彦福)",
+    "gender": "男",
+    "result": "41",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2017FENG22",
+    "date": "2026-10-01",
+    "province": "山西",
+    "city": "阳泉"
+  },
+  {
+    "rank": 228,
+    "name": "Zhongcheng Shen (谌重丞)",
+    "gender": "男",
+    "result": "41",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2024SHEN02",
+    "date": "2026-10-01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 238,
     "name": "Shuxiu Jiang (蒋束修)",
     "gender": "男",
     "result": "42",
@@ -2475,7 +2618,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 225,
+    "rank": 238,
     "name": "Minjie Huang (黄敏杰)",
     "gender": "男",
     "result": "42",
@@ -2486,7 +2629,7 @@
     "city": "广州"
   },
   {
-    "rank": 225,
+    "rank": 238,
     "name": "Baocheng Wu (吴宝城)",
     "gender": "男",
     "result": "42",
@@ -2497,7 +2640,7 @@
     "city": "武汉"
   },
   {
-    "rank": 225,
+    "rank": 238,
     "name": "Chia-Leo Lin (林珈樂)",
     "gender": "男",
     "result": "42",
@@ -2508,7 +2651,7 @@
     "city": "台湾"
   },
   {
-    "rank": 225,
+    "rank": 238,
     "name": "Fugui Li (李福桂)",
     "gender": "男",
     "result": "42",
@@ -2519,18 +2662,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 225,
-    "name": "Jiawei Xu (许佳炜)",
-    "gender": "男",
-    "result": "42",
-    "competition": "FMC World 2026",
-    "wcaid": "2018XUJI06",
-    "date": "2026-06-20",
-    "province": "福建",
-    "city": "泉州"
-  },
-  {
-    "rank": 225,
+    "rank": 238,
     "name": "Haoxu Ye (叶浩煦)",
     "gender": "男",
     "result": "42",
@@ -2541,7 +2673,7 @@
     "city": "宁德"
   },
   {
-    "rank": 225,
+    "rank": 238,
     "name": "Lixiang Zhang (张理翔)",
     "gender": "男",
     "result": "42",
@@ -2552,7 +2684,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 225,
+    "rank": 238,
     "name": "Guangda Liu (刘广达)",
     "gender": "男",
     "result": "42",
@@ -2563,7 +2695,18 @@
     "city": "盐城"
   },
   {
-    "rank": 234,
+    "rank": 238,
+    "name": "Xiaohan Sun (孙效涵)",
+    "gender": "男",
+    "result": "42",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2017SUNX01",
+    "date": "2026-10-01",
+    "province": "河北",
+    "city": "沧州"
+  },
+  {
+    "rank": 247,
     "name": "Jie Liu (刘捷)",
     "gender": "男",
     "result": "43",
@@ -2574,7 +2717,7 @@
     "city": "揭阳"
   },
   {
-    "rank": 234,
+    "rank": 247,
     "name": "Fang-Ru Yu (余芳儒)",
     "gender": "女",
     "result": "43",
@@ -2585,7 +2728,7 @@
     "city": "台湾"
   },
   {
-    "rank": 234,
+    "rank": 247,
     "name": "Zibo Peng (彭梓博)",
     "gender": "男",
     "result": "43",
@@ -2596,7 +2739,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 234,
+    "rank": 247,
     "name": "Sutong Wang (王苏桐)",
     "gender": "男",
     "result": "43",
@@ -2607,7 +2750,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 234,
+    "rank": 247,
     "name": "Haonan Li (李皓楠)",
     "gender": "男",
     "result": "43",
@@ -2618,7 +2761,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 239,
+    "rank": 252,
     "name": "Yangfan Shu (舒扬帆)",
     "gender": "男",
     "result": "44",
@@ -2629,7 +2772,7 @@
     "city": "上海"
   },
   {
-    "rank": 239,
+    "rank": 252,
     "name": "Hsiang-Chih Kan",
     "gender": "男",
     "result": "44",
@@ -2640,7 +2783,7 @@
     "city": ""
   },
   {
-    "rank": 239,
+    "rank": 252,
     "name": "Enqi Bai (白恩企)",
     "gender": "男",
     "result": "44",
@@ -2651,7 +2794,18 @@
     "city": "临汾"
   },
   {
-    "rank": 242,
+    "rank": 252,
+    "name": "Haoxuan Tan (谭昊轩)",
+    "gender": "男",
+    "result": "44",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2025TANH02",
+    "date": "2026-10-01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 256,
     "name": "Yu-You Guo (郭昱佑)",
     "gender": "男",
     "result": "45",
@@ -2662,7 +2816,7 @@
     "city": "台湾"
   },
   {
-    "rank": 242,
+    "rank": 256,
     "name": "Zhenghai Zu (祖正海)",
     "gender": "男",
     "result": "45",
@@ -2673,7 +2827,7 @@
     "city": "昆明"
   },
   {
-    "rank": 242,
+    "rank": 256,
     "name": "Zengzhe Wang (王曾喆)",
     "gender": "男",
     "result": "45",
@@ -2684,7 +2838,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 242,
+    "rank": 256,
     "name": "Han Wang (汪涵)",
     "gender": "男",
     "result": "45",
@@ -2695,7 +2849,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 242,
+    "rank": 256,
     "name": "Qingwei Kong (孔庆玮)",
     "gender": "男",
     "result": "45",
@@ -2706,7 +2860,18 @@
     "city": "淮安"
   },
   {
-    "rank": 247,
+    "rank": 256,
+    "name": "An Li (李安)",
+    "gender": "男",
+    "result": "45",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2018LIAN23",
+    "date": "2026-10-01",
+    "province": "陕西",
+    "city": "西安"
+  },
+  {
+    "rank": 262,
     "name": "You Wu (吴悠)",
     "gender": "男",
     "result": "46",
@@ -2717,7 +2882,7 @@
     "city": "深圳"
   },
   {
-    "rank": 247,
+    "rank": 262,
     "name": "Gordon Cheung",
     "gender": "男",
     "result": "46",
@@ -2728,7 +2893,7 @@
     "city": "香港"
   },
   {
-    "rank": 247,
+    "rank": 262,
     "name": "Xiang Li (李响)",
     "gender": "男",
     "result": "46",
@@ -2739,7 +2904,7 @@
     "city": "张家口"
   },
   {
-    "rank": 247,
+    "rank": 262,
     "name": "Zihao Wang (王子豪)",
     "gender": "男",
     "result": "46",
@@ -2750,7 +2915,7 @@
     "city": "泰安"
   },
   {
-    "rank": 247,
+    "rank": 262,
     "name": "Chung-Yao Chiang (江仲堯)",
     "gender": "男",
     "result": "46",
@@ -2761,7 +2926,7 @@
     "city": "台湾"
   },
   {
-    "rank": 247,
+    "rank": 262,
     "name": "Jinhong Chen (陈锦鸿)",
     "gender": "男",
     "result": "46",
@@ -2772,7 +2937,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 253,
+    "rank": 262,
+    "name": "Kewei Qin (秦可为)",
+    "gender": "男",
+    "result": "46",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2016QINK01",
+    "date": "2026-10-01",
+    "province": "河北",
+    "city": "张家口"
+  },
+  {
+    "rank": 269,
     "name": "Hao Zhang (张昊)",
     "gender": "男",
     "result": "47",
@@ -2783,7 +2959,7 @@
     "city": "郑州"
   },
   {
-    "rank": 253,
+    "rank": 269,
     "name": "Songtao Zhang (张松涛)",
     "gender": "男",
     "result": "47",
@@ -2794,7 +2970,18 @@
     "city": "洛阳"
   },
   {
-    "rank": 255,
+    "rank": 269,
+    "name": "Zihan Chen (陈子涵)",
+    "gender": "男",
+    "result": "47",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2026CHEN71",
+    "date": "2026-10-01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 272,
     "name": "Qiuchi Sang (桑秋驰)",
     "gender": "男",
     "result": "48",
@@ -2805,7 +2992,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 255,
+    "rank": 272,
     "name": "Wu Li (李悟)",
     "gender": "男",
     "result": "48",
@@ -2816,7 +3003,7 @@
     "city": "台湾"
   },
   {
-    "rank": 255,
+    "rank": 272,
     "name": "Yueqi Bai (白悦琦)",
     "gender": "男",
     "result": "48",
@@ -2827,7 +3014,7 @@
     "city": "西安"
   },
   {
-    "rank": 255,
+    "rank": 272,
     "name": "Weijie Hong (洪伟杰)",
     "gender": "男",
     "result": "48",
@@ -2838,7 +3025,18 @@
     "city": "阳江"
   },
   {
-    "rank": 259,
+    "rank": 272,
+    "name": "Zining Wu (吴梓宁)",
+    "gender": "男",
+    "result": "48",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2025WUZI01",
+    "date": "2026-10-01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 277,
     "name": "Jin Wu (武进)",
     "gender": "男",
     "result": "49",
@@ -2849,7 +3047,7 @@
     "city": "北京"
   },
   {
-    "rank": 259,
+    "rank": 277,
     "name": "Hung-Tsang Chen (陳泓滄)",
     "gender": "男",
     "result": "49",
@@ -2860,7 +3058,7 @@
     "city": "台湾"
   },
   {
-    "rank": 259,
+    "rank": 277,
     "name": "Po-Ling Lin (林柏伶)",
     "gender": "女",
     "result": "49",
@@ -2871,7 +3069,7 @@
     "city": "台湾"
   },
   {
-    "rank": 259,
+    "rank": 277,
     "name": "Kai-Jie Wu (吳楷傑)",
     "gender": "男",
     "result": "49",
@@ -2882,7 +3080,7 @@
     "city": "台湾"
   },
   {
-    "rank": 263,
+    "rank": 281,
     "name": "Chi-Hsun Hung (洪琪勛)",
     "gender": "男",
     "result": "50",
@@ -2893,7 +3091,7 @@
     "city": "台湾"
   },
   {
-    "rank": 263,
+    "rank": 281,
     "name": "Huan Yao (姚欢)",
     "gender": "男",
     "result": "50",
@@ -2904,7 +3102,18 @@
     "city": "镇江"
   },
   {
-    "rank": 265,
+    "rank": 283,
+    "name": "Yichen Wang (王奕辰)",
+    "gender": "男",
+    "result": "51",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2024WANG55",
+    "date": "2026-10-01",
+    "province": "浙江",
+    "city": "舟山"
+  },
+  {
+    "rank": 284,
     "name": "Zhenhuan Zhang (张振寰)",
     "gender": "男",
     "result": "52",
@@ -2915,7 +3124,7 @@
     "city": "三亚"
   },
   {
-    "rank": 265,
+    "rank": 284,
     "name": "Shihao Ou (欧世浩)",
     "gender": "男",
     "result": "52",
@@ -2926,7 +3135,18 @@
     "city": "汕头"
   },
   {
-    "rank": 267,
+    "rank": 284,
+    "name": "Yilin Hao (郝依琳)",
+    "gender": "女",
+    "result": "52",
+    "competition": "Beijing Autumn Rivalry 2026",
+    "wcaid": "2026HAOY01",
+    "date": "2026-10-01",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 287,
     "name": "Yifeng Jiang",
     "gender": "男",
     "result": "53",
@@ -2937,7 +3157,18 @@
     "city": "神手谷"
   },
   {
-    "rank": 268,
+    "rank": 287,
+    "name": "Zhuangyu Zhang (张庄禹)",
+    "gender": "男",
+    "result": "53",
+    "competition": "Tokyo Autumn 2026",
+    "wcaid": "2026ZHAN91",
+    "date": "2026-10-17",
+    "province": "神手谷",
+    "city": "神手谷"
+  },
+  {
+    "rank": 289,
     "name": "Cheng-Ru Lee (李承儒)",
     "gender": "男",
     "result": "55",
@@ -2948,7 +3179,7 @@
     "city": "台湾"
   },
   {
-    "rank": 269,
+    "rank": 290,
     "name": "En-Tzu Lin (林恩慈)",
     "gender": "女",
     "result": "57",
@@ -2959,7 +3190,7 @@
     "city": "台湾"
   },
   {
-    "rank": 269,
+    "rank": 290,
     "name": "Yizhi Cui (崔益智)",
     "gender": "男",
     "result": "57",
@@ -2970,7 +3201,18 @@
     "city": "台州"
   },
   {
-    "rank": 271,
+    "rank": 290,
+    "name": "Huanyi Tan (谭焕疑)",
+    "gender": "男",
+    "result": "57",
+    "competition": "Vietnam FMC Championship 2026",
+    "wcaid": "2018TANH04",
+    "date": "2026-09-26",
+    "province": "广西",
+    "city": "来宾"
+  },
+  {
+    "rank": 293,
     "name": "Sena Y. Zhang",
     "gender": "男",
     "result": "59",
@@ -2981,7 +3223,7 @@
     "city": "成都"
   },
   {
-    "rank": 272,
+    "rank": 294,
     "name": "Chuhang Ma (马楚航)",
     "gender": "男",
     "result": "61",
@@ -2992,7 +3234,7 @@
     "city": "神手谷"
   },
   {
-    "rank": 273,
+    "rank": 295,
     "name": "Yu-Cheng Lin (林昱丞)",
     "gender": "男",
     "result": "62",
@@ -3003,7 +3245,7 @@
     "city": "台湾"
   },
   {
-    "rank": 273,
+    "rank": 295,
     "name": "Fangyuan Chang (常方圆)",
     "gender": "女",
     "result": "62",
