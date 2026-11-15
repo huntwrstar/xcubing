@@ -47,6 +47,7 @@
     "El Salvador",
     "Eritrea",
     "Estonia",
+    "Eswatini",
     "Ethiopia",
     "Fiji",
     "Finland",
@@ -125,6 +126,7 @@
     "Samoa",
     "San Marino",
     "Saudi Arabia",
+    "Senegal",
     "Serbia",
     "Singapore",
     "Slovakia",
@@ -156,7 +158,8 @@
     "Vietnam",
     "Yemen",
     "Zambia",
-    "Zimbabwe"
+    "Zimbabwe",
+    "未知"
   ],
   "country_continent": {
     "China": "亚洲",
@@ -324,8 +327,10 @@
     "Papua New Guinea": "大洋洲",
     "Samoa": "大洋洲",
     "Tonga": "大洋洲",
+    "Maldives": "其他",
+    "Eswatini": "其他",
     "Haiti": "其他",
     "Cabo Verde": "其他",
-    "Maldives": "其他"
+    "未知": "其他"
   }
 }
