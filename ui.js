@@ -1,5 +1,16 @@
 function renderHome() {
     return `
+
+        <div class="announcement-list">
+            <div class="announcement">
+                <h3>公告</h3>
+<p>xcubing 2.0 开发中......<p>
+<p>更好的访问体验、更细致的数据统计<p>
+<p>敬请期待！<p>
+<p>2026-11-15<p>
+                </div>
+            </div>
+
         <div class="announcement-list">
             <div class="announcement">
                 <h3>公告</h3>
