@@ -1,32 +1,29 @@
+const API_DEBUG = false; // 需要排查时改为 true
+
 async function fetchJSON(url) {
-    console.log(`开始加载: ${url}`);
-    if (state.cache[url]) {
-        console.log(`使用缓存: ${url}`);
-        return state.cache[url];
-    }
-    const res = await fetch(url);
-    if (!res.ok) {
-        console.error(`加载失败: ${url} 状态码 ${res.status}`);
-        throw new Error(`加载失败: ${url}`);
-    }
-    const data = await res.json();
-    if (Array.isArray(data)) {
-        console.log(`加载成功: ${url} 共 ${data.length} 条记录`);
-        if (data.length > 0) {
-            console.log('第一条数据示例:', data[0]);
-        } else {
-            console.warn(`警告: ${url} 返回空数组`);
+    if (state.cache[url]) return state.cache[url];
+
+    const p = (async () => {
+        const res = await fetch(url);
+        if (!res.ok) {
+            throw new Error(`加载失败: ${url} (${res.status})`);
         }
-        data.forEach(item => {
-            if (item.result === undefined || item.result === null) {
-                item.result = 'DNF';
+        const data = await res.json();
+        if (Array.isArray(data)) {
+            for (const item of data) {
+                if (item.result === undefined || item.result === null) {
+                    item.result = 'DNF';
+                }
             }
-        });
-    } else {
-        console.log(`加载成功: ${url} (对象)`);
-    }
-    state.cache[url] = data; 
-    return data;
+        }
+        if (API_DEBUG) console.log(`加载成功: ${url}`, Array.isArray(data) ? data.length : '(对象)');
+        return data;
+    })();
+
+    state.cache[url] = p;
+    // 失败时清掉缓存，允许重试
+    p.catch(() => { if (state.cache[url] === p) delete state.cache[url]; });
+    return p;
 }
 
 async function loadMeta() {
@@ -35,13 +32,10 @@ async function loadMeta() {
         state.meta = await fetchJSON('data/meta.json');
         if (!state.meta.country_continent) {
             state.meta.country_continent = {};
-            console.warn('meta.json 缺少 country_continent 字段，将使用空映射，按洲筛选将无法工作');
+            console.warn('meta.json 缺少 country_continent 字段');
         }
     } catch {
-        state.meta = { 
-            countries: [], 
-            country_continent: {} 
-        };
+        state.meta = { countries: [], country_continent: {} };
     }
 }
 
@@ -67,17 +61,17 @@ function parseMBF(resultStr) {
     const attempts = parseInt(match[2], 10);
     const minutes = parseInt(match[3], 10);
     const seconds = parseFloat(match[4]);
-    const timeSeconds = minutes * 60 + seconds;
-    const fail = attempts - success;
-    return { success, attempts, fail, timeSeconds };
+    return {
+        success, attempts,
+        fail: attempts - success,
+        timeSeconds: minutes * 60 + seconds
+    };
 }
 
 function formatResult(resultStr) {
     if (!resultStr || resultStr === 'DNF' || resultStr === '暂无') return '暂无';
     if (typeof resultStr === 'string' && resultStr.includes('/') && resultStr.includes(':')) return resultStr;
-    if (/^\d+$/.test(String(resultStr).trim())) {
-        return resultStr;
-    }
+    if (/^\d+$/.test(String(resultStr).trim())) return resultStr;
     if (typeof resultStr === 'string' && (resultStr.includes(':') || resultStr.includes('.')) && !/^\d+$/.test(resultStr)) {
         return resultStr;
     }
@@ -86,11 +80,7 @@ function formatResult(resultStr) {
     const totalSeconds = num / 100;
     const minutes = Math.floor(totalSeconds / 60);
     const seconds = (totalSeconds % 60).toFixed(2);
-    if (minutes > 0) {
-        return `${minutes}:${seconds.padStart(5, '0')}`;
-    } else {
-        return seconds;
-    }
+    return minutes > 0 ? `${minutes}:${seconds.padStart(5, '0')}` : seconds;
 }
 
 function extractChineseName(name) {
@@ -98,9 +88,7 @@ function extractChineseName(name) {
         const match = name.match(/\(([^)]+)\)/);
         if (match) {
             const inside = match[1].trim();
-            if (/[\u4e00-\u9fa5]/.test(inside)) {
-                return inside;
-            }
+            if (/[\u4e00-\u9fa5]/.test(inside)) return inside;
         }
     }
     return name;
@@ -108,137 +96,97 @@ function extractChineseName(name) {
 
 function getDisplayName(item) {
     const name = item.name || '';
-    if (!state.currentLang.startsWith('zh')) {
-        return name;
-    }
+    if (!state.currentLang.startsWith('zh')) return name;
     const isChinese = (item.country === 'China') || (item.province);
-    if (isChinese) {
-        return extractChineseName(name);
-    }
-    return name;
+    return isChinese ? extractChineseName(name) : name;
 }
 
 function deduplicateByBestAndDate(data, project) {
-    const map = new Map(); // wcaid -> best item
+    const map = new Map();
     data.forEach(item => {
         const id = item.wcaid;
         if (!id) return;
         const existing = map.get(id);
-        if (!existing) {
-            map.set(id, item);
-            return;
-        }
+        if (!existing) { map.set(id, item); return; }
 
         let isBetter = false;
         if (project === '333mbf') {
-            const currParsed = parseMBF(item.result);
-            const existParsed = parseMBF(existing.result);
-            if (!currParsed && !existParsed) return; 
-            if (!currParsed) return; 
-            if (!existParsed) { 
-                map.set(id, item);
-                return;
-            }
-            const currScore = currParsed.success - currParsed.fail;
-            const existScore = existParsed.success - existParsed.fail;
-            if (currScore > existScore) {
-                isBetter = true;
-            } else if (currScore === existScore) {
-                if (currParsed.timeSeconds < existParsed.timeSeconds) {
-                    isBetter = true;
-                } else if (currParsed.timeSeconds === existParsed.timeSeconds) {
-                    if (currParsed.fail < existParsed.fail) {
-                        isBetter = true;
-                    } else if (currParsed.fail === existParsed.fail) {
-
-                        if (item.date && existing.date && item.date < existing.date) {
-                            isBetter = true;
-                        } else if (!existing.date && item.date) {
-                            isBetter = true;
-                        }
+            const curr = parseMBF(item.result);
+            const prev = parseMBF(existing.result);
+            if (!curr && !prev) return;
+            if (!curr) return;
+            if (!prev) { map.set(id, item); return; }
+            const cs = curr.success - curr.fail, ps = prev.success - prev.fail;
+            if (cs > ps) isBetter = true;
+            else if (cs === ps) {
+                if (curr.timeSeconds < prev.timeSeconds) isBetter = true;
+                else if (curr.timeSeconds === prev.timeSeconds) {
+                    if (curr.fail < prev.fail) isBetter = true;
+                    else if (curr.fail === prev.fail) {
+                        if (item.date && existing.date && item.date < existing.date) isBetter = true;
+                        else if (!existing.date && item.date) isBetter = true;
                     }
                 }
             }
         } else {
-            const currVal = parseTime(item.result);
-            const existVal = parseTime(existing.result);
-            if (currVal < existVal) {
-                isBetter = true;
-            } else if (currVal === existVal) {
-
-                if (item.date && existing.date && item.date < existing.date) {
-                    isBetter = true;
-                } else if (!existing.date && item.date) {
-                    isBetter = true;
-                }
+            const cv = parseTime(item.result);
+            const ev = parseTime(existing.result);
+            if (cv < ev) isBetter = true;
+            else if (cv === ev) {
+                if (item.date && existing.date && item.date < existing.date) isBetter = true;
+                else if (!existing.date && item.date) isBetter = true;
             }
         }
-        if (isBetter) {
-            map.set(id, item);
-        }
+        if (isBetter) map.set(id, item);
     });
     return Array.from(map.values());
 }
 
 function recomputeRanks(data, project) {
-    data = data.filter(item => item && item.result !== undefined);
-    
+    // 预解析排序键，排序只比数值，避免反复 parseTime
+    const items = [];
+    for (const item of data) {
+        if (!item || item.result === undefined) continue;
+        let key;
+        if (project === '333mbf') {
+            const p = parseMBF(item.result);
+            key = p
+                ? [-(p.success - p.fail), p.timeSeconds, p.fail]
+                : [Infinity, Infinity, Infinity];
+        } else {
+            key = parseTime(item.result);
+        }
+        items.push({ item, key });
+    }
+
     if (project === '333mbf') {
-        data.sort((a, b) => {
-            const aParsed = parseMBF(a.result);
-            const bParsed = parseMBF(b.result);
-            const aValid = aParsed !== null;
-            const bValid = bParsed !== null;
-            if (!aValid && !bValid) return 0;
-            if (!aValid) return 1;      
-            if (!bValid) return -1;
-            const aScore = aParsed.success - aParsed.fail;
-            const bScore = bParsed.success - bParsed.fail;
-            if (aScore !== bScore) return bScore - aScore;   
-            if (aParsed.timeSeconds !== bParsed.timeSeconds) return aParsed.timeSeconds - bParsed.timeSeconds;
-            return aParsed.fail - bParsed.fail;
+        items.sort((a, b) => {
+            if (a.key[0] !== b.key[0]) return a.key[0] - b.key[0];
+            if (a.key[1] !== b.key[1]) return a.key[1] - b.key[1];
+            return a.key[2] - b.key[2];
         });
     } else {
-        data.sort((a, b) => parseTime(a.result) - parseTime(b.result));
+        items.sort((a, b) => a.key - b.key);
     }
 
-    let rank = 1;
-    let sameCount = 0;
-    for (let i = 0; i < data.length; i++) {
-        const item = data[i];
-        if (i === 0) {
-            item.rank = rank;
-            continue;
-        }
-        let isSame = false;
-        if (project === '333mbf') {
-            const prevParsed = parseMBF(data[i-1].result);
-            const currParsed = parseMBF(item.result);
-            if (prevParsed && currParsed) {
-                const prevScore = prevParsed.success - prevParsed.fail;
-                const currScore = currParsed.success - currParsed.fail;
-                isSame = (prevScore === currScore) &&
-                         (prevParsed.timeSeconds === currParsed.timeSeconds) &&
-                         (prevParsed.fail === currParsed.fail);
-            } else if (!prevParsed && !currParsed) {
-                isSame = true;   
+    let rank = 1, sameCount = 0;
+    let prevKey = null;
+    for (let i = 0; i < items.length; i++) {
+        const cur = items[i];
+        if (i > 0) {
+            let same;
+            if (project === '333mbf') {
+                same = prevKey[0] === cur.key[0] && prevKey[1] === cur.key[1] && prevKey[2] === cur.key[2];
             } else {
-                isSame = false;
+                same = prevKey === cur.key;
             }
-        } else {
-            isSame = (item.result === data[i-1].result);
+            if (same) sameCount++;
+            else { rank += 1 + sameCount; sameCount = 0; }
         }
-
-        if (isSame) {
-            sameCount++;
-            item.rank = rank;
-        } else {
-            rank += 1 + sameCount;
-            sameCount = 0;
-            item.rank = rank;
-        }
+        cur.item.rank = rank;
+        prevKey = cur.key;
     }
-    return data;
+    return items.map(x => x.item);
 }
 
 function applyGenderFilter(data, gender) {
@@ -248,8 +196,8 @@ function applyGenderFilter(data, gender) {
 
 function applyScopeFilter(data, continent, country) {
     if (continent) {
-        const countryContinent = state.meta?.country_continent || {};
-        return data.filter(d => countryContinent[d.country] === continent);
+        const map = state.meta?.country_continent || {};
+        return data.filter(d => map[d.country] === continent);
     } else if (country) {
         return data.filter(d => d.country === country);
     }
@@ -257,8 +205,8 @@ function applyScopeFilter(data, continent, country) {
 }
 
 function applyContinentFilter(country, continent) {
-    const countryContinent = state.meta?.country_continent || {};
-    return countryContinent[country] === continent;
+    const map = state.meta?.country_continent || {};
+    return map[country] === continent;
 }
 
 function paginate(data, page, pageSize = 100) {
